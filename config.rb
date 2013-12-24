@@ -67,8 +67,4 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
-
-  # Add vendor directory
-  sprockets.append_path 'vendor/javascripts'
-  sprockets.append_path 'vendor/stylesheets'
 end
