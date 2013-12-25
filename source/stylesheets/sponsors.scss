@@ -1,0 +1,35 @@
+body.sponsors {
+  nav {
+    .container {
+      .navbar-header {
+        .navbar-brand {
+          .icon {
+            background-position: -192px -80px;
+          }
+          .text {
+            background-position: 0 -340px;
+          }
+        }
+      }
+
+      .navbar-collapse {
+        .conference .icon {
+          background-position: -210px -400px;
+        }
+        .location .icon {
+          background-position: -210px -470px;
+        }
+        .sponsors .icon {
+          background-position: -210px -540px;
+        }
+        a {
+          color: $gray;
+
+          &:hover {
+            color: $gray;
+          }
+        }
+      }
+    }
+  }
+}
