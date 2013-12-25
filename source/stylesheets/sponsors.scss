@@ -22,13 +22,20 @@ body.sponsors {
         .sponsors .icon {
           background-position: -210px -540px;
         }
-        a {
+        a, a:hover {
           color: $gray;
-
-          &:hover {
-            color: $gray;
-          }
         }
+      }
+    }
+  }
+
+  header {
+    h1 {
+      color: $gray;
+      text-shadow: none;
+
+      .icon {
+        background-position: 0px -750px;
       }
     }
   }
