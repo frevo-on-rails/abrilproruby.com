@@ -17,8 +17,13 @@
   </head>
 
   <body class="<%= page_classes %>">
+    <a href="#content" class="sr-only">Skip to main content</a>
+
+    <%= partial 'navbar' %>
+
     <%= yield %>
 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <%= javascript_include_tag  "all" %>
     <%= partial 'analytics' %>
   </body>
