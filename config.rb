@@ -53,6 +53,7 @@ set :images_dir, 'images'
 
 set :debug_assets, true
 
+# Pretty URLs
 activate :directory_indexes
 
 # Build-specific configuration
@@ -71,7 +72,4 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
-
-  # Pretty URLs
-  activate :directory_indexes
 end
