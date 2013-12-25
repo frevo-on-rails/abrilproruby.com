@@ -1,12 +1,18 @@
 $red: #981d25;
+$green: #017991;
 $blue: #1f4ea4;
 $gray: #808080;
 
 body {
-  font-size: 16px;
-  font-family: 'Titillium Web', sans-serif;
+  &, h1 {
+    font-family: 'Titillium Web', sans-serif;
+  }
 
-  nav {
+  & {
+    font-size: 16px;
+  }
+
+  nav.main {
     @extend .navbar;
     @extend .navbar-default;
     @extend .navbar-fixed-top;

@@ -1,0 +1,97 @@
+body.conference {
+  nav.main {
+    box-shadow: 0 1px 0 rgba(0,0,0,.3), 0 1px 2px rgba(0,0,0,.3), inset 0 -1px 0 rgba(255,255,255,.3);
+
+    .container {
+      .navbar-header {
+        .navbar-brand {
+          .icon {
+            background-position: -64px -80px;
+          }
+          .text {
+            background-position: 0 -160px;
+          }
+        }
+      }
+
+      .navbar-collapse {
+        .conference .icon {
+          background-position: -70px -400px;
+        }
+        .location .icon {
+          background-position: -70px -470px;
+        }
+        .sponsors .icon {
+          background-position: -70px -540px;
+        }
+        a {
+          color: $green;
+
+          &:hover {
+            color: $green;
+          }
+        }
+      }
+    }
+  }
+
+  header {
+    height: 350px;
+    background-color: #349b8a;
+    background-image: image-url('conference/sea.svg');
+    background-position: 0 bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h1 {
+      margin: 0;
+      padding-top: 110px;
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 42px;
+      font-weight: 300;
+      letter-spacing: -2px;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+
+      .icon {
+        display: block;
+        margin: auto;
+        width: 130px;
+        height: 130px;
+        background-image: image-url('graphics.svg');
+        background-position: 0 -620px;
+      }
+    }
+
+    nav {
+      ul {
+        list-style: none;
+        text-align: center;
+        font-weight: 300;
+        padding: .75em;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+
+        li {
+          display: inline-block;
+
+          &:before {
+            content: '♦';
+            color: #ccc;
+            padding: 0 .5em;
+            position: relative;
+            top: 1px;
+          }
+
+          &:first-child:before {
+            content: none;
+          }
+        }
+
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+}
