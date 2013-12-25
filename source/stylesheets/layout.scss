@@ -15,9 +15,9 @@ body {
     @extend .navbar-default;
     @extend .navbar-fixed-top;
 
+    border-bottom: none;
     background-color: white;
     background-color: rgba(255, 255, 255, 0.75);
-    border-bottom: none;
     box-shadow: 0 1px 0 rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.1), inset 0 -1px 0 rgba(255,255,255,.25);
 
     .container {
@@ -30,17 +30,18 @@ body {
           padding: 0;
 
           .icon, .text {
-            background-image: image-url('graphics.svg');
             display: block;
             float: left;
+            background-image: image-url('graphics.svg');
           }
           .icon {
             margin: 16px 0;
-            height: 61px;
             width: 64px;
+            height: 61px;
           }
           .text {
             @extend .text-hide;
+            display: none;
 
             margin: 20px 16px 16px 16px;
             width: 300px;
@@ -54,34 +55,6 @@ body {
           @extend .nav;
           @extend .navbar-nav;
           @extend .navbar-right;
-
-          li {
-            a {
-              letter-spacing: -1px;
-              line-height: 64px;
-
-              &:hover {
-                // TODO Create a better effect
-                text-shadow: 0 0 10px white;
-                .icon {
-                  background-color: rgba(255, 255, 255, 0.5);
-                }
-              }
-
-              &.section {
-                text-transform: uppercase;
-
-                .icon {
-                  display: inline-block;
-                  margin-right: 0.5em;
-                  width: 64px;
-                  height: 64px;
-                  background-image: image-url('graphics.svg');
-                  vertical-align: middle;
-                }
-              }
-            }
-          }
         }
       }
     }
@@ -97,10 +70,10 @@ body {
         color: white;
         text-align: center;
         text-transform: uppercase;
-        font-size: 42px;
-        font-weight: 300;
-        letter-spacing: -2px;
         text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+        letter-spacing: -2px;
+        font-weight: 300;
+        font-size: 42px;
 
         .icon {
           display: block;
@@ -114,21 +87,21 @@ body {
 
     nav {
       ul {
+        padding: .75em;
         list-style: none;
         text-align: center;
-        font-weight: 300;
-        padding: .75em;
         text-shadow: 1px 1px 1px rgba(0,0,0,1);
+        font-weight: 300;
 
         li {
           display: inline-block;
 
           &:before {
-            content: '♦';
-            color: white;
-            padding: 0 .5em;
             position: relative;
             top: 1px;
+            padding: 0 .5em;
+            color: white;
+            content: '♦';
           }
 
           &:first-child:before {
@@ -140,6 +113,46 @@ body {
           color: white;
         }
       }
+    }
+  }
+
+  @media (min-width: 768px) {
+    nav.main {
+      .navbar-collapse {
+        li {
+          a {
+            letter-spacing: -1px;
+            line-height: 64px !important;
+
+            &:hover {
+              // TODO Create a better effect
+              text-shadow: 0 0 10px white;
+              .icon {
+                background-color: rgba(255, 255, 255, 0.5);
+              }
+            }
+
+            &.section {
+              text-transform: uppercase;
+
+              .icon {
+                display: inline-block;
+                margin-right: 0.5em;
+                width: 64px;
+                height: 64px;
+                background-image: image-url('graphics.svg');
+                vertical-align: middle;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    nav.main .text {
+      display: block !important;
     }
   }
 }

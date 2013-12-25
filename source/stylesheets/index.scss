@@ -57,4 +57,10 @@ body.index {
       background-repeat: no-repeat;
     }
   }
+
+  @media (min-width: 1200px) {
+    nav.main .text {
+      display: none !important;
+    }
+  }
 }
