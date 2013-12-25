@@ -40,4 +40,26 @@ body.location {
       }
     }
   }
+
+  header {
+    h1 {
+      .icon {
+        background-position: -125px -620px;
+      }
+    }
+  }
+
+  section {
+    .row {
+      .content {
+        background-color: rgba(255,255,255,0.95);
+        box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        height: 400px;
+      }
+    }
+  }
+
+  footer {
+    margin-top: 2em;
+  }
 }

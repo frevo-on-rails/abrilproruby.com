@@ -4,12 +4,10 @@ $blue: #1f4ea4;
 $gray: #808080;
 
 body {
+  font-size: 16px;
+
   &, h1 {
     font-family: 'Titillium Web', sans-serif;
-  }
-
-  & {
-    font-size: 16px;
   }
 
   nav.main {
@@ -84,6 +82,62 @@ body {
               }
             }
           }
+        }
+      }
+    }
+  }
+
+  header {
+    height: 350px;
+
+    &.of-section {
+      h1 {
+        margin: 0;
+        padding-top: 110px;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 42px;
+        font-weight: 300;
+        letter-spacing: -2px;
+        text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+
+        .icon {
+          display: block;
+          margin: auto;
+          width: 130px;
+          height: 130px;
+          background-image: image-url('graphics.svg');
+        }
+      }
+    }
+
+    nav {
+      ul {
+        list-style: none;
+        text-align: center;
+        font-weight: 300;
+        padding: .75em;
+        text-shadow: 1px 1px 1px rgba(0,0,0,1);
+
+        li {
+          display: inline-block;
+
+          &:before {
+            content: '♦';
+            color: white;
+            padding: 0 .5em;
+            position: relative;
+            top: 1px;
+          }
+
+          &:first-child:before {
+            content: none;
+          }
+        }
+
+        a, a:hover {
+          color: white;
         }
       }
     }
