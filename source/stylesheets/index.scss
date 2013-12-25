@@ -6,18 +6,18 @@ body.index {
     .container {
       .navbar-header {
         .navbar-brand {
-          width: 64px;
-          height: 61px;
-          background-position: 0 -80px;
+          .icon {
+            background-position: 0 -80px;
+          }
+          .text {
+            display: none;
+          }
         }
       }
 
       .navbar-collapse {
-        .icon {
-          background-position: 0 -400px;
-        }
         .conference .icon {
-          // same as above
+          background-position: 0 -400px;
         }
         .location .icon {
           background-position: 0 -470px;

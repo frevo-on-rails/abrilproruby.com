@@ -1,0 +1,43 @@
+body.location {
+  background-color: $blue;
+  background-image: image-url('location/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  nav {
+    box-shadow: 0 1px 0 rgba(0,0,0,.4), 0 1px 2px rgba(0,0,0,.4), inset 0 -1px 0 rgba(255,255,255,.3);
+
+    .container {
+      .navbar-header {
+        .navbar-brand {
+          .icon {
+            background-position: -128px -80px;
+          }
+          .text {
+            background-position: 0 -280px;
+          }
+        }
+      }
+
+      .navbar-collapse {
+        .conference .icon {
+          background-position: -140px -400px;
+        }
+        .location .icon {
+          background-position: -140px -470px;
+        }
+        .sponsors .icon {
+          background-position: -140px -540px;
+        }
+        a {
+          color: $blue;
+
+          &:hover {
+            color: $blue;
+          }
+        }
+      }
+    }
+  }
+}
