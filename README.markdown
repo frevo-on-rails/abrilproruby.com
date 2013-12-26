@@ -20,6 +20,14 @@ Source of the main website for [Abril Pro Ruby 2014](http://abrilproruby.com/) c
 
 4. The site is available in the address `http://localhost:4567`.
 
+## Build and publish
+
+1. To publish the website simply run:
+
+        $ bundle exec middleman deploy
+
+This command will build and deploy the website to Github Pages.
+
 ## Credit
 
 Design and front-end by [Guava Software](http://guava.com.br/).
