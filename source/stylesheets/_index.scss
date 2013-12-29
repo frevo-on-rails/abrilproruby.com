@@ -1,10 +1,32 @@
 body.index {
-  background-color: #017991;
-  background-image: image-url('index/waves.svg');
+  background-color: $green;
+  background-image: image-url('waves.svg');
+
+  h3 {
+    margin-top: 0;
+  }
+  h3, h4, p {
+    color: $gray3;
+  }
+  h3, h4, p, a {
+    text-shadow: 0px 1px 0px black;
+  }
+  ul {
+    list-style: none;
+  }
 
   nav.main {
     .container {
       .navbar-header {
+        button {
+          border: 2px solid $red;
+          border-radius: 0px;
+          width: 48px;
+          height: 48px;
+          .icon-bar {
+            background-color: $red;
+          }
+        }
         .navbar-brand {
           .icon {
             background-position: 0 -80px;
@@ -14,7 +36,6 @@ body.index {
           }
         }
       }
-
       .navbar-collapse {
         .conference .icon {
           background-position: 0 -400px;
@@ -27,7 +48,6 @@ body.index {
         }
         a {
           color: $red;
-
           &:hover {
             color: $red;
           }
@@ -37,24 +57,455 @@ body.index {
   }
 
   header.horizon {
+    z-index: 500;
     width: 100%;
-    background-color: #c46873;
+    background-color: $orange;
     background-image: image-url('index/horizon.svg');
     background-position: center;
     background-size: 1700px;
     background-repeat: no-repeat;
+    h1 {
+      position: relative;
+      left: 50%;
+      z-index: 600 !important;
+      overflow: hidden;
+      margin: 235px 0 0 -146px;
+      padding: 0;
+      width: 292px;
+      height: 118px;
+      background-image: image-url('index/graphics.svg');
+      background-position: -3px 0px;
+      background-repeat: no-repeat;
+      font-size: 0;
+      line-height: 0;
+    }
+    h2 {
+      position: relative;
+      left: 50%;
+      overflow: hidden;
+      margin: -5px 0 0 -146px;
+      width: 292px;
+      height: 121px;
+      background-image: image-url('index/graphics.svg');
+      background-position: -4px -120px;
+      background-repeat: no-repeat;
+      font-size: 0;
+      line-height: 0;
+    }
   }
 
-  .ocean {
-    background-image: linear-gradient(to bottom, rgba(1,121,145,1) 0%, rgba(52,155,138,0) 100%),
-      linear-gradient(to bottom, rgba(1,121,145,0) 0%, rgba(1,121,145,1) 100%);
+  section.ocean {
+    z-index: 999;
+    background-image: linear-gradient(to bottom, rgba(1,121,145,1) 0%, rgba(52,155,138,0) 50%), linear-gradient(to bottom, rgba(1,121,145,0) 50%, rgba(1,121,145,1) 100%);
     .container {
       min-height: 800px;
-      width: 100%;
-      background-image: image-url('index/ocean.svg');
+      background-image: image-url('index/ocean-highlight.svg');
       background-position: center top;
       background-size: 1700px;
       background-repeat: no-repeat;
+    }
+  }
+
+  .tickets {
+    top: 44px;
+    height: 65px;
+    text-align: right;
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      line-height: 24px;
+      &:hover, &:active {
+        color: $gray3;
+        &:before {
+          content: image-url('index/icon-tickets-hover.svg');
+        }
+      }
+      &:before {
+        display: inline-block;
+        float: right;
+        margin-left: 0.5em;
+        width: 64px;
+        height: 65px;
+        content: image-url('index/icon-tickets.svg');
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .cfp {
+    top: 44px;
+    height: 65px;
+    text-align: left;
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      line-height: 24px;
+      &:hover, &:active {
+        color: $gray3;
+        &:before {
+          content: image-url('index/icon-cfp-hover.svg');
+        }
+      }
+      &:before {
+        display: inline-block;
+        float: left;
+        margin-right: 0.5em;
+        width: 64px;
+        height: 65px;
+        content: image-url('index/icon-cfp.svg');
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .porto {
+    margin-top: 86px;
+    vertical-align: middle;
+    text-align: center;
+    a {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+      width: 292px;
+      height: 221px;
+      background-image: image-url('index/graphics.svg');
+      background-position: -2px -372px;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      font-size: 0;
+      line-height: 0;
+    }
+  }
+
+  .description {
+    margin-top: 86px;
+    text-align: right;
+    ul {
+      text-align: right;
+    }
+    li {
+      display: inline-block;
+      &:before {
+        position: relative;
+        top: 1px;
+        padding: 0 .5em;
+        color: $gray2;
+        content: '♦';
+        font-size: 9px;
+      }
+      &:first-child:before {
+        content: none;
+      }
+    }
+  }
+
+  .stay-tuned {
+    margin-top: 86px;
+    form {
+      button {
+        &.btn {
+          margin-left: -2px;
+          padding: 16px 14px 16px 14px;
+          height: 48px;
+          line-height: 12px;
+        }
+        span {
+          display: inline-block;
+          overflow: hidden;
+          width: 16px;
+          height: 12px;
+          background-image: image-url('graphics.svg');
+          background-position: 0px 0px;
+          vertical-align: middle;
+          font-size: 0;
+          line-height: 0;
+        }
+      }
+    }
+    ul {
+      margin-top: 12px;
+      padding: 0;
+      text-align: left;
+      li {
+        span {
+          display: block;
+          float: left;
+          margin: 6px 6px 0px 0px;
+          width: 16px;
+          background-image: image-url('graphics.svg');
+          background-repeat: no-repeat;
+          &.twitter {
+            height: 14px;
+            background-position: -60px 0px;
+          }
+          &.facebook {
+            height: 16px;
+            background-position: -30px 0px;
+          }
+        }
+        a {
+          text-decoration: underline;
+          text-shadow: 0px 1px 0px black;
+        }
+      }
+    }
+    a {
+      margin-top: 12px;
+      width: 100%;
+      text-decoration: none;
+      text-shadow: none;
+    }
+  }
+
+  .sponsors-footer, .organizers-footer, .producer-footer, .advisory-supporter {
+    text-align: center;
+  }
+
+  .sponsors-footer {
+    margin-top: 24px;
+    .tempest {
+      display: inline-block;
+      padding-top: 10px;
+      text-align: center;
+      .tempest-img {
+        display: inline-block;
+        overflow: hidden;
+        width: 244px;
+        height: 99px;
+        background-image: image-url('index/brands.svg');
+        background-position: 0px -300px;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        font-size: 0px;
+        &:hover, &:active {
+          background-position: 0px -400px;
+        }
+      }
+    }
+  }
+
+  .organizers-footer {
+    margin-top: 36px;
+    .for {
+      display: inline-block;
+      padding-top: 10px;
+      text-align: center;
+      .for-img {
+        display: inline-block;
+        overflow: hidden;
+        width: 132px;
+        height: 45px;
+        background-image: image-url('index/brands.svg');
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        font-size: 0px;
+        &:hover, &:active {
+          background-position: -150px 0px;
+        }
+      }
+    }
+    .guava {
+      display: inline-block;
+      padding-top: 25px;
+      text-align: center;
+      .guava-img {
+        display: inline-block;
+        overflow: hidden;
+        width: 99px;
+        height: 28px;
+        background-image: image-url('index/brands.svg');
+        background-position: 0px -50px;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        font-size: 0px;
+        &:hover, &:active {
+          background-position: -150px -50px;
+        }
+      }
+    }
+    .eventick {
+      display: inline-block;
+      padding-top: 10px;
+      text-align: center;
+      .eventick-img {
+        display: inline-block;
+        overflow: hidden;
+        width: 118px;
+        height: 42px;
+        background-image: image-url('index/brands.svg');
+        background-position: 0px -80px;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        font-size: 0px;
+        &:hover, &:active {
+          background-position: -150px -80px;
+        }
+      }
+    }
+  }
+
+  .producer-footer {
+    margin-top: 36px;
+    margin-bottom: 40px;
+    .casaeventos {
+      display: inline-block;
+      padding-top: 20px;
+      text-align: center;
+      .casaeventos-img {
+        display: inline-block;
+        overflow: hidden;
+        width: 114px;
+        height: 70px;
+        background-image: image-url('index/brands.svg');
+        background-position: 0px -130px;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        font-size: 0px;
+        &:hover, &:active {
+          background-position: 0px -220px;
+        }
+      }
+    }
+  }
+
+  .advisory-supporter {
+    margin-top: 36px;
+    margin-bottom: 40px;
+    .rubycentral {
+      display: inline-block;
+      padding-top: 10px;
+      text-align: center;
+      .rubycentral-img {
+        display: inline-block;
+        overflow: hidden;
+        width: 97px;
+        height: 80px;
+        background-image: image-url('index/brands.svg');
+        background-position: -150px -130px;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        font-size: 0px;
+        &:hover, &:active {
+          background-position: -150px -220px;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 320px) {
+    section.ocean {
+      .container {
+        background-size: 100%;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    nav.main {
+      .navbar-collapse {
+        border-top-color: $red;
+        ul {
+          li {
+            &:last-child {
+              border-top-color: $red;
+            }
+          }
+        }
+      }
+    }
+    ul {
+      padding: 0;
+    }
+    .container {
+      margin: 0 30px;
+      padding: 0 -30px;
+    }
+    section.ocean {
+      .container {
+        background-size: 200%;
+      }
+    }
+    .tickets {
+      // @extend .pull-left;
+      text-align: right;
+      a {
+        &:before {
+          margin-left: 14em;
+        }
+      }
+    }
+    .cfp {
+      // @extend .pull-right;
+      text-align: left;
+      a {
+          &:before {
+            margin-right: 14em;
+          }
+        }
+      }
+    .cfp, .tickets {
+      margin-top: 120px;
+    }
+    .description {
+      text-align: center;
+      ul {
+        text-align: center;
+      }
+    }
+    .stay-tuned {
+      text-align: center;
+      ul {
+        text-align: left;
+        li {
+          span {
+            margin-left: 35%;
+          }
+        }
+      }
+    }
+    .porto {
+      margin-top: 110px;
+    }
+    .stay-tuned, .description, .sponsors-footer {
+      margin-top: 48px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .cfp, .tickets {
+      top: 180px;
+    }
+    .cfp {
+      a {
+        &:before {
+          float: left;
+          margin: 0 4em 0.5em 0;
+          vertical-align: middle;
+        }
+      }
+    }
+    .tickets {
+      a {
+        text-align: right;
+        line-height: 24px;
+        &:before {
+          float: right;
+          margin: 0 0 0.5em 3em;
+          vertical-align: middle;
+        }
+      }
+    }
+    .stay-tuned, .description, .sponsors-footer {
+      margin-top: 36px;
+    }
+  }
+
+  @media (min-width: 998px) {
+    .cfp, .tickets {
+      a {
+        line-height: 64px;
+      }
     }
   }
 
@@ -63,4 +514,5 @@ body.index {
       display: none !important;
     }
   }
+
 }

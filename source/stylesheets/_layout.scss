@@ -2,33 +2,111 @@ $red: #981d25;
 $green: #017991;
 $blue: #1f4ea4;
 $gray: #808080;
+$gray2: #ccc;
+$gray3: #e6e6e6;
+$orange: #ff9263;
 
 body {
+  min-width: 320px;
+  font-weight: 200;
   font-size: 16px;
+  line-height: 24px;
 
-  &, h1 {
+  a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 400;
+    &:hover, &:active {
+      color: $gray3;
+    }
+  }
+  &, h1, h2, h3, h4, a, p {
     font-family: 'Titillium Web', sans-serif;
+  }
+  h1 {
+    margin: 0;
+    padding-top: 110px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 36px;
+  }
+  h2 {
+    letter-spacing: -1px;
+    font-size: 36px;
+    line-height: 36px;
+  }
+  h3 {
+    margin-bottom: 12px;
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  h4 {
+    margin-top: 12px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 16px;
+  }
+  p {
+    margin-bottom: 12px;
   }
 
   nav.main {
     @extend .navbar;
     @extend .navbar-default;
-    @extend .navbar-fixed-top;
-
+    @extend .navbar-static-top;
+    margin-bottom: 0;
     border-bottom: none;
     background-color: white;
-    background-color: rgba(255, 255, 255, 0.75);
-    box-shadow: 0 1px 0 rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.1), inset 0 -1px 0 rgba(255,255,255,.25);
-
+    background-color: rgba(255, 255, 255, 0.65);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.1), inset 0 -1px 0 rgba(255,255,255,.8);
     .container {
       .navbar-header {
         button {
           @extend .navbar-toggle;
+          margin-top: 24px;
+          margin-bottom: 24px;
+          width: 48px;
+          height: 48px;
+          border: 2px solid $red;
+          border-radius: 0px;
+          -webkit-transition: -webkit-transform 0.1s ease;
+          -moz-transition: -moz-transform 0.1s ease;
+          -ms-transition: -ms-transform 0.1s ease;
+          -o-transition: -o-transform 0.1s ease;
+          transition: transform 0.1s ease;
+          &:hover, &:active {
+            background-color: white;
+            -webkit-transform: scale(1.125);
+            -moz-transform: scale(1.125);
+            -ms-transform: scale(1.15);
+            -o-transform: scale(1.125);
+            transform: scale(1.125);
+          }
+          .icon-bar {
+            background-color: $red;
+          }
         }
-
         .navbar-brand {
-          padding: 0;
-
+          padding: 0 0 0 15px;
+          -webkit-transition: -webkit-transform 0.1s ease;
+          -moz-transition: -moz-transform 0.1s ease;
+          -ms-transition: -ms-transform 0.1s ease;
+          -o-transition: -o-transform 0.1s ease;
+          transition: transform 0.1s ease;
+          &:hover, &:active {
+            -webkit-transform: scale(1.125);
+            -moz-transform: scale(1.125);
+            -ms-transform: scale(1.125);
+            -o-transform: scale(1.125);
+            transform: scale(1.125);
+          }
           .icon, .text {
             display: block;
             float: left;
@@ -36,45 +114,41 @@ body {
           }
           .icon {
             margin: 16px 0;
+            padding-top: 1px;
             width: 64px;
-            height: 61px;
+            height: 64px;
           }
           .text {
             @extend .text-hide;
             display: none;
-
             margin: 20px 16px 16px 16px;
             width: 300px;
-            height: 60px;
+            height: 64px;
           }
         }
       }
-
       .navbar-collapse {
         ul {
           @extend .nav;
           @extend .navbar-nav;
           @extend .navbar-right;
+          li {
+            a {
+              font-weight: 600;
+            }
+          }
         }
       }
     }
   }
 
   header {
+    margin-top: -96px;
     height: 350px;
-
     &.of-section {
       h1 {
-        margin: 0;
-        padding-top: 110px;
         color: white;
-        text-align: center;
-        text-transform: uppercase;
         text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
-        letter-spacing: -2px;
-        font-weight: 300;
-        font-size: 42px;
-
         .icon {
           display: block;
           margin: auto;
@@ -92,25 +166,105 @@ body {
         text-align: center;
         text-shadow: 1px 1px 1px rgba(0,0,0,1);
         font-weight: 300;
-
         li {
           display: inline-block;
-
           &:before {
             position: relative;
             top: 1px;
-            padding: 0 .5em;
+            padding: 0 .6em;
             color: white;
             content: '♦';
+            font-size: 10px;
           }
-
           &:first-child:before {
             content: none;
           }
         }
-
         a, a:hover {
           color: white;
+        }
+      }
+    }
+  }
+
+  .btn {
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 0px;
+    background-color: #fff;
+    color: $green;
+    font-size: 16px;
+    line-height: 24px;
+    &:hover, &:focus, &:active {
+      border-color: $gray3;
+      background-color: $gray3;
+      color: $green;
+    }
+  }
+
+  form {
+    .form-control {
+      padding: 10px;
+      height: 48px;
+      border: 2px solid #fff;
+      border-radius: 0px;
+      background: transparent;
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0);
+      background-image: none;
+      box-shadow: none;
+      color: #fff;
+      font-size: 16px;
+      line-height: 24px;
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+      &:focus {
+        outline: 0;
+        border-color: $gray3;
+        box-shadow: none;
+        // TODO: Define a style for Placeholder
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    nav.main {
+      background-color: rgba(255,255,255,.9);
+      .navbar-collapse {
+        border-top: 2px solid white;
+        font-weight: 600;
+        ul {
+          li {
+            text-align: center;
+            &:last-child {
+              border-top: 2px solid white;
+              padding-bottom: 19px !important;
+            }
+            a {
+              padding-top: 15px !important;
+              padding-bottom: 15px !important;
+              &.conference {
+                padding-top: 18px !important;
+              }
+              &.sponsors {
+                padding-bottom: 23px !important;
+              }
+              &.language {
+                padding-top: 20px !important
+              }
+            }
+          }
+        }
+      }
+      .in, .collapsing {
+        ul {
+          li {
+            a {
+              text-decoration: none;
+              text-transform: uppercase;
+              text-shadow: none;
+            }
+          }
         }
       }
     }
@@ -121,23 +275,37 @@ body {
       .navbar-collapse {
         li {
           a {
+            text-decoration: none;
+            text-shadow: none;
             letter-spacing: -1px;
-            line-height: 64px !important;
-
-            &:hover {
-              // TODO Create a better effect
-              text-shadow: 0 0 10px white;
+            line-height: 64px;
+            -webkit-transition: -webkit-transform 0.1s ease;
+            -moz-transition: -moz-transform 0.1s ease;
+            -ms-transition: -ms-transform 0.1s ease;
+            -o-transition: -o-transform 0.1s ease;
+            transition: transform 0.1s ease;
+            &.language {
+              margin-top: 35px;
+              width: auto;
+              letter-spacing: 0;
+              font-weight: 600;
+              font-size: 12px;
+            }
+            &:hover, &:active {
+              -webkit-transform: scale(1.125);
+              -moz-transform: scale(1.125);
+              -ms-transform: scale(1.125);
+              -o-transform: scale(1.125);
+              transform: scale(1.125);
               .icon {
                 background-color: rgba(255, 255, 255, 0.5);
               }
             }
-
             &.section {
               text-transform: uppercase;
-
               .icon {
                 display: inline-block;
-                margin-right: 0.5em;
+                margin-right: 0.3em;
                 width: 64px;
                 height: 64px;
                 background-image: image-url('graphics.svg');
@@ -150,9 +318,94 @@ body {
     }
   }
 
+  @media (min-width: 768px) and (max-width: 991px) {
+    nav.main {
+      .navbar-header {
+        .navbar-brand {
+          .icon {
+            margin: 16px 0 !important;
+          }
+          .text {
+            margin: 30px 0 !important;
+          }
+        }
+      }
+      .navbar-collapse {
+        li {
+          a {
+            padding: 5px 0px 0px 0px !important;
+            width: 95px;
+            text-align: center;
+            line-height: 12px !important;
+            &.language {
+              margin-left: 10px;
+              width: auto;
+            }
+            &.section {
+              .icon {
+                display: block;
+                margin-top: 0;
+                margin-right: auto;
+                margin-bottom: 0;
+                margin-left: auto;
+                outline: 1px solid $red;
+                -webkit-transform: scale(0.6666);
+                -moz-transform: scale(0.6666);
+                -ms-transform: scale(0.6666);
+                -o-transform: scale(0.6666);
+                transform: scale(0.6666);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    nav.main {
+      .navbar-collapse {
+        li {
+          a {
+            padding: 5px 0px 0px 0px !important;
+            width: 120px;
+            text-align: center;
+            line-height: 12px !important;
+            &.section {
+              .icon {
+                display: block;
+                margin-top: 0;
+                margin-right: auto;
+                margin-bottom: 0;
+                margin-left: auto;
+                outline: 1px solid $red;
+                -webkit-transform: scale(0.6666);
+                -moz-transform: scale(0.6666);
+                -ms-transform: scale(0.6666);
+                -o-transform: scale(0.6666);
+                transform: scale(0.6666);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
   @media (min-width: 1200px) {
-    nav.main .text {
+    nav.main {
+      .text {
       display: block !important;
+      }
+      .navbar-collapse {
+        li {
+          a {
+            &.language {
+              margin-top: 40px;
+            }
+          }
+        }
+      }
     }
   }
 }
