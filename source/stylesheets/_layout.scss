@@ -15,7 +15,7 @@ body {
   a {
     color: #fff;
     text-decoration: underline;
-    font-weight: 400;
+    font-weight: 300;
     &:hover, &:active {
       color: $gray3;
     }
@@ -25,11 +25,11 @@ body {
   }
   h1 {
     margin: 0;
-    padding-top: 110px;
+    padding-top: 120px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: -2px;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 42px;
     line-height: 36px;
   }
@@ -42,7 +42,7 @@ body {
     margin-bottom: 12px;
     text-transform: none;
     letter-spacing: 0;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 24px;
     line-height: 24px;
   }
@@ -145,7 +145,7 @@ body {
           @extend .navbar-right;
           li {
             a {
-              font-weight: 600;
+              font-weight: 400;
             }
           }
         }
@@ -162,13 +162,12 @@ body {
         .icon {
           display: block;
           margin: auto;
-          width: 130px;
-          height: 130px;
+          width: 128px;
+          height: 128px;
           background-image: image-url('graphics.svg');
         }
       }
     }
-
     nav {
       ul {
         padding: .75em;
@@ -182,7 +181,7 @@ body {
             position: relative;
             top: 1px;
             padding: 0 .6em;
-            color: white;
+            color: $gray2;
             content: '♦';
             font-size: 10px;
           }
@@ -190,8 +189,11 @@ body {
             content: none;
           }
         }
-        a, a:hover {
+        a {
           color: white;
+          &:hover {
+            color: $gray3;
+          }
         }
       }
     }
@@ -260,7 +262,7 @@ body {
       -ms-transition: background-color 3s ease;
       -o-transition: background-color 3s ease;
       transition: background-color 3s ease;
-      background-color: rgba(255,255,255,.85);
+      background-color: rgba(255,255,255,.9);
       .navbar-collapse {
         border-top: 2px solid white;
         font-weight: 600;
@@ -350,6 +352,8 @@ body {
               -ms-transform: scale(1.125);
               -o-transform: scale(1.125);
               transform: scale(1.125);
+              -webkit-transform-origin: center center;
+              transform-origin: center center;
             }
             &.section {
               text-transform: uppercase;
@@ -405,6 +409,8 @@ body {
                 -ms-transform: scale(0.6666);
                 -o-transform: scale(0.6666);
                 transform: scale(0.6666);
+                -webkit-transform-origin: center center;
+                transform-origin: center center;
               }
             }
           }
@@ -439,6 +445,8 @@ body {
                 -ms-transform: scale(0.6666);
                 -o-transform: scale(0.6666);
                 transform: scale(0.6666);
+                -webkit-transform-origin: center center;
+                transform-origin: center center;
               }
             }
           }
