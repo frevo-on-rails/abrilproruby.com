@@ -451,10 +451,6 @@ body.index {
         background-size: 200%;
       }
     }
-    .container {
-      margin: 0 20px;
-      padding: 0 -20px;
-    }
     .cfp, .tickets {
       margin: 120px 0 0 0;
     }
@@ -523,6 +519,19 @@ body.index {
   }
 
   @media (min-width: 768px) and (max-width: 991px) {
+    nav.main {
+      .navbar-collapse {
+        li {
+          a {
+            &.section {
+              .icon {
+                outline: 1px solid $red;
+              }
+            }
+          }
+        }
+      }
+    }
     .cfp, .tickets {
       top: 240px;
     }
@@ -538,6 +547,22 @@ body.index {
       .eventick {
         a {
           text-align: left;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    nav.main {
+      .navbar-collapse {
+        li {
+          a {
+            &.section {
+              .icon {
+                outline: 1px solid $red;
+              }
+            }
+          }
         }
       }
     }
