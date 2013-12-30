@@ -66,7 +66,11 @@ body {
     margin-bottom: 0;
     width: 100%;
     border-bottom: none;
-    background-color: white;
+    -webkit-transition: background-color 3s ease;
+    -moz-transition: background-color 3s ease;
+    -ms-transition: background-color 3s ease;
+    -o-transition: background-color 3s ease;
+    transition: background-color 3s ease;
     background-color: rgba(255, 255, 255, 0.65);
     box-shadow: 0 1px 0 rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.1), inset 0 -1px 0 rgba(255,255,255,.8);
     .container {
@@ -77,7 +81,7 @@ body {
           margin-bottom: 24px;
           width: 48px;
           height: 48px;
-          border: 2px solid $red;
+          border: 2px solid white;
           border-radius: 0px;
           -webkit-transition: -webkit-transform 0.1s ease;
           -moz-transition: -moz-transform 0.1s ease;
@@ -85,15 +89,17 @@ body {
           -o-transition: -o-transform 0.1s ease;
           transition: transform 0.1s ease;
           &:hover, &:active {
-            background-color: white;
             -webkit-transform: scale(1.125);
             -moz-transform: scale(1.125);
             -ms-transform: scale(1.125);
             -o-transform: scale(1.125);
             transform: scale(1.125);
+            -webkit-transform-origin: center center;
+            transform-origin: center center;
+            background-color: rgba(255,255,255,0.1);
           }
           .icon-bar {
-            background-color: $red;
+            background-color: white;
           }
         }
         .navbar-brand {
@@ -109,6 +115,8 @@ body {
             -ms-transform: scale(1.125);
             -o-transform: scale(1.125);
             transform: scale(1.125);
+            -webkit-transform-origin: center center;
+            transform-origin: center center;
           }
           .icon, .text {
             display: block;
@@ -231,7 +239,12 @@ body {
 
   @media (max-width: 767px) {
     nav.main {
-      // background-color: rgba(255,255,255,.9);
+      -webkit-transition: background-color 3s ease;
+      -moz-transition: background-color 3s ease;
+      -ms-transition: background-color 3s ease;
+      -o-transition: background-color 3s ease;
+      transition: background-color 3s ease;
+      background-color: rgba(255,255,255,.85);
       .navbar-collapse {
         border-top: 2px solid white;
         font-weight: 600;
@@ -239,12 +252,26 @@ body {
           li {
             text-align: center;
             &:last-child {
-              padding-bottom: 19px !important;
+              padding-bottom: 20px !important;
               border-top: 2px solid white;
             }
             a {
               padding-top: 15px !important;
               padding-bottom: 15px !important;
+              -webkit-transition: -webkit-transform 0.1s ease;
+              -moz-transition: -moz-transform 0.1s ease;
+              -ms-transition: -ms-transform 0.1s ease;
+              -o-transition: -o-transform 0.1s ease;
+              transition: transform 0.1s ease;
+              &:hover, &:active {
+                -webkit-transform: scale(1.125);
+                -moz-transform: scale(1.125);
+                -ms-transform: scale(1.125);
+                -o-transform: scale(1.125);
+                transform: scale(1.125);
+                -webkit-transform-origin: center center;
+                transform-origin: center center;
+              }
               &.conference {
                 padding-top: 18px !important;
               }
@@ -253,6 +280,7 @@ body {
               }
               &.language {
                 padding-top: 20px !important;
+                text-transform: none;
               }
             }
           }
@@ -268,6 +296,13 @@ body {
             }
           }
         }
+      }
+      .collapsing {
+        position: relative;
+        height: 0;
+        overflow: hidden;
+        -webkit-transition: height 0.2s ease;
+                transition: height 0.2s ease;
       }
     }
   }
@@ -299,9 +334,6 @@ body {
               -ms-transform: scale(1.125);
               -o-transform: scale(1.125);
               transform: scale(1.125);
-              .icon {
-                background-color: rgba(255, 255, 255, 0.5);
-              }
             }
             &.section {
               text-transform: uppercase;
@@ -340,7 +372,8 @@ body {
             text-align: center;
             line-height: 12px !important;
             &.language {
-              margin-left: 10px;
+              padding-right: 15px !important;
+              margin-left: 20px;
               width: auto;
             }
             &.section {
@@ -373,6 +406,10 @@ body {
             width: 120px;
             text-align: center;
             line-height: 12px !important;
+            &.language {
+              text-align: right;
+              width: 80px;
+            }
             &.section {
               .icon {
                 display: block;
