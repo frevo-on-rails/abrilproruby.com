@@ -7,9 +7,17 @@ body.location {
 
   nav.main {
     box-shadow: 0 1px 0 rgba(0,0,0,.4), 0 1px 2px rgba(0,0,0,.4), inset 0 -1px 0 rgba(255,255,255,.3);
-
     .container {
       .navbar-header {
+        button {
+          width: 48px;
+          height: 48px;
+          border: 2px solid $blue;
+          border-radius: 0px;
+          .icon-bar {
+            background-color: $blue;
+          }
+        }
         .navbar-brand {
           .icon {
             background-position: -128px -80px;
@@ -49,12 +57,12 @@ body.location {
     }
   }
 
-  section {
-    .row {
-      .content {
-        background-color: rgba(255,255,255,0.95);
+  section.porto-de-galinhas {
+    .container {
+      .about-porto {
+        background-color: white;
         box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-        height: 400px;
+        min-height: 400px;
       }
     }
   }
@@ -62,4 +70,52 @@ body.location {
   footer {
     margin-top: 2em;
   }
+
+  @media (max-width: 767px) {
+    nav.main {
+      .navbar-collapse {
+        border-top: 2px solid $blue;
+        ul {
+          li {
+            &:last-child {
+              border-top: 2px solid $blue;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    nav.main {
+      .navbar-collapse {
+        li {
+          a {
+            &.section {
+              .icon {
+                outline: 1px solid $blue;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    nav.main {
+      .navbar-collapse {
+        li {
+          a {
+            &.section {
+              .icon {
+                outline: 1px solid $blue;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
 }
