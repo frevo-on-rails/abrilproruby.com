@@ -66,13 +66,13 @@ body {
     margin-bottom: 0;
     width: 100%;
     border-bottom: none;
+    background-color: rgba(255, 255, 255, 0.65);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.1), inset 0 -1px 0 rgba(255,255,255,.8);
     -webkit-transition: background-color 3s ease;
     -moz-transition: background-color 3s ease;
     -ms-transition: background-color 3s ease;
     -o-transition: background-color 3s ease;
     transition: background-color 3s ease;
-    background-color: rgba(255, 255, 255, 0.65);
-    box-shadow: 0 1px 0 rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.1), inset 0 -1px 0 rgba(255,255,255,.8);
     .container {
       .navbar-header {
         button {
@@ -89,6 +89,7 @@ body {
           -o-transition: -o-transform 0.1s ease;
           transition: transform 0.1s ease;
           &:hover, &:active {
+            background-color: rgba(255,255,255,0.1);
             -webkit-transform: scale(1.125);
             -moz-transform: scale(1.125);
             -ms-transform: scale(1.125);
@@ -96,7 +97,6 @@ body {
             transform: scale(1.125);
             -webkit-transform-origin: center center;
             transform-origin: center center;
-            background-color: rgba(255,255,255,0.1);
           }
           .icon-bar {
             background-color: white;
@@ -257,12 +257,12 @@ body {
       padding: 0 -20px;
     }
     nav.main {
+      background-color: rgba(255,255,255,.9);
       -webkit-transition: background-color 3s ease;
       -moz-transition: background-color 3s ease;
       -ms-transition: background-color 3s ease;
       -o-transition: background-color 3s ease;
       transition: background-color 3s ease;
-      background-color: rgba(255,255,255,.9);
       .navbar-collapse {
         border-top: 2px solid white;
         font-weight: 600;
@@ -317,8 +317,8 @@ body {
       }
       .collapsing {
         position: relative;
-        height: 0;
         overflow: hidden;
+        height: 0;
         -webkit-transition: height 0.2s ease;
                 transition: height 0.2s ease;
       }
@@ -392,8 +392,8 @@ body {
             text-align: center;
             line-height: 12px !important;
             &.language {
-              padding-right: 15px !important;
               margin-left: 20px;
+              padding-right: 15px !important;
               width: auto;
             }
             &.section {
@@ -429,8 +429,8 @@ body {
             text-align: center;
             line-height: 12px !important;
             &.language {
-              text-align: right;
               width: 80px;
+              text-align: right;
             }
             &.section {
               .icon {

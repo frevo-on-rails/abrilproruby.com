@@ -353,6 +353,9 @@ body.index {
   .producer-footer {
     margin-top: 36px;
     margin-bottom: 40px;
+    ul {
+      padding-left: 0;
+    }
     .casaeventos {
       display: inline-block;
       padding-top: 20px;
@@ -377,6 +380,9 @@ body.index {
   .advisory-supporter {
     margin-top: 36px;
     margin-bottom: 40px;
+    ul {
+      padding-left: 0;
+    }
     .rubycentral {
       display: inline-block;
       padding-top: 10px;
