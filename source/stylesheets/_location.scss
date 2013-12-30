@@ -1,9 +1,9 @@
 body.location {
   background-color: $blue;
   background-image: image-url('location/photo-by-victor-bonomi.jpg');
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
 
   nav.main {
     box-shadow: 0 1px 0 rgba(0,0,0,.4), 0 1px 2px rgba(0,0,0,.4), inset 0 -1px 0 rgba(255,255,255,.3);
@@ -69,8 +69,8 @@ body.location {
       font-weight: 400;
     }
     h4 {
-      font-weight: 600;
       color: black;
+      font-weight: 600;
     }
     p {
       color: black;
@@ -92,16 +92,56 @@ body.location {
     }
     .container {
       .about-porto {
+        padding: 26px 45px 50px 50px;
+        min-height: 400px;
         background-color: white;
         box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-        min-height: 400px;
-        padding: 26px 45px 50px 50px;
       }
+    }
+    .video-wrapper {
+      position: relative;
+      padding-top: 25px;
+      padding-bottom: 56.25%; /* 16:9 */
+      height: 0;
+    }
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
     }
   }
 
   footer {
     margin-top: 2em;
+  }
+
+  @media (min-width: 320px) and (max-width: 380px) {
+    header {
+      nav {
+        ul {
+          font-size: 15px;
+          li {
+            margin-right: 0.75em;
+            &:before {
+              content: none;
+            }
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+    section.porto-de-galinhas {
+      .container {
+        .about-porto {
+          padding-right: 25px;
+          padding-left: 35px;
+        }
+      }
+    }
   }
 
   @media (max-width: 767px) {
@@ -115,6 +155,14 @@ body.location {
             }
           }
         }
+      }
+    }
+    section.porto-de-galinhas {
+      .container {
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
       }
     }
   }
@@ -146,6 +194,36 @@ body.location {
               }
             }
           }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    section.porto-de-galinhas {
+      span {
+        &.icon {
+          position: absolute;
+          width: 260px;
+          height: 260px;
+        }
+        &.icon-left {
+          margin-left: -320px;
+        }
+        &.icon-right {
+          margin-left: 540px;
+        }
+        &.icon-porto {
+          background-image: image-url('location/chicken.svg');
+        }
+        &.icon-map {
+          background-image: image-url('location/map.svg');
+        }
+        &.icon-city {
+          background-image: image-url('location/city.svg');
+        }
+        &.icon-crab {
+          background-image: image-url('location/crab.svg');
         }
       }
     }
