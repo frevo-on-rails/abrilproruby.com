@@ -58,11 +58,44 @@ body.location {
   }
 
   section.porto-de-galinhas {
+    h1, h2, h3, a {
+      color: $blue;
+    }
+    h1, h2, h3, h4 {
+      margin-top: 24px;
+      margin-bottom: 12px;
+    }
+    h1, h2, h3 {
+      font-weight: 400;
+    }
+    h4 {
+      font-weight: 600;
+      color: black;
+    }
+    p {
+      color: black;
+      font-weight: 300;
+    }
+    a {
+      text-transform: none;
+      &:hover {
+        font-weight: 600;
+      }
+    }
+    .tel {
+      a {
+        padding-right: 0.5em;
+        &:last-child {
+          padding-left: 0.5em;
+        }
+      }
+    }
     .container {
       .about-porto {
         background-color: white;
         box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
         min-height: 400px;
+        padding: 26px 45px 50px 50px;
       }
     }
   }
