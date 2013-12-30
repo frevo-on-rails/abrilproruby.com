@@ -19,10 +19,10 @@ body.index {
     .container {
       .navbar-header {
         button {
-          border: 2px solid $red;
-          border-radius: 0px;
           width: 48px;
           height: 48px;
+          border: 2px solid $red;
+          border-radius: 0px;
           .icon-bar {
             background-color: $red;
           }
@@ -67,7 +67,7 @@ body.index {
     h1 {
       position: relative;
       left: 50%;
-      z-index: 600 !important;
+      z-index: 600;
       overflow: hidden;
       margin: 235px 0 0 -146px;
       padding: 0;
@@ -95,85 +95,120 @@ body.index {
   }
 
   section.ocean {
-    z-index: 999;
+    z-index: 400;
     background-image: linear-gradient(to bottom, rgba(1,121,145,1) 0%, rgba(52,155,138,0) 50%), linear-gradient(to bottom, rgba(1,121,145,0) 50%, rgba(1,121,145,1) 100%);
     .container {
       min-height: 800px;
       background-image: image-url('index/ocean-highlight.svg');
       background-position: center top;
-      background-size: 1700px;
+      // background-size: 1700px;
       background-repeat: no-repeat;
+    }
+  }
+
+  .cfp, .tickets {
+    a {
+      -webkit-transition: -webkit-transform 0.1s ease;
+      -moz-transition: -moz-transform 0.1s ease;
+      -ms-transition: -ms-transform 0.1s ease;
+      -o-transition: -o-transform 0.1s ease;
+      transition: transform 0.1s ease;
+      &:hover, &:active {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+      }
     }
   }
 
   .tickets {
     top: 44px;
-    height: 65px;
-    text-align: right;
+    text-align: center;
+    z-index: 2000;
     a {
+      position: relative;
+      display: inline-block;
       text-decoration: none;
       text-transform: uppercase;
-      line-height: 24px;
-      &:hover, &:active {
-        color: $gray3;
-        &:before {
-          content: image-url('index/icon-tickets-hover.svg');
-        }
-      }
-      &:before {
-        display: inline-block;
-        float: right;
-        margin-left: 0.5em;
+      line-height: 20px;
+      span {
+        display: block;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
         width: 64px;
         height: 65px;
-        content: image-url('index/icon-tickets.svg');
-        vertical-align: middle;
+        background: image-url('index/icon-tickets.svg');
+        background-repeat: no-repeat;
+      }
+      &:hover, &:active {
+        color: $gray3;
+        span {
+          background: image-url('index/icon-tickets-hover.svg');
+        }
       }
     }
   }
 
   .cfp {
     top: 44px;
-    height: 65px;
-    text-align: left;
+    text-align: center;
+    z-index: 2000;
     a {
+      position: relative;
+      display: inline-block;
       text-decoration: none;
       text-transform: uppercase;
-      line-height: 24px;
-      &:hover, &:active {
-        color: $gray3;
-        &:before {
-          content: image-url('index/icon-cfp-hover.svg');
-        }
-      }
-      &:before {
-        display: inline-block;
-        float: left;
-        margin-right: 0.5em;
+      line-height: 20px;
+      span {
+        display: block;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
         width: 64px;
         height: 65px;
-        content: image-url('index/icon-cfp.svg');
-        vertical-align: middle;
+        background: image-url('index/icon-cfp.svg');
+        background-repeat: no-repeat;
+      }
+      &:hover, &:active {
+        color: $gray3;
+        span {
+          background: image-url('index/icon-cfp-hover.svg');
+        }
       }
     }
   }
 
   .porto {
     margin-top: 86px;
-    vertical-align: middle;
-    text-align: center;
+    padding: 0;
     a {
       position: relative;
-      display: inline-block;
+      display: block;
       overflow: hidden;
       width: 292px;
       height: 221px;
       background-image: image-url('index/graphics.svg');
       background-position: -2px -372px;
       background-repeat: no-repeat;
-      vertical-align: middle;
+      margin-left: auto;
+      margin-right: auto;
       font-size: 0;
       line-height: 0;
+      -webkit-transition: -webkit-transform 0.1s ease;
+      -moz-transition: -moz-transform 0.1s ease;
+      -ms-transition: -ms-transform 0.1s ease;
+      -o-transition: -o-transform 0.1s ease;
+      transition: transform 0.1s ease;
+      &:hover, &:active {
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        transform: scale(1.05);
+      }
     }
   }
 
@@ -393,11 +428,34 @@ body.index {
     }
   }
 
-  @media (min-width: 320px) {
-    section.ocean {
-      .container {
-        background-size: 100%;
-      }
+  @media (min-width: 320px) and (max-width: 365px) {
+    h1, h2 {
+      -webkit-transform: scale(0.8904);
+      -moz-transform: scale(0.8904);
+      -ms-transform: scale(0.8904);
+      -o-transform: scale(0.8904);
+      transform: scale(0.8904);
+    }
+    h1 {
+      -webkit-transform-origin: bottom center;
+      transform-origin: bottom center;
+    }
+    h2 {
+      -webkit-transform-origin: top center;
+      transform-origin: top center;
+    }
+    .porto {
+       a {
+        -webkit-transform: scale(0.8904);
+        -moz-transform: scale(0.8904);
+        -ms-transform: scale(0.8904);
+        -o-transform: scale(0.8904);
+        transform: scale(0.8904);
+        -webkit-transform-origin: top center;
+        transform-origin: top center;
+        margin-bottom: -1em;
+        margin-left: -4px;
+       }
     }
   }
 
@@ -417,35 +475,17 @@ body.index {
     ul {
       padding: 0;
     }
-    .container {
-      margin: 0 30px;
-      padding: 0 -30px;
-    }
     section.ocean {
       .container {
         background-size: 200%;
       }
     }
-    .tickets {
-      // @extend .pull-left;
-      text-align: right;
-      a {
-        &:before {
-          margin-left: 14em;
-        }
-      }
+    .container {
+      margin: 0 20px;
+      padding: 0 -20px;
     }
-    .cfp {
-      // @extend .pull-right;
-      text-align: left;
-      a {
-          &:before {
-            margin-right: 14em;
-          }
-        }
-      }
     .cfp, .tickets {
-      margin-top: 120px;
+      margin: 120px 0 0 0;
     }
     .description {
       text-align: center;
@@ -465,46 +505,80 @@ body.index {
       }
     }
     .porto {
-      margin-top: 110px;
+      margin-top: 80px;
     }
     .stay-tuned, .description, .sponsors-footer {
       margin-top: 48px;
+    }
+    .organizers-footer {
+      .guava {
+        padding-top: 35px;
+      }
+      .eventick {
+        padding-top: 20px;
+      }
+    }
+    .producer-footer {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (min-width: 768px) {
+    section.ocean {
+      .container {
+        background-size: 150%;
+      }
+    }
+    .tickets {
+      text-align: right;
+      padding-left: 0;
+      a {
+        span {
+          float: right;
+          margin: 0 0.5em 0.5em 0.5em;
+        }
+      }
+    }
+    .cfp {
+      text-align: left;
+      padding-right: 0;
+      a {
+        span {
+          float: left;
+          margin: 0 0.5em 0.5em 0.5em;
+        }
+      }
     }
   }
 
   @media (min-width: 768px) and (max-width: 991px) {
     .cfp, .tickets {
-      top: 180px;
-    }
-    .cfp {
-      a {
-        &:before {
-          float: left;
-          margin: 0 4em 0.5em 0;
-          vertical-align: middle;
-        }
-      }
-    }
-    .tickets {
-      a {
-        text-align: right;
-        line-height: 24px;
-        &:before {
-          float: right;
-          margin: 0 0 0.5em 3em;
-          vertical-align: middle;
-        }
-      }
+      top: 240px;
     }
     .stay-tuned, .description, .sponsors-footer {
       margin-top: 36px;
     }
+    .organizers-footer {
+      .for {
+        a {
+          text-align: right;
+        }
+      }
+      .eventick {
+        a {
+          text-align: left;
+        }
+      }
+    }
   }
 
-  @media (min-width: 998px) {
+  @media (min-width: 992px) {
     .cfp, .tickets {
       a {
-        line-height: 64px;
+        padding-top: 20px;
+        span {
+          margin-top: -20px;
+        }
       }
     }
   }

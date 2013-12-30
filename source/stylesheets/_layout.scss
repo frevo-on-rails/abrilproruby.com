@@ -7,7 +7,7 @@ $gray3: #e6e6e6;
 $orange: #ff9263;
 
 body {
-  min-width: 320px;
+  min-width: 320px !important;
   font-weight: 200;
   font-size: 16px;
   line-height: 24px;
@@ -88,7 +88,7 @@ body {
             background-color: white;
             -webkit-transform: scale(1.125);
             -moz-transform: scale(1.125);
-            -ms-transform: scale(1.15);
+            -ms-transform: scale(1.125);
             -o-transform: scale(1.125);
             transform: scale(1.125);
           }
@@ -231,7 +231,7 @@ body {
 
   @media (max-width: 767px) {
     nav.main {
-      background-color: rgba(255,255,255,.9);
+      // background-color: rgba(255,255,255,.9);
       .navbar-collapse {
         border-top: 2px solid white;
         font-weight: 600;
@@ -403,7 +403,7 @@ body {
         li {
           a {
             &.language {
-              margin-top: 40px;
+              margin-top: 20px;
             }
           }
         }
