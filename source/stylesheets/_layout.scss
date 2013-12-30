@@ -15,7 +15,7 @@ body {
   a {
     color: #fff;
     text-decoration: underline;
-    font-weight: 300;
+    font-weight: 400;
     &:hover, &:active {
       color: $gray3;
     }
@@ -29,7 +29,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: -2px;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 42px;
     line-height: 36px;
   }
@@ -265,7 +265,7 @@ body {
       transition: background-color 3s ease;
       .navbar-collapse {
         border-top: 2px solid white;
-        font-weight: 600;
+        font-weight: 400;
         ul {
           li {
             text-align: center;
@@ -343,7 +343,7 @@ body {
               margin-top: 35px;
               width: auto;
               letter-spacing: 0;
-              font-weight: 600;
+              font-weight: 400;
               font-size: 12px;
             }
             &:hover, &:active {
