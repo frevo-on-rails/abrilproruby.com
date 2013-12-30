@@ -106,27 +106,10 @@ body.index {
     }
   }
 
-  .cfp, .tickets {
-    a {
-      -webkit-transition: -webkit-transform 0.1s ease;
-      -moz-transition: -moz-transform 0.1s ease;
-      -ms-transition: -ms-transform 0.1s ease;
-      -o-transition: -o-transform 0.1s ease;
-      transition: transform 0.1s ease;
-      &:hover, &:active {
-        -webkit-transform: scale(1.1);
-        -moz-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        -o-transform: scale(1.1);
-        transform: scale(1.1);
-      }
-    }
-  }
-
   .tickets {
     top: 44px;
-    text-align: center;
     z-index: 2000;
+    text-align: center;
     a {
       position: relative;
       display: inline-block;
@@ -136,8 +119,8 @@ body.index {
       span {
         display: block;
         float: none;
-        margin-left: auto;
         margin-right: auto;
+        margin-left: auto;
         width: 64px;
         height: 65px;
         background: image-url('index/icon-tickets.svg');
@@ -154,8 +137,8 @@ body.index {
 
   .cfp {
     top: 44px;
-    text-align: center;
     z-index: 2000;
+    text-align: center;
     a {
       position: relative;
       display: inline-block;
@@ -165,8 +148,8 @@ body.index {
       span {
         display: block;
         float: none;
-        margin-left: auto;
         margin-right: auto;
+        margin-left: auto;
         width: 64px;
         height: 65px;
         background: image-url('index/icon-cfp.svg');
@@ -184,31 +167,19 @@ body.index {
   .porto {
     margin-top: 86px;
     padding: 0;
-    a {
+    p {
       position: relative;
       display: block;
       overflow: hidden;
+      margin-right: auto;
+      margin-left: auto;
       width: 292px;
       height: 221px;
       background-image: image-url('index/graphics.svg');
       background-position: -2px -372px;
       background-repeat: no-repeat;
-      margin-left: auto;
-      margin-right: auto;
       font-size: 0;
       line-height: 0;
-      -webkit-transition: -webkit-transform 0.1s ease;
-      -moz-transition: -moz-transform 0.1s ease;
-      -ms-transition: -ms-transform 0.1s ease;
-      -o-transition: -o-transform 0.1s ease;
-      transition: transform 0.1s ease;
-      &:hover, &:active {
-        -webkit-transform: scale(1.05);
-        -moz-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-        -o-transform: scale(1.05);
-        transform: scale(1.05);
-      }
     }
   }
 
@@ -445,7 +416,9 @@ body.index {
       transform-origin: top center;
     }
     .porto {
-       a {
+       p {
+        margin-bottom: -1em;
+        margin-left: -4px;
         -webkit-transform: scale(0.8904);
         -moz-transform: scale(0.8904);
         -ms-transform: scale(0.8904);
@@ -453,8 +426,6 @@ body.index {
         transform: scale(0.8904);
         -webkit-transform-origin: top center;
         transform-origin: top center;
-        margin-bottom: -1em;
-        margin-left: -4px;
        }
     }
   }
@@ -487,6 +458,9 @@ body.index {
     .cfp, .tickets {
       margin: 120px 0 0 0;
     }
+    .porto {
+      margin-top: 80px;
+    }
     .description {
       text-align: center;
       ul {
@@ -503,9 +477,6 @@ body.index {
           }
         }
       }
-    }
-    .porto {
-      margin-top: 80px;
     }
     .stay-tuned, .description, .sponsors-footer {
       margin-top: 48px;
@@ -530,8 +501,8 @@ body.index {
       }
     }
     .tickets {
-      text-align: right;
       padding-left: 0;
+      text-align: right;
       a {
         span {
           float: right;
@@ -540,8 +511,8 @@ body.index {
       }
     }
     .cfp {
-      text-align: left;
       padding-right: 0;
+      text-align: left;
       a {
         span {
           float: left;
