@@ -4,6 +4,15 @@ body.sponsors {
   nav.main {
     .container {
       .navbar-header {
+        button {
+          width: 48px;
+          height: 48px;
+          border: 2px solid $gray;
+          border-radius: 0px;
+          .icon-bar {
+            background-color: $gray;
+          }
+        }
         .navbar-brand {
           .icon {
             background-position: -192px -80px;
@@ -35,10 +44,57 @@ body.sponsors {
     h1 {
       color: $gray;
       text-shadow: none;
-
       .icon {
         background-position: 0px -750px;
       }
     }
   }
+
+  @media (max-width: 767px) {
+    nav.main {
+      .navbar-collapse {
+        border-top: 2px solid $gray;
+        ul {
+          li {
+            &:last-child {
+              border-top: 2px solid $gray;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    nav.main {
+      .navbar-collapse {
+        li {
+          a {
+            &.section {
+              .icon {
+                outline: 1px solid $gray;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    nav.main {
+      .navbar-collapse {
+        li {
+          a {
+            &.section {
+              .icon {
+                outline: 1px solid $gray;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
 }

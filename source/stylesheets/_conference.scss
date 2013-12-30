@@ -67,6 +67,21 @@ body.conference {
     background-color: white;
   }
 
+  @media (max-width: 767px) {
+    nav.main {
+      .navbar-collapse {
+        border-top: 2px solid $green;
+        ul {
+          li {
+            &:last-child {
+              border-top: 2px solid $green;
+            }
+          }
+        }
+      }
+    }
+  }
+
   @media (min-width: 768px) and (max-width: 991px) {
     nav.main {
       .navbar-collapse {
