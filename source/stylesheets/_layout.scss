@@ -232,7 +232,19 @@ body {
         outline: 0;
         border-color: $gray3;
         box-shadow: none;
-        // TODO: Define a style for Placeholder
+      }
+      &:-moz-placeholder {
+        color: $gray3;
+      }
+      &::-moz-placeholder {
+        color: $gray3;
+        opacity: 1;
+      }
+      &:-ms-input-placeholder {
+        color: $gray3;
+      }
+      &::-webkit-input-placeholder {
+        color: $gray3;
       }
     }
   }
