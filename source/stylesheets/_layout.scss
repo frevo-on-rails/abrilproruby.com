@@ -139,6 +139,8 @@ body {
         }
       }
       .navbar-collapse {
+        overflow: visible;
+
         ul {
           @extend .nav;
           @extend .navbar-nav;
