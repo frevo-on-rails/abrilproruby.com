@@ -327,6 +327,23 @@ body {
     }
   }
 
+  @media (max-width: 380px) {
+    nav.secondary {
+      ul {
+        font-size: 15px;
+        li {
+          margin-right: 0.75em;
+          &:before {
+            content: none;
+          }
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+
   @media (min-width: 768px) {
     nav.main {
       .navbar-collapse {
