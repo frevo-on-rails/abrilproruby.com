@@ -85,22 +85,22 @@ body.sponsors {
       width: 80px;
     }
     img {
-      width: 400px;
-      height: 200px;
+      width: 250px;
+      height: 125px;
     }
   }
 
   section.organizers, section.supporters {
     img {
-      width: 200px;
-      height: 200px;
+      width: 100px;
+      height: 100px;
     }
   }
 
   section.organizers {
     margin-top: 60px;
     h4 {
-      width: 300px;
+      width: 290px;
     }
   }
 
@@ -112,17 +112,17 @@ body.sponsors {
     }
   }
 
-  @media (max-width: 500px) {
+  @media (min-width: 510px) {
     section.gold {
       img {
-        width: 250px;
-        height: 125px;
+        width: 400px;
+        height: 200px;
       }
     }
     section.organizers, section.supporters {
       img {
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
       }
     }
   }
