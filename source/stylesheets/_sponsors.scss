@@ -13,6 +13,7 @@ body.sponsors {
     font-weight: 300;
   }
   p {
+    margin-top: 20px;
     font-weight: 300;
   }
 
@@ -74,17 +75,30 @@ body.sponsors {
     }
   }
 
+  section {
+    border-top: 1px solid $gray2;
+  }
+
   section.gold {
-    border-top: 1px solid $gray;
     h4 {
       margin-bottom: 20px;
-      width: 100px;
+      width: 80px;
+    }
+    img {
+      width: 400px;
+      height: 200px;
+    }
+  }
+
+  section.organizers, section.supporters {
+    img {
+      width: 200px;
+      height: 200px;
     }
   }
 
   section.organizers {
     margin-top: 60px;
-    border-top: 1px solid $gray;
     h4 {
       width: 300px;
     }
@@ -92,10 +106,24 @@ body.sponsors {
 
   section.supporters {
     margin-top: 30px;
-    border-top: 1px solid $gray;
     h4 {
       margin-bottom: 20px;
-      width: 120px;
+      width: 100px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    section.gold {
+      img {
+        width: 250px;
+        height: 125px;
+      }
+    }
+    section.organizers, section.supporters {
+      img {
+        width: 100px;
+        height: 100px;
+      }
     }
   }
 
