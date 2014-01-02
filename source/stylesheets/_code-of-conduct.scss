@@ -1,4 +1,5 @@
-body.sponsors {
+body.code-of-conduct {
+  background-color: $gray;
   background-image: image-url('waves-grey.svg');
 
   h4 {
@@ -47,7 +48,7 @@ body.sponsors {
           background-position: -210px -470px;
         }
         .sponsors .icon {
-          background-position: -280px -540px;
+          background-position: -210px -540px;
         }
         a, a:hover {
           color: $gray;
@@ -61,86 +62,12 @@ body.sponsors {
       color: $gray;
       text-shadow: none;
       .icon {
-        background-position: 0px -748px;
+        background-position: -128px -748px;
       }
     }
   }
 
-  .tempest, .for, .guava, .eventick, .casaeventos, .rubycentral, .thoughtworks, .globo, .casadocodigo, .designa, .tagarela, .ubee, .novatec {
-    display: inline-block;
-    text-align: center;
-    img {
-      display: inline-block;
-      vertical-align: middle;
-    }
-  }
 
-  section {
-    border-top: 1px solid $gray2;
-  }
-
-  section.gold {
-    h4 {
-      margin-bottom: 20px;
-      width: 80px;
-    }
-    img {
-      width: 250px;
-      height: 125px;
-    }
-  }
-
-  section.organizers, section.supporters {
-    img {
-      width: 100px;
-      height: 100px;
-    }
-  }
-
-  section.organizers {
-    margin-top: 60px;
-    h4 {
-      width: 290px;
-    }
-  }
-
-  section.supporters {
-    margin-top: 30px;
-    h4 {
-      margin-bottom: 20px;
-      width: 100px;
-    }
-  }
-
-  @media (min-width: 510px) {
-    section.gold {
-      img {
-        width: 400px;
-        height: 200px;
-      }
-    }
-    section.organizers, section.supporters {
-      img {
-        width: 200px;
-        height: 200px;
-      }
-    }
-  }
-
-  @media (max-width: 767px) {
-    nav.main {
-      .navbar-collapse {
-        border-top: 2px solid $gray;
-        ul {
-          li {
-            &:last-child {
-              border-top: 2px solid $gray;
-            }
-          }
-        }
-      }
-    }
-  }
 
   @media (min-width: 768px) and (max-width: 991px) {
     nav.main {
