@@ -1,6 +1,21 @@
 body.sponsors {
   background-image: image-url('waves-grey.svg');
 
+  h4 {
+    display: block;
+    margin-top: -10px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    color: $gray;
+    text-align: center;
+    text-shadow: none;
+    font-weight: 300;
+  }
+  p {
+    font-weight: 300;
+  }
+
   nav.main {
     .container {
       .navbar-header {
@@ -47,6 +62,40 @@ body.sponsors {
       .icon {
         background-position: 0px -750px;
       }
+    }
+  }
+
+  .tempest, .for, .guava, .eventick, .casaeventos, .rubycentral, .thoughtworks, .globo, .casadocodigo, .designa, .tagarela, .ubee, .novatec {
+    display: inline-block;
+    text-align: center;
+    img {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+
+  section.gold {
+    border-top: 1px solid $gray;
+    h4 {
+      margin-bottom: 20px;
+      width: 100px;
+    }
+  }
+
+  section.organizers {
+    margin-top: 60px;
+    border-top: 1px solid $gray;
+    h4 {
+      width: 300px;
+    }
+  }
+
+  section.supporters {
+    margin-top: 30px;
+    border-top: 1px solid $gray;
+    h4 {
+      margin-bottom: 20px;
+      width: 120px;
     }
   }
 
