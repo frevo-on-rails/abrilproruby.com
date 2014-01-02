@@ -1,7 +1,7 @@
 body.conference {
   max-height: 350px;
-  background-color: $green;
-  background-image: image-url('waves.svg');
+  background-color: white;
+  background-image: image-url('waves-10.svg');
   color: $green;
 
   nav.main {
@@ -50,6 +50,7 @@ body.conference {
   }
 
   header {
+    background-color: $green;
     background-image: image-url('conference/sea.svg');
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -62,10 +63,8 @@ body.conference {
   }
 
   section.speakers {
-    padding: 20px 0;
-    min-height: 400px;
-    background-color: white;
-    background-image: linear-gradient(to bottom, white, rgba(255,255,255,0) 300px), image-url('waves-10.svg');
+    padding: 20px 0 40px;
+    background-image: linear-gradient(to bottom, white, rgba(255,255,255,0) 300px);
 
     h2 {
       margin: 16px 0;
@@ -87,41 +86,34 @@ body.conference {
       }
     }
 
-    ul {
-      padding: 0.25em 0 1em;
-      list-style: none;
+    .speaker {
+      @extend .clearfix;
+      margin-bottom: .5em;
+      padding: 0.5em 0;
 
-      li {
-        @extend .clearfix;
-        clear: both;
-        overflow: visible;
-        margin-bottom: .5em;
-        padding: 0.5em 0;
+      .photo {
+        float: left;
+        margin-right: .75em;
+        width: 100px;
+        height: 100px;
+        border: 2px solid white;
+        border-radius: 50px;
+        box-shadow: 0px 0px 8px rgba(0,0,0,.75);
+      }
 
-        .photo {
-          float: left;
-          margin-right: .75em;
-          width: 100px;
-          height: 100px;
-          border: 2px solid white;
-          border-radius: 50px;
-          box-shadow: 0px 0px 8px rgba(0,0,0,.75);
+      .desc {
+        margin-top: .75em;
+        line-height: 1.2;
+
+        .name {
+          display: inline-block;
+          font-weight: 600;
         }
 
-        .desc {
-          margin-top: .75em;
+        .title {
+          font-weight: 300;
+          font-size: 13px;
           line-height: 1.2;
-
-          .name {
-            font-weight: 600;
-            padding-bottom: 0.5em;
-          }
-
-          .title {
-            font-weight: 300;
-            font-size: 13px;
-            line-height: 1.2;
-          }
         }
       }
     }
@@ -142,6 +134,38 @@ body.conference {
     }
   }
 
+  @media (min-width: 768px) {
+    section.speakers {
+      .speaker {
+        text-align: center;
+
+        .photo {
+          float: none;
+          width: 150px;
+          height: 150px;
+          border-radius: 75px;
+        }
+
+        .desc {
+          margin: 1em auto;
+
+          .name {
+            padding-bottom: 2px;
+            font-size: 20px;
+          }
+
+          .title {
+            font-size: 14px;
+          }
+        }
+
+        &.jim .desc {
+          width: 160px;
+        }
+      }
+    }
+  }
+
   @media (min-width: 768px) and (max-width: 991px) {
     nav.main {
       .navbar-collapse {
@@ -153,6 +177,46 @@ body.conference {
               }
             }
           }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    section.speakers {
+      h2 {
+        margin-bottom: .5em;
+      }
+
+      .speaker {
+        .photo {
+          width: 200px;
+          height: 200px;
+          border-radius: 100px;
+        }
+
+        .desc {
+          line-height: 1.5;
+
+          .name {
+            padding-bottom: 0;
+            font-size: 24px;
+          }
+
+          .title {
+            font-size: 16px;
+          }
+        }
+        &.jim .desc {
+          width: 200px;
+        }
+
+        &.nell .desc {
+          width: 280px;
+        }
+
+        &.rafael .desc {
+          width: 260px;
         }
       }
     }
