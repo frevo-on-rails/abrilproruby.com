@@ -61,6 +61,8 @@ body.code-of-conduct {
     h1 {
       color: white;
       .icon {
+        margin-top: .25em;
+        margin-bottom: .25em;
         background-image: image-url('icon-header-code@2x.png');
         background-size: 128px;
       }
@@ -94,11 +96,11 @@ body.code-of-conduct {
     }
     .container {
       .code-content {
+        margin-bottom: 50px;
         padding: 30px 45px 50px 50px;
         min-height: 400px;
         background-color: white;
         box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-        margin-bottom: 50px;
       }
     }
   }
@@ -127,10 +129,11 @@ body.code-of-conduct {
   }
 
   @media (max-width: 767px) {
-    section
-    .container {
-      .code-content {
-        margin-bottom: 0;
+    section {
+      .container {
+        .code-content {
+          margin-bottom: 0;
+        }
       }
     }
   }
@@ -166,5 +169,4 @@ body.code-of-conduct {
       }
     }
   }
-
 }

@@ -61,6 +61,8 @@ body.sponsors {
       color: $gray;
       text-shadow: none;
       .icon {
+        margin-top: .25em;
+        margin-bottom: .25em;
         background-image: image-url('icon-header-sponsors@2x.png');
         background-size: 128px;
       }
