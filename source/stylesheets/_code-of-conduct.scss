@@ -48,7 +48,7 @@ body.code-of-conduct {
           background-position: -210px -470px;
         }
         .sponsors .icon {
-          background-position: -210px -540px;
+          background-position: -280px -540px;
         }
         a, a:hover {
           color: $gray;
@@ -59,15 +59,80 @@ body.code-of-conduct {
 
   header {
     h1 {
-      color: $gray;
-      text-shadow: none;
+      color: white;
       .icon {
         background-position: -128px -748px;
       }
     }
   }
 
+  section {
+    h1, h2, h3, a {
+      color: $gray;
+    }
+    h1, h2, h3, h4 {
+      margin-top: 24px;
+      margin-bottom: 12px;
+    }
+    h1, h2, h3 {
+      font-weight: 400;
+    }
+    h4 {
+      color: black;
+      font-weight: 600;
+    }
+    p, ul, li {
+      color: black;
+      font-weight: 300;
+    }
+    a {
+      text-transform: none;
+      &:hover {
+        font-weight: 600;
+      }
+    }
+    .container {
+      .code-content {
+        padding: 30px 45px 50px 50px;
+        min-height: 400px;
+        background-color: white;
+        box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        margin-bottom: 50px;
+      }
+    }
+  }
 
+  @media (max-width: 767px) {
+    nav.main {
+      .navbar-collapse {
+        border-top: 2px solid $gray;
+        ul {
+          li {
+            &:last-child {
+              border-top: 2px solid $gray;
+            }
+          }
+        }
+      }
+    }
+    section {
+      .container {
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    section
+    .container {
+      .code-content {
+        margin-bottom: 0;
+      }
+    }
+  }
 
   @media (min-width: 768px) and (max-width: 991px) {
     nav.main {
