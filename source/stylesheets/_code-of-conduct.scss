@@ -82,7 +82,7 @@ body.code-of-conduct {
     }
     h4 {
       color: black;
-      font-weight: 600;
+      font-weight: 400;
     }
     p, ul, li {
       color: black;
@@ -91,8 +91,11 @@ body.code-of-conduct {
     a {
       text-transform: none;
       &:hover {
-        font-weight: 600;
+        font-weight: 400;
       }
+    }
+    strong {
+      font-weight: 400;
     }
     .container {
       .code-content {
