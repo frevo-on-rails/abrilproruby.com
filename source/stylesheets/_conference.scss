@@ -63,7 +63,8 @@ body.conference {
 
     h1 {
       .icon {
-        background-position: 0 -620px;
+        background-image: image-url('icon-header-conference@2x.png');
+        background-size: 128px;
       }
     }
   }
