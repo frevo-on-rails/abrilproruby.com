@@ -148,6 +148,9 @@ body {
           li {
             a {
               font-weight: 400;
+              &.language {
+                display: none;
+              }
             }
           }
         }
