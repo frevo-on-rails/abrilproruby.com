@@ -53,7 +53,8 @@ body.location {
   header {
     h1 {
       .icon {
-        background-position: -125px -620px;
+        background-image: image-url('icon-header-location@2x.png');
+        background-size: 128px;
       }
     }
   }
