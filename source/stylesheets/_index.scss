@@ -100,6 +100,7 @@ body.index {
     .container {
       min-height: 800px;
       background-image: image-url('index/ocean-highlight.svg');
+      background-size: 95%;
       background-position: center top;
       background-repeat: no-repeat;
     }
@@ -451,11 +452,6 @@ body.index {
     ul {
       padding: 0;
     }
-    section.ocean {
-      .container {
-        background-size: 200%;
-      }
-    }
     .cfp, .tickets {
       margin: 120px 0 0 0;
     }
@@ -498,7 +494,7 @@ body.index {
   @media (min-width: 768px) {
     section.ocean {
       .container {
-        background-size: 150%;
+        background-size: 100%;
       }
     }
     .tickets {
