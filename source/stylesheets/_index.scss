@@ -10,13 +10,17 @@ body.index {
     color: white;
     font-weight: 300;
     text-shadow: 0px 1px 0px black;
-
     &.btn {
       color: $green;
     }
   }
   ul {
     list-style: none;
+  }
+  footer {
+    h4 {
+      font-size: 11px;
+    }
   }
 
   nav.main {
