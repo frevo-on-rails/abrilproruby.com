@@ -484,10 +484,12 @@ body.index {
     .stay-tuned {
       text-align: center;
       ul {
-        text-align: left;
+        text-align: center;
         li {
+          display: inline-block;
+          margin-bottom: 8px;
           span {
-            margin-left: 35%;
+            margin-left: 45%;
           }
         }
       }
