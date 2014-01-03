@@ -409,6 +409,15 @@ body.index {
     }
   }
 
+  .attribution {
+    p, a {
+      margin-top: 48px;
+      margin-bottom: 48px;
+      color: $gray2;
+      font-weight: 200;
+    }
+  }
+
   @media (min-width: 320px) and (max-width: 365px) {
     h1, h2 {
       -webkit-transform: scale(0.8904);
