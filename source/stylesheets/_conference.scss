@@ -94,27 +94,29 @@ body.conference {
       margin-bottom: .5em;
       padding: 0.5em 0;
       .photo {
-        float: left;
-        margin-right: .75em;
-        width: 100px;
-        height: 100px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 120px;
+        height: 120px;
         border: 2px solid white;
-        border-radius: 50px;
+        border-radius: 60px;
         box-shadow: 0px 0px 8px rgba(0,0,0,.75);
       }
       .desc {
         margin-top: .75em;
+        text-align: center;
         line-height: 1.2;
-
         .name {
           display: inline-block;
+          margin-top: 0;
+          margin-bottom: 2px;
           font-weight: 400;
         }
-
         .title {
           font-weight: 300;
-          font-size: 13px;
-          line-height: 1.2;
+          font-size: 16px;
+          line-height: 24px;
         }
       }
     }
@@ -154,10 +156,10 @@ body.conference {
       text-align: center;
     }
     .friday, .sunday {
-      text-align: left;
-      text-transform: uppercase;
+      text-align: center;
+      text-transform: none;
       font-weight: 300;
-      line-height: 40px;
+      line-height: 24px;
       ul {
         padding-left: 0;
         list-style: none;
@@ -168,8 +170,10 @@ body.conference {
       padding-bottom: .5em;
 
       .icon {
-        display: inline-block;
-        margin-right: 10px;
+        display: block;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
         width: 64px;
         height: 64px;
         background-image: image-url('graphics.svg');
@@ -178,12 +182,14 @@ body.conference {
           background-position: -32px -684px;
         }
         &.icon-hiking {
+          margin-top: 24px;
           background-position: -220px -684px;
         }
         &.icon-sailing {
           background-position: -96px -684px;
         }
         &.icon-snorkeling {
+          margin-top: 24px;
           background-position: -160px -684px;
         }
       }
@@ -254,7 +260,7 @@ body.conference {
           }
 
           .title {
-            font-size: 14px;
+            font-size: 16px;
           }
         }
 
