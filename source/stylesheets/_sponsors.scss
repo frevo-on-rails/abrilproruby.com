@@ -69,7 +69,7 @@ body.sponsors {
     }
   }
 
-  .tempest, .for, .guava, .eventick, .casaeventos, .rubycentral, .thoughtworks, .globo, .casadocodigo, .designa, .tagarela, .ubee, .novatec {
+  .tempest, .for, .guava, .eventick, .casaeventos, .rubycentral, .thoughtworks, .globo, .casadocodigo, .designa, .tagarela, .ubee, .novatec, .appies {
     display: inline-block;
     text-align: center;
     img {
@@ -88,30 +88,64 @@ body.sponsors {
       width: 75px;
     }
     img {
-      width: 250px;
-      height: 125px;
+      width: 260px;
+      height: 148px;
     }
   }
 
-  section.organizers, section.supporters {
-    img {
-      width: 100px;
-      height: 100px;
-    }
-  }
+  // section.silver {
+  //   img {
+  //     width: 190px;
+  //     height: 190px;
+  //   }
+  // }
+
+  // section.bronze {
+  //   img {
+  //     width: 150px;
+  //     height: 150px;
+  //   }
+  // }
 
   section.organizers {
     margin-top: 60px;
     h4 {
       width: 280px;
     }
+    img {
+      width: 190px;
+      height: 114px;
+    }
   }
 
   section.supporters {
     margin-top: 30px;
     h4 {
-      margin-bottom: 20px;
+      margin-bottom: 40px;
       width: 100px;
+    }
+    .executive-producer {
+      p {
+        text-transform: uppercase;
+        position: absolute;
+        left: 0;
+        display: inline-block;
+        margin-top: -12px;
+        width: 100%;
+        color: $gray;
+        font-size: 12px;
+      }
+      img {
+        width: 150px;
+        height: 150px;
+      }
+    }
+    .institutional-support {
+      margin-bottom: 50px;
+      img {
+        width: 90px;
+        height: 90px;
+      }
     }
   }
 
@@ -122,10 +156,36 @@ body.sponsors {
         height: 200px;
       }
     }
-    section.organizers, section.supporters {
+    // section.silver {
+    //   img {
+    //     width: 290px;
+    //     height: 290px;
+    //   }
+    // }
+    // section.bronze {
+    //   img {
+    //     width: 200px;
+    //     height: 200px;
+    //   }
+    // }
+    section.organizers {
       img {
-        width: 200px;
-        height: 200px;
+        width: 290px;
+        height: 174px;
+      }
+    }
+    section.supporters {
+      .executive-producer {
+        img {
+          width: 200px;
+          height: 200px;
+        }
+      }
+      .institutional-support {
+        img {
+          width: 120px;
+          height: 120px;
+        }
       }
     }
   }
