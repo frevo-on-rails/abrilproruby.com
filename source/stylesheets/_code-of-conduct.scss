@@ -99,12 +99,20 @@ body.code-of-conduct {
     }
     .container {
       .code-content {
-        margin-bottom: 50px;
+        margin-bottom: 24px;
         padding: 30px 45px 50px 50px;
         min-height: 400px;
         background-color: white;
         box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
       }
+    }
+  }
+
+  .attribution {
+    p, a {
+      margin-bottom: 48px;
+      color: white;
+      font-weight: 200;
     }
   }
 
