@@ -1,9 +1,12 @@
 body.location {
+  background: image-url('location/photo-by-victor-bonomi.jpg') no-repeat top center fixed;
   background-color: $blue;
-  background-image: image-url('location/photo-by-victor-bonomi.jpg');
-  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../location/photo-by-victor-bonomi.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../location/photo-by-victor-bonomi.jpg', sizingMethod='scale');
   font-weight: 300;
 
   nav.main {
@@ -78,8 +81,8 @@ body.location {
       color: black;
     }
     a {
-      text-transform: none;
       text-decoration: none;
+      text-transform: none;
       &:hover {
         text-decoration: underline;
       }
@@ -95,11 +98,11 @@ body.location {
     .container {
       .about-porto {
         margin-bottom: 20px;
+        margin-bottom: 250px;
         padding: 26px 45px 50px 50px;
         min-height: 400px;
         background-color: white;
         box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-        margin-bottom: 250px;
       }
     }
     .video-wrapper {

@@ -126,13 +126,13 @@ body.sponsors {
     }
     .executive-producer {
       p {
-        text-transform: uppercase;
         position: absolute;
         left: 0;
         display: inline-block;
         margin-top: -12px;
         width: 100%;
         color: $gray;
+        text-transform: uppercase;
         font-size: 12px;
       }
       img {
