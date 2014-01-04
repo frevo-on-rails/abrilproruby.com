@@ -98,10 +98,10 @@ body.index {
       background-repeat: no-repeat;
       font-size: 0;
       line-height: 0;
-      .en {
+      &.en {
         background-position: -4px -120px;
       }
-      .pt {
+      &.pt {
         background-position: -4px -242px;
       }
     }
