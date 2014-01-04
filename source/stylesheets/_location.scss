@@ -167,6 +167,15 @@ body.location {
     }
   }
 
+  @media (max-width: 1024px) {
+    body.location {
+      -webkit-background-size: 150% 100%;
+      -moz-background-size: 150% 100%;
+      -o-background-size: 150% 100%;
+      background-size: 150% 100%;
+    }
+  }
+
   @media (min-width: 768px) and (max-width: 991px) {
     nav.main {
       .navbar-collapse {
