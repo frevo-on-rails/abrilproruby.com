@@ -95,10 +95,15 @@ body.index {
       width: 292px;
       height: 121px;
       background-image: image-url('index/graphics.svg');
-      background-position: -4px -120px;
       background-repeat: no-repeat;
       font-size: 0;
       line-height: 0;
+      .en {
+        background-position: -4px -120px;
+      }
+      .pt {
+        background-position: -4px -242px;
+      }
     }
   }
 
