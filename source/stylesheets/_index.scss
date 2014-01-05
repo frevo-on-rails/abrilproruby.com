@@ -1,15 +1,15 @@
 body.index {
-  font-weight: 300;
   background-color: $green;
   background-image: image-url('waves.svg');
+  font-weight: 300;
 
   h3 {
     margin-top: 0;
   }
   h3, h4, p, a {
     color: white;
-    font-weight: 300;
     text-shadow: 0px 1px 0px black;
+    font-weight: 300;
     &.btn {
       color: $green;
     }
@@ -113,8 +113,8 @@ body.index {
     .container {
       min-height: 800px;
       background-image: image-url('index/ocean-highlight.svg');
-      background-size: 95%;
       background-position: center top;
+      background-size: 95%;
       background-repeat: no-repeat;
     }
   }
@@ -246,25 +246,36 @@ body.index {
       padding: 0;
       text-align: left;
       li {
-        span {
-          display: block;
-          float: left;
-          margin: 6px 6px 0px 0px;
-          width: 16px;
-          background-image: image-url('graphics.svg');
-          background-repeat: no-repeat;
-          &.twitter {
-            height: 14px;
-            background-position: -60px 0px;
-          }
-          &.facebook {
-            height: 16px;
-            background-position: -30px 0px;
-          }
-        }
         a {
           text-decoration: underline;
           text-shadow: 0px 1px 0px black;
+          line-height: 30px;
+          span {
+            display: inline-block;
+            float: left;
+            margin: 10px 3px 0px 0px;
+            width: 16px;
+            background-image: image-url('graphics.svg');
+            background-repeat: no-repeat;
+            &.twitter {
+              height: 14px;
+              background-position: -60px 0px;
+            }
+            &.facebook {
+              height: 16px;
+              background-position: -30px 0px;
+            }
+            &.lanyrd {
+              margin-left: -20px;
+              height: 16px;
+              background-position: -270px 0px;
+            }
+            &.github {
+              margin-left: -20px;
+              height: 17px;
+              background-position: -300px 0px;
+            }
+          }
         }
       }
     }
@@ -488,10 +499,17 @@ body.index {
       ul {
         text-align: center;
         li {
-          display: inline-block;
-          margin-bottom: 8px;
-          span {
-            margin-left: 45%;
+          a {
+            span {
+              display: block;
+              float: none;
+              margin-top: 14px;
+              margin-bottom: -4px;
+              &.twitter, &.facebook, &.lanyrd, &.github {
+                margin-right: auto;
+                margin-left: auto;
+              }
+            }
           }
         }
       }
