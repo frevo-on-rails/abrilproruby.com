@@ -119,7 +119,7 @@ body.index {
     }
   }
 
-  .tickets {
+  .cfp, .tickets {
     top: 44px;
     z-index: 2000;
     text-align: center;
@@ -136,43 +136,40 @@ body.index {
         margin-left: auto;
         width: 64px;
         height: 65px;
-        background: image-url('index/icon-tickets.svg');
-        background-repeat: no-repeat;
+        -webkit-transition: -webkit-transform 0.1s ease;
+        -moz-transition: -moz-transform 0.1s ease;
+        -ms-transition: -ms-transform 0.1s ease;
+        -o-transition: -o-transform 0.1s ease;
+        transition: transform 0.1s ease;
       }
       &:hover, &:active {
-        color: $gray3;
         span {
-          background: image-url('index/icon-tickets-hover.svg');
+          -webkit-transform: scale(1.125);
+          -moz-transform: scale(1.125);
+          -ms-transform: scale(1.125);
+          -o-transform: scale(1.125);
+          transform: scale(1.125);
+          -webkit-transform-origin: center center;
+          transform-origin: center center;
         }
       }
     }
   }
 
-  .cfp {
-    top: 44px;
-    z-index: 2000;
-    text-align: center;
+  .tickets {
     a {
-      position: relative;
-      display: inline-block;
-      text-decoration: none;
-      text-transform: uppercase;
-      line-height: 20px;
       span {
-        display: block;
-        float: none;
-        margin-right: auto;
-        margin-left: auto;
-        width: 64px;
-        height: 65px;
-        background: image-url('index/icon-cfp.svg');
+        background: image-url('index/icon-tickets.svg');
         background-repeat: no-repeat;
       }
-      &:hover, &:active {
-        color: $gray3;
-        span {
-          background: image-url('index/icon-cfp-hover.svg');
-        }
+    }
+  }
+
+  .cfp {
+    a {
+      span {
+        background: image-url('index/icon-cfp.svg');
+        background-repeat: no-repeat;
       }
     }
   }
