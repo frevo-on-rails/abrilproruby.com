@@ -1,9 +1,8 @@
 body.sponsors, body.en_sponsors, body.pt_sponsors {
 
-  &.pt_sponsors {
+  &.pt {
     @media (min-width: 320px) and (max-width: 360px) {
       h1 {
-        text-align: center;
         font-size: 36px;
       }
     }
@@ -81,8 +80,8 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
       color: $gray;
       text-shadow: none;
       .icon {
-        margin-top: .25em;
-        margin-bottom: .25em;
+        // margin-top: .25em;
+        // margin-bottom: .25em;
         background-image: image-url('icon-header-sponsors@2x.png');
         background-size: 128px;
       }
@@ -183,6 +182,7 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
         height: 200px;
       }
     }
+
     // section.silver {
     //   img {
     //     width: 290px;
@@ -195,6 +195,7 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
     //     height: 200px;
     //   }
     // }
+
     section.organizers {
       img {
         width: 290px;
