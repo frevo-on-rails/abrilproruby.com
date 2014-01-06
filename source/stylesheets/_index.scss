@@ -129,6 +129,11 @@ body.index, body.en_index, body.pt_index {
       text-decoration: none;
       text-transform: uppercase;
       line-height: 20px;
+        -webkit-transition: -webkit-transform 0.1s ease;
+        -moz-transition: -moz-transform 0.1s ease;
+        -ms-transition: -ms-transform 0.1s ease;
+        -o-transition: -o-transform 0.1s ease;
+        transition: transform 0.1s ease;
       span {
         display: block;
         float: none;
@@ -136,22 +141,15 @@ body.index, body.en_index, body.pt_index {
         margin-left: auto;
         width: 64px;
         height: 65px;
-        -webkit-transition: -webkit-transform 0.1s ease;
-        -moz-transition: -moz-transform 0.1s ease;
-        -ms-transition: -ms-transform 0.1s ease;
-        -o-transition: -o-transform 0.1s ease;
-        transition: transform 0.1s ease;
       }
       &:hover, &:active {
-        span {
-          -webkit-transform: scale(1.125);
-          -moz-transform: scale(1.125);
-          -ms-transform: scale(1.125);
-          -o-transform: scale(1.125);
-          transform: scale(1.125);
-          -webkit-transform-origin: center center;
-          transform-origin: center center;
-        }
+        -webkit-transform: scale(1.125);
+        -moz-transform: scale(1.125);
+        -ms-transform: scale(1.125);
+        -o-transform: scale(1.125);
+        transform: scale(1.125);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
       }
     }
   }
