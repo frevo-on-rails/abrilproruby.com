@@ -53,6 +53,8 @@ set :images_dir, 'images'
 
 set :debug_assets, true
 
+activate :i18n, :langs => [:en, :pt]
+
 # Pretty URLs
 activate :directory_indexes
 
