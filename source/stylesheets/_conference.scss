@@ -163,11 +163,6 @@ body.conference, body.en_conference, body.pt_conference {
       ul {
         padding-left: 0;
         list-style: none;
-        li {
-          display: inline-block;
-          margin-left: 20px;
-          margin-right: 20px;
-        }
       }
     }
     ul {
@@ -187,14 +182,12 @@ body.conference, body.en_conference, body.pt_conference {
           background-position: -32px -684px;
         }
         &.icon-hiking {
-          margin-top: 24px;
           background-position: -220px -684px;
         }
         &.icon-sailing {
           background-position: -96px -684px;
         }
         &.icon-snorkeling {
-          margin-top: 24px;
           background-position: -160px -684px;
         }
       }

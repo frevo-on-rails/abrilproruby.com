@@ -1,6 +1,12 @@
 body.sponsors, body.en_sponsors, body.pt_sponsors {
 
-  &.pt {
+  &.pt_sponsors {
+    @media (min-width: 320px) and (max-width: 360px) {
+      h1 {
+        text-align: center;
+        font-size: 36px;
+      }
+    }
     @media (min-width: 768px) {
       section.organizers {
         h4 {
@@ -8,7 +14,6 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
         }
       }
     }
-
     section.apoio {
       width: 50px;
     }
