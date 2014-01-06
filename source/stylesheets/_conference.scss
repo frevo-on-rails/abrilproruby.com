@@ -163,6 +163,11 @@ body.conference, body.en_conference, body.pt_conference {
       ul {
         padding-left: 0;
         list-style: none;
+        li {
+          display: inline-block;
+          margin-left: 20px;
+          margin-right: 20px;
+        }
       }
     }
     ul {
