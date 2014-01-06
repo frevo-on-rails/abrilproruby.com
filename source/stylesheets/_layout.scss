@@ -139,7 +139,7 @@ body {
         }
       }
       .navbar-collapse {
-        overflow: visible;
+        overflow: hidden;
 
         ul {
           @extend .nav;
