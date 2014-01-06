@@ -1,0 +1,8 @@
+---
+en:
+  navbar:
+    conference: Conference
+    location: Location
+    sponsors: Sponsors
+    language: Português
+    toggle_navigation: Toggle navigation

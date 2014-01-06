@@ -2,36 +2,36 @@
   <div class="container">
     <div class="navbar-header">
       <button type="button" data-toggle="collapse" data-target="#aprb-navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
+        <span class="sr-only"><%= I18n.t 'navbar.toggle_navigation' %></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">
+      <% link_to "/#{I18n.locale}", class: 'navbar-brand' do %>
         <span class="icon"></span>
         <span class="text">AP.Rb 2014</span>
-      </a>
+      <% end %>
     </div>
 
     <div class="collapse navbar-collapse" id="aprb-navbar-collapse">
       <ul>
         <li>
           <% link_to 'conference.html', class: 'conference section' do %>
-            <span class="icon"></span>Conference
+            <span class="icon"></span><%= I18n.t 'navbar.conference' %>
           <% end %>
         </li>
         <li>
           <% link_to 'location.html', class: 'location section' do %>
-            <span class="icon"></span>Location
+            <span class="icon"></span><%= I18n.t 'navbar.location' %>
           <% end %>
         </li>
         <li>
           <% link_to 'sponsors.html', class: 'sponsors section' do %>
-            <span class="icon"></span>Sponsors
+            <span class="icon"></span><%= I18n.t 'navbar.sponsors' %>
           <% end %>
         </li>
         <li>
-          <a class="language" href="/pt">Português</a>
+          <%= link_to I18n.t('navbar.language'), "/#{other_language}", class: 'language' %>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->

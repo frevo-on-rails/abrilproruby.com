@@ -39,11 +39,15 @@
 # activate :livereload
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def other_language
+    if I18n.locale == :en
+      'pt'
+    else
+      'en'
+    end
+  end
+end
 
 set :css_dir, 'stylesheets'
 
@@ -53,7 +57,7 @@ set :images_dir, 'images'
 
 set :debug_assets, true
 
-activate :i18n, :langs => [:en, :pt]
+activate :i18n, langs: [:en, :pt], mount_at_root: false
 
 # Pretty URLs
 activate :directory_indexes
