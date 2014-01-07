@@ -492,6 +492,8 @@ body {
       .navbar-collapse {
         li {
           a {
+            padding-right: 20px !important;
+            padding-left: 25px !important;
             &.language {
               margin-top: 20px;
             }
