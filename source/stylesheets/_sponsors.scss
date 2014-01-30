@@ -1,5 +1,7 @@
 body.sponsors, body.en_sponsors, body.pt_sponsors {
 
+  background-image: image-url('waves-grey.svg');
+
   &.pt {
     @media (min-width: 320px) and (max-width: 360px) {
       h1 {
@@ -17,8 +19,6 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
       width: 50px;
     }
   }
-
-  background-image: image-url('waves-grey.svg');
 
   h4 {
     display: block;
@@ -88,7 +88,7 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
     }
   }
 
-  .tempest, .for, .guava, .eventick, .casaeventos, .rubycentral, .thoughtworks, .globo, .casadocodigo, .designa, .tagarela, .ubee, .novatec, .appies {
+  .tempest, .ubee, .engineyard, .elife, .for, .guava, .eventick, .casaeventos, .rubycentral, .casablanca, .thoughtworks, .globo, .casadocodigo, .designa, .tagarela, .novatec, .appies, .codeclimate {
     display: inline-block;
     text-align: center;
     img {
@@ -119,59 +119,83 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
   //   }
   // }
 
-  // section.bronze {
-  //   img {
-  //     width: 150px;
-  //     height: 150px;
-  //   }
-  // }
+  section.bronze {
+    margin-top: 60px;
+    .container {
+      .row {
+        h4 {
+          margin-bottom: 10px;
+          width: 80px;
+        }
+        img {
+          width: 150px;
+          height: 150px;
+        }
+        div {
+          height: 120px;
+        }
+      }
+    }
+  }
 
   section.organizers {
     margin-top: 60px;
-    h4 {
-      width: 280px;
-    }
-    img {
-      width: 190px;
-      height: 114px;
+    .container {
+      .row {
+        h4 {
+          margin-bottom: 10px;
+          width: 280px;
+        }
+        img {
+          width: 150px;
+          height: 150px;
+        }
+        div {
+          height: 120px;
+        }
+      }
     }
   }
 
   section.supporters {
-    margin-top: 30px;
+    margin-top: 60px;
     h4 {
-      margin-bottom: 40px;
+      margin-bottom: 30px;
       width: 100px;
     }
     .executive-producer {
       p {
-        position: absolute;
-        left: 0;
         display: inline-block;
-        margin-top: -12px;
+        margin-top: -20px;
+        margin-bottom: -20px;
         width: 100%;
         color: $gray;
         text-transform: uppercase;
         font-size: 12px;
       }
       img {
-        width: 150px;
-        height: 150px;
+        width: 90px;
+        height: 90px;
       }
     }
     .institutional-support {
+      margin-top: 20px;
       margin-bottom: 24px;
       img {
         width: 90px;
         height: 90px;
+      }
+      div {
+        margin-top: 10px;
+        margin-bottom: 10px;
       }
     }
   }
 
   .attribution {
     p, a {
-      text-align: center;
       color: black;
+      text-align: center;
     }
   }
 
@@ -189,24 +213,42 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
     //     height: 290px;
     //   }
     // }
-    // section.bronze {
-    //   img {
-    //     width: 200px;
-    //     height: 200px;
-    //   }
-    // }
 
+    section.bronze {
+      .container {
+        .row {
+          div {
+            height: 150px;
+            img {
+              margin-top: -10px;
+              width: 200px;
+              height: 200px;
+            }
+          }
+        }
+      }
+    }
     section.organizers {
-      img {
-        width: 290px;
-        height: 174px;
+      .container {
+        .row {
+          h4 {
+            margin-bottom: -10px;
+          }
+          div {
+            height: 150px;
+            img {
+              width: 200px;
+              height: 200px;
+            }
+          }
+        }
       }
     }
     section.supporters {
       .executive-producer {
         img {
-          width: 200px;
-          height: 200px;
+          width: 120px;
+          height: 120px;
         }
       }
       .institutional-support {
