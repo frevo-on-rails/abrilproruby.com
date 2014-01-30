@@ -109,14 +109,10 @@ body.index, body.en_index, body.pt_index {
 
   section.ocean {
     z-index: 400;
-    background-image: linear-gradient(to bottom, rgba(1,121,145,1) 0%, rgba(52,155,138,0) 50%), linear-gradient(to bottom, rgba(1,121,145,0) 50%, rgba(1,121,145,1) 100%);
-    .container {
-      min-height: 800px;
-      background-image: image-url('index/ocean-highlight.svg');
-      background-position: center top;
-      background-size: 95%;
-      background-repeat: no-repeat;
-    }
+    background-image: image-url('index/ocean-highlight.svg'), linear-gradient(to bottom, rgba(1,121,145,1) 0%, rgba(52,155,138,0) 50%), linear-gradient(to bottom, rgba(1,121,145,0) 50%, rgba(1,121,145,1) 100%);
+    background-position: center top, center top, center top;
+    background-size: 400%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
   }
 
   .cfp, .tickets {
@@ -527,9 +523,8 @@ body.index, body.en_index, body.pt_index {
 
   @media (min-width: 768px) {
     section.ocean {
-      .container {
-        background-size: 100%;
-      }
+      background-image: image-url('index/ocean-highlight.svg'), linear-gradient(to bottom, rgba(1,121,145,1) 0%, rgba(52,155,138,0) 50%), linear-gradient(to bottom, rgba(1,121,145,0) 50%, rgba(1,121,145,1) 100%);
+      background-size: 200%, 100%, 100%;
     }
     .tickets {
       padding-left: 0;
@@ -604,6 +599,10 @@ body.index, body.en_index, body.pt_index {
   }
 
   @media (min-width: 992px) {
+    section.ocean {
+      background-image: image-url('index/ocean-highlight.svg'), linear-gradient(to bottom, rgba(1,121,145,1) 0%, rgba(52,155,138,0) 50%), linear-gradient(to bottom, rgba(1,121,145,0) 50%, rgba(1,121,145,1) 100%);
+      background-size: 100%, 100%, 100%;
+    }
     .cfp, .tickets {
       a {
         padding-top: 20px;
