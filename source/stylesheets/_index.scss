@@ -10,10 +10,15 @@ body.index, body.en_index, body.pt_index {
   h3, h4, p, a {
     color: white;
     text-shadow: 0px 1px 0px black;
-    font-weight: 200;
     &.btn {
       color: $green;
     }
+  }
+  h3, h4, p {
+    font-weight: 200;
+  }
+  a {
+    font-weight: 3The Call for Proposals is now closed.00;
   }
   ul {
     list-style: none;
@@ -116,7 +121,7 @@ body.index, body.en_index, body.pt_index {
     background-repeat: no-repeat, no-repeat, no-repeat;
   }
 
-  .cfp, .tickets {
+  .cfs, .tickets {
     top: 44px;
     z-index: 2000;
     text-align: center;
@@ -160,10 +165,10 @@ body.index, body.en_index, body.pt_index {
     }
   }
 
-  .cfp {
+  .cfs {
     a {
       span {
-        background: image-url('index/icon-cfp.svg');
+        background: image-url('index/icon-sponsorship.svg');
         background-repeat: no-repeat;
       }
     }
@@ -238,6 +243,7 @@ body.index, body.en_index, body.pt_index {
       padding: 0;
       text-align: left;
       li {
+        margin-top: 6px;
         a {
           text-decoration: underline;
           text-shadow: 0px 1px 0px black;
@@ -270,12 +276,6 @@ body.index, body.en_index, body.pt_index {
           }
         }
       }
-    }
-    a {
-      margin-top: 12px;
-      width: 100%;
-      text-decoration: none;
-      text-shadow: none;
     }
   }
 
@@ -367,60 +367,6 @@ body.index, body.en_index, body.pt_index {
     }
   }
 
-  .producer-footer {
-    margin-top: 36px;
-    margin-bottom: 40px;
-    ul {
-      padding-left: 0;
-    }
-    .casaeventos {
-      display: inline-block;
-      padding-top: 20px;
-      text-align: center;
-      .casaeventos-img {
-        display: inline-block;
-        overflow: hidden;
-        width: 114px;
-        height: 70px;
-        background-image: image-url('index/brands.svg');
-        background-position: 0px -130px;
-        background-repeat: no-repeat;
-        vertical-align: middle;
-        font-size: 0px;
-        &:hover, &:active {
-          background-position: 0px -220px;
-        }
-      }
-    }
-  }
-
-  .advisory-supporter {
-    margin-top: 36px;
-    margin-bottom: 40px;
-    ul {
-      padding-left: 0;
-    }
-    .rubycentral {
-      display: inline-block;
-      padding-top: 10px;
-      text-align: center;
-      .rubycentral-img {
-        display: inline-block;
-        overflow: hidden;
-        width: 97px;
-        height: 80px;
-        background-image: image-url('index/brands.svg');
-        background-position: -150px -130px;
-        background-repeat: no-repeat;
-        vertical-align: middle;
-        font-size: 0px;
-        &:hover, &:active {
-          background-position: -150px -220px;
-        }
-      }
-    }
-  }
-
   .attribution {
     p, a {
       color: $gray2;
@@ -474,7 +420,7 @@ body.index, body.en_index, body.pt_index {
     ul {
       padding: 0;
     }
-    .cfp, .tickets {
+    .cfs, .tickets {
       margin: 120px 0 0 0;
     }
     .porto {
@@ -537,7 +483,7 @@ body.index, body.en_index, body.pt_index {
         }
       }
     }
-    .cfp {
+    .cfs {
       padding-right: 0;
       text-align: left;
       a {
@@ -563,7 +509,7 @@ body.index, body.en_index, body.pt_index {
         }
       }
     }
-    .cfp, .tickets {
+    .cfs, .tickets {
       top: 240px;
     }
     .stay-tuned, .description, .sponsors-footer {
@@ -604,7 +550,7 @@ body.index, body.en_index, body.pt_index {
       background-image: image-url('index/ocean-highlight.svg'), linear-gradient(to bottom, rgba(1,121,145,1) 0%, rgba(52,155,138,0) 50%), linear-gradient(to bottom, rgba(1,121,145,0) 50%, rgba(1,121,145,1) 100%);
       background-size: 100%, 100%, 100%;
     }
-    .cfp, .tickets {
+    .cfs, .tickets {
       a {
         padding-top: 20px;
         span {
