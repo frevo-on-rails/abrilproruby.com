@@ -11,6 +11,7 @@ body {
   font-weight: 200;
   font-size: 16px;
   line-height: 24px;
+  -webkit-font-smoothing: subpixel-antialiased;
 
   a {
     color: #fff;
@@ -175,7 +176,7 @@ body {
         list-style: none;
         text-align: center;
         text-shadow: 1px 1px 1px rgba(0,0,0,1);
-        font-weight: 300;
+        font-weight: 200;
         li {
           display: inline-block;
           &:before {

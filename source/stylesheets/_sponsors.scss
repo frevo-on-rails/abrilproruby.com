@@ -1,5 +1,6 @@
 body.sponsors, body.en_sponsors, body.pt_sponsors {
   background-image: image-url('waves-grey.svg');
+  -webkit-font-smoothing: subpixel-antialiased;
 
   &.pt {
     @media (min-width: 320px) and (max-width: 360px) {

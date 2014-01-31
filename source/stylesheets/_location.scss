@@ -5,6 +5,7 @@ body.location, body.en_location, body.pt_location {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  -webkit-font-smoothing: subpixel-antialiased;
   font-weight: 300;
 
   nav.main {
@@ -125,7 +126,7 @@ body.location, body.en_location, body.pt_location {
       margin-top: 60px;
       color: white;
       text-shadow: 1px 1px 0 black;
-      font-weight: 300;
+      font-weight: 200;
     }
   }
 
