@@ -1,5 +1,4 @@
 body.sponsors, body.en_sponsors, body.pt_sponsors {
-
   background-image: image-url('waves-grey.svg');
 
   &.pt {
@@ -120,45 +119,31 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
   // }
 
   section.bronze {
-    margin-top: 60px;
-    .container {
-      .row {
-        h4 {
-          margin-bottom: 10px;
-          width: 80px;
-        }
-        img {
-          width: 150px;
-          height: 150px;
-        }
-        div {
-          height: 120px;
-        }
-      }
+    margin-top: 40px;
+    h4 {
+      margin-bottom: 10px;
+      width: 80px;
+    }
+    img {
+      width: 150px;
+      height: 112.5px;
     }
   }
 
   section.organizers {
-    margin-top: 60px;
-    .container {
-      .row {
-        h4 {
-          margin-bottom: 10px;
-          width: 280px;
-        }
-        img {
-          width: 150px;
-          height: 150px;
-        }
-        div {
-          height: 120px;
-        }
-      }
+    margin-top: 40px;
+    h4 {
+      margin-bottom: 10px;
+      width: 280px;
+    }
+    img {
+      width: 150px;
+      height: 112.5px;
     }
   }
 
   section.supporters {
-    margin-top: 60px;
+    margin-top: 30px;
     h4 {
       margin-bottom: 30px;
       width: 100px;
@@ -166,12 +151,12 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
     .executive-producer {
       p {
         display: inline-block;
-        margin-top: -20px;
         margin-bottom: -20px;
         width: 100%;
         color: $gray;
         text-transform: uppercase;
         font-size: 12px;
+        line-height: 14px;
       }
       img {
         width: 90px;
@@ -179,7 +164,7 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
       }
     }
     .institutional-support {
-      margin-top: 20px;
+      margin-top: 10px;
       margin-bottom: 24px;
       img {
         width: 90px;
@@ -215,33 +200,18 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
     // }
 
     section.bronze {
-      .container {
-        .row {
-          div {
-            height: 150px;
-            img {
-              margin-top: -10px;
-              width: 200px;
-              height: 200px;
-            }
-          }
-        }
+      img {
+        width: 200px;
+        height: 150px;
       }
     }
     section.organizers {
-      .container {
-        .row {
-          h4 {
-            margin-bottom: -10px;
-          }
-          div {
-            height: 150px;
-            img {
-              width: 200px;
-              height: 200px;
-            }
-          }
-        }
+      h4 {
+        margin-bottom: 5px;
+      }
+      img {
+        width: 200px;
+        height: 150px;
       }
     }
     section.supporters {
