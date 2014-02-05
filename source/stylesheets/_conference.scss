@@ -121,21 +121,14 @@ body.conference, body.en_conference, body.pt_conference {
     }
 
     .cfp {
-      margin-top: 40px;
+      margin-top: 20px;
       margin-bottom: 20px;
       padding: 5px;
-      width: auto;
-      border-radius: 3px;
-      background-color: transparentize($gray, 0.85);
+      border: 2px solid $gray3;
       text-align: center;
+      font-size: 16px;
       font-weight: 300;
-      color: black;
-      a {
-        color: black;
-      }
-      strong {
-        font-weight: 400;
-      }
+      color: $gray;
     }
   }
 
