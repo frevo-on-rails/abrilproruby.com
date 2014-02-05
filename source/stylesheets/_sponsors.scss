@@ -26,9 +26,11 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
       section.silver {
         .la {
           .activity-supporter {
+            text-align: left;
             width: 260px;
+            padding-left: 52px;
             .icon-supporter {
-              margin-top: 2px;
+              margin-top: 1px;
               margin-left: -40px;
             }
           }
@@ -146,6 +148,9 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
       width: 190px;
       height: 131px;
     }
+    p {
+      margin-top: 5px;
+    }
   }
 
   section.bronze {
@@ -221,22 +226,23 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 10px;
-    padding: 5px 5px 5px 36px;
+    padding: 3px 5px 3px 28px;
+    border: 2px solid $gray2;
     width: 222px;
-    font-weight: 400;
+    font-weight: 600;
     color: black;
     font-size: 13px;
     text-shadow: white 0 1px;
     text-transform: uppercase;
-    background-color: $gray2;
+    background-color: white;
     text-align: center;
     line-height: 16px;
     .icon-supporter {
       position: absolute;
       display: inline-block;
-      width: 26px;
-      height: 26px;
-      margin-top: -4px;
+      width: 32px;
+      height: 32px;
+      margin-top: -8px;
       margin-left: -32px;
       background-image: image-url('sponsors/icon-supporter.svg');
     }
