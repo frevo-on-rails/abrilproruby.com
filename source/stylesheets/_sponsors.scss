@@ -3,9 +3,30 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
   -webkit-font-smoothing: subpixel-antialiased;
 
   &.pt {
+    section.apoio {
+      width: 50px;
+    }
+    section.silver {
+      .la {
+        .activity-supporter {
+          width: 290px;
+        }
+      }
+    }
     @media (min-width: 320px) and (max-width: 360px) {
       h1 {
         font-size: 36px;
+      }
+      section.silver {
+        .la {
+          .activity-supporter {
+            width: 260px;
+            .icon-supporter {
+              margin-top: 2px;
+              margin-left: -40px;
+            }
+          }
+        }
       }
     }
     @media (min-width: 768px) {
@@ -14,9 +35,6 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
           width: 390px;
         }
       }
-    }
-    section.apoio {
-      width: 50px;
     }
   }
 
@@ -88,7 +106,7 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
     }
   }
 
-  .tempest, .ubee, .engineyard, .elife, .for, .guava, .eventick, .casaeventos, .rubycentral, .casablanca, .thoughtworks, .globo, .casadocodigo, .designa, .tagarela, .novatec, .appies, .codeclimate {
+  .tempest, .la, .ubee, .engineyard, .elife, .for, .guava, .eventick, .casaeventos, .rubycentral, .casablanca, .thoughtworks, .globo, .casadocodigo, .designa, .tagarela, .novatec, .appies, .codeclimate {
     display: inline-block;
     text-align: center;
     img {
@@ -112,12 +130,17 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
     }
   }
 
-  // section.silver {
-  //   img {
-  //     width: 190px;
-  //     height: 190px;
-  //   }
-  // }
+  section.silver {
+    margin-top: 40px;
+    h4 {
+      margin-bottom: 10px;
+      width: 75px;
+    }
+    img {
+      width: 190px;
+      height: 131px;
+    }
+  }
 
   section.bronze {
     margin-top: 40px;
@@ -185,6 +208,33 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
     }
   }
 
+  .activity-supporter {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 36px;
+    width: 222px;
+    border-radius: 2px;
+    font-weight: 400;
+    color: black;
+    font-size: 13px;
+    text-shadow: white 0 1px;
+    text-transform: uppercase;
+    background-color: $gray2;
+    text-align: center;
+    line-height: 16px;
+    .icon-supporter {
+      position: absolute;
+      display: inline-block;
+      width: 26px;
+      height: 26px;
+      margin-top: -4px;
+      margin-left: -32px;
+      background-image: image-url('sponsors/icon-supporter.svg');
+    }
+  }
+
   @media (min-width: 510px) {
     section.gold {
       img {
@@ -193,12 +243,12 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
       }
     }
 
-    // section.silver {
-    //   img {
-    //     width: 290px;
-    //     height: 290px;
-    //   }
-    // }
+    section.silver {
+      img {
+        width: 290px;
+        height: 200px;
+      }
+    }
 
     section.bronze {
       img {
