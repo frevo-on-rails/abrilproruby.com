@@ -2,6 +2,12 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
   background-image: image-url('waves-grey.svg');
   -webkit-font-smoothing: subpixel-antialiased;
 
+  ul, dl {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
   &.pt {
     section.apoio {
       width: 50px;
@@ -173,7 +179,7 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
       width: 100px;
     }
     .executive-producer {
-      p {
+      dt {
         display: inline-block;
         margin-bottom: -20px;
         width: 100%;
@@ -181,10 +187,12 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
         text-transform: uppercase;
         font-size: 12px;
         line-height: 14px;
+        font-weight: 400;
       }
       img {
         width: 90px;
         height: 90px;
+        margin-bottom: 20px;
       }
     }
     .institutional-support {
