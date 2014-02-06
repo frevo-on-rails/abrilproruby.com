@@ -10,6 +10,8 @@ body.location, body.en_location, body.pt_location {
 
   hr {
     border-top: 2px solid $gray3;
+    width: 120%;
+    margin-left: -50px;
   }
 
   nav.main {
@@ -66,6 +68,7 @@ body.location, body.en_location, body.pt_location {
   }
 
   section.porto-de-galinhas {
+    overflow: hidden;
     h1, h2, h3, a {
       color: $blue;
     }
@@ -170,6 +173,10 @@ body.location, body.en_location, body.pt_location {
         padding-left: 0;
       }
     }
+    hr {
+      width: 150%;
+      margin-left: -50px;
+    }
   }
 
   @media (max-width: 1024px) {
@@ -195,6 +202,10 @@ body.location, body.en_location, body.pt_location {
         }
       }
     }
+    hr {
+      width: 119%;
+      margin-left: -50px;
+    }
   }
 
   @media (min-width: 992px) and (max-width: 1199px) {
@@ -210,6 +221,10 @@ body.location, body.en_location, body.pt_location {
           }
         }
       }
+    }
+    hr {
+      width: 118%;
+      margin-left: -50px;
     }
   }
 
