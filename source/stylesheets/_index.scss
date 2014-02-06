@@ -18,7 +18,10 @@ body.index, body.en_index, body.pt_index {
     font-weight: 200;
   }
   a {
-    font-weight: 3The Call for Proposals is now closed.00;
+    font-weight: 400;
+    &:hover {
+      color: $gray3;
+    }
   }
   ul {
     list-style: none;
