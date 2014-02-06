@@ -72,8 +72,12 @@ body.location, body.en_location, body.pt_location {
     h1, h2, h3, a {
       color: $blue;
     }
-    h1, h2, h3, h4 {
+    h1, h2, h4 {
       margin-top: 24px;
+      margin-bottom: 12px;
+    }
+    h3 {
+      margin-top: 48px;
       margin-bottom: 12px;
     }
     h1, h2, h3 {
@@ -81,7 +85,7 @@ body.location, body.en_location, body.pt_location {
     }
     h4 {
       color: black;
-      font-weight: 400;
+      font-weight: 600;
     }
     p {
       color: black;
@@ -104,10 +108,13 @@ body.location, body.en_location, body.pt_location {
         }
       }
     }
+    strong {
+      font-weight: 600;
+    }
     .container {
       .about-porto {
         margin-bottom: 20px;
-        padding: 26px 45px 50px 50px;
+        padding: 10px 45px 50px 50px;
         min-height: 400px;
         background-color: white;
         box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
@@ -125,6 +132,20 @@ body.location, body.en_location, body.pt_location {
       left: 0;
       width: 100%;
       height: 100%;
+    }
+    .to-the-top {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 14px;
+      width: 48px;
+      height: 24px;
+      border: 2px solid $gray3;
+      text-align: center;
+      &:hover {
+        text-decoration: none;
+        border-color: $blue;
+      }
     }
   }
 
@@ -248,14 +269,15 @@ body.location, body.en_location, body.pt_location {
           background-image: image-url('location/chicken@2x.png');
         }
         &.icon-map {
+          margin-top: -360px;
           background-image: image-url('location/map@2x.png');
         }
         &.icon-city {
-          margin-top: -200px;
+          margin-top: -420px;
           background-image: image-url('location/city@2x.png');
         }
         &.icon-crab {
-          margin-top: -60px;
+          margin-top: -100px;
           background-image: image-url('location/crab@2x.png');
         }
       }
