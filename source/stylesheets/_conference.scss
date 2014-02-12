@@ -88,6 +88,10 @@ body.conference, body.en_conference, body.pt_conference {
         vertical-align: middle;
       }
     }
+    hr {
+      border-top-width: 2px;
+      border-color: $gray2;
+    }
 
     .speaker {
       @extend .clearfix;
@@ -97,10 +101,10 @@ body.conference, body.en_conference, body.pt_conference {
         display: block;
         margin-right: auto;
         margin-left: auto;
-        width: 120px;
-        height: 120px;
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
         border: 2px solid white;
-        border-radius: 60px;
         box-shadow: 0px 0px 8px rgba(0,0,0,.75);
       }
       .desc {
@@ -116,18 +120,49 @@ body.conference, body.en_conference, body.pt_conference {
           font-weight: 300;
           font-size: 16px;
         }
+        .title + p {
+          margin-top: 10px;
+        }
+        .invited {
+          position: relative;
+          margin: 0;
+          padding: 1px 5px 1px 5px;
+          height: 20px;
+          border: 2px solid $gray2;
+          background-color: transparent;
+          color: $gray;
+          text-transform: uppercase;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 12px;
+        }
       }
     }
 
-    .cfp {
+    .whiteboard {
       margin-top: 20px;
       margin-bottom: 20px;
-      padding: 5px;
-      border: 2px solid $gray2;
-      text-align: center;
-      font-size: 16px;
-      font-weight: 300;
+      padding: 90px 10px 10px 10px;
+      height: 200px;
+      background-position: top center;
+      background-size: 200px;
+      background-repeat: no-repeat;
       color: black;
+      text-align: center;
+      font-weight: 300;
+      font-size: 16px;
+      p {
+        display: inline-block;
+        width: 180px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    .cfp {
+      background-image: image-url('conference/graphic-cfp-end.svg');
+    }
+    .translation {
+      background-image: image-url('conference/graphic-translation.svg');
     }
   }
 
@@ -151,6 +186,12 @@ body.conference, body.en_conference, body.pt_conference {
         background-position: 0px -684px;
         content: '';
         vertical-align: middle;
+      }
+      &.workshops {
+        &:before {
+          background-image: image-url('graphics.svg');
+          background-position: 0px -717px;
+        }
       }
     }
     h3 {
@@ -201,6 +242,9 @@ body.conference, body.en_conference, body.pt_conference {
           background-position: -160px -684px;
         }
       }
+    }
+    hr {
+      border-top-width: 2px;
     }
 
     .remarks {
