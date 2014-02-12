@@ -100,6 +100,12 @@ body.location, body.en_location, body.pt_location {
     ul, address {
       color: black;
     }
+    dl {
+      dt {
+        font-weight: 600;
+        color: $gray;
+      }
+    }
     .tel {
       a {
         padding-right: 0.5em;
