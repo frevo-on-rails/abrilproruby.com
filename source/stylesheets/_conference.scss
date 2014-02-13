@@ -202,6 +202,7 @@ body.conference, body.en_conference, body.pt_conference {
         vertical-align: middle;
       }
       &.activities-work {
+        margin-bottom: 10px;
         &:before {
           background-image: image-url('graphics.svg');
           background-position: 0px -717px;
@@ -209,7 +210,7 @@ body.conference, body.en_conference, body.pt_conference {
       }
     }
     .activities-fun {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       &+p {
         margin-bottom: 20px;
       }
