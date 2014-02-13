@@ -105,9 +105,9 @@ body.conference, body.en_conference, body.pt_conference {
         display: block;
         margin-right: auto;
         margin-left: auto;
-        width: 150px;
-        height: 150px;
-        border-radius: 75px;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
         border: 2px solid white;
         box-shadow: 0px 0px 8px rgba(0,0,0,.75);
       }
@@ -323,9 +323,6 @@ body.conference, body.en_conference, body.pt_conference {
         text-align: center;
         .photo {
           float: none;
-          width: 150px;
-          height: 150px;
-          border-radius: 75px;
         }
         .desc {
           margin: 1em auto;
