@@ -201,11 +201,17 @@ body.conference, body.en_conference, body.pt_conference {
         content: '';
         vertical-align: middle;
       }
-      &.activities-fun {
+      &.activities-work {
         &:before {
           background-image: image-url('graphics.svg');
           background-position: 0px -717px;
         }
+      }
+    }
+    .activities-fun {
+      margin-bottom: 20px;
+      &+p {
+        margin-bottom: 20px;
       }
     }
     h3 {
