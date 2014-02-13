@@ -151,6 +151,12 @@ body.conference, body.en_conference, body.pt_conference {
       text-align: center;
       font-weight: 300;
       font-size: 16px;
+      h3 {
+        font-weight: 600;
+        font-size: 16px;
+        margin: 0;
+        white-space: pre-wrap;
+      }
       p {
         display: inline-block;
         width: 180px;
