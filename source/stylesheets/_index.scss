@@ -295,48 +295,67 @@ body.index, body.en_index, body.pt_index {
         margin-top: 0;
       }
     }
-    .tempest {
+    .sponsor {
       display: inline-block;
       padding: 10px 0 0 0;
       text-align: center;
-      .tempest-img {
+      a {
         display: inline-block;
         overflow: hidden;
-        width: 244px;
-        height: 99px;
         background-image: image-url('index/brands.svg');
-        background-position: 0px -300px;
         background-repeat: no-repeat;
         vertical-align: middle;
         font-size: 0px;
+      }
+    }
+    .tempest {
+      margin-bottom: 10px;
+      a {
+        width: 244px;
+        height: 99px;
+        background-position: 0px -400px;
         &:hover, &:active {
-          background-position: 0px -400px;
+          background-position: 0px -500px;
         }
       }
     }
     .la {
-      display: inline-block;
-      padding: 10px 0 0 0;
-      text-align: center;
-      .la-img {
-        display: inline-block;
-        overflow: hidden;
+      margin: 10px 0;
+      a {
         width: 132px;
-        height: 61px;
-        background-image: image-url('index/brands.svg');
+        height: 65px;
         background-position: 0px -130px;
-        background-repeat: no-repeat;
-        vertical-align: middle;
-        font-size: 0px;
         &:hover, &:active {
           background-position: -150px -130px;
+        }
+      }
+    }
+    .livingsocial {
+      margin: 10px 0;
+      a {
+        width: 132px;
+        height: 65px;
+        background-position: 0px -200px;
+        &:hover, &:active {
+          background-position: -150px -200px;
+        }
+      }
+    }
+    .sendgrid {
+      margin: 10px 0;
+      a {
+        width: 132px;
+        height: 65px;
+        background-position: 0px -250px;
+        &:hover, &:active {
+          background-position: -150px -250px;
         }
       }
     }
   }
 
   .organizers-footer {
-    margin-top: 36px;
+    margin-top: 26px;
     .for {
       display: inline-block;
       padding-top: 10px;

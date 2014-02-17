@@ -2,7 +2,7 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
   background-image: image-url('waves-grey.svg');
   -webkit-font-smoothing: subpixel-antialiased;
 
-  ul, dl {
+  ul, li, dl {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -114,7 +114,7 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
     }
   }
 
-  .tempest, .la, .ubee, .engineyard, .elife, .nird, .for, .guava, .eventick, .casaeventos, .rubycentral, .casablanca, .thoughtworks, .globo, .casadocodigo, .designa, .tagarela, .novatec, .appies, .codeclimate {
+  .tempest, .la, .livingsocial, .sendgrid, .ubee, .engineyard, .elife, .nird, .for, .guava, .eventick, .casaeventos, .rubycentral, .casablanca, .thoughtworks, .globo, .casadocodigo, .designa, .tagarela, .novatec, .appies, .codeclimate {
     display: inline-block;
     text-align: center;
     img {
@@ -257,6 +257,9 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
     }
 
     section.silver {
+      // .la, .livingsocial, .sendgrid {
+      //   height: 500px;
+      // }
       img {
         width: 290px;
         height: 200px;
@@ -336,6 +339,16 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
               }
             }
           }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    section.silver {
+      .la, .livingsocial, .sendgrid {
+        p {
+          padding: 0 30px;
         }
       }
     }
