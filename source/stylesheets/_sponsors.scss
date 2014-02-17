@@ -225,7 +225,7 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 10px;
+    margin-top: 10px;
     padding: 3px 5px 3px 28px;
     border: 2px solid $gray2;
     width: 222px;
@@ -348,6 +348,7 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
     section.silver {
       .la, .livingsocial, .sendgrid {
         p {
+          margin-top: -25px;
           padding: 0 30px;
         }
       }
