@@ -8,6 +8,11 @@ body.conference, body.en_conference, body.pt_conference {
   strong {
     font-weight: 600;
   }
+  hr {
+    border-top-width: 2px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 
   nav.main {
     box-shadow: 0 1px 0 rgba(0,0,0,.25), 0 1px 2px rgba(0,0,0,.25), inset 0 -1px 0 rgba(255,255,255,.3);
@@ -69,13 +74,63 @@ body.conference, body.en_conference, body.pt_conference {
     }
   }
 
+  h3 {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+    .talk-subtitle {
+      font-weight: 400;
+    }
+    &.date {
+      margin-top: 0;
+      margin-bottom: 40px;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 20px;
+      sup {
+        text-transform: none;
+      }
+    }
+  }
+  .speaker {
+    @extend .clearfix;
+    margin-bottom: 40px;
+    color: $gray;
+    .photo {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      width: 200px;
+      height: 200px;
+      border: 2px solid white;
+      border-radius: 100px;
+      box-shadow: 0px 0px 8px rgba(0,0,0,.75);
+    }
+    .desc {
+      text-align: center;
+      line-height: 20px;
+      .name {
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 2px;
+        font-weight: 400;
+      }
+      .title {
+        font-weight: 200;
+        font-size: 16px;
+      }
+    }
+  }
+
   section.speakers {
     padding: 20px 0 40px;
     background-color: white;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%), linear-gradient(to bottom, rgba(255,255,255,0) 50%, rgba(255,255,255,1) 100%), image-url('waves-10.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 25%), linear-gradient(to bottom, rgba(255,255,255,0) 75%, rgba(255,255,255,1) 100%), image-url('waves-10.svg');
     color: $green;
     h2 {
-      margin: 16px 0;
+      margin: 16px 0 8px 0;
       text-align: center;
       text-transform: uppercase;
       font-size: 36px;
@@ -92,100 +147,23 @@ body.conference, body.en_conference, body.pt_conference {
         vertical-align: middle;
       }
     }
-    hr {
-      border-top-width: 2px;
-      border-color: $gray2;
+    h3 {
+      color: $green;
     }
-
-    .speaker {
-      @extend .clearfix;
-      margin-bottom: 0.5em;
-      padding: 0.5em 0;
-      .photo {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        width: 200px;
-        height: 200px;
-        border-radius: 100px;
-        border: 2px solid white;
-        box-shadow: 0px 0px 8px rgba(0,0,0,.75);
-      }
-      .desc {
-        margin-top: .75em;
-        text-align: center;
-        .name {
-          display: inline-block;
-          margin-top: 0;
-          margin-bottom: 2px;
-          font-weight: 400;
-        }
-        .title {
-          font-weight: 300;
-          font-size: 16px;
-        }
-        .title + p {
-          margin-top: 10px;
-        }
-        .invited {
-          position: relative;
-          margin: 0;
-          padding: 1px 5px 1px 5px;
-          height: 20px;
-          border: 2px solid $gray2;
-          background-color: transparent;
-          color: $gray;
-          text-transform: uppercase;
-          font-weight: 400;
-          font-size: 12px;
-          line-height: 12px;
-        }
-      }
-    }
-
-    .whiteboard {
-      margin-top: 20px;
-      margin-bottom: 20px;
-      padding: 90px 10px 10px 10px;
-      height: 200px;
-      background-position: top center;
-      background-size: 200px;
-      background-repeat: no-repeat;
-      color: black;
-      text-align: center;
+    .remarks {
       font-weight: 300;
-      font-size: 16px;
-      h3 {
-        font-weight: 600;
-        font-size: 16px;
-        margin: 0;
-        white-space: pre-wrap;
+      ul {
+        color: $gray;
       }
-      p {
-        display: inline-block;
-        width: 180px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-    }
-    .cfp {
-      background-image: image-url('conference/graphic-cfp-end.svg');
-    }
-    .translation {
-      background-image: image-url('conference/graphic-translation.svg');
     }
   }
 
-  section.activities {
+  section.activities-all {
     padding-top: 30px;
     background-image: linear-gradient(to bottom, rgba(1,121,145,1) 0%, rgba(52,155,138,0) 50%), linear-gradient(to bottom, rgba(1,121,145,0) 50%, rgba(1,121,145,1) 100%);
     text-shadow: 1px 1px 1px rgba(0,0,0,1);
-    hr {
-      margin-top: 30px;
-      margin-bottom: 30px;
-    }
     h2 {
-      margin: 16px 0 0 0;
+      margin: 16px 0 8px 0;
       text-align: center;
       text-transform: uppercase;
       font-size: 36px;
@@ -202,12 +180,14 @@ body.conference, body.en_conference, body.pt_conference {
         vertical-align: middle;
       }
       &.activities-work {
-        margin-bottom: 10px;
         &:before {
           background-image: image-url('graphics.svg');
           background-position: 0px -717px;
         }
       }
+    }
+    h3 {
+      color: white;
     }
     .activities-fun {
       margin-bottom: 20px;
@@ -215,36 +195,40 @@ body.conference, body.en_conference, body.pt_conference {
         margin-bottom: 20px;
       }
     }
-    h3 {
-      text-align: center;
-      text-transform: uppercase;
-      font-size: 20px;
-      sup {
-        text-transform: none;
-      }
-    }
     p {
       text-align: center;
     }
     .friday, .sunday {
       margin-top: -2px;
-      border: 2px solid white;
+      margin-bottom: 20px;
       text-align: center;
       text-transform: none;
       font-weight: 200;
       line-height: 24px;
+      h3 {
+        &.date {
+          margin-bottom: 16px;
+        }
+      }
       ul {
         padding-left: 0;
         list-style: none;
+        .activity {
+          line-height: 16px;
+          display: inline-block;
+          margin-top: 10px;
+          margin-left: 15px;
+          margin-bottom: 10px;
+          padding: 15px 0 0 0;
+          width: 130px;
+          height: 130px;
+          border: 2px solid white;
+        }
       }
-    }
-    .sunday {
-      margin-left: -2px;
     }
     ul {
       @extend .list-unstyled;
       padding-bottom: .5em;
-
       .icon {
         display: block;
         margin-right: auto;
@@ -269,32 +253,58 @@ body.conference, body.en_conference, body.pt_conference {
         }
       }
     }
-
-    hr {
-      border-top-width: 2px;
+    .speaker {
+      color: white;
+      margin-bottom: 32px;
+      .two-men-army {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 250px;
+        .two-photos {
+          display: block;
+        }
+        .last {
+          margin-top: -40px;
+        }
+      }
+      .desc {
+        .tag-period {
+          position: relative;
+          margin: 0;
+          padding: 1px 5px 1px 5px;
+          height: 20px;
+          border: 2px solid $gray2;
+          background-color: transparent;
+          color: $gray2;
+          text-shadow: none;
+          text-transform: uppercase;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 12px;
+        }
+      }
     }
+  }
 
-    .remarks {
-      padding-top: 30px;
-      text-transform: none;
-
-      ul {
-        @extend .list-unstyled;
-        color: white;
-        text-align: center;
-        font-size: 13px;
-        line-height: 16px;
-        li {
-          display: inline;
-          &:before {
-            padding: 0 .7em;
-            color: $gray2;
-            content: '♦';
-            font-size: 10px;
-          }
-          &:first-child:before {
-            content: none;
-          }
+  .remarks {
+    text-transform: none;
+    ul {
+      @extend .list-unstyled;
+      color: white;
+      text-align: center;
+      font-size: 13px;
+      line-height: 16px;
+      li {
+        display: inline;
+        &:before {
+          padding: 0 1em;
+          color: $gray2;
+          content: '♦';
+          font-size: 8px;
+        }
+        &:first-child:before {
+          content: none;
         }
       }
     }
@@ -303,6 +313,23 @@ body.conference, body.en_conference, body.pt_conference {
   .attribution {
     p, a {
       color: $gray2;
+    }
+  }
+
+  @media (min-width: 440px) {
+    section.activities-all {
+      .speaker {
+        .two-men-army {
+          width: 370px;
+          .two-photos {
+            display: inline-block;
+          }
+          .last {
+            margin-top: 0;
+            margin-left: -40px;
+          }
+        }
+      }
     }
   }
 
@@ -319,14 +346,12 @@ body.conference, body.en_conference, body.pt_conference {
         }
       }
     }
-    .sunday {
-      margin-left: 0;
-    }
   }
 
   @media (min-width: 768px) {
     section.speakers {
       .speaker {
+        height: 340px;
         text-align: center;
         .photo {
           float: none;
@@ -335,16 +360,18 @@ body.conference, body.en_conference, body.pt_conference {
           margin: 1em auto;
           .name {
             padding-bottom: 2px;
-            font-size: 20px;
           }
           .title {
             font-size: 16px;
           }
         }
-        &.jim .desc {
-          width: 160px;
-        }
       }
+      .michel {
+        height: 300px;
+      }
+    }
+    .cloves-tim {
+      margin-bottom: 32px
     }
   }
 
@@ -366,35 +393,17 @@ body.conference, body.en_conference, body.pt_conference {
 
   @media (min-width: 992px) {
     section.speakers {
-      h2 {
-        margin-bottom: .5em;
-      }
       .speaker {
         .photo {
           width: 200px;
           height: 200px;
           border-radius: 100px;
         }
-
-        // .desc {
-        //   line-height: 1.5;
-
-          .name {
-            padding-bottom: 0;
-            font-size: 24px;
-          }
-          .title {
-            font-size: 16px;
-          }
-        // }
-        &.jim .desc {
-          width: 200px;
+        .name {
+          padding-bottom: 0;
         }
-        &.nell .desc {
-          width: 280px;
-        }
-        &.rafael .desc {
-          width: 260px;
+        .title {
+          font-size: 16px;
         }
       }
     }
@@ -421,5 +430,4 @@ body.conference, body.en_conference, body.pt_conference {
       background-size: cover;
     }
   }
-
 }
