@@ -313,6 +313,12 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
     }
   }
 
+  @media (min-width: 768px) {
+    .livingsocial {
+      margin-top: 0;
+    }
+  }
+
   @media (min-width: 768px) and (max-width: 991px) {
     nav.main {
       .navbar-collapse {
