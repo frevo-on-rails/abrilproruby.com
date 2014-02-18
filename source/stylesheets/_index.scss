@@ -286,6 +286,20 @@ body.index, body.en_index, body.pt_index {
     text-align: center;
   }
 
+  .sponsor {
+    display: inline-block;
+    padding: 10px 0 0 0;
+    text-align: center;
+    a {
+      display: inline-block;
+      overflow: hidden;
+      background-image: image-url('index/brands.svg');
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      font-size: 0px;
+    }
+  }
+
   .sponsors-footer {
     margin-top: 36px;
     h4 {
@@ -293,19 +307,6 @@ body.index, body.en_index, body.pt_index {
       margin-top: 36px;
       &:first-child {
         margin-top: 0;
-      }
-    }
-    .sponsor {
-      display: inline-block;
-      padding: 10px 0 0 0;
-      text-align: center;
-      a {
-        display: inline-block;
-        overflow: hidden;
-        background-image: image-url('index/brands.svg');
-        background-repeat: no-repeat;
-        vertical-align: middle;
-        font-size: 0px;
       }
     }
     .tempest {
@@ -320,7 +321,8 @@ body.index, body.en_index, body.pt_index {
       }
     }
     .la {
-      margin: 10px 0;
+      margin-top: 16px;
+      margin-bottom: 16px;
       a {
         width: 132px;
         height: 65px;
@@ -331,7 +333,8 @@ body.index, body.en_index, body.pt_index {
       }
     }
     .livingsocial {
-      margin: 10px 0;
+      margin-top: 16px;
+      margin-bottom: 16px;
       a {
         width: 132px;
         height: 65px;
@@ -342,7 +345,8 @@ body.index, body.en_index, body.pt_index {
       }
     }
     .sendgrid {
-      margin: 10px 0;
+      margin-top: 16px;
+      margin-bottom: 16px;
       a {
         width: 132px;
         height: 65px;
@@ -357,57 +361,36 @@ body.index, body.en_index, body.pt_index {
   .organizers-footer {
     margin-top: 26px;
     .for {
-      display: inline-block;
       padding-top: 10px;
-      text-align: center;
-      .for-img {
-        display: inline-block;
-        overflow: hidden;
+      a {
         width: 132px;
         height: 45px;
         background-image: image-url('index/brands.svg');
         background-position: 0px 0px;
-        background-repeat: no-repeat;
-        vertical-align: middle;
-        font-size: 0px;
         &:hover, &:active {
           background-position: -150px 0px;
         }
       }
     }
     .guava {
-      display: inline-block;
       padding-top: 25px;
-      text-align: center;
-      .guava-img {
-        display: inline-block;
-        overflow: hidden;
+      a {
         width: 99px;
         height: 28px;
         background-image: image-url('index/brands.svg');
         background-position: 0px -50px;
-        background-repeat: no-repeat;
-        vertical-align: middle;
-        font-size: 0px;
         &:hover, &:active {
           background-position: -150px -50px;
         }
       }
     }
     .eventick {
-      display: inline-block;
       padding-top: 10px;
-      text-align: center;
-      .eventick-img {
-        display: inline-block;
-        overflow: hidden;
+      a {
         width: 118px;
         height: 42px;
         background-image: image-url('index/brands.svg');
         background-position: 0px -80px;
-        background-repeat: no-repeat;
-        vertical-align: middle;
-        font-size: 0px;
         &:hover, &:active {
           background-position: -150px -80px;
         }
