@@ -6,7 +6,7 @@
 Cientista-chefe na Neo
 
 ### Short Bio
-Jim Weirich first learned about computers when his college adviser suggested he take a computer science course: "It will be useful, and you might enjoy it." With those prophetic words, Jim has been developing now for over 25 years, working with everything from crunching rocket launch data on supercomputers to wiring up servos and LEDs on micro-controllers. Currently he loves working in Ruby and Rails as the Chief Scientist at Neo, but you can also find him strumming on his ukulele as time permits.
+Jim Weirich aprendeu sobre computadores quando o mentor de sua faculdade sugeriu que ele fizesse o curso de ciência da computação: "Será útil e você pode gostar." Com essas palavras proféticas, Jim vem desenvolvendo por mais de 25 anos, trabalhando com tudo, desde processamento de dados de lançamento de foguetes em supercomputadores a fiação de servomecanismos e LEDs em microcontroladores. Atualmente ele ama trabalhar com Ruby e Rails como Cientista-chefe na Neo, mas você também pode encontrá-lo tocando seu ukulele quando o tempo permite.
 
 ### Residence
 Cincinnati, EUA
@@ -15,11 +15,11 @@ Cincinnati, EUA
 Segregação Incremental em Rails
 
 ### Talk Description
-Testing is hard. Testing a Rails application is even harder. Rails applications tend to blend application logic and framework logic together, making tests load up lots of framework code just to test minor pieces of functionality. The result is that tests run slow, and developers tend to run test less often, and the TDD red/green/refactor cycle is broken.
+Testar é difícil. Testar uma aplicação Rails é ainda mais difícil. Aplicações Rails tendem a misturar lógica de negócios com lógica do framework, fazendo os testes carregaram um monte de código do framework só para testar pequenos pedaços de funcionalidade. O resultado é que os testes são lentos, desenvolvedores rodam os testes com menos frequência e o ciclo vermelho/verde/refatorar é quebrado.
 
-There are many solutions to the application / framework blending problem, but many require a large, up front architectural commitment. If you have an existing application that needs help, then you just out of luck.
+Existem muitas soluções para o problema de fusão do código da aplicação com o framework, mas muitas precisam de um grande compromisso arquitetural. Se você tem uma aplicação que precisa de ajuda, então você está sem sorte.
 
-In this presentation, we will talk about a simple approach to application and framework segregation, one that can be applied incrementally to existing applications with good effect. We will examine tips and techniques for keeping your fast feedback tests free from framework concerns, and for dealing with the problem of fat controllers without also creating fat models. In the end we will use Rails for what it does best without hindering developers from using TDD in a fast feedback mode.
+Nessa apresentação, nós vamos falar de uma abordagem para segregar a aplicação e o framework, uma abordagem que possa ser aplicada incrementalmente a aplicações existentes com sucesso. Vamos examinar dicas e técnicas para manter seus testes de feedback rápido livres de preocupações do framework, e para lidar com o problema de controladores gordos sem criar modelos gordos. No fim, vamos usar Rails pelo que ele faz melhor, sem dificultar o uso do ciclo de feedback rápido do TDD.
 
 ## Rafael França :ok:
 
