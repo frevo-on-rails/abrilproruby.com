@@ -9,9 +9,9 @@ body.conference, body.en_conference, body.pt_conference {
     font-weight: 600;
   }
   hr {
-    border-top-width: 2px;
     margin-top: 40px;
     margin-bottom: 40px;
+    border-top-width: 2px;
   }
 
   nav.main {
@@ -70,6 +70,86 @@ body.conference, body.en_conference, body.pt_conference {
       .icon {
         background-image: image-url('icon-header-conference@2x.png');
         background-size: 128px;
+      }
+    }
+    nav.secondary {
+      ul {
+        li {
+          a {
+            .icon {
+              &:after {
+                position: absolute;
+                top: 37px;
+                left: 27px;
+                content: '';
+                width: 2px;
+                height: 10px;
+                background-color: rgba(255,255,255,.5);
+              }
+            }
+            .icon-workshops {
+              background-position: -96px -609px;
+            }
+            .icon-activities {
+             background-position: -160px -609px;
+            }
+            .icon-talks {
+              background-position: -32px -609px;
+            }
+            .day {
+              display: inline-block;
+              margin-right: 5px;
+              padding: 4px 3px 3px 3px;
+              width: auto;
+              height: 26px;
+              color: $gray3;
+              line-height: 13px;
+              span {
+                padding: 0 2px;
+                font-weight: 200;
+                font-size: 11px;
+              }
+            }
+            &:before {
+              position: absolute;
+              top: 46px;
+              left: 25px;
+              display: block;
+              width: 62px;
+              height: 2px;
+              background-color: rgba(255,255,255,.5);
+              content: '';
+            }
+          }
+          &:first-child:before {
+            position: absolute;
+            top: 46px;
+            left: -50px;
+            display: block;
+            width: 75px;
+            height: 2px;
+            background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.5) 100%);
+            content: '';
+          }
+          &:last-child:before {
+            position: absolute;
+            top: 46px;
+            left: 25px;
+            display: block;
+            width: 69px;
+            height: 2px;
+            background: linear-gradient(to right, rgba(255,255,255,.5) 0%, rgba(255,255,255,0) 100%);
+            content: '';
+          }
+          &:last-child {
+            a {
+              &:before {
+                display: none;
+                visibility: hidden;
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -131,7 +211,6 @@ body.conference, body.en_conference, body.pt_conference {
     h2 {
       margin: 16px 0 8px 0;
       text-align: center;
-      text-transform: uppercase;
       font-size: 36px;
       &:before {
         position: relative;
@@ -164,7 +243,6 @@ body.conference, body.en_conference, body.pt_conference {
     h2 {
       margin: 16px 0 8px 0;
       text-align: center;
-      text-transform: uppercase;
       font-size: 36px;
       &:before {
         position: relative;
@@ -213,15 +291,15 @@ body.conference, body.en_conference, body.pt_conference {
         padding-left: 0;
         list-style: none;
         .activity {
-          line-height: 16px;
           display: inline-block;
           margin-top: 10px;
-          margin-left: 15px;
           margin-bottom: 10px;
+          margin-left: 15px;
           padding: 15px 0 0 0;
           width: 130px;
           height: 130px;
           border: 2px solid white;
+          line-height: 16px;
         }
       }
     }
@@ -253,8 +331,8 @@ body.conference, body.en_conference, body.pt_conference {
       }
     }
     .speaker {
-      color: white;
       margin-bottom: 32px;
+      color: white;
       .two-men-army {
         display: block;
         margin-right: auto;
@@ -276,8 +354,8 @@ body.conference, body.en_conference, body.pt_conference {
           border: 2px solid $gray2;
           background-color: transparent;
           color: $gray2;
-          text-shadow: none;
           text-transform: uppercase;
+          text-shadow: none;
           font-weight: 400;
           font-size: 12px;
           line-height: 12px;
@@ -348,6 +426,33 @@ body.conference, body.en_conference, body.pt_conference {
   }
 
   @media (min-width: 768px) {
+    header {
+      nav.secondary {
+        ul {
+          li {
+            a {
+              .icon {
+                &:after {
+                  left: 60px;
+                }
+              }
+              &:before {
+                left: 65px;
+                width: 124px;
+              }
+            }
+            &:first-child:before {
+              width: 120px;
+              left: -55px;
+            }
+            &:last-child:before {
+              width: 120px;
+              left: 65px;
+            }
+          }
+        }
+      }
+    }
     section.speakers {
       .speaker {
         height: 340px;
@@ -365,12 +470,6 @@ body.conference, body.en_conference, body.pt_conference {
           }
         }
       }
-      .michel {
-        height: 300px;
-      }
-    }
-    .cloves-tim {
-      margin-bottom: 32px
     }
   }
 
