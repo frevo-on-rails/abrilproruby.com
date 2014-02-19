@@ -141,7 +141,7 @@ body.conference, body.en_conference, body.pt_conference {
         width: 32px;
         height: 32px;
         background-image: image-url('graphics.svg');
-        background-position: 0px -620px;
+        background-position: 0px -609px;
         content: '';
         vertical-align: middle;
       }
@@ -174,14 +174,14 @@ body.conference, body.en_conference, body.pt_conference {
         width: 32px;
         height: 33px;
         background-image: image-url('graphics.svg');
-        background-position: 0px -684px;
+        background-position: -160px -609px;
         content: '';
         vertical-align: middle;
       }
       &.activities-work {
         &:before {
           background-image: image-url('graphics.svg');
-          background-position: 0px -717px;
+          background-position: -96px -609px;
         }
       }
     }
@@ -238,17 +238,17 @@ body.conference, body.en_conference, body.pt_conference {
         background-image: image-url('graphics.svg');
         vertical-align: middle;
         &.icon-buggy {
-          background-position: -32px -684px;
+          background-position: -44px -836px;
         }
         &.icon-catamaran {
           width: 88px;
-          background-position: -230px -684px;
+          background-position: -236px -836px;
         }
         &.icon-sailing {
-          background-position: -96px -684px;
+          background-position: -108px -836px;
         }
         &.icon-snorkeling {
-          background-position: -160px -684px;
+          background-position: -172px -836px;
         }
       }
     }
