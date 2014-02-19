@@ -80,7 +80,7 @@ Fragmentando a Shopify
 Desenvolvedor no Harvest
 
 ### Short Bio
-I'm a developer at Harvest, makers of the world's best time tracking software, where I write a combination of Ruby and angry rants. I'm also a maintainer of bcrypt-ruby, the best way to keep your users' passwords secure, and of rake-compiler-dev-box, the best way to successfully cross-compile your native gems without pulling your hair out.
+Sou um desenvolvedor no Harvest, criadores do melhor software para controle de tempo, onde eu escrevo uma combinação de Ruby e discursos. Sou também um mantenedor da gem bcrypt-ruby, o melhor jeito de manter as senhas dos seus usuários seguras, e de rake-compiler-dev-box, o melhor jeito de compilar cruzadamente suas gems nativas sem arrancar seus cabelos.
 
 http://cl.ly/image/13242A1Q080U
 
@@ -97,15 +97,22 @@ Nova York, EUA
 80.000 Senhas em Texto Puro: Uma Estória de Amor ao Código Livre em Três Atos
 
 ### Talk Description
-Considering getting a new dog? Here are some name suggestions: fluffmuffin, peppercorn, monkeybreath
+Pensando em ter um cachorro novo? Aqui vão algumas sugestões de nome: fluffmuffin, peppercorn, monkeybreath
+<!-- Considering getting a new dog? Here are some name suggestions: fluffmuffin, peppercorn, monkeybreath -->
 
-Just kidding, those aren't dog name suggestions -- those are a few of our users' plaintext passwords.
+Brincadeira, essas não são sugestões de nomes para cachorros - essas são algumas das senhas em texto de nossos usuários.
+<!-- Just kidding, those aren't dog name suggestions - those are a few of our users' plaintext passwords. -->
 
-Don't like any of those? Don't worry -- I have 80,000 more, and it only took me 87 seconds to gather them from our customer database in a white-hat attack.
+Não gostou de nenhum desses? Não se preocupe - eu tenho mais 80 mil e só levei 87 segundos para pegá-los da nossa base de clientes num attack white-hat.
+
+<!-- Don't like any of those? Don't worry - I have 80,000 more, and it only took me 87 seconds to gather them from our customer database in a white-hat attack. -->
 
 In Act I, we'll cover the history of secure password storage, examine the hack, and mitigate the threat. Act II will address the difficulties of working on libraries with complicated dependencies (like bcrypt-ruby, of which I'm now a maintainer). In Act III, we'll celebrate the power of global collaboration via OSS.
 
-[Scene.]
+No Ato I, vamos ver a história do armazenamento seguro de senhas, examinar o hack e mitigar a ameaça. O Ato II abordará as dificuldades de trabalhar com bibliotecas com dependências complicadas (como bcrypt-ruby, do qual eu sou um mantenedor). No Ato III, celebraremos o poder da colaboração global via open-source.
+
+<!-- [Scene.] -->
+[Cena.]
 
 ## Guilherme Garnier :ok:
 
