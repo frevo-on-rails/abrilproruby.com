@@ -46,7 +46,7 @@ Durante a palestra, nós vamos passar por dois recursos muito antigos de Rails -
 Desenvolvedora Senior na PhishMe
 
 ### Short Bio
-Nell Shamrell works as a Software Development Engineer for PhishMe. She also sits on the advisory board for the University of Washington Certificate in Ruby Programming. She specializes in Ruby, Rails, Regular Expressions, and Test Driven Development. Prior to entering the world of software development, she studied and worked in the field of Theatre. The world of Theatre prepared her well for the dynamic world of creating software applications. In both, she strives to create a cohesive and extraordinary experience. In her free time she enjoys practicing the martial art Naginata.
+Nell Shamrell trabalha como Engenheira de Software para PhishMe. Ela também tem uma vaga no conselho consultivo para o certificado em programação Ruby da Universidade de Washington. Ela é especialista em Ruby, Rails, expressões regulares e TDD. Antes de entrar no mundo de desenvolvimento de software, ela estudou e trabalhou na área de Teatro. O mundo do Teatro preparou-a bem para o mundo dinâmico da criação de aplicações de software. Em ambos, ela se esforça para creiar uma experiência coesa e extraordinária. Em seu tempo livre ela gosta de praticar a arte marcial Naginata.
 
 ### Residence
 Seattle, EUA
@@ -55,7 +55,7 @@ Seattle, EUA
 Criando e Otimizando Algoritmos em Ruby
 
 ### Talk Description
-Every day, knowingly or not, we create and follow algorithms.  From deciding what route to take home from the office to following a recipe as we cook or bake, life is made of patterns.  These patterns take on special meeting when they need to be interpreted by a computer.  No matter who interprets algorithms - whether human or machine - they must be efficient in both speed and resource consumption.  Come and learn the principles and best practices of crafting, evaluating, and refining algorithms in Ruby.  We will work our way through a real world example of creating the core algorithm of a fantasy combat game.  Step by step, we will translate a complex system of rules into a robust and efficient Ruby algorithm.  You will walk away with a better understanding of how to create optimal algorithms and refactor existing algorithms in your own Ruby code.
+Todo dia, querendo ou não, nós criamos e seguimos algoritmos. Desde decidir que rota seguiremos de casa para o escritório a seguir uma receita enquanto cozinhamos, a vida é feita desses padrões. Esses padrões tem um significado especial quando eles precisam ser interpretados por um computador. Não importa quem interpreta os algoritmos - humanos ou máquinas - eles devem ser eficientes em velocidade e consumo de recursos. Venha e aprenda os princípios e as boas práticas de construção, avaliação e refinamento de algoritmos em Ruby. Vamos trilhar o caminho através de exemplos na vida real de criar o algoritmo principal de um jogo de combate e fantasia. Passo a passo vamos traduzir um sistema de regras complexo em um algoritmo Ruby eficiente e robusto. Você sairá da palestra com um entendimento melhor de como criar algoritmos ótimos e refatorar algoritmos existentes em seu próprio código Ruby.
 
 ## Arthur Neves
 
