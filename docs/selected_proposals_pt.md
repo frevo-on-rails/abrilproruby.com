@@ -27,7 +27,7 @@ Nessa apresentação, nós vamos falar de uma abordagem para segregar a aplicaç
 Desenvolvedor de Software na Plataformatec
 
 ### Short Bio
-Member of the Rails Core Team. Spend the days solving problems at Plataformatec and the nights contributing to several OSS projects.
+Membro da equipe de desenvolvedores de Rails. Passa os dias resolvendo problemas na Plataformatec e as noites contribuindo para vários projetos open-source.
 
 ### Residence
 São Paulo, Brasil
@@ -36,9 +36,9 @@ São Paulo, Brasil
 Rails: As Partes Escondidas
 
 ### Talk Description
-The Rails framework contains a set of useful features for every web application, but not every feature is well implemented and bug-free.
+O framework Rails contem um conjunto de recursos úteis para toda aplicação web, mas nem todo recurso está bem implementado e sem bugs.
 
-During this talk we will we will walk through two very old Rails features - Active Record’s scopes and HTML sanitisation - and explain how they work under the hood. Also, It will be presented the current issues we’ve been facing and how they can be improved.
+Durante a palestra, nós vamos passar por dois recursos muito antigos de Rails - os scopes de Active Record e a sanitização de HTML - e explicar como eles funcionam por baixo dos panos. Também vão ser apresentadas os problemas atuais que estamos enfrentando e como eles podem ser melhorados.
 
 ## Nell Shamrell :ok:
 
