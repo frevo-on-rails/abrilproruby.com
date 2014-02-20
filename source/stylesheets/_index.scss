@@ -114,6 +114,28 @@ body.index, body.en_index, body.pt_index {
         background-position: -4px -242px;
       }
     }
+    .rip-jim {
+      position: absolute;
+      top: 200px;
+      left: 50%;
+      display: inline-block;
+      margin-left: -125px;
+      width: 250px;
+      color: $red;
+      text-align: center;
+      font-weight: 300;
+      font-size: 13px;
+      text-shadow: none;
+      a {
+        color: $red;
+        font-weight: 300;
+        text-shadow: none;
+        &:hover {
+          font-weight: 400;
+          letter-spacing: 1;
+        }
+      }
+    }
   }
 
   section.ocean {
