@@ -60,15 +60,40 @@ body.location, body.en_location, body.pt_location {
 
   header {
     h1 {
+      z-index: 9999;
       .icon {
         background-image: image-url('icon-header-location@2x.png');
         background-size: 128px;
       }
     }
+    nav.secondary {
+      z-index: 9999;
+      ul {
+        li {
+          a {
+            .icon {
+              margin-bottom: 0;
+            }
+            .icon-about {
+              background-position: -287px -650px;
+            }
+            .icon-venue {
+              background-position: -32px -650px;
+            }
+            .icon-pernambuco {
+              background-position: -160px -650px;
+            }
+            &:hover {
+              background-color: rgba(255,255,255,.4);
+            }
+          }
+        }
+      }
+    }
   }
 
   section.porto-de-galinhas {
-    overflow: hidden;
+    overflow: visible;
     h1, h2, h3, a {
       color: $blue;
     }

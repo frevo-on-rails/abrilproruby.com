@@ -7,6 +7,7 @@ $gray:   #808080;
 $gray2:  #ccc;
 $gray3:  #e6e6e6;
 $orange: #ff9263;
+$yellow: #fff7bd;
 
 // Layout
 
@@ -164,6 +165,7 @@ body {
       h1 {
         color: white;
         text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+        margin-bottom: -5px;
         .icon {
           display: block;
           margin: auto;
@@ -193,7 +195,8 @@ body {
             text-decoration: none;
             font-size: 13px;
             width: 58px;
-            padding: 5px 0 0 0;
+            height: 85px;
+            padding: 10px 0 0 0;
             font-weight: 400;
             &:hover {
               background-color: rgba(255,255,255,.2);
@@ -202,7 +205,7 @@ body {
               display: block;
               margin: 0 auto 10px auto;
               width: 32px;
-              height: 32px;
+              height: 33px;
               background-image: image-url('graphics.svg');
             }
             .subtitle {
