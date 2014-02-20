@@ -351,6 +351,11 @@ body.conference, body.en_conference, body.pt_conference {
         }
       }
     }
+    section.speakers {
+      .rip-jim {
+        margin-top: 20px;
+      }
+    }
   }
 
   @media (min-width: 768px) {
