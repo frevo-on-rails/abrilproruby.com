@@ -1,27 +1,6 @@
 # Abril Pro Ruby 2014 Sessions
 
-## Jim Weirich :ok:
-
-### Title
-Chef Scientist at Neo
-
-### Short Bio
-Jim Weirich first learned about computers when his college adviser suggested he take a computer science course: "It will be useful, and you might enjoy it." With those prophetic words, Jim has been developing now for over 25 years, working with everything from crunching rocket launch data on supercomputers to wiring up servos and LEDs on micro-controllers. Currently he loves working in Ruby and Rails as the Chief Scientist at Neo, but you can also find him strumming on his ukulele as time permits.
-
-### Residence
-Cincinnati, USA
-
-### Talk Title
-Incremental Segregation in Rails
-
-### Talk Description
-Testing is hard. Testing a Rails application is even harder. Rails applications tend to blend application logic and framework logic together, making tests load up lots of framework code just to test minor pieces of functionality. The result is that tests run slow, and developers tend to run test less often, and the TDD red/green/refactor cycle is broken.
-
-There are many solutions to the application / framework blending problem, but many require a large, up front architectural commitment. If you have an existing application that needs help, then you just out of luck.
-
-In this presentation, we will talk about a simple approach to application and framework segregation, one that can be applied incrementally to existing applications with good effect. We will examine tips and techniques for keeping your fast feedback tests free from framework concerns, and for dealing with the problem of fat controllers without also creating fat models. In the end we will use Rails for what it does best without hindering developers from using TDD in a fast feedback mode.
-
-## Rafael França :ok:
+## Rafael França
 
 ### Title
 Software Developer at Plataformatec
@@ -32,6 +11,12 @@ Member of the Rails Core Team. Spend the days solving problems at Plataformatec 
 ### Residence
 São Paulo, Brasil
 
+### Github Handler
+@rafaelfranca
+
+### Twitter Handler
+@rafaelfranca
+
 ### Talk Title
 Rails: The hidden parts
 
@@ -40,7 +25,7 @@ The Rails framework contains a set of useful features for every web application,
 
 During this talk we will we will walk through two very old Rails features - Active Record’s scopes and HTML sanitisation - and explain how they work under the hood. Also, It will be presented the current issues we’ve been facing and how they can be improved.
 
-## Nell Shamrell :ok:
+## Nell Shamrell
 
 ### Title
 Senior Developer at PhishMe
@@ -50,6 +35,12 @@ Nell Shamrell works as a Software Development Engineer for PhishMe. She also sit
 
 ### Residence
 Seattle, USA
+
+### Github Handler
+@nellshamrell
+
+### Twitter Handler
+@nellshamrell
 
 ### Talk Title
 Crafting and Optimizing Algorithms in Ruby
@@ -63,18 +54,27 @@ Every day, knowingly or not, we create and follow algorithms.  From deciding wha
 Software Developer at Shopify
 
 ### Short Bio
+Arthur Neves is a Brazilian Software Developer, which likes to spend his time solving large scale system problems. In the past few years he worked in a few different projects using different technologies, most of them for start-ups. He currently work on the Performance and Site reliability team at Shopify. At his free time he likes to write code, mostly for open source projects. Arthur is also a core maintainer of Mongoid, a popular MongoDB ODM for ruby, and he is responsible for many open source contributions.
 
 http://cl.ly/image/3x0c3f3h1Y0x
 
 ### Residence
 Ottawa, Canada
 
+### Github Handler
+@arthurnn
+
+### Twitter Handler
+@arthurnn
+
 ### Talk Title
 Sharding Shopify
 
 ### Talk Description
+Database was always one of our first bottle necks, when trying to scale Shopify in multiple servers. Nowadays, NoSQL databases are getting pretty popular, specially because they scale out of the box. At Shopify, we decide to not use a NoSQL database, as our canonical source of data, and in order to scale that properly we had to create custom solutions to shard its data.
+I will be talking about how we did it using Ruby and Rails, and when you should shard a big database.
 
-## T.J. Schuck :ok:
+## T.J. Schuck
 
 ### Title
 Developer at Harvest
@@ -107,7 +107,7 @@ In Act I, we'll cover the history of secure password storage, examine the hack, 
 
 [Scene.]
 
-## Guilherme Garnier :ok:
+## Guilherme Garnier
 
 ### Title
 Software Developer at Globo.com
@@ -132,7 +132,7 @@ Distributed Architecture: Scaling Projects and Teams
 ### Talk Description
 Há alguns anos, muitas pessoas diziam que Rails não escalava. Atualmente, existem muitas aplicações grandes em Rails que mostram que isso não é verdade. Mas quando seu projeto cresce, até que ponto vale manter tudo numa única aplicação? Nesta apresentação, vou mostrar detalhes de uma arquitetura distribuída com serviços, apresentando os principais pontos positivos e negativos desta abordagem. Será apresentado como exemplo o caso do projeto Globo.tv (http://globotv.globo.com/), onde utilizamos esta arquitetura para permitir que diferentes times trabalhem juntos. Mantém seu blog em http://blog.guilhermegarnier.com.
 
-## Scott Motte :ok:
+## Scott Motte
 
 ### Title
 Developer Evangelist at SendGrid
@@ -185,7 +185,7 @@ Developing products, not Apps
 O mundo Ruby tem sido protagonista de um novo momento do empreendedorismo no mercado de tecnologia. Muitas são as técnicas, novas especificações e convenções que são criadas para facilitar e melhorar o desenvolvimento de aplicativos, principalmente web. 
 Mas esse  novo contexto muda completamente a maneira como estávamos acostumados a desenvolver. Atualmente o papel do desenvolvedor Ruby extrapola a programação, e avança dentro do processo de criação de produto, inovação, e participação efetiva em decisões que podem determinar o sucesso ou a falha de uma aplicação. Nessa palestra irei demonstrar como é possível expandir o mindset de desenvolvimento de aplicativos para o desenvolvimento de produtos.
 
-## Pablo Astigarraga :ok:
+## Pablo Astigarraga
 
 ### Title
 Software Developer at tarmac.io
@@ -217,7 +217,7 @@ Slowly but steadily the philosophy of embracing simplicity in software design by
 
 In this talk I explore my journey on this shift in perspective from certain fragments of our community and how thinking about simplicity as one of our core values can push us to be better developers while producing better quality of software. We don't need our crutches anymore, let's drop them together!
 
-## Lucas Dohmen :ok:
+## Lucas Dohmen
 
 ### Title
 Developer at triAGENS GmbH
@@ -246,7 +246,7 @@ Relational databases have their own language and influence the design of softwar
 
 I want to look at the way a multi model database that combines a document store and a graph database can help you model your problems in a way that is understandable for all parties involved.
 
-## Brian Morton :ok:
+## Brian Morton
 
 ### Title
 Senior Software Engineer at Yammer/Microsoft
@@ -275,7 +275,7 @@ This talk explores the approach Yammer has taken, comparing Rails and the Java-b
  
 In this talk, attendees will gain insights into the options Rubyists have for replicating Dropwizard's ops-focus in Rails.  Attendees will also come away with an understanding of why Dropwizard's focus on operations and metrics makes it appealing to organizations tearing apart their monolithic Rails application. By assembling similar toolsets for Ruby and Java services, we'll be better positioned to choose between them on the merits of the stack and language.
 
-## Bryce Kerley :ok:
+## Bryce Kerley
 
 ### Title
 Software Engineer at Basho Technologies
@@ -306,7 +306,7 @@ How do you grow a simple monolithic Rails app into a distributed system? What do
 
 I'll be presenting a survey of concepts, architectures, and experiences, with a few tools that make distributed systems less obtuse.
 
-## Michel Martens :ok:
+## Michel Martens
 
 ### Title
 Co-founder of openredis
@@ -331,7 +331,7 @@ The Ruby Minimalist Counterculture
 ### Talk Description
 There has always been room in the Ruby community for developers to express themselves through minimalism. They use very simple tools to solve complex problems, and in this presentation I will showcase some of those tools and elaborate on the principles guiding their design.
 
-## Cloves Carneiro Jr and Tim Schmelmer :construction_worker: :ok:
+## Cloves Carneiro Jr and Tim Schmelmer :construction_worker:
 
 ### Title
 Software Engineers at LivingSocial
@@ -366,7 +366,7 @@ Adopting SOA from Day 1
 ### Talk Description
 In this workshop, we'll explain what a service-oriented architecture is, its advantages, and the reasons why developers should think about it when starting an application. I'll go into how complex and expensive it is to move to SOA when applications reach a specific code base size, traffic load, and will argue that using a SOA in an early stage of development is a feasible solution. We'll build a set of services and front-end applications to put into practice all the theory discussed in the workshop. We'll give parts of the workshop in Portuguese and English.
 
-## Leandro Gualter and Akshay Karle :construction_worker: :ok:
+## Leandro Gualter and Akshay Karle :construction_worker:
 
 ### Title
 Developers at Thoughtworks
@@ -404,7 +404,7 @@ In this workshop we will build a virtual environment which replicates a producti
 
 With this, we hope to highlight the benefits of being able to see locally how code would actually work in production - helping catch design issues quickly and eliminate entire classes of bugs. Plus, to be honest, it also gives us a chance to play around with some really fun tech.
 
-## Phil Cohen :construction_worker: :ok:
+## Phil Cohen :construction_worker:
 
 ### Title
 Operations Engineer at Shopify
