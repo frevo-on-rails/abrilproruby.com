@@ -5,13 +5,13 @@ body.location, body.en_location, body.pt_location {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  -webkit-font-smoothing: subpixel-antialiased;
   font-weight: 300;
+  -webkit-font-smoothing: subpixel-antialiased;
 
   hr {
-    border-top: 2px solid $gray3;
-    width: 120%;
     margin-left: -50px;
+    width: 120%;
+    border-top: 2px solid $gray3;
   }
 
   nav.main {
@@ -124,8 +124,8 @@ body.location, body.en_location, body.pt_location {
     }
     dl {
       dt {
-        font-weight: 600;
         color: $gray;
+        font-weight: 600;
       }
     }
     .tel {
@@ -163,16 +163,19 @@ body.location, body.en_location, body.pt_location {
     }
     .to-the-top {
       display: block;
-      margin-left: auto;
       margin-right: auto;
-      font-size: 14px;
+      margin-left: auto;
+      padding-top: 4px;
+      padding-bottom: 3px;
       width: 48px;
       height: 24px;
       border: 2px solid $gray3;
       text-align: center;
+      font-size: 14px;
+      line-height: 14px;
       &:hover {
-        text-decoration: none;
         border-color: $blue;
+        text-decoration: none;
       }
     }
   }
@@ -223,8 +226,8 @@ body.location, body.en_location, body.pt_location {
       }
     }
     hr {
-      width: 150%;
       margin-left: -50px;
+      width: 150%;
     }
   }
 
@@ -252,8 +255,8 @@ body.location, body.en_location, body.pt_location {
       }
     }
     hr {
-      width: 119%;
       margin-left: -50px;
+      width: 119%;
     }
   }
 
@@ -272,8 +275,8 @@ body.location, body.en_location, body.pt_location {
       }
     }
     hr {
-      width: 118%;
       margin-left: -50px;
+      width: 118%;
     }
   }
 

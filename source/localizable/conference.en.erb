@@ -47,9 +47,9 @@ title: Conference &#9671; Abril Pro Ruby 2014 &#9671; April 26th @ Porto de Gali
       <a href="http://www.eventick.com.br/abrilproruby-int" target="_blank"><span class="icon icon-ticket"></span>Buy your ticket</a>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-sm-12">
+      <div class="col-xs-12 col-sm-12 col-md-12">
 
-        <div class="speaker nell">
+        <div id="nell" class="speaker nell">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6">
               <div class="bkg col-xs-12 col-sm-12 col-md-6 col-md-push-6">
@@ -61,21 +61,21 @@ title: Conference &#9671; Abril Pro Ruby 2014 &#9671; April 26th @ Porto de Gali
                   <h3 class="name">Nell Shamrell</h3>
                   <small class="title">Senior Developer at PhishMe</small>
                   <div class="further"><a class="bio" href="#"><span class="icon icon-info"></span>Bio</a><a class="twitter" href="#"><span class="icon icon-twitter"></span>Twitter</a><a class="github" href="#"><span class="icon icon-github"></span>GitHub</a></div>
-                  <p class="biography sr-only">Nell Shamrell works as a Software Development Engineer for PhishMe. She also sits on the advisory board for the University of Washington Certificate in Ruby Programming. She specializes in Ruby, Rails, Regular Expressions, and Test Driven Development. Prior to entering the world of software development, she studied and worked in the field of Theatre. The world of Theatre prepared her well for the dynamic world of creating software applications. In both, she strives to create a cohesive and extraordinary experience. In her free time she enjoys practicing the martial art Naginata.</p>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6">
               <div class="talk">
                 <h3>Crafting and Optimizing Algorithms in Ruby<span class="duration sr-only">30m</span></h3>
-                <p>Every day, knowingly or not, we create and follow algorithms. From deciding what route to take home from the office to following a recipe as we cook or bake, life is made of patterns. These patterns take on special meeting when they need to be interpreted by a computer. No matter who interprets algorithms—whether human or machine—they must be efficient in both speed and resource consumption. Come and learn the principles and best practices of crafting, evaluating, and refining <span class="ellipsis">…</span><span class="sr-only">algorithms in Ruby. We will work our way through a real world example of creating the core algorithm of a fantasy combat game. Step by step, we will translate a complex system of rules into a robust and efficient Ruby algorithm. You will walk away with a better understanding of how to create optimal algorithms and refactor existing algorithms in your own Ruby code.</span></p>
+                <p>Every day, knowingly or not, we create and follow algorithms. From deciding what route to take home from the office to following a recipe as we cook or bake, life is made of patterns. These patterns take on special meeting when they need to be interpreted by a computer. No matter who interprets algorithms—whether human or machine—they must be efficient <span class="ellipsis">…</span><span class="sr-only">in both speed and resource consumption. Come and learn the principles and best practices of crafting, evaluating, and refining algorithms in Ruby. We will work our way through a real world example of creating the core algorithm of a fantasy combat game. Step by step, we will translate a complex system of rules into a robust and efficient Ruby algorithm. You will walk away with a better understanding of how to create optimal algorithms and refactor existing algorithms in your own Ruby code.</span></p>
                 <a href="#" class="more">More</a>
             </div>
           </div>
         </div>
+        <a data-scroll data-url="true" href="#content" class="hidden-print to-the-top">↑</a>
       </div>
 
-        <div class="speaker rafael right">
+        <div id="rafael" class="speaker rafael right">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6 col-md-push-6">
               <div class="bkg col-xs-12 col-sm-12 col-md-6">
@@ -87,7 +87,6 @@ title: Conference &#9671; Abril Pro Ruby 2014 &#9671; April 26th @ Porto de Gali
                   <h3 class="name">Rafael França</h3>
                   <small class="title">Software Developer at Plataformatec</small>
                   <div class="further"><a class="bio" href="#"><span class="icon icon-info"></span>Bio</a><a class="twitter" href="#"><span class="icon icon-twitter"></span>Twitter</a><a class="github" href="#"><span class="icon icon-github"></span>GitHub</a></div>
-                  <p class="biography sr-only">Member of the Rails Core Team. Spend the days solving problems at Plataformatec and the nights contributing to several OSS projects.</p>
                 </div>
               </div>
             </div>
@@ -99,85 +98,70 @@ title: Conference &#9671; Abril Pro Ruby 2014 &#9671; April 26th @ Porto de Gali
             </div>
           </div>
         </div>
+        <a data-scroll data-url="true" href="#content" class="hidden-print to-the-top">↑</a>
       </div>
 
     </div>
   </div>
 </section>
 
-<section class="workshops-and-activities">
+<section id="workshops" class="workshops">
   <div class="container">
-
-    <div id="workshops" class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
-      <h2 class="workshops">Workshops</h2>
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+      <h2>Workshops</h2>
       <div class="date-venue-tickets">
         <h3 class="date"><span class="icon icon-calendar"></span>04/24 (Thu.)</h3>
         <h3 class="venue"><span class="icon icon-location"></span>Recife</h3>
         <a href="http://www.eventick.com.br/abrilproruby-int" target="_blank"><span class="icon icon-ticket"></span>Buy your ticket</a>
       </div>
     </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
-        <div class="speaker leandro-akshay">
-          <div class="two-men-army">
-            <%= image_tag 'conference/speaker-akshay.png', class: 'photo two-photos' %>
-            <%= image_tag 'conference/speaker-leandro.png', class: 'photo two-photos last' %>
+
+    <div id="akshay-and-leandro" class="speaker akshay-and-leandro two-men-army">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6">
+          <div class="bkg col-xs-12 col-sm-12 col-md-6 col-md-push-6">
+            <p class="time">09:00am</p>
+            <%= image_tag 'conference/speaker-akshay.png', class: 'photo' %>
+            <%= image_tag 'conference/speaker-leandro.png', class: 'photo' %>
           </div>
-          <div class="desc">
-            <h3>Coding in Production</h3>
-            <p><span class="tag-period">Morning</span></p>
-            <h4 class="name">Akshay Karle &amp; Leandro Gualter</h4><br/>
-            <small class="title">Developers at Thoughtworks</small>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6">
+            <div class="desc">
+              <h3 class="name">Akshay Karle</h3>
+              <small class="title">Developer at Thoughtworks</small>
+              <div class="further"><a class="bio" href="#"><span class="icon icon-info"></span>Bio</a><a class="twitter" href="#"><span class="icon icon-twitter"></span>Twitter</a><a class="github" href="#"><span class="icon icon-github"></span>GitHub</a></div>
+            </div>
+            <div class="desc">
+              <h3 class="name">Leandro Gualter</h3>
+              <small class="title">Developer at Thoughtworks</small>
+              <div class="further"><a class="bio" href="#"><span class="icon icon-info"></span>Bio</a><a class="github" href="#"><span class="icon icon-github"></span>GitHub</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6">
+          <div class="talk">
+            <h3>Crafting and Optimizing Algorithms in Ruby<span class="duration sr-only">30m</span></h3>
+            <p>Every day, knowingly or not, we create and follow algorithms. From deciding what route to take home from the office to following a recipe as we cook or bake, life is made of patterns. These patterns take on special meeting when they need to be interpreted by a computer. No matter who interprets algorithms—whether human or machine—they must be efficient in both speed and resource consumption. Come and learn the principles and best practices of crafting, evaluating, and refining <span class="ellipsis">…</span><span class="sr-only">algorithms in Ruby. We will work our way through a real world example of creating the core algorithm of a fantasy combat game. Step by step, we will translate a complex system of rules into a robust and efficient Ruby algorithm. You will walk away with a better understanding of how to create optimal algorithms and refactor existing algorithms in your own Ruby code.</span></p>
+            <a href="#" class="more">More</a>
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">
-        <div class="speaker cloves-tim">
-          <div class="two-men-army">
-            <%= image_tag 'conference/speaker-cloves.png', class: 'photo two-photos' %>
-            <%= image_tag 'conference/speaker-tim.png', class: 'photo two-photos last' %>
-          </div>
-          <div class="desc">
-            <h3>Adopting SOA from Day 1</h3>
-            <p><span class="tag-period">Afternoon</span></p>
-            <h4 class="name">Cloves Carneiro Jr &amp; Tim Schmelmer</h4><br/>
-            <small class="title">Software Engineers at LivingSocial</small>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="speaker phil">
-          <%= image_tag 'conference/speaker-phil.png', class: 'photo' %>
-          <div class="desc">
-            <h3>Cooking at Shopify: Taming a Busy Kitchen with Many Chefs</h3>
-            <p><span class="tag-period">Afternoon</span></p>
-            <h4 class="name">Phil Cohen</h4><br/>
-            <small class="title">Operations Engineer at Shopify</small>
-          </div>
-        </div>
-      </div>
-      <div class="remarks col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
-        <h4 class="sr-only">Remarks</h4>
-        <ul>
-          <li>Workshops are not included in the conference tickets.</li>
-          <li>Passes are being sold separately at <a href="http://www.eventick.com.br/abrilproruby-int" target="_blank">Eventick.</a></li>
-          <li>All workshops will be presented in English.</li>
-          <li>Limited availability.</li>
-          <li>More info will be available in a few days.</li>
-        </ul>
-        <hr>
-      </div>
+      <a data-scroll data-url="true" href="#content" class="hidden-print to-the-top">↑</a>
     </div>
 
-    <div id="activities" class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
-      <h2 class="activities">Activities</h2>
+  </div>
+</section>
+
+<section id="activities" class="activities">
+  <div class="container">
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+      <h2>Activities</h2>
     </div>
     <div class="row">
       <div class="friday col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6 col-xs-12">
         <div class="date-venue-tickets">
           <h3 class="date"><span class="icon icon-calendar"></span>04/25 (Fri.)</h3>
           <h3 class="venue"><span class="icon icon-location"></span>Porto</h3>
-          <a href="http://www.eventick.com.br/abrilproruby-int" target="_blank"><span class="icon icon-ticket"></span>Buy your ticket</a>
+          <a class="soon" target="_blank"><span class="icon icon-ticket"></span>Buy your ticket</a>
         </div>
         <ul>
           <div class="row">
@@ -194,7 +178,7 @@ title: Conference &#9671; Abril Pro Ruby 2014 &#9671; April 26th @ Porto de Gali
         <div class="date-venue-tickets">
           <h3 class="date"><span class="icon icon-calendar"></span>04/27 (Sun.)</h3>
           <h3 class="venue"><span class="icon icon-location"></span>Porto</h3>
-          <a href="http://www.eventick.com.br/abrilproruby-int" target="_blank"><span class="icon icon-ticket"></span>Buy your ticket</a>
+          <a class="soon" target="_blank"><span class="icon icon-ticket"></span>Buy your ticket</a>
         </div>
         <ul>
           <div class="row">
@@ -216,6 +200,7 @@ title: Conference &#9671; Abril Pro Ruby 2014 &#9671; April 26th @ Porto de Gali
           <li>Limited availability.</li>
           <li>More info will be available in a few days.</li>
         </ul>
+        <a data-scroll data-url="true" href="#content" class="hidden-print to-the-top">↑</a>
       </div>
     </div>
 

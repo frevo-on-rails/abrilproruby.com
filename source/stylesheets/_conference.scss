@@ -191,6 +191,21 @@ body.conference, body.en_conference, body.pt_conference {
       font-weight: 400;
     }
   }
+  h2 {
+    margin: 16px 0 8px 0;
+    text-align: center;
+    font-size: 36px;
+    &:before {
+      position: relative;
+      top: -3px;
+      display: inline-block;
+      margin-right: 10px;
+      width: 32px;
+      height: 33px;
+      content: '';
+      vertical-align: middle;
+    }
+  }
 
   .date-venue-tickets {
     margin-bottom: 20px;
@@ -231,6 +246,10 @@ body.conference, body.en_conference, body.pt_conference {
       font-size: 11px;
       line-height: 24px;
     }
+    .soon {
+      cursor: not-allowed;
+      text-decoration: line-through;
+    }
     .icon {
       display: inline-block;
       margin-right: 8px;
@@ -253,11 +272,11 @@ body.conference, body.en_conference, body.pt_conference {
 
   .speaker {
     @extend .clearfix;
-    color: $gray;
     margin-bottom: 0;
+    color: $gray;
     &:after {
       display: block;
-      margin-top: 40px;
+      margin-top: 0;
       width: 100%;
       height: 2px;
       background: linear-gradient(to right, rgba(230,230,230,0) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 80%, rgba(230,230,230,0) 100%);
@@ -378,9 +397,9 @@ body.conference, body.en_conference, body.pt_conference {
       color: black;
       text-align: left;
       h3 {
-        font-weight: 400;
         margin-top: 0;
         margin-bottom: -10px;
+        font-weight: 400;
       }
       p {
         display: inline-block;
@@ -391,7 +410,7 @@ body.conference, body.en_conference, body.pt_conference {
       }
       .more {
         display: inline-block;
-        padding: 8px 16px 8px 16px;
+        padding: 16px 16px 16px 16px;
         color: $green;
         text-transform: uppercase;
         font-size: 11px;
@@ -411,26 +430,33 @@ body.conference, body.en_conference, body.pt_conference {
     }
   }
 
+  .to-the-top {
+    display: block;
+    margin: 20px auto 30px auto;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    width: 48px;
+    height: 24px;
+    border: 2px solid $gray3;
+    color: $green;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 14px;
+    &:hover {
+      border-color: $green;
+    }
+  }
+
   section.talks {
     padding: 20px 0 40px;
     background-color: white;
     background-image: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 25%), linear-gradient(to bottom, rgba(255,255,255,0) 75%, rgba(255,255,255,1) 100%), image-url('waves-10.svg');
     color: $green;
     h2 {
-      margin: 16px 0 8px 0;
-      text-align: center;
-      font-size: 36px;
       &:before {
-        position: relative;
-        top: -3px;
-        display: inline-block;
-        margin-right: 10px;
-        width: 32px;
-        height: 32px;
         background-image: image-url('graphics.svg');
         background-position: 0px -609px;
-        content: '';
-        vertical-align: middle;
       }
     }
     h3 {
@@ -471,38 +497,16 @@ body.conference, body.en_conference, body.pt_conference {
     }
   }
 
-  section.workshops-and-activities {
-    padding-top: 30px;
+  section.workshops {
+    padding: 30px 0 40px 0;
     background-image: linear-gradient(to bottom, rgba(1,121,145,1) 0%, rgba(52,155,138,0) 50%), linear-gradient(to bottom, rgba(1,121,145,0) 50%, rgba(1,121,145,1) 100%);
     text-shadow: 1px 1px 1px rgba(0,0,0,1);
     h2 {
-      margin: 16px 0 8px 0;
-      text-align: center;
-      font-size: 36px;
-      &:before {
-        position: relative;
-        top: -3px;
-        display: inline-block;
-        margin-right: 10px;
-        width: 32px;
-        height: 33px;
-        background-image: image-url('graphics.svg');
-        background-position: -160px -609px;
-        content: '';
-        vertical-align: middle;
-      }
-      &.workshops {
-        &:before {
-          background-image: image-url('graphics.svg');
-          background-position: -96px -609px;
-        }
-      }
-    }
-    h3 {
       color: white;
-    }
-    p {
-      text-align: center;
+      &:before {
+        background-image: image-url('graphics.svg');
+        background-position: -96px -609px;
+      }
     }
     .date-venue-tickets {
       h3 {
@@ -526,10 +530,131 @@ body.conference, body.en_conference, body.pt_conference {
         background-position: -300px -17px;
       }
     }
-    .activities {
-      margin-bottom: 20px;
+    .speaker {
+      &:after {
+        background: linear-gradient(to right, rgba(230,230,230,0) 0%, rgba(230,230,230,.6) 20%, rgba(230,230,230,.6) 80%, rgba(230,230,230,0) 100%);
+      }
+      h3, h3.name, p, small {
+        color: white;
+      }
+      .bkg {
+        &:before {
+          background-color: rgba(230,230,230,.6);
+        }
+      }
+      .time {
+        color: rgba(230,230,230,.6);
+        &:before {
+          background-color: rgba(230,230,230,.6);
+        }
+      }
+      .desc {
+        .title {
+          color: $gray2;
+          font-weight: 200;
+        }
+        .bio, .twitter, .github {
+          &:hover, &:active {
+            background-color: rgba(230,230,230,.3);
+          }
+        }
+        .icon-info {
+          background-position: -328px -17px;
+        }
+        .icon-twitter {
+          background-position: -60px 0px;
+        }
+        .icon-github {
+          background-position: -300px 0;
+        }
+        .further {
+          &:after {
+            background: linear-gradient(to right, rgba(230,230,230,0) 0%, rgba(230,230,230,.6) 20%, rgba(230,230,230,.6) 80%, rgba(230,230,230,0) 100%);
+          }
+        }
+      }
+      .talk {
+        p {
+          color: white;
+          font-weight: 200;
+        }
+        .more {
+          color: white;
+          &:hover, &:active {
+            background-color: rgba(230,230,230,.3);
+          }
+        }
+      }
+    }
+    .two-men-army {
+      .photo {
+        &:last-child {
+          margin-top: -50px;
+        }
+      }
+      .desc {
+        &:first-child {
+          margin-top: 30px;
+          .further {
+            &:after {
+              margin-bottom: -10px;
+              width: 0;
+              height: 0;
+            }
+          }
+        }
+      }
+    }
+    .to-the-top {
+      border: 2px solid rgba(230,230,230,.3);
+      color: $gray2;
+      &:hover {
+        border-color: white;
+        color: white;
+      }
+    }
+  }
+
+  section.activities {
+    padding: 30px 0 10px 0;
+    background-color: white;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 25%), linear-gradient(to bottom, rgba(255,255,255,0) 75%, rgba(255,255,255,1) 100%), image-url('waves-10.svg');
+    color: $green;
+    h2 {
+      &:before {
+        background-image: image-url('graphics.svg');
+        background-position: -128px -609px;
+      }
       &+p {
         margin-bottom: 20px;
+      }
+    }
+    .date-venue-tickets {
+      h3 {
+        &.date, &.venue {
+          color: $gray;
+        }
+      }
+      a {
+        color: $gray;
+        &:hover, &:active {
+          background-color: rgba(128,128,128,.2);
+        }
+      }
+      .icon-calendar {
+        background-position: -150px -17px;
+      }
+      .icon-location {
+        background-position: -210px -17px;
+      }
+      .icon-ticket {
+        background-position: -269px -17px;
+      }
+    }
+    .remarks {
+      font-weight: 300;
+      ul {
+        color: $gray;
       }
     }
     .friday, .sunday {
@@ -537,7 +662,7 @@ body.conference, body.en_conference, body.pt_conference {
       margin-bottom: 20px;
       text-align: center;
       text-transform: none;
-      font-weight: 200;
+      font-weight: 400;
       line-height: 24px;
       ul {
         padding-left: 0;
@@ -550,7 +675,7 @@ body.conference, body.en_conference, body.pt_conference {
           padding: 15px 0 0 0;
           width: 130px;
           height: 130px;
-          border: 2px solid white;
+          border: 2px solid $green;
           line-height: 16px;
         }
       }
@@ -574,7 +699,6 @@ body.conference, body.en_conference, body.pt_conference {
           background-position: -44px -836px;
         }
         &.icon-catamaran {
-          width: 88px;
           background-position: -236px -836px;
         }
         &.icon-sailing {
@@ -585,96 +709,60 @@ body.conference, body.en_conference, body.pt_conference {
         }
       }
     }
-    .speaker {
-      margin-bottom: 32px;
-      color: white;
-      .two-men-army {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        width: 250px;
-        .two-photos {
-          display: block;
-        }
-        .last {
-          margin-top: -40px;
-        }
-      }
-    }
-  }
-
-  .remarks {
-    text-transform: none;
-    ul {
-      @extend .list-unstyled;
-      color: white;
-      text-align: center;
-      font-size: 13px;
-      line-height: 16px;
-      li {
-        display: inline;
-        &:before {
-          padding: 0 1em;
-          color: $gray2;
-          content: '♦';
-          font-size: 8px;
-        }
-        &:first-child:before {
-          content: none;
+    .remarks {
+      text-transform: none;
+      ul {
+        @extend .list-unstyled;
+        color: $gray;
+        text-align: center;
+        font-size: 13px;
+        line-height: 16px;
+        li {
+          display: inline;
+          &:before {
+            padding: 0 1em;
+            color: $gray2;
+            content: '♦';
+            font-size: 8px;
+          }
+          &:first-child:before {
+            content: none;
+          }
         }
       }
     }
   }
-
   .attribution {
     p, a {
-      color: $gray2;
+      color: $gray;
     }
-  }
-
-  @media (min-width: 440px) {
-    section.workshops-and-activities {
-      .speaker {
-        .two-men-army {
-          width: 370px;
-          .two-photos {
-            display: inline-block;
-          }
-          .last {
-            margin-top: 0;
-            margin-left: -40px;
-          }
-        }
-      }
+    p {
+      margin-top: 20px;
     }
   }
 
   @media (min-width: 480px) and (max-width: 649px) {
-    section.talks {
-      .speaker {
-        .talk, .biography {
-          margin-right: 30px;
-          margin-left: 40px;
-        }
-        .talk {
-          h3 {
-            margin-top: 10px;
-          }
+    .speaker {
+      .talk, .biography {
+        margin-right: 30px;
+        margin-left: 40px;
+      }
+      .talk {
+        h3 {
+          margin-top: 10px;
         }
       }
     }
   }
 
   @media (min-width: 650px) and (max-width: 767px) {
-    section.talks {
-      .speaker {
-        .talk, .biography {
-          margin-right: 60px;
-          margin-left: 80px;
-        }
-        h3 {
-          margin-top: 15px;
-        }
+    .speaker {
+      .talk, .biography {
+        margin-right: 60px;
+        margin-left: 80px;
+      }
+      h3 {
+        margin-top: 15px;
       }
     }
   }
@@ -727,15 +815,13 @@ body.conference, body.en_conference, body.pt_conference {
         }
       }
     }
-    section.talks {
-      .speaker {
-        &:after {
+    .speaker {
+      // &:after {
+      //   margin-top: 20px;
+      // }
+      .talk {
+        h3 {
           margin-top: 20px;
-        }
-        .talk {
-          h3 {
-            margin-top: 20px;
-          }
         }
       }
     }
@@ -755,91 +841,108 @@ body.conference, body.en_conference, body.pt_conference {
         }
       }
     }
-    section.talks {
-      .speaker {
-        .talk, .biography {
-          margin-right: 60px;
-          margin-left: 80px;
-        }
+    .speaker {
+      .talk, .biography {
+        margin-right: 60px;
+        margin-left: 80px;
       }
     }
   }
 
   @media (min-width: 992px) {
-    section.talks {
-      .speaker {
-        &:after {
-          margin-top: 40px;
-        }
-        .bkg {
-          &:before {
-            left: 105%;
-            height: 50px;
-          }
-        }
-        .time {
-          position: absolute;
-          top: -10px;
-          left: 100%;
-          margin-left: -60px;
-          width: 150px;
-          text-align: center;
-          &:before {
-            position: absolute;
-            left: 50%;
-            margin-left: -16px;
-          }
-        }
-        .photo {
-          margin-top: 84px;
-        }
-        .desc {
-          margin-top: 124px;
-          text-align: right;
-          .bio {
-            float: right;
-          }
-          .further {
-            &:after {
-              margin-right: 0;
-            }
-          }
-        }
-        .talk {
-          margin-top: 84px;
-          margin-right: 20px;
+    .speaker {
+      .bkg {
+        &:before {
+          left: 105%;
+          height: 50px;
         }
       }
-      .right {
-        .bkg {
-          &:before {
-            left: -5%;
-          }
+      .time {
+        position: absolute;
+        top: -10px;
+        left: 100%;
+        margin-left: -60px;
+        width: 150px;
+        text-align: center;
+        &:before {
+          position: absolute;
+          left: 50%;
+          margin-left: -16px;
         }
-        .time {
-          left: 0;
-          margin-left: -87px;
-        }
-        .desc {
-          text-align: left;
-          .bio {
-            float: left;
-          }
+      }
+      .photo {
+        margin-top: 84px;
+      }
+      .desc {
+        margin-top: 124px;
+        text-align: right;
+        .bio {
+          float: right;
         }
         .further {
           &:after {
-            margin-left: 0;
+            margin-right: 0;
+          }
+        }
+      }
+      .talk {
+        margin-top: 84px;
+        margin-right: 20px;
+      }
+    }
+    .right {
+      .bkg {
+        &:before {
+          left: -5%;
+        }
+      }
+      .time {
+        left: 0;
+        margin-left: -87px;
+      }
+      .desc {
+        text-align: left;
+        .bio {
+          float: left;
+        }
+        .further {
+          &:after {
             margin-right: auto;
+            margin-left: 0;
+          }
+        }
+      }
+      .talk {
+        margin-right: 0;
+        margin-left: 20px;
+        text-align: right;
+      }
+    }
+    .last {
+      &:after {
+        width: 0;
+        height: 0;
+      }
+    }
+    section.workshops {
+      .two-men-army {
+        .desc {
+          &:first-child {
+            margin-top: 124px;
+            .further {
+              &:after {
+                margin-bottom: 18px;
+                width: 120px;
+                height: 2px;
+              }
+            }
+          }
+          &:last-child {
+            margin-top: 60px;
           }
         }
         .talk {
-          text-align: right;
-        }
-      }
-      .last {
-        &:after {
-          height: 0;
-          width: 0;
+          margin-top: 150px;
         }
       }
     }
