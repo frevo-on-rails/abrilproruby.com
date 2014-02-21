@@ -9,7 +9,7 @@ Software Developer at Plataformatec
 Member of the Rails Core Team. Spend the days solving problems at Plataformatec and the nights contributing to several OSS projects.
 
 ### Residence
-São Paulo, Brasil
+São Paulo, Brazil
 
 ### Github Handler
 @rafaelfranca
@@ -54,7 +54,7 @@ Every day, knowingly or not, we create and follow algorithms.  From deciding wha
 Software Developer at Shopify
 
 ### Short Bio
-Arthur Neves is a Brazilian Software Developer, which likes to spend his time solving large scale system problems. In the past few years he worked in a few different projects using different technologies, most of them for start-ups. He currently work on the Performance and Site reliability team at Shopify. At his free time he likes to write code, mostly for open source projects. Arthur is also a core maintainer of Mongoid, a popular MongoDB ODM for ruby, and he is responsible for many open source contributions.
+Arthur Neves is a Brazilian software developer, which likes to spend his time solving large scale system problems. In the past few years he worked in a few different projects using different technologies, most of them for start-ups. He currently works on the Performance and Site Reliability Team at Shopify. At his free time he likes to write code, mostly for open source projects. Arthur is also a core maintainer of Mongoid, a popular MongoDB ODM for Ruby, and he is responsible for many open source contributions.
 
 http://cl.ly/image/3x0c3f3h1Y0x
 
@@ -71,8 +71,7 @@ Ottawa, Canada
 Sharding Shopify
 
 ### Talk Description
-Database was always one of our first bottle necks, when trying to scale Shopify in multiple servers. Nowadays, NoSQL databases are getting pretty popular, specially because they scale out of the box. At Shopify, we decide to not use a NoSQL database, as our canonical source of data, and in order to scale that properly we had to create custom solutions to shard its data.
-I will be talking about how we did it using Ruby and Rails, and when you should shard a big database.
+Database was always one of our first bottle necks when trying to scale Shopify in multiple servers. Nowadays, NoSQL databases are getting pretty popular, specially because they scale out of the box. At Shopify, we decide to not use a NoSQL database as our canonical source of data and, in order to scale that properly, we had to create custom solutions to shard its data. I will be talking about how we did it using Ruby and Rails, and when you should shard a big database.
 
 ## T.J. Schuck
 
@@ -113,12 +112,12 @@ In Act I, we'll cover the history of secure password storage, examine the hack, 
 Software Developer at Globo.com
 
 ### Short Bio
-Desenvolvedor de software com mais de 10 anos de experiência em linguagens como C++, Java, PHP e Perl. Atualmente, trabalha com Ruby on Rails na Globo.com.
+Software developer with more than 10 years of experience in languages such as C++, Java, PHP and Perl. Currently, he works with Ruby on Rails at Globo.com. He also writes on his blog at http://blog.guilhermegarnier.com.
 
 https://pbs.twimg.com/profile_images/327284586/foto_gui.jpg
 
 ### Residence
-Rio de Janeiro, Brasil
+Rio de Janeiro, Brazil
 
 ### Github Handler
 @ggarnier
@@ -130,7 +129,7 @@ Rio de Janeiro, Brasil
 Distributed Architecture: Scaling Projects and Teams
 
 ### Talk Description
-Há alguns anos, muitas pessoas diziam que Rails não escalava. Atualmente, existem muitas aplicações grandes em Rails que mostram que isso não é verdade. Mas quando seu projeto cresce, até que ponto vale manter tudo numa única aplicação? Nesta apresentação, vou mostrar detalhes de uma arquitetura distribuída com serviços, apresentando os principais pontos positivos e negativos desta abordagem. Será apresentado como exemplo o caso do projeto Globo.tv (http://globotv.globo.com/), onde utilizamos esta arquitetura para permitir que diferentes times trabalhem juntos. Mantém seu blog em http://blog.guilhermegarnier.com.
+A few years ago, a lot of people said that Rails did not scale. Nowadays, there are a lot of big applications in Rails that show that this is not true. But when your project grows, to which point is it worth to keep everything in a single application? In this presentation, I will show details of a service distributed architecture, highlighting the advantages and drawbacks of this approach. The case of the Globo.tv (http://globotv.globo.com/) will be presented as an example. In this project, we use this architecture to allow different teams to work together.
 
 ## Scott Motte
 
@@ -138,7 +137,7 @@ Há alguns anos, muitas pessoas diziam que Rails não escalava. Atualmente, exis
 Developer Evangelist at SendGrid
 
 ### Short Bio
-I like to code in Ruby and Nodejs. I'm exploring Go. Travel and code excite me.
+I like to code in Ruby and Node.js. I'm exploring Go. Travel and code excite me.
 
 http://cl.ly/image/0I252T0v453W
 
@@ -152,7 +151,7 @@ Los Angeles, USA
 @scottmotte
 
 ### Talk Title
-Deprecating the password: An alternative approach to authentication using email only
+Deprecating the Password: An Alternative Approach to Authentication using Email Only
 
 ### Talk Description
 We should be evaluating whether the traditional username and password is the best form of authentication. I think there is a better way. I've open sourced something called Handshake.js that implements an email only authentication mechanism. 
@@ -165,12 +164,12 @@ Come see a talk on the strengths and weaknesses of this new approach as well as 
 CTO at Palpiteros
 
 ### Short Bio
-I’m a CTO and leader engineer, currently living in São Paulo, an enthusiast technologist that love open source, a blog author in RubySource, and also a speaker of some international and national conferences like Ruby Conf Brazil, TakeOff in France, Rails Israel, Italian Ruby Day, RuPy Brazil, DevCon in Israel and others.
+I'm a CTO and leader engineer, currently living in São Paulo, an enthusiast technologist that love open source, a blog author in RubySource, and also a speaker of some international and national conferences like Ruby Conf Brazil, TakeOff in France, Rails Israel, Italian Ruby Day, RuPy Brazil, DevCon in Israel and others.
 
 http://cl.ly/image/2P060G0K3Q3f
 
 ### Residence
-São Paulo, Brasil
+São Paulo, Brazil
 
 ### Github Handler
 @joaomdmoura
@@ -183,7 +182,8 @@ Developing products, not Apps
 
 ### Talk Description
 O mundo Ruby tem sido protagonista de um novo momento do empreendedorismo no mercado de tecnologia. Muitas são as técnicas, novas especificações e convenções que são criadas para facilitar e melhorar o desenvolvimento de aplicativos, principalmente web. 
-Mas esse  novo contexto muda completamente a maneira como estávamos acostumados a desenvolver. Atualmente o papel do desenvolvedor Ruby extrapola a programação, e avança dentro do processo de criação de produto, inovação, e participação efetiva em decisões que podem determinar o sucesso ou a falha de uma aplicação. Nessa palestra irei demonstrar como é possível expandir o mindset de desenvolvimento de aplicativos para o desenvolvimento de produtos.
+
+Mas esse  novo contexto muda completamente a maneira como estávamos acostumados a desenvolver. Atualmente, o papel do desenvolvedor Ruby extrapola a programação, e avança dentro do processo de criação de produto, inovação, e participação efetiva em decisões que podem determinar o sucesso ou a falha de uma aplicação. Nessa palestra, irei demonstrar como é possível expandir o mindset de desenvolvimento de aplicativos para o desenvolvimento de produtos.
 
 ## Pablo Astigarraga
 
@@ -386,7 +386,7 @@ Leandro Gualter is a web developer with over 10 years of experience. He is a mem
 http://cl.ly/image/3m0k38341P32
 
 ### Residence
-Recife, Brasil and Pune, India
+Recife, Brazil and Pune, India
 
 ### Github Handler
 akshaykarle and leandrogualter

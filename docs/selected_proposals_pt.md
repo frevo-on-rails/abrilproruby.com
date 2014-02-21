@@ -51,11 +51,10 @@ Every day, knowingly or not, we create and follow algorithms.  From deciding wha
 ## Arthur Neves
 
 ### Title
-Software Developer at Shopify
+Desenvolvedor de Software na Shopify
 
 ### Short Bio
-Database was always one of our first bottle necks, when trying to scale Shopify in multiple servers. Nowadays, NoSQL databases are getting pretty popular, specially because they scale out of the box. At Shopify, we decide to not use a NoSQL database, as our canonical source of data, and in order to scale that properly we had to create custom solutions to shard its data.
-I will be talking about how we did it using Ruby and Rails, and when you should shard a big database.
+Arthur Neves é um desenvolvedor brasileiro de software que gosta de passar seu tempo resolvendo problemas de sistemas de larga escala. Nos últimos anos, trabalhou em alguns projetos diferentes, utilizando diferentes tecnologias, a maioria deles para start-ups. Ele atualmente trabalha na equipe de Desempenho e Confiabilidade do Site na Shopify. Em seu tempo livre, gosta de escrever código, principalmente para projetos de código aberto. Arthur é também um dos principais mantenedores do Mongoid, um ODM popular para Ruby, e também responsável por muitas contribuições em projetos de código aberto.
 
 http://cl.ly/image/3x0c3f3h1Y0x
 
@@ -63,11 +62,10 @@ http://cl.ly/image/3x0c3f3h1Y0x
 Ottawa, Canadá
 
 ### Talk Title
-Fragmentando a Shopify
+Particionando a Shopify
 
 ### Talk Description
-Database was always one of our first bottle necks, when trying to scale Shopify in multiple servers. Nowadays, NoSQL databases are getting pretty popular, specially because they scale out of the box. At Shopify, we decide to not use a NoSQL database, as our canonical source of data, and in order to scale that properly we had to create custom solutions to shard its data.
-I will be talking about how we did it using Ruby and Rails, and when you should shard a big database.
+Bancos de dados sempre foram um dos nossos primeiros gargalos ao tentar distribuir o Shopify em múltiplos servidores. Atualmente, bancos NoSQL são cada vez mais populares, especialmente por que eles escalam sem precisar de muitos ajustes. Na Shopify, nós decidimos não usar um banco de dados NoSQL como nossa fonte de dados canônica e, para escalar de forma adequada, tivemos que criar soluções customizadas para particionar nossos dados. Eu estarei falando sobre como nós fizemos isto usando Ruby e Rails e quando você deve particionar uma grande base de dados.
 
 ## T.J. Schuck
 
@@ -105,10 +103,10 @@ In Act I, we'll cover the history of secure password storage, examine the hack, 
 ## Guilherme Garnier
 
 ### Title
-Desenvolvedor de software na Globo.com
+Desenvolvedor de Software na Globo.com
 
 ### Short Bio
-Desenvolvedor de software com mais de 10 anos de experiência em linguagens como C++, Java, PHP e Perl. Atualmente, trabalha com Ruby on Rails na Globo.com.
+Desenvolvedor de software com mais de 10 anos de experiência em linguagens como C++, Java, PHP e Perl. Atualmente, trabalha com Ruby on Rails na Globo.com. Mantém seu blog em http://blog.guilhermegarnier.com.
 
 https://pbs.twimg.com/profile_images/327284586/foto_gui.jpg
 
@@ -122,10 +120,10 @@ Rio de Janeiro, Brasil
 @guilhermgarnier
 
 ### Talk Title
-Arquitetura distribuída: escalando projetos e times
+Arquitetura Distribuída: Escalando Projetos e Times
 
 ### Talk Description
-Há alguns anos, muitas pessoas diziam que Rails não escalava. Atualmente, existem muitas aplicações grandes em Rails que mostram que isso não é verdade. Mas quando seu projeto cresce, até que ponto vale manter tudo numa única aplicação? Nesta apresentação, vou mostrar detalhes de uma arquitetura distribuída com serviços, apresentando os principais pontos positivos e negativos desta abordagem. Será apresentado como exemplo o caso do projeto Globo.tv (http://globotv.globo.com/), onde utilizamos esta arquitetura para permitir que diferentes times trabalhem juntos. Mantém seu blog em http://blog.guilhermegarnier.com.
+Há alguns anos, muitas pessoas diziam que Rails não escalava. Atualmente, existem muitas aplicações grandes em Rails que mostram que isso não é verdade. Mas quando seu projeto cresce, até que ponto vale manter tudo numa única aplicação? Nesta apresentação, vou mostrar detalhes de uma arquitetura distribuída com serviços, apresentando os principais pontos positivos e negativos desta abordagem. Será apresentado como exemplo o caso do projeto Globo.tv (http://globotv.globo.com/), onde utilizamos esta arquitetura para permitir que diferentes times trabalhem juntos.
 
 ## Scott Motte
 
@@ -133,7 +131,7 @@ Há alguns anos, muitas pessoas diziam que Rails não escalava. Atualmente, exis
 Desenvolvedor Evangelista at SendGrid
 
 ### Short Bio
-I like to code in Ruby and Nodejs. I'm exploring Go. Travel and code excite me.
+Gosto de escrever código em Ruby e Node.js. Estou explorando Go. Viagem e código me excitam.
 
 http://cl.ly/image/0I252T0v453W
 
@@ -150,9 +148,9 @@ Los Angeles, EUA
 Aposentando a Senha: Uma Abordagem Alternativa para Autenticação Usando Apenas E-mail
 
 ### Talk Description
-We should be evaluating whether the traditional username and password is the best form of authentication. I think there is a better way. I've open sourced something called Handshake.js that implements an email only authentication mechanism. 
+Vamos avaliar se os tradicionais usuário e senha são a melhor forma de autenticação. Eu acho que existe um melhor caminho. Lancei um projeto de código aberto chamado Handshake.js que implementa um mecanismo de autenticação apenas com e-mail.
 
-Come see a talk on the strengths and weaknesses of this new approach as well as a live coded demo on implementing this into your next Ruby application. 
+Venha ver uma palestra sobre os pontos fortes e fracos desta nova abordagem, bem como uma demonstração ao vivo mostrando como implementar isto em sua próxima aplicação Ruby.
 
 ## João M. D. Moura
 
@@ -160,7 +158,7 @@ Come see a talk on the strengths and weaknesses of this new approach as well as 
 CTO no Palpiteros
 
 ### Short Bio
-I’m a CTO and leader engineer, currently living in São Paulo, an enthusiast technologist that love open source, a blog author in RubySource, and also a speaker of some international and national conferences like Ruby Conf Brazil, TakeOff in France, Rails Israel, Italian Ruby Day, RuPy Brazil, DevCon in Israel and others.
+Sou um CTO e engenheiro líder, atualmente morando em São Paulo, um entusiasta da tecnologia que ama o código aberto, um bloggeiro no RubySource, e também um palestrante em algumas conferências nacionais e internacionais como Ruby Conf Brasil, TakeOff na França, Rails Israel, Italian Ruby Day, RuPy Brasil, DevCon em Israel e outras.
 
 http://cl.ly/image/2P060G0K3Q3f
 
@@ -177,8 +175,9 @@ São Paulo, Brasil
 Desenvolvendo Produtos, não Aplicações
 
 ### Talk Description
-O mundo Ruby tem sido protagonista de um novo momento do empreendedorismo no mercado de tecnologia. Muitas são as técnicas, novas especificações e convenções que são criadas para facilitar e melhorar o desenvolvimento de aplicativos, principalmente web. 
-Mas esse  novo contexto muda completamente a maneira como estávamos acostumados a desenvolver. Atualmente o papel do desenvolvedor Ruby extrapola a programação, e avança dentro do processo de criação de produto, inovação, e participação efetiva em decisões que podem determinar o sucesso ou a falha de uma aplicação. Nessa palestra irei demonstrar como é possível expandir o mindset de desenvolvimento de aplicativos para o desenvolvimento de produtos.
+The Ruby world has been protagonist of a new era of entrepreneurship in the technology market. There are many techniques, new specifications and conventions that are designed to facilitate and enhance the development of applications, especially the web ones. 
+
+But this new context completely changes the way we were used to develop. Currently, the role of the Ruby developer goes beyond programming, and progresses within the product creation process, innovation, and effective participation in decisions that may determine the success or failure of an application. In this talk, I will demonstrate how you can expand the mindset from application development to product development.
 
 ## Pablo Astigarraga
 
@@ -186,9 +185,9 @@ Mas esse  novo contexto muda completamente a maneira como estávamos acostumados
 Desenvolvedor de Software na tarmac.io
 
 ### Short Bio
-Pablo Astigarraga (better known as PoTe) comes from a Python background writing Asterisk-based VoIP systems, has several years of experience doing Rails/Ruby and has been known to work with Go when the job permits it, he loves contributing to open source projects, blogging about tech and is one of the authors of the @surculusfructum podcast.
+Pablo Astigarraga (mais conhecido como PoTe) vem de Python, linguagem na qual escrivia sistemas VoIP baseados em Asterisk. Tem vários anos de experiência trabalhando com Rails/Ruby e tem sido conhecido por trabalhar com Go quando o trabalho permite, ele ama a contribuir para projetos de código aberto, bloggar sobre tecnologia e é um dos autores do podcast @surculusfructum.
 
-Passionate about minimalistic software, Unix philosophy, doing things right, having fun with cool people and using spaces instead of tabs, pote copes with a somewhat unhealthy relationship with mustaches and is always willing to discuss the evils of premature optimization over a beer.
+Apaixonado por software minimalista, filosofia Unix, fazer as coisas certo, se divertir com pessoas legais e usar espaços ao invés de tabulações, pote tem uma relação meio doentia com bigodes e está sempre disposto a discutir os males da otimização prematura depois de uma cerveja.
 
 http://cl.ly/image/1E0w3r470i2Y
 
@@ -206,11 +205,11 @@ O Dilema da Simplicidade
 
 ### Talk Description
 
-Over the years we've learned to pay attention to the importance of a number of highly desirable qualities in software: readability, maintainability, adaptation to change. We've accepted these values as good and actively pursue them yet we consistently ignore what is probably the best method of achieving these qualities, it's staring us right in the face now.
+Ao longo dos anos aprendemos a prestar atenção na importância de uma série de qualidades altamente desejáveis ​​em software: legibilidade, facilidade de manutenção, adaptação à mudança. Nós aceitamos estes valores como bons e ativamente os perseguimos. Ainda assim, consistemente ignoramos o que talvez seja o melhor método de atingir estas qualidades.
 
-Slowly but steadily the philosophy of embracing simplicity in software design by carefully calculating and minimizing unnecessary complexity is gaining traction in our community, and for a good reason: it organically pushes us to the best software practices we all know and love, it both embraces all the core principles the ruby community has developed over the years while rejecting many of the common practices we carry based on inertia but which directly contradict these values.
+Lenta mas firmemente, a filosofia de adotar a simplicidade no projeto de software cuidadosamente calculando e minimizando a complexidade desnecessária está ganhando força na nossa comunidade, e por uma boa razão: ela organicamente nos direciona para as melhores práticas de software que todos nós conhecemos e amamos e, ao mesmo tempo, abrange todos os princípios fundamentais que a comunidade Ruby tem desenvolvido ao longo dos anos enquanto rejeita muitas das práticas comuns que carregamos baseados na inércia mas que contradizem diretamente estes valores.
 
-In this talk I explore my journey on this shift in perspective from certain fragments of our community and how thinking about simplicity as one of our core values can push us to be better developers while producing better quality of software. We don't need our crutches anymore, let's drop them together!
+Nesta palestra, eu exploro minha jornada nesta mudança de perspectiva a partir de certos fragmentos da nossa comunidade e como pensar em simplicidade como um dos nossos principais valores pode nos levar a ser melhores desenvolvedores ao produzir melhor qualidade de software. Nós não precisamos de mais nossas muletas, vamos deixá-las juntos!
 
 ## Lucas Dohmen
 
