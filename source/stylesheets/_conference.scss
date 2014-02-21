@@ -334,7 +334,7 @@ body.conference, body.en_conference, body.pt_conference {
           margin-left: auto;
           width: 120px;
           height: 2px;
-          background-color: $gray3;
+          background: linear-gradient(to right, rgba(230,230,230,0) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 80%, rgba(230,230,230,0) 100%);
           content: '';
         }
       }
