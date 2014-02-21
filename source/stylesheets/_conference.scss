@@ -313,7 +313,7 @@ body.conference, body.en_conference, body.pt_conference {
       letter-spacing: 2px;
       font-weight: 600;
       font-size: 13px;
-      &:before{
+      &:before {
         display: block;
         margin-right: auto;
         margin-left: auto;
@@ -323,9 +323,6 @@ body.conference, body.en_conference, body.pt_conference {
         content: '';
       }
     }
-    // .tba {
-    //   color: white;
-    // }
     .photo {
       display: block;
       margin-right: auto;
@@ -841,9 +838,6 @@ body.conference, body.en_conference, body.pt_conference {
       }
     }
     .speaker {
-      // &:after {
-      //   margin-top: 20px;
-      // }
       .talk {
         h3 {
           margin-top: 20px;
