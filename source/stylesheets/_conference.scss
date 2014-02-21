@@ -253,8 +253,16 @@ body.conference, body.en_conference, body.pt_conference {
 
   .speaker {
     @extend .clearfix;
-    margin-bottom: 50px;
     color: $gray;
+    margin-bottom: 0;
+    &:after {
+      display: block;
+      margin-top: 40px;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(to right, rgba(230,230,230,0) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 80%, rgba(230,230,230,0) 100%);
+      content: '';
+    }
     .bkg {
       &:before {
         position: absolute;
@@ -369,19 +377,14 @@ body.conference, body.en_conference, body.pt_conference {
       position: relative;
       color: black;
       text-align: left;
-      &:after {
-        display: block;
-        margin-top: 40px;
-        width: 100%;
-        height: 2px;
-        background: linear-gradient(to right, rgba(230,230,230,0) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 80%, rgba(230,230,230,0) 100%);
-        content: '';
-      }
       h3 {
+        font-weight: 400;
         margin-top: 0;
+        margin-bottom: -10px;
       }
       p {
         display: inline-block;
+        margin-top: 10px;
         margin-bottom: 0;
         text-overflow: ellipsis;
         font-weight: 300;
@@ -726,10 +729,10 @@ body.conference, body.en_conference, body.pt_conference {
     }
     section.talks {
       .speaker {
+        &:after {
+          margin-top: 20px;
+        }
         .talk {
-          &:after {
-            margin-top: 20px;
-          }
           h3 {
             margin-top: 20px;
           }
@@ -765,10 +768,12 @@ body.conference, body.en_conference, body.pt_conference {
   @media (min-width: 992px) {
     section.talks {
       .speaker {
-        margin-bottom: 50px;
+        &:after {
+          margin-top: 40px;
+        }
         .bkg {
           &:before {
-            left: 100%;
+            left: 105%;
             height: 50px;
           }
         }
@@ -776,7 +781,7 @@ body.conference, body.en_conference, body.pt_conference {
           position: absolute;
           top: -10px;
           left: 100%;
-          margin-left: -75px;
+          margin-left: -60px;
           width: 150px;
           text-align: center;
           &:before {
@@ -803,11 +808,38 @@ body.conference, body.en_conference, body.pt_conference {
         .talk {
           margin-top: 84px;
           margin-right: 20px;
-          &:after {
-            margin-top: 40px;
-            margin-left: -104%;
-            width: 200%;
+        }
+      }
+      .right {
+        .bkg {
+          &:before {
+            left: -5%;
           }
+        }
+        .time {
+          left: 0;
+          margin-left: -87px;
+        }
+        .desc {
+          text-align: left;
+          .bio {
+            float: left;
+          }
+        }
+        .further {
+          &:after {
+            margin-left: 0;
+            margin-right: auto;
+          }
+        }
+        .talk {
+          text-align: right;
+        }
+      }
+      .last {
+        &:after {
+          height: 0;
+          width: 0;
         }
       }
     }
