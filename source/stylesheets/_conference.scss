@@ -247,8 +247,8 @@ body.conference, body.en_conference, body.pt_conference {
       line-height: 24px;
     }
     .soon {
-      cursor: not-allowed;
       text-decoration: line-through;
+      cursor: not-allowed;
     }
     .icon {
       display: inline-block;
@@ -281,6 +281,13 @@ body.conference, body.en_conference, body.pt_conference {
       height: 2px;
       background: linear-gradient(to right, rgba(230,230,230,0) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 80%, rgba(230,230,230,0) 100%);
       content: '';
+    }
+    &:first-child {
+      .bkg {
+        &:before {
+          background: linear-gradient(to bottom, rgba(230,230,230,0) 0%, rgba(230,230,230,1) 100%);
+        }
+      }
     }
     .bkg {
       &:before {
@@ -316,6 +323,9 @@ body.conference, body.en_conference, body.pt_conference {
         content: '';
       }
     }
+    // .tba {
+    //   color: white;
+    // }
     .photo {
       display: block;
       margin-right: auto;
@@ -398,7 +408,7 @@ body.conference, body.en_conference, body.pt_conference {
       text-align: left;
       h3 {
         margin-top: 0;
-        margin-bottom: -10px;
+        margin-bottom: 2px;
         font-weight: 400;
       }
       p {
@@ -413,6 +423,7 @@ body.conference, body.en_conference, body.pt_conference {
         padding: 16px 16px 16px 16px;
         color: $green;
         text-transform: uppercase;
+        letter-spacing: 1px;
         font-size: 11px;
         line-height: 12px;
         &:hover, &:active {
@@ -449,7 +460,7 @@ body.conference, body.en_conference, body.pt_conference {
   }
 
   section.talks {
-    padding: 20px 0 40px;
+    padding: 20px 0 20px;
     background-color: white;
     background-image: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 25%), linear-gradient(to bottom, rgba(255,255,255,0) 75%, rgba(255,255,255,1) 100%), image-url('waves-10.svg');
     color: $green;
@@ -498,7 +509,7 @@ body.conference, body.en_conference, body.pt_conference {
   }
 
   section.workshops {
-    padding: 30px 0 40px 0;
+    padding: 30px 0 20px 0;
     background-image: linear-gradient(to bottom, rgba(1,121,145,1) 0%, rgba(52,155,138,0) 50%), linear-gradient(to bottom, rgba(1,121,145,0) 50%, rgba(1,121,145,1) 100%);
     text-shadow: 1px 1px 1px rgba(0,0,0,1);
     h2 {
@@ -611,6 +622,13 @@ body.conference, body.en_conference, body.pt_conference {
       &:hover {
         border-color: white;
         color: white;
+      }
+    }
+    .first {
+      .bkg {
+        &:before {
+          background: linear-gradient(to bottom, rgba(230,230,230,0) 0%, rgba(230,230,230,.6) 100%);
+        }
       }
     }
   }
@@ -738,6 +756,13 @@ body.conference, body.en_conference, body.pt_conference {
     }
     p {
       margin-top: 20px;
+    }
+  }
+  .last {
+    &:after {
+      width: 0;
+      height: 0;
+      margin-top: 0;
     }
   }
 
@@ -886,9 +911,16 @@ body.conference, body.en_conference, body.pt_conference {
         }
       }
       .talk {
-        margin-top: 84px;
+        margin-top: 94px;
         margin-right: 20px;
       }
+      &:after {
+        margin-top: 30px;
+      }
+    }
+    .to-the-top {
+      display: none;
+      visibility: hidden;
     }
     .right {
       .bkg {
@@ -919,9 +951,10 @@ body.conference, body.en_conference, body.pt_conference {
       }
     }
     .last {
-      &:after {
-        width: 0;
-        height: 0;
+      .to-the-top {
+        margin-top: 30px;
+        display: block;
+        visibility: visible;
       }
     }
     section.workshops {
@@ -943,6 +976,19 @@ body.conference, body.en_conference, body.pt_conference {
         }
         .talk {
           margin-top: 150px;
+        }
+      }
+      .first {
+        .talk {
+          margin-top: 94px;
+        }
+      }
+    }
+    section.activities {
+      .remarks {
+        .to-the-top {
+          display: block;
+          visibility: visible;
         }
       }
     }
