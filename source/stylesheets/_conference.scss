@@ -48,7 +48,7 @@ body.conference, body.en_conference, body.pt_conference {
         }
         a {
           color: $green;
-          &:hover {
+          &:hover, &:active {
             color: $green;
           }
         }
@@ -167,21 +167,29 @@ body.conference, body.en_conference, body.pt_conference {
   }
 
   .date-venue-tickets {
+    margin-bottom: 20px;
     width: 100%;
     text-align: center;
-    margin-bottom: 40px;
     h3 {
       &.date, &.venue {
         display: inline;
-        text-align: center;
         margin-top: 0;
+        text-align: center;
         text-transform: none;
+        white-space: nowrap;
         font-weight: 300;
         font-size: 17px;
         line-height: 30px;
-        white-space: nowrap;
         sup {
           text-transform: none;
+        }
+        &.date {
+          margin-right: 10px;
+          margin-left: 10px;
+        }
+        &.venue {
+          margin-right: 10px;
+          margin-left: 10px;
         }
       }
     }
@@ -209,7 +217,6 @@ body.conference, body.en_conference, body.pt_conference {
     }
     .icon-location {
       margin-right: 6px;
-      margin-left: 20px;
       vertical-align: bottom;
     }
     .icon-ticket {
@@ -220,8 +227,42 @@ body.conference, body.en_conference, body.pt_conference {
 
   .speaker {
     @extend .clearfix;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     color: $gray;
+    .bkg {
+      &:before {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        display: block;
+        width: 2px;
+        height: 60px;
+        background-color: $gray3;
+        content: '';
+      }
+    }
+    .time {
+      display: inline-block;
+      margin-top: 60px;
+      width: 100%;
+      height: 24px;
+      color: $gray2;
+      text-align: center;
+      text-transform: uppercase;
+      text-shadow: none;
+      letter-spacing: 2px;
+      font-weight: 600;
+      font-size: 13px;
+      &:before{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 32px;
+        height: 2px;
+        background-color: $gray3;
+        content: '';
+      }
+    }
     .photo {
       display: block;
       margin-right: auto;
@@ -233,18 +274,111 @@ body.conference, body.en_conference, body.pt_conference {
       box-shadow: 0px 0px 8px rgba(0,0,0,.75);
     }
     .desc {
+      margin-top: 16px;
       text-align: center;
       line-height: 20px;
       .name {
         display: inline-block;
         margin-top: 0;
         margin-bottom: 2px;
+        color: $green;
         font-weight: 400;
       }
       .title {
-        font-weight: 200;
+        display: block;
+        margin-bottom: 4px;
+        font-weight: 300;
         font-size: 16px;
       }
+      .bio, .twitter, .github {
+        display: inline-block;
+        overflow: hidden;
+        padding: 15px 16px 16px 16px;
+        width: 48px;
+        height: 48px;
+        font-size: 0;
+        line-height: 0;
+        &:hover, &:active {
+          background-color: rgba(128,128,128,.1);
+        }
+      }
+      .bio {
+        position: relative;
+      }
+      .icon {
+        display: inline-block;
+        width: 16px;
+        height: 17px;
+        background-image: image-url('graphics.svg');
+      }
+      .icon-info {
+        background-position: -120px -17px;
+      }
+      .icon-twitter {
+        background-position: -60px -17px;
+      }
+      .icon-github {
+        background-position: -328px 0;
+      }
+      .biography {
+        display: inline-block;
+        color: $gray;
+        font-size: 13px;
+        line-height: 20px;
+      }
+      .further {
+        &:after {
+          display: block;
+          margin-right: auto;
+          margin-bottom: 18px;
+          margin-left: auto;
+          width: 120px;
+          height: 2px;
+          background-color: $gray3;
+          content: '';
+        }
+      }
+    }
+    .talk {
+      position: relative;
+      color: black;
+      text-align: left;
+      &:after {
+        display: block;
+        margin-top: 40px;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(to right, rgba(230,230,230,0) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 80%, rgba(230,230,230,0) 100%);
+        content: '';
+      }
+      h3 {
+        margin-top: 0;
+      }
+      p {
+        display: inline-block;
+        margin-bottom: 0;
+        text-overflow: ellipsis;
+        font-weight: 300;
+      }
+      .more {
+        display: inline-block;
+        padding: 8px 16px 8px 16px;
+        color: $green;
+        text-transform: uppercase;
+        font-size: 11px;
+        line-height: 12px;
+        &:hover, &:active {
+          background-color: rgba(128,128,128,.1);
+        }
+      }
+    }
+    .ellipsis {
+      display: inline-block;
+      visibility: visible;
+    }
+    .visible {
+      display: visible;
+      visibility: visible;
     }
   }
 
@@ -273,6 +407,11 @@ body.conference, body.en_conference, body.pt_conference {
     h3 {
       color: $green;
     }
+    .talk {
+      h3 {
+        color: black;
+      }
+    }
     .date-venue-tickets {
       h3 {
         &.date, &.venue {
@@ -281,7 +420,7 @@ body.conference, body.en_conference, body.pt_conference {
       }
       a {
         color: $gray;
-        &:hover {
+        &:hover, &:active {
           background-color: rgba(128,128,128,.2);
         }
       }
@@ -344,7 +483,7 @@ body.conference, body.en_conference, body.pt_conference {
       }
       a {
         color: white;
-        &:hover {
+        &:hover, &:active {
           background-color: rgba(255,255,255,.3);
         }
       }
@@ -432,22 +571,6 @@ body.conference, body.en_conference, body.pt_conference {
           margin-top: -40px;
         }
       }
-      .desc {
-        .tag-period {
-          position: relative;
-          margin: 0;
-          padding: 1px 5px 1px 5px;
-          height: 20px;
-          border: 2px solid $gray2;
-          background-color: transparent;
-          color: $gray2;
-          text-transform: uppercase;
-          text-shadow: none;
-          font-weight: 400;
-          font-size: 12px;
-          line-height: 12px;
-        }
-      }
     }
   }
 
@@ -492,6 +615,36 @@ body.conference, body.en_conference, body.pt_conference {
             margin-top: 0;
             margin-left: -40px;
           }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 480px) and (max-width: 649px) {
+    section.talks {
+      .speaker {
+        .talk, .biography {
+          margin-right: 30px;
+          margin-left: 40px;
+        }
+        .talk {
+          h3 {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 650px) and (max-width: 767px) {
+    section.talks {
+      .speaker {
+        .talk, .biography {
+          margin-right: 60px;
+          margin-left: 80px;
+        }
+        h3 {
+          margin-top: 15px;
         }
       }
     }
@@ -547,18 +700,12 @@ body.conference, body.en_conference, body.pt_conference {
     }
     section.talks {
       .speaker {
-        height: 340px;
-        text-align: center;
-        .photo {
-          float: none;
-        }
-        .desc {
-          margin: 1em auto;
-          .name {
-            padding-bottom: 2px;
+        .talk {
+          &:after {
+            margin-top: 20px;
           }
-          .title {
-            font-size: 16px;
+          h3 {
+            margin-top: 20px;
           }
         }
       }
@@ -579,21 +726,62 @@ body.conference, body.en_conference, body.pt_conference {
         }
       }
     }
+    section.talks {
+      .speaker {
+        .talk, .biography {
+          margin-right: 60px;
+          margin-left: 80px;
+        }
+      }
+    }
   }
 
   @media (min-width: 992px) {
     section.talks {
       .speaker {
+        margin-bottom: 50px;
+        .bkg {
+          &:before {
+            left: 100%;
+            height: 50px;
+          }
+        }
+        .time {
+          position: absolute;
+          top: -10px;
+          left: 100%;
+          margin-left: -75px;
+          width: 150px;
+          text-align: center;
+          &:before {
+            position: absolute;
+            left: 50%;
+            margin-left: -16px;
+          }
+        }
         .photo {
-          width: 200px;
-          height: 200px;
-          border-radius: 100px;
+          margin-top: 84px;
         }
-        .name {
-          padding-bottom: 0;
+        .desc {
+          margin-top: 124px;
+          text-align: right;
+          .bio {
+            float: right;
+          }
+          .further {
+            &:after {
+              margin-right: 0;
+            }
+          }
         }
-        .title {
-          font-size: 16px;
+        .talk {
+          margin-top: 84px;
+          margin-right: 20px;
+          &:after {
+            margin-top: 40px;
+            margin-left: -104%;
+            width: 200%;
+          }
         }
       }
     }
