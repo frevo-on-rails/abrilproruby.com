@@ -123,6 +123,32 @@ body.conference, body.en_conference, body.pt_conference {
               background-color: rgba(255,255,255,.5);
               content: '';
             }
+            &:hover {
+              .icon {
+                &:after {
+                  width: 0;
+                  height: 0;
+                }
+              }
+              .subtitle {
+                -webkit-transform: scale(1.15);
+                -moz-transform: scale(1.15);
+                -ms-transform: scale(1.15);
+                -o-transform: scale(1.15);
+                transform: scale(1.15);
+                -webkit-transform-origin: center left;
+                transform-origin: center left;
+              }
+              .day {
+                -webkit-transform: scale(1.15);
+                -moz-transform: scale(1.15);
+                -ms-transform: scale(1.15);
+                -o-transform: scale(1.15);
+                transform: scale(1.15);
+                -webkit-transform-origin: center right;
+                transform-origin: center right;
+              }
+            }
           }
           &:first-child:before {
             position: absolute;

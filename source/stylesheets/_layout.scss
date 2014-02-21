@@ -199,7 +199,26 @@ body {
             padding: 10px 0 0 0;
             font-weight: 400;
             &:hover {
-              background-color: rgba(255,255,255,.2);
+              .icon, .subtitle, .day {
+                -webkit-transition: -webkit-transform 0.1s ease;
+                -moz-transition: -moz-transform 0.1s ease;
+                -ms-transition: -ms-transform 0.1s ease;
+                -o-transition: -o-transform 0.1s ease;
+                transition: transform 0.1s ease;
+                -webkit-transform: scale(1.15);
+                -moz-transform: scale(1.15);
+                -ms-transform: scale(1.15);
+                -o-transform: scale(1.15);
+                transform: scale(1.15);
+              }
+              .icon {
+                -webkit-transform-origin: center center;
+                transform-origin: center center;
+              }
+              .subtitle {
+                -webkit-transform-origin: top center;
+                transform-origin: top center;
+              }
             }
             .icon {
               display: block;
