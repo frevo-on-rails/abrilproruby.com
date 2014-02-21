@@ -98,14 +98,15 @@ body.location, body.en_location, body.pt_location {
       margin-top: 24px;
       margin-bottom: 12px;
     }
-    h3 {
-      margin-top: 48px;
-      margin-bottom: 12px;
-    }
     h1, h2, h3 {
       font-weight: 400;
     }
+    h2 {
+      margin-top: 48px;
+      margin-bottom: 32px;
+    }
     h4 {
+      margin-top: 32px;
       color: black;
       font-weight: 600;
     }
