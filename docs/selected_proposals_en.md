@@ -18,12 +18,12 @@ São Paulo, Brazil
 @rafaelfranca
 
 ### Talk Title
-Rails: The hidden parts
+Rails: The Hidden Parts
 
 ### Talk Description
 The Rails framework contains a set of useful features for every web application, but not every feature is well implemented and bug-free.
 
-During this talk we will we will walk through two very old Rails features - Active Record’s scopes and HTML sanitisation - and explain how they work under the hood. Also, It will be presented the current issues we’ve been facing and how they can be improved.
+During this talk, we will we will walk through two very old Rails—featuresActive Record’s scopes and HTML sanitisation—and explain how they work under the hood. Also, it will be presented the current issues we've been facing and how they can be improved.
 
 ## Nell Shamrell
 
@@ -46,7 +46,7 @@ Seattle, USA
 Crafting and Optimizing Algorithms in Ruby
 
 ### Talk Description
-Every day, knowingly or not, we create and follow algorithms.  From deciding what route to take home from the office to following a recipe as we cook or bake, life is made of patterns.  These patterns take on special meeting when they need to be interpreted by a computer.  No matter who interprets algorithms - whether human or machine - they must be efficient in both speed and resource consumption.  Come and learn the principles and best practices of crafting, evaluating, and refining algorithms in Ruby.  We will work our way through a real world example of creating the core algorithm of a fantasy combat game.  Step by step, we will translate a complex system of rules into a robust and efficient Ruby algorithm.  You will walk away with a better understanding of how to create optimal algorithms and refactor existing algorithms in your own Ruby code.
+Every day, knowingly or not, we create and follow algorithms.  From deciding what route to take home from the office to following a recipe as we cook or bake, life is made of patterns. These patterns take on special meeting when they need to be interpreted by a computer. No matter who interprets algorithms—whether human or machine— hey must be efficient in both speed and resource consumption. Come and learn the principles and best practices of crafting, evaluating, and refining algorithms in Ruby. We will work our way through a real world example of creating the core algorithm of a fantasy combat game. Step by step, we will translate a complex system of rules into a robust and efficient Ruby algorithm. You will walk away with a better understanding of how to create optimal algorithms and refactor existing algorithms in your own Ruby code.
 
 ## Arthur Neves
 
@@ -54,7 +54,7 @@ Every day, knowingly or not, we create and follow algorithms.  From deciding wha
 Software Developer at Shopify
 
 ### Short Bio
-Arthur Neves is a Brazilian Software Developer, which likes to spend his time solving large scale system problems. In the past few years he worked in a few different projects using different technologies, most of them for start-ups. He currently work on the Performance and Site reliability team at Shopify. At his free time he likes to write code, mostly for open source projects. Arthur is also a core maintainer of Mongoid, a popular MongoDB ODM for ruby, and he is responsible for many open source contributions.
+Arthur Neves is a Brazilian Software Developer, which likes to spend his time solving large scale system problems. In the past few years he worked in a few different projects using different technologies, most of them for start-ups. He currently works on the Performance and Site reliability team at Shopify. At his free time he likes to write code, mostly for open source projects. Arthur is also a core maintainer of Mongoid, a popular MongoDB ODM for Ruby, and he is responsible for many open source contributions.
 
 http://cl.ly/image/3x0c3f3h1Y0x
 
@@ -71,8 +71,7 @@ Ottawa, Canada
 Sharding Shopify
 
 ### Talk Description
-Database was always one of our first bottle necks, when trying to scale Shopify in multiple servers. Nowadays, NoSQL databases are getting pretty popular, specially because they scale out of the box. At Shopify, we decide to not use a NoSQL database, as our canonical source of data, and in order to scale that properly we had to create custom solutions to shard its data.
-I will be talking about how we did it using Ruby and Rails, and when you should shard a big database.
+Database was always one of our first bottle necks when trying to scale Shopify in multiple servers. Nowadays, NoSQL databases are getting pretty popular, specially because they scale out of the box. At Shopify, we decide to not use a NoSQL database as our canonical source of data and, in order to scale that properly, we had to create custom solutions to shard its data. I will be talking about how we did it using Ruby and Rails, and when you should shard a big database.
 
 ## T.J. Schuck
 
@@ -97,7 +96,7 @@ New York, USA
 80,000 Plaintext Passwords: An Open Source Love Story in Three Acts
 
 ### Talk Description
-Considering getting a new dog? Here are some name suggestions: fluffmuffin, peppercorn, monkeybreath
+Considering getting a new dog? Here are some name suggestions: fluffmuffin, peppercorn, monkeybreath.
 
 Just kidding, those aren't dog name suggestions -- those are a few of our users' plaintext passwords.
 
@@ -138,7 +137,7 @@ A few years ago, a lot of people said that Rails did not scale. Nowadays, there 
 Developer Evangelist at SendGrid
 
 ### Short Bio
-I like to code in Ruby and Nodejs. I'm exploring Go. Travel and code excite me.
+I like to code in Ruby and Node.js. I'm exploring Go. Travel and code excite me.
 
 http://cl.ly/image/0I252T0v453W
 
@@ -152,7 +151,7 @@ Los Angeles, USA
 @scottmotte
 
 ### Talk Title
-Deprecating the password: An alternative approach to authentication using email only
+Deprecating the Password: An Alternative Approach to Authentication using Email Only
 
 ### Talk Description
 We should be evaluating whether the traditional username and password is the best form of authentication. I think there is a better way. I've open sourced something called Handshake.js that implements an email only authentication mechanism. 
@@ -179,7 +178,7 @@ São Paulo, Brazil
 @joaomdmoura
 
 ### Talk Title
-Developing products, not Apps
+Developing Products, not Apps
 
 ### Talk Description
 The Ruby world has been protagonist of a new era of entrepreneurship in the technology market. There are many techniques, new specifications and conventions that are designed to facilitate and enhance the development of applications, especially on the web.
@@ -224,7 +223,7 @@ In this talk I explore my journey on this shift in perspective from certain frag
 Developer at triAGENS GmbH
 
 ### Short Bio
-I’m a member of the core team of the NoSQL database project ArangoDB where I work on the graph functionality, tools for the Ruby community to use the database and Foxx. Furthermore I contribute to various open source projects like hacken.in (an event calender for nerds in my hometown written in Rails) and projects related to ArangoDB. You can find me listening or speaking at our local usergroups for Ruby, JavaScript, NoSQL and (as a coach for) Rails Girls and Coder Dojo.
+I'm a member of the core team of the NoSQL database project ArangoDB where I work on the graph functionality, tools for the Ruby community to use the database and Foxx. Furthermore I contribute to various open source projects like hacken.in (an event calender for nerds in my hometown written in Rails) and projects related to ArangoDB. You can find me listening or speaking at our local usergroups for Ruby, JavaScript, NoSQL and (as a coach for) Rails Girls and Coder Dojo.
 
 https://0.gravatar.com/avatar/84ac75cc9db741ff266392c83de9aa15?d=https%3A%2F%2Fidenticons.github.com%2F0c5d6c34154abb43427d3fa247a396b7.png&r=x&s=400
 
@@ -243,7 +242,7 @@ Domain Driven Design & NoSQL
 ### Talk Description
 Domain Driven Design is a software development process that focuses on finding a common language for the involved parties. This language and the resulting models are taken from the domain rather than the technical details of the implementation. The goal is to improve the communication between customers, developers and all other involved groups. Even if Eric Evan's book about this topic was written almost ten years ago, this topic remains important because a lot of projects fail for communication reasons.
 
-Relational databases have their own language and influence the design of software into a direction further away from the domain: Entities have to be created for the sole purpose of adhering to best practices of relational database. Two kinds of NoSQL databases are changing that: Document stores and graph databases. In a document store you can model a contains relation in a more natural way and thereby express if this entity can exist outside of its surrounding entity. A graph database allows you to model relationships between entities in a straight forward way that can be expressed in the language of the domain.
+Relational databases have their own language and influence the design of software into a direction further away from the domain: entities have to be created for the sole purpose of adhering to best practices of relational database. Two kinds of NoSQL databases are changing that: document stores and graph databases. In a document store you can model a contains relation in a more natural way and thereby express if this entity can exist outside of its surrounding entity. A graph database allows you to model relationships between entities in a straight forward way that can be expressed in the language of the domain.
 
 I want to look at the way a multi model database that combines a document store and a graph database can help you model your problems in a way that is understandable for all parties involved.
 
@@ -396,7 +395,7 @@ akshaykarle and leandrogualter
 @akshay_karle
 
 ### Talk Title
-Coding in production
+Coding in Production
 
 ### Talk Description
 Ever had that bug that happens "only in production"? Ever heard someone say "but it works on my machine"? Ever said it yourself? Wouldn't it be nice if you could write all your code directly in production - so that when it works for you on your machine, it also works for everyone else?
@@ -425,7 +424,7 @@ Truckee, USA
 @phlipper
 
 ### Talk Title
-Cooking at Shopify: Taming a busy kitchen with many Chefs
+Cooking at Shopify: Taming a Busy Kitchen with Many Chefs
 
 ### Talk Description
 We use Chef to manage a large and rapidly growing infrastructure at Shopify. Our cookbooks are open to development not only by our Operations Team, but by all 200+ developers at the company, and we manage to maintain an environment of continuous delivery and continuous improvement for our infrastructure. In this workshop, I'll discuss our goals and motivations, some of our workflows, internal tooling, and security considerations when operating at our scale. We'll also spend some time setting up a similar environment and discussing sustainable infrastructure strategies.
