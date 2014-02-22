@@ -160,7 +160,7 @@ Come see a talk on the strengths and weaknesses of this new approach as well as 
 CTO no Palpiteros
 
 ### Short Bio
-I’m a CTO and leader engineer, currently living in São Paulo, an enthusiast technologist that love open source, a blog author in RubySource, and also a speaker of some international and national conferences like Ruby Conf Brazil, TakeOff in France, Rails Israel, Italian Ruby Day, RuPy Brazil, DevCon in Israel and others.
+I’m a CTO and leader engineer, currently living in São Paulo, an enthusiast technologist that love open source, a blog author in RubySource, and also a speaker of some international and national conferences like Ruby Conf Brazil, TakeOff in France, Rails Israel, Italian Ruby Day, RuPy Brazil, DevCon in Israel and others.
 
 http://cl.ly/image/2P060G0K3Q3f
 
@@ -295,7 +295,7 @@ Evoluindo Sistemas Distribuídos
 ### Talk Description
 Sistemas distribuídos são grandes, em todos os sentidos da palavra. Das maiores redes sociais e engenhos de busca até a mais simples aplicação iOS ou web, os sistemas distrubuídos causam probemas, que vem de sua melhor funcionalidade: o sistema deve continuar funcionando mesmo quando partes dele quebram.
 
-Aplicações cliente sem conexão à rede ainda precisam capturarem dados, backends com um ou outro serviço falhando não devem quebrar toda a aplicação, e a aplicação ainda deve funcionar adequadamente quando o grande datacenter (você sabe qual) sai do ar.
+Aplicações cliente sem conexão à rede ainda precisam capturar dados, backends com um ou outro serviço falhando não devem quebrar toda a aplicação, e a aplicação ainda deve funcionar adequadamente quando o grande datacenter (você sabe qual) sai do ar.
 
 Como voce cresce uma aplicação Rails simples e monolítica para um sistema distribuído? O que é necessário para fazer a sua UI guardar os dados até a conexão de rede voltar? E como você testa tudo isso?
 
@@ -365,7 +365,7 @@ Adotando SOA a partir do Dia 1
 
 ### Talk Description
 
-Nest workshop, explicaremos o que é uma arquitetura orientada a serviço(SOA), suas vantagens, e as razões pelas quais os desenvolvedores devem pensar sobre isso quando estão começando sua aplicação. Vou analisar o quão complexo e caro é mover para SOA quando a base de código chega a certo tamanho, tráfego, e argumentarei que usar SOA em uma fase inicial de desenvolvimento é uma solução viável. Iremos construir um conjunto de serviços e aplicações front-end para por em prática a teoria discutida no worksop. Iremos dar partes do workshop em inglês e portugês.
+Neste workshop, explicaremos o que é uma arquitetura orientada a serviço(SOA), suas vantagens, e as razões pelas quais os desenvolvedores devem pensar sobre isso quando estão começando sua aplicação. Vou analisar o quão complexo e caro é mover para SOA quando a base de código chega a certo tamanho, tráfego, e argumentarei que usar SOA em uma fase inicial de desenvolvimento é uma solução viável. Iremos construir um conjunto de serviços e aplicações front-end para por em prática a teoria discutida no worksop. Iremos dar partes do workshop em inglês e portugês.
 
 ## Leandro Gualter e Akshay Karle :construction_worker:
 
@@ -382,7 +382,7 @@ http://cl.ly/image/3O103W1k0O0y
 
 #### Leandro Gualter
 
-Leandro Gualter é um desenvolvedor web com mais de 10 anos de experiência. Ele é um membro da equipe ce constrói o Snap CI, um serviço de integração contínua desenvolvido pela ThoughtWorks. Ele é apaixonado por linguagens que lhe permitam associar variáveis a funções, viciado em energéticos e está agora em uma missão para exporar os cantos longínquos do universo DevOps.
+Leandro Gualter é um desenvolvedor web com mais de 10 anos de experiência. Ele é um membro da equipe que constrói o Snap CI, um serviço de integração contínua desenvolvido pela ThoughtWorks. Ele é apaixonado por linguagens que lhe permitam associar funções a variáveis, viciado em energéticos e está agora em uma missão para explorar os cantos longínquos do universo DevOps.
 
 http://cl.ly/image/3m0k38341P32
 
@@ -431,7 +431,7 @@ Cozinhando na Shopify: Domando uma Cozinha Movimentada com Muitos Chefs
 
 ### Talk Description
 
-Nós usamos o Chef para administar uma grande e crescent infraestrutura no Shopify. Nossos cookbooks estão abertos a desenvolvimento não somente por nossa Equipe de Operações, mas também por todos os desenvolvedores na empresa, e conseguimos manter um ambiente de entrega contínua e melhoria contínua para a nossa infraestrutura. Neste workshop irei discursar sobre os nossos objetivos e motivações, alguns dos nossos fluxos de trabalho, ferramental interno, e considerações de segurança ao se operar em nossa escala. Iremos também levar algum tempo configurando um ambiente similar e discutindo estratégias sustentáveis de infraestrutura.
+Nós usamos o Chef para administar uma grande e crescente infraestrutura no Shopify. Nossos cookbooks estão abertos a desenvolvimento não somente por nossa Equipe de Operações, mas também por todos os desenvolvedores na empresa, e conseguimos manter um ambiente de entrega contínua e melhoria contínua para a nossa infraestrutura. Neste workshop irei discursar sobre os nossos objetivos e motivações, alguns dos nossos fluxos de trabalho, nossas ferramentas internas, e considerações de segurança ao se operar em nossa escala. Iremos também levar algum tempo configurando um ambiente similar e discutindo estratégias sustentáveis de infraestrutura.
 
 ## André Medeiros :construction_worker:
 
