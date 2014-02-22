@@ -217,7 +217,7 @@ Nesta palestra, eu exploro minha jornada nesta mudança de perspectiva a partir 
 Desenvolvedor na triAGENS GmbH
 
 ### Short Bio
-I’m a member of the core team of the NoSQL database project ArangoDB where I work on the graph functionality, tools for the Ruby community to use the database and Foxx. Furthermore I contribute to various open source projects like hacken.in (an event calender for nerds in my hometown written in Rails) and projects related to ArangoDB. You can find me listening or speaking at our local usergroups for Ruby, JavaScript, NoSQL and (as a coach for) Rails Girls and Coder Dojo.
+Sou membro da equipe principal do projeto de banco de dados NoSQL ArangoDB, onde trabalho na funcionalidade de grafos, ferramentas para a comunidade Ruby e Foxx. Além disso, contribuo para vários projetos de código aberto como hacken.in (um calendário de eventos para nerds na minha cidade natal, escrito em Rails) e projetos relacionados ao ArangoDB. Você pode me encontrar ouvindo ou falando nos nossos grupos locais de usuários para Ruby, JavaScript, NoSQL e (como coach) no Rails Girls e no Coder Dojo.
 
 https://0.gravatar.com/avatar/84ac75cc9db741ff266392c83de9aa15?d=https%3A%2F%2Fidenticons.github.com%2F0c5d6c34154abb43427d3fa247a396b7.png&r=x&s=400
 
@@ -234,11 +234,11 @@ Colônia, Alemanha
 Projeto Orientado a Domínio & NoSQL
 
 ### Talk Description
-Domain Driven Design is a software development process that focuses on finding a common language for the involved parties. This language and the resulting models are taken from the domain rather than the technical details of the implementation. The goal is to improve the communication between customers, developers and all other involved groups. Even if Eric Evan's book about this topic was written almost ten years ago, this topic remains important because a lot of projects fail for communication reasons.
+Domain Driven Design é um processo de desenvolvimento de software que se concentra em encontrar uma linguagem comum para as partes envolvidas. Esta linguagem e os modelos resultantes são extraídos a partir do domínio e não de detalhes técnicos da implementação. O objetivo é melhorar a comunicação entre clientes, desenvolvedores e todos os outros grupos envolvidos. Mesmo que o livro de Eric Evan sobre este tópico tenha sido escrito há quase dez anos, este tema continua a ser importante porque vários projetos falham por razões de comunicação.
 
-Relational databases have their own language and influence the design of software into a direction further away from the domain: Entities have to be created for the sole purpose of adhering to best practices of relational database. Two kinds of NoSQL databases are changing that: Document stores and graph databases. In a document store you can model a contains relation in a more natural way and thereby express if this entity can exist outside of its surrounding entity. A graph database allows you to model relationships between entities in a straight forward way that can be expressed in the language of the domain.
+Bancos de dados relacionais têm sua própria linguagem e influenciam o projeto do software em uma direção mais longe do domínio: entidades têm de ser criadas com o único propósito de aderir às melhores práticas de banco de dados relacional. Dois tipos de bancos de dados NoSQL estão mudando isso: bancos de documentos e bancos de grafo. Em um banco de documentos, você pode modelar uma relação de contenção de uma forma mais natural e, assim, expressar se uma dada entidade pode ou não existir fora da entidade que a contém. Um banco de dados de grafo permite modelar relações entre entidades de uma forma simples, que pode ser expressa na linguagem do domínio.
 
-I want to look at the way a multi model database that combines a document store and a graph database can help you model your problems in a way that is understandable for all parties involved.
+Eu quero discutir como um banco de dados multi-modelo que combina um armazenamento de documentos e um banco de dados de grafo pode ajudar a modelar os seus problemas de uma forma que seja compreensível para todas as partes envolvidas.
 
 ## Brian Morton
 
@@ -246,7 +246,7 @@ I want to look at the way a multi model database that combines a document store 
 Engenheiro de Software Senior no Yammer/Microsoft
 
 ### Short Bio
-Brian is a software engineer at Yammer in San Francisco where he builds software and systems to change the way the world gets work done. He’s obsessed with clean code, simple solutions to hard problems, and making things easier.  In his free time, he loves playing Zelda and pretending that he can make music with a guitar.
+Brian é um engenheiro de software do Yammer, em São Francisco, onde ele constrói software e sistemas para mudar a forma como o mundo trabalha. Ele é obcecado com código limpo, soluções simples para problemas difíceis e em tornar as coisas mais fáceis. Em seu tempo livre, ele gosta de jogar Zelda e de fingir que ele consegue fazer música com um violão.
 
 http://cl.ly/image/172724110B0T
 
@@ -263,11 +263,11 @@ São Francisco, EUA
 Deixando Rails pelo Dropwizard?
 
 ### Talk Description
-Due to the success of Rails, many successful organizations find themselves with a Rails application that needs partitioning. Many organizations have chosen to largely abandon Ruby during this transition, yet the reasoning is often reactionary.
- 
-This talk explores the approach Yammer has taken, comparing Rails and the Java-based Dropwizard framework.  Both have the mantra of getting decision-making and repetition out of the way so you can get things done.  Dropwizard takes a slightly different approach by putting emphasis on "production-ready out-of-the-box." 
- 
-In this talk, attendees will gain insights into the options Rubyists have for replicating Dropwizard's ops-focus in Rails.  Attendees will also come away with an understanding of why Dropwizard's focus on operations and metrics makes it appealing to organizations tearing apart their monolithic Rails application. By assembling similar toolsets for Ruby and Java services, we'll be better positioned to choose between them on the merits of the stack and language.
+Devido ao sucesso de Rails, muitas organizações encontram-se com uma aplicação Rails que precisa de particionamento. Muitas delas têm optado por abandonar Ruby em grande parte durante essa transição, mas o raciocínio é muitas vezes reacionário.
+ 
+Esta palestra explora a abordagem que o Yammer tem tomado, comparando Rails e Dropwizard, um framework baseado em Java. Ambos têm o mantra de manter a tomada de decisão e a repetição fora do caminho para que você possa se concentrar no que realmente importa. Dropwizard tem uma abordagem um pouco diferente, colocando a ênfase no "pronto para produção desde cedo".
+ 
+Nesta palestra, os participantes irão obter insights sobre as opções que Rubistas têm para replicar o foco do Dropwizard em operações em Rails. Os participantes também vão sair com uma compreensão de por que o foco do Dropwizard em operações e métricas o torna atraente para as organizações que estão quebrando suas aplicações Rails monolíticas. Ao reunir conjuntos de ferramentas semelhantes para serviços Ruby e Java, estaremos em uma melhor posição para escolher entre eles considerando os méritos de cada plataforma e linguagem.
 
 ## Bryce Kerley
 
