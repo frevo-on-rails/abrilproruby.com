@@ -9,7 +9,7 @@ Software Developer at Plataformatec
 Member of the Rails Core Team. Spend the days solving problems at Plataformatec and the nights contributing to several OSS projects.
 
 ### Residence
-São Paulo, Brasil
+São Paulo, Brazil
 
 ### Github Handler
 @rafaelfranca
@@ -113,12 +113,12 @@ In Act I, we'll cover the history of secure password storage, examine the hack, 
 Software Developer at Globo.com
 
 ### Short Bio
-Desenvolvedor de software com mais de 10 anos de experiência em linguagens como C++, Java, PHP e Perl. Atualmente, trabalha com Ruby on Rails na Globo.com.
+Software developer with more than 10 years of experience in languages such as C++, Java, PHP and Perl. Currently, he works with Ruby on Rails at Globo.com. He also writes on his blog at http://blog.guilhermegarnier.com.
 
 https://pbs.twimg.com/profile_images/327284586/foto_gui.jpg
 
 ### Residence
-Rio de Janeiro, Brasil
+Rio de Janeiro, Brazil
 
 ### Github Handler
 @ggarnier
@@ -130,7 +130,7 @@ Rio de Janeiro, Brasil
 Distributed Architecture: Scaling Projects and Teams
 
 ### Talk Description
-Há alguns anos, muitas pessoas diziam que Rails não escalava. Atualmente, existem muitas aplicações grandes em Rails que mostram que isso não é verdade. Mas quando seu projeto cresce, até que ponto vale manter tudo numa única aplicação? Nesta apresentação, vou mostrar detalhes de uma arquitetura distribuída com serviços, apresentando os principais pontos positivos e negativos desta abordagem. Será apresentado como exemplo o caso do projeto Globo.tv (http://globotv.globo.com/), onde utilizamos esta arquitetura para permitir que diferentes times trabalhem juntos. Mantém seu blog em http://blog.guilhermegarnier.com.
+A few years ago, a lot of people said that Rails did not scale. Nowadays, there are a lot of big applications in Rails that show that this is not true. But when your project grows, to which point is it worth to keep everything in a single application? In this presentation, I will show details of a service distributed architecture, highlighting the advantages and drawbacks of this approach. The case of the Globo.tv (http://globotv.globo.com/) will be presented as an example. In this project, we use this architecture to allow different teams to work together.
 
 ## Scott Motte
 
@@ -165,12 +165,12 @@ Come see a talk on the strengths and weaknesses of this new approach as well as 
 CTO at Palpiteros
 
 ### Short Bio
-I’m a CTO and leader engineer, currently living in São Paulo, an enthusiast technologist that love open source, a blog author in RubySource, and also a speaker of some international and national conferences like Ruby Conf Brazil, TakeOff in France, Rails Israel, Italian Ruby Day, RuPy Brazil, DevCon in Israel and others.
+I'm a CTO and leader engineer, currently living in São Paulo, an enthusiast technologist that love open source, a blog author in RubySource, and also a speaker of some international and national conferences like Ruby Conf Brazil, TakeOff in France, Rails Israel, Italian Ruby Day, RuPy Brazil, DevCon in Israel and others.
 
 http://cl.ly/image/2P060G0K3Q3f
 
 ### Residence
-São Paulo, Brasil
+São Paulo, Brazil
 
 ### Github Handler
 @joaomdmoura
@@ -182,8 +182,9 @@ São Paulo, Brasil
 Developing products, not Apps
 
 ### Talk Description
-O mundo Ruby tem sido protagonista de um novo momento do empreendedorismo no mercado de tecnologia. Muitas são as técnicas, novas especificações e convenções que são criadas para facilitar e melhorar o desenvolvimento de aplicativos, principalmente web. 
-Mas esse  novo contexto muda completamente a maneira como estávamos acostumados a desenvolver. Atualmente o papel do desenvolvedor Ruby extrapola a programação, e avança dentro do processo de criação de produto, inovação, e participação efetiva em decisões que podem determinar o sucesso ou a falha de uma aplicação. Nessa palestra irei demonstrar como é possível expandir o mindset de desenvolvimento de aplicativos para o desenvolvimento de produtos.
+The Ruby world has been protagonist of a new era of entrepreneurship in the technology market. There are many techniques, new specifications and conventions that are designed to facilitate and enhance the development of applications, especially on the web.
+
+But this new context completely changes the way we were used to develop. Currently, the role of the Ruby developer goes beyond programming, and progresses within the product creation process, innovation, and effective participation in decisions that may determine the success or failure of an application. In this talk, I will demonstrate how you can expand the mindset from application development to product development.
 
 ## Pablo Astigarraga
 
@@ -386,7 +387,7 @@ Leandro Gualter is a web developer with over 10 years of experience. He is a mem
 http://cl.ly/image/3m0k38341P32
 
 ### Residence
-Recife, Brasil and Pune, India
+Recife, Brazil and Pune, India
 
 ### Github Handler
 akshaykarle and leandrogualter
