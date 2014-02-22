@@ -108,7 +108,7 @@ In Act I, we'll cover the history of secure password storage, examine the hack, 
 Desenvolvedor de software na Globo.com
 
 ### Short Bio
-Desenvolvedor de software com mais de 10 anos de experiência em linguagens como C++, Java, PHP e Perl. Atualmente, trabalha com Ruby on Rails na Globo.com.
+Desenvolvedor de software com mais de 10 anos de experiência em linguagens como C++, Java, PHP e Perl. Atualmente, trabalha com Ruby on Rails na Globo.com. Mantém seu blog em http://blog.guilhermegarnier.com.
 
 https://pbs.twimg.com/profile_images/327284586/foto_gui.jpg
 
@@ -125,7 +125,7 @@ Rio de Janeiro, Brasil
 Arquitetura distribuída: escalando projetos e times
 
 ### Talk Description
-Há alguns anos, muitas pessoas diziam que Rails não escalava. Atualmente, existem muitas aplicações grandes em Rails que mostram que isso não é verdade. Mas quando seu projeto cresce, até que ponto vale manter tudo numa única aplicação? Nesta apresentação, vou mostrar detalhes de uma arquitetura distribuída com serviços, apresentando os principais pontos positivos e negativos desta abordagem. Será apresentado como exemplo o caso do projeto Globo.tv (http://globotv.globo.com/), onde utilizamos esta arquitetura para permitir que diferentes times trabalhem juntos. Mantém seu blog em http://blog.guilhermegarnier.com.
+Há alguns anos, muitas pessoas diziam que Rails não escalava. Atualmente, existem muitas aplicações grandes em Rails que mostram que isso não é verdade. Mas quando seu projeto cresce, até que ponto vale manter tudo numa única aplicação? Nesta apresentação, vou mostrar detalhes de uma arquitetura distribuída com serviços, apresentando os principais pontos positivos e negativos desta abordagem. Será apresentado como exemplo o caso do projeto Globo.tv (http://globotv.globo.com/), onde utilizamos esta arquitetura para permitir que diferentes times trabalhem juntos.
 
 ## Scott Motte
 
