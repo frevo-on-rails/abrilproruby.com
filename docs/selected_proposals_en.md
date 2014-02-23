@@ -54,7 +54,7 @@ Every day, knowingly or not, we create and follow algorithms.  From deciding wha
 Software Developer at Shopify
 
 ### Short Bio
-Arthur Neves is a Brazilian software developer, which likes to spend his time solving large scale system problems. In the past few years he worked in a few different projects using different technologies, most of them for start-ups. He currently works on the Performance and Site Reliability Team at Shopify. At his free time he likes to write code, mostly for open source projects. Arthur is also a core maintainer of Mongoid, a popular MongoDB ODM for Ruby, and he is responsible for many open source contributions.
+Arthur Neves is a Brazilian software developer, who likes to spend his time solving large scale system problems. In the past few years he worked in a few different projects using different technologies, most of them for start-ups. He currently works on the Performance and Site Reliability Team at Shopify. During his free time, he likes to write code, mostly for open source projects. Arthur is also a core maintainer of Mongoid, a popular MongoDB ODM for Ruby, and he is responsible for many open source contributions.
 
 http://cl.ly/image/3x0c3f3h1Y0x
 
@@ -71,7 +71,7 @@ Ottawa, Canada
 Sharding Shopify
 
 ### Talk Description
-Database was always one of our first bottle necks when trying to scale Shopify in multiple servers. Nowadays, NoSQL databases are getting pretty popular, specially because they scale out of the box. At Shopify, we decide to not use a NoSQL database as our canonical source of data and, in order to scale that properly, we had to create custom solutions to shard its data. I will be talking about how we did it using Ruby and Rails, and when you should shard a big database.
+Database was always one of our first bottlenecks when trying to scale Shopify in multiple servers. Nowadays, NoSQL databases are getting pretty popular, specially because they scale out of the box. At Shopify, we decide to not use a NoSQL database as our canonical source of data and, in order to scale that properly, we had to create custom solutions to shard its data. I will be talking about how we did it using Ruby and Rails, and when you should shard a big database.
 
 ## T.J. Schuck
 
@@ -164,7 +164,7 @@ Come see a talk on the strengths and weaknesses of this new approach as well as 
 CTO at Palpiteros
 
 ### Short Bio
-I'm a CTO and leader engineer, currently living in São Paulo, an enthusiast technologist that love open source, a blog author in RubySource, and also a speaker of some international and national conferences like Ruby Conf Brazil, TakeOff in France, Rails Israel, Italian Ruby Day, RuPy Brazil, DevCon in Israel and others.
+I'm a CTO and lead engineer, currently living in São Paulo, a technology enthusiast that loves open source, a blog author in RubySource, and also a speaker of some international and national conferences like Ruby Conf Brazil, TakeOff in France, Rails Israel, Italian Ruby Day, RuPy Brazil, DevCon in Israel and others.
 
 http://cl.ly/image/2P060G0K3Q3f
 
@@ -181,9 +181,9 @@ São Paulo, Brazil
 Developing products, not Apps
 
 ### Talk Description
-O mundo Ruby tem sido protagonista de um novo momento do empreendedorismo no mercado de tecnologia. Muitas são as técnicas, novas especificações e convenções que são criadas para facilitar e melhorar o desenvolvimento de aplicativos, principalmente web. 
+The Ruby world has been protagonist of a new era of entrepreneurship in the technology market. There are many techniques, new specifications and conventions that are designed to facilitate and enhance the development of applications, especially the web ones. 
 
-Mas esse  novo contexto muda completamente a maneira como estávamos acostumados a desenvolver. Atualmente, o papel do desenvolvedor Ruby extrapola a programação, e avança dentro do processo de criação de produto, inovação, e participação efetiva em decisões que podem determinar o sucesso ou a falha de uma aplicação. Nessa palestra, irei demonstrar como é possível expandir o mindset de desenvolvimento de aplicativos para o desenvolvimento de produtos.
+But this new context completely changes the way we were used to develop. Currently, the role of the Ruby developer goes beyond programming, and progresses within the product creation process, innovation, and effective participation in decisions that may determine the success or failure of an application. In this talk, I will demonstrate how you can expand the mindset from application development to product development.
 
 ## Pablo Astigarraga
 

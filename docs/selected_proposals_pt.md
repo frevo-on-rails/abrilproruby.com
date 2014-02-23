@@ -175,9 +175,9 @@ São Paulo, Brasil
 Desenvolvendo Produtos, não Aplicações
 
 ### Talk Description
-The Ruby world has been protagonist of a new era of entrepreneurship in the technology market. There are many techniques, new specifications and conventions that are designed to facilitate and enhance the development of applications, especially the web ones. 
+O mundo Ruby tem sido protagonista de um novo momento do empreendedorismo no mercado de tecnologia. Muitas são as técnicas, novas especificações e convenções que são criadas para facilitar e melhorar o desenvolvimento de aplicativos, principalmente web. 
 
-But this new context completely changes the way we were used to develop. Currently, the role of the Ruby developer goes beyond programming, and progresses within the product creation process, innovation, and effective participation in decisions that may determine the success or failure of an application. In this talk, I will demonstrate how you can expand the mindset from application development to product development.
+Mas esse  novo contexto muda completamente a maneira como estávamos acostumados a desenvolver. Atualmente, o papel do desenvolvedor Ruby extrapola a programação, e avança dentro do processo de criação de produto, inovação, e participação efetiva em decisões que podem determinar o sucesso ou a falha de uma aplicação. Nessa palestra, irei demonstrar como é possível expandir o mindset de desenvolvimento de aplicativos para o desenvolvimento de produtos.
 
 ## Pablo Astigarraga
 
@@ -185,7 +185,7 @@ But this new context completely changes the way we were used to develop. Current
 Desenvolvedor de Software na tarmac.io
 
 ### Short Bio
-Pablo Astigarraga (mais conhecido como PoTe) vem de Python, linguagem na qual escrivia sistemas VoIP baseados em Asterisk. Tem vários anos de experiência trabalhando com Rails/Ruby e tem sido conhecido por trabalhar com Go quando o trabalho permite, ele ama a contribuir para projetos de código aberto, bloggar sobre tecnologia e é um dos autores do podcast @surculusfructum.
+Pablo Astigarraga (mais conhecido como PoTe) vem de Python, linguagem na qual escrivia sistemas VoIP baseados em Asterisk. Tem vários anos de experiência trabalhando com Rails/Ruby e tem sido conhecido por trabalhar com Go quando o trabalho permite, ele ama a contribuir para projetos de código aberto, blogar sobre tecnologia e é um dos autores do podcast @surculusfructum.
 
 Apaixonado por software minimalista, filosofia Unix, fazer as coisas certo, se divertir com pessoas legais e usar espaços ao invés de tabulações, pote tem uma relação meio doentia com bigodes e está sempre disposto a discutir os males da otimização prematura depois de uma cerveja.
 
@@ -209,7 +209,7 @@ Ao longo dos anos aprendemos a prestar atenção na importância de uma série d
 
 Lenta mas firmemente, a filosofia de adotar a simplicidade no projeto de software cuidadosamente calculando e minimizando a complexidade desnecessária está ganhando força na nossa comunidade, e por uma boa razão: ela organicamente nos direciona para as melhores práticas de software que todos nós conhecemos e amamos e, ao mesmo tempo, abrange todos os princípios fundamentais que a comunidade Ruby tem desenvolvido ao longo dos anos enquanto rejeita muitas das práticas comuns que carregamos baseados na inércia mas que contradizem diretamente estes valores.
 
-Nesta palestra, eu exploro minha jornada nesta mudança de perspectiva a partir de certos fragmentos da nossa comunidade e como pensar em simplicidade como um dos nossos principais valores pode nos levar a ser melhores desenvolvedores ao produzir melhor qualidade de software. Nós não precisamos de mais nossas muletas, vamos deixá-las juntos!
+Nesta palestra, eu exploro minha jornada nesta mudança de perspectiva a partir de certos fragmentos da nossa comunidade e como pensar em simplicidade como um dos nossos principais valores pode nos levar a ser melhores desenvolvedores ao produzir melhor qualidade de software. Nós não precisamos mais de nossas muletas, vamos deixá-las juntos!
 
 ## Lucas Dohmen
 
