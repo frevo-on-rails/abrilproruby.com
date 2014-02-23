@@ -36,9 +36,9 @@ São Paulo, Brasil
 Rails: As Partes Escondidas
 
 ### Talk Description
-O framework Rails contem um conjunto de recursos úteis para toda aplicação web, mas nem todo recurso está bem implementado e sem bugs.
+O framework Rails contém um conjunto de recursos úteis para toda aplicação web, mas nem todo recurso está bem implementado e livre de bugs.
 
-Durante a palestra, nós vamos passar por dois recursos muito antigos de Rails - os scopes de Active Record e a sanitização de HTML - e explicar como eles funcionam por baixo dos panos. Também vão ser apresentadas os problemas atuais que estamos enfrentando e como eles podem ser melhorados.
+Durante a palestra, nós vamos passar por dois recursos muito antigos de Rails—os scopes de Active Record e a sanitização de HTML—e explicar como eles funcionam por baixo dos panos. Também vão ser apresentados os problemas atuais que estamos enfrentando e como eles podem ser melhorados.
 
 ## Nell Shamrell :ok:
 
@@ -46,7 +46,7 @@ Durante a palestra, nós vamos passar por dois recursos muito antigos de Rails -
 Desenvolvedora Senior na PhishMe
 
 ### Short Bio
-Nell Shamrell trabalha como Engenheira de Software para PhishMe. Ela também tem uma vaga no conselho consultivo para o certificado em programação Ruby da Universidade de Washington. Ela é especialista em Ruby, Rails, expressões regulares e TDD. Antes de entrar no mundo de desenvolvimento de software, ela estudou e trabalhou na área de Teatro. O mundo do Teatro preparou-a bem para o mundo dinâmico da criação de aplicações de software. Em ambos, ela se esforça para creiar uma experiência coesa e extraordinária. Em seu tempo livre ela gosta de praticar a arte marcial Naginata.
+Nell Shamrell trabalha como Engenheira de Software para PhishMe. Ela também participa do conselho consultivo para o certificado em programação Ruby da Universidade de Washington. Ela é especialista em Ruby, Rails, expressões regulares e TDD. Antes de entrar no mundo de desenvolvimento de software, ela estudou e trabalhou na área do Teatro. O mundo do Teatro preparou-a bem para o mundo dinâmico da criação de aplicações de software. Em ambos, ela se esforça para creiar uma experiência coesa e extraordinária. Em seu tempo livre ela gosta de praticar a arte marcial Naginata.
 
 ### Residence
 Seattle, EUA
@@ -55,7 +55,7 @@ Seattle, EUA
 Criando e Otimizando Algoritmos em Ruby
 
 ### Talk Description
-Todo dia, querendo ou não, nós criamos e seguimos algoritmos. Desde decidir que rota seguiremos de casa para o escritório a seguir uma receita enquanto cozinhamos, a vida é feita desses padrões. Esses padrões tem um significado especial quando eles precisam ser interpretados por um computador. Não importa quem interpreta os algoritmos - humanos ou máquinas - eles devem ser eficientes em velocidade e consumo de recursos. Venha e aprenda os princípios e as boas práticas de construção, avaliação e refinamento de algoritmos em Ruby. Vamos trilhar o caminho através de exemplos na vida real de criar o algoritmo principal de um jogo de combate e fantasia. Passo a passo vamos traduzir um sistema de regras complexo em um algoritmo Ruby eficiente e robusto. Você sairá da palestra com um entendimento melhor de como criar algoritmos ótimos e refatorar algoritmos existentes em seu próprio código Ruby.
+Todo dia, querendo ou não, nós criamos e seguimos algoritmos. Desde decidir que rota seguiremos de casa para o escritório a seguir uma receita enquanto cozinhamos, a vida é feita de padrões. Estes padrões têm um significado especial quando eles precisam ser interpretados por um computador. Não importa quem interpreta os algoritmos - humanos ou máquinas - eles devem ser eficientes em velocidade e consumo de recursos. Venha e aprenda os princípios e as boas práticas de construção, avaliação e refinamento de algoritmos em Ruby. Vamos trilhar o caminho através de exemplos da vida real criando o algoritmo principal de um jogo de combate e fantasia. Passo a passo vamos traduzir um sistema de regras complexo em um algoritmo Ruby eficiente e robusto. Você sairá da palestra com um entendimento melhor de como criar algoritmos ótimos e refatorar algoritmos existentes em seu próprio código Ruby.
 
 ## Arthur Neves
 
@@ -80,7 +80,7 @@ Fragmentando a Shopify
 Desenvolvedor no Harvest
 
 ### Short Bio
-Sou um desenvolvedor no Harvest, criadores do melhor software para controle de tempo, onde eu escrevo uma combinação de Ruby e discursos. Sou também um mantenedor da gem bcrypt-ruby, o melhor jeito de manter as senhas dos seus usuários seguras, e de rake-compiler-dev-box, o melhor jeito de compilar cruzadamente suas gems nativas sem arrancar seus cabelos.
+Sou um desenvolvedor no Harvest, criadores do melhor software do mundo para controle de tempo, onde eu escrevo uma combinação de Ruby e reclamações. Sou também um mantenedor da gem bcrypt-ruby, o melhor jeito de manter as senhas dos seus usuários seguras, e de rake-compiler-dev-box, o melhor jeito de compilar cruzadamente suas gems nativas sem arrancar seus cabelos.
 
 http://cl.ly/image/13242A1Q080U
 
@@ -97,21 +97,14 @@ Nova York, EUA
 80.000 Senhas em Texto Puro: Uma Estória de Amor ao Código Livre em Três Atos
 
 ### Talk Description
-Pensando em ter um cachorro novo? Aqui vão algumas sugestões de nome: fluffmuffin, peppercorn, monkeybreath
-<!-- Considering getting a new dog? Here are some name suggestions: fluffmuffin, peppercorn, monkeybreath -->
+Pensando em ter um cachorro novo? Aqui vão algumas sugestões de nome: fluffmuffin, peppercorn, monkeybreath.
 
-Brincadeira, essas não são sugestões de nomes para cachorros - essas são algumas das senhas em texto de nossos usuários.
-<!-- Just kidding, those aren't dog name suggestions - those are a few of our users' plaintext passwords. -->
+Brincadeira, estas não são sugestões de nomes para cachorros - essas são algumas das senhas em texto de nossos usuários.
 
 Não gostou de nenhum desses? Não se preocupe - eu tenho mais 80 mil e só levei 87 segundos para pegá-los da nossa base de clientes num attack white-hat.
 
-<!-- Don't like any of those? Don't worry - I have 80,000 more, and it only took me 87 seconds to gather them from our customer database in a white-hat attack. -->
-
-In Act I, we'll cover the history of secure password storage, examine the hack, and mitigate the threat. Act II will address the difficulties of working on libraries with complicated dependencies (like bcrypt-ruby, of which I'm now a maintainer). In Act III, we'll celebrate the power of global collaboration via OSS.
-
 No Ato I, vamos ver a história do armazenamento seguro de senhas, examinar o hack e mitigar a ameaça. O Ato II abordará as dificuldades de trabalhar com bibliotecas com dependências complicadas (como bcrypt-ruby, do qual eu sou um mantenedor). No Ato III, celebraremos o poder da colaboração global via open-source.
 
-<!-- [Scene.] -->
 [Cena.]
 
 ## Guilherme Garnier :ok:
