@@ -1,27 +1,6 @@
 # Abril Pro Ruby 2014 Sessions
 
-## Jim Weirich :ok:
-
-### Title
-Chef Scientist at Neo
-
-### Short Bio
-Jim Weirich first learned about computers when his college adviser suggested he take a computer science course: "It will be useful, and you might enjoy it." With those prophetic words, Jim has been developing now for over 25 years, working with everything from crunching rocket launch data on supercomputers to wiring up servos and LEDs on micro-controllers. Currently he loves working in Ruby and Rails as the Chief Scientist at Neo, but you can also find him strumming on his ukulele as time permits.
-
-### Residence
-Cincinnati, USA
-
-### Talk Title
-Incremental Segregation in Rails
-
-### Talk Description
-Testing is hard. Testing a Rails application is even harder. Rails applications tend to blend application logic and framework logic together, making tests load up lots of framework code just to test minor pieces of functionality. The result is that tests run slow, and developers tend to run test less often, and the TDD red/green/refactor cycle is broken.
-
-There are many solutions to the application / framework blending problem, but many require a large, up front architectural commitment. If you have an existing application that needs help, then you just out of luck.
-
-In this presentation, we will talk about a simple approach to application and framework segregation, one that can be applied incrementally to existing applications with good effect. We will examine tips and techniques for keeping your fast feedback tests free from framework concerns, and for dealing with the problem of fat controllers without also creating fat models. In the end we will use Rails for what it does best without hindering developers from using TDD in a fast feedback mode.
-
-## Rafael França :ok:
+## Rafael França
 
 ### Title
 Software Developer at Plataformatec
@@ -30,17 +9,23 @@ Software Developer at Plataformatec
 Member of the Rails Core Team. Spend the days solving problems at Plataformatec and the nights contributing to several OSS projects.
 
 ### Residence
-São Paulo, Brasil
+São Paulo, Brazil
+
+### Github Handler
+@rafaelfranca
+
+### Twitter Handler
+@rafaelfranca
 
 ### Talk Title
-Rails: The hidden parts
+Rails: The Hidden Parts
 
 ### Talk Description
 The Rails framework contains a set of useful features for every web application, but not every feature is well implemented and bug-free.
 
-During this talk we will we will walk through two very old Rails features - Active Record’s scopes and HTML sanitisation - and explain how they work under the hood. Also, It will be presented the current issues we’ve been facing and how they can be improved.
+During this talk, we will we will walk through two very old Rails—featuresActive Record’s scopes and HTML sanitisation—and explain how they work under the hood. Also, it will be presented the current issues we've been facing and how they can be improved.
 
-## Nell Shamrell :ok:
+## Nell Shamrell
 
 ### Title
 Senior Developer at PhishMe
@@ -51,11 +36,17 @@ Nell Shamrell works as a Software Development Engineer for PhishMe. She also sit
 ### Residence
 Seattle, USA
 
+### Github Handler
+@nellshamrell
+
+### Twitter Handler
+@nellshamrell
+
 ### Talk Title
 Crafting and Optimizing Algorithms in Ruby
 
 ### Talk Description
-Every day, knowingly or not, we create and follow algorithms.  From deciding what route to take home from the office to following a recipe as we cook or bake, life is made of patterns.  These patterns take on special meaning when they need to be interpreted by a computer.  No matter who interprets algorithms - whether human or machine - they must be efficient in both speed and resource consumption.  Come and learn the principles and best practices of crafting, evaluating, and refining algorithms in Ruby.  We will work our way through a real world example of creating the core algorithm of a fantasy combat game.  Step by step, we will translate a complex system of rules into a robust and efficient Ruby algorithm.  You will walk away with a better understanding of how to create optimal algorithms and refactor existing algorithms in your own Ruby code.
+Every day, knowingly or not, we create and follow algorithms.  From deciding what route to take home from the office to following a recipe as we cook or bake, life is made of patterns. These patterns take on special meeting when they need to be interpreted by a computer. No matter who interprets algorithms—whether human or machine— hey must be efficient in both speed and resource consumption. Come and learn the principles and best practices of crafting, evaluating, and refining algorithms in Ruby. We will work our way through a real world example of creating the core algorithm of a fantasy combat game. Step by step, we will translate a complex system of rules into a robust and efficient Ruby algorithm. You will walk away with a better understanding of how to create optimal algorithms and refactor existing algorithms in your own Ruby code.
 
 ## Arthur Neves
 
@@ -63,18 +54,26 @@ Every day, knowingly or not, we create and follow algorithms.  From deciding wha
 Software Developer at Shopify
 
 ### Short Bio
+Arthur Neves is a Brazilian Software Developer, which likes to spend his time solving large scale system problems. In the past few years he worked in a few different projects using different technologies, most of them for start-ups. He currently works on the Performance and Site reliability team at Shopify. At his free time he likes to write code, mostly for open source projects. Arthur is also a core maintainer of Mongoid, a popular MongoDB ODM for Ruby, and he is responsible for many open source contributions.
 
 http://cl.ly/image/3x0c3f3h1Y0x
 
 ### Residence
 Ottawa, Canada
 
+### Github Handler
+@arthurnn
+
+### Twitter Handler
+@arthurnn
+
 ### Talk Title
 Sharding Shopify
 
 ### Talk Description
+Database was always one of our first bottle necks when trying to scale Shopify in multiple servers. Nowadays, NoSQL databases are getting pretty popular, specially because they scale out of the box. At Shopify, we decide to not use a NoSQL database as our canonical source of data and, in order to scale that properly, we had to create custom solutions to shard its data. I will be talking about how we did it using Ruby and Rails, and when you should shard a big database.
 
-## T.J. Schuck :ok:
+## T.J. Schuck
 
 ### Title
 Developer at Harvest
@@ -97,7 +96,7 @@ New York, USA
 80,000 Plaintext Passwords: An Open Source Love Story in Three Acts
 
 ### Talk Description
-Considering getting a new dog? Here are some name suggestions: fluffmuffin, peppercorn, monkeybreath
+Considering getting a new dog? Here are some name suggestions: fluffmuffin, peppercorn, monkeybreath.
 
 Just kidding, those aren't dog name suggestions -- those are a few of our users' plaintext passwords.
 
@@ -107,18 +106,18 @@ In Act I, we'll cover the history of secure password storage, examine the hack, 
 
 [Scene.]
 
-## Guilherme Garnier :ok:
+## Guilherme Garnier
 
 ### Title
 Software Developer at Globo.com
 
 ### Short Bio
-Desenvolvedor de software com mais de 10 anos de experiência em linguagens como C++, Java, PHP e Perl. Atualmente, trabalha com Ruby on Rails na Globo.com.
+Software developer with more than 10 years of experience in languages such as C++, Java, PHP and Perl. Currently, he works with Ruby on Rails at Globo.com. He also writes on his blog at http://blog.guilhermegarnier.com.
 
 https://pbs.twimg.com/profile_images/327284586/foto_gui.jpg
 
 ### Residence
-Rio de Janeiro, Brasil
+Rio de Janeiro, Brazil
 
 ### Github Handler
 @ggarnier
@@ -130,15 +129,15 @@ Rio de Janeiro, Brasil
 Distributed Architecture: Scaling Projects and Teams
 
 ### Talk Description
-Há alguns anos, muitas pessoas diziam que Rails não escalava. Atualmente, existem muitas aplicações grandes em Rails que mostram que isso não é verdade. Mas quando seu projeto cresce, até que ponto vale manter tudo numa única aplicação? Nesta apresentação, vou mostrar detalhes de uma arquitetura distribuída com serviços, apresentando os principais pontos positivos e negativos desta abordagem. Será apresentado como exemplo o caso do projeto Globo.tv (http://globotv.globo.com/), onde utilizamos esta arquitetura para permitir que diferentes times trabalhem juntos. Mantém seu blog em http://blog.guilhermegarnier.com.
+A few years ago, a lot of people said that Rails did not scale. Nowadays, there are a lot of big applications in Rails that show that this is not true. But when your project grows, to which point is it worth to keep everything in a single application? In this presentation, I will show details of a service distributed architecture, highlighting the advantages and drawbacks of this approach. The case of the Globo.tv (http://globotv.globo.com/) will be presented as an example. In this project, we use this architecture to allow different teams to work together.
 
-## Scott Motte :ok:
+## Scott Motte
 
 ### Title
 Developer Evangelist at SendGrid
 
 ### Short Bio
-I like to code in Ruby and Nodejs. I'm exploring Go. Travel and code excite me.
+I like to code in Ruby and Node.js. I'm exploring Go. Travel and code excite me.
 
 http://cl.ly/image/0I252T0v453W
 
@@ -152,7 +151,7 @@ Los Angeles, USA
 @scottmotte
 
 ### Talk Title
-Deprecating the password: An alternative approach to authentication using email only
+Deprecating the Password: An Alternative Approach to Authentication using Email Only
 
 ### Talk Description
 We should be evaluating whether the traditional username and password is the best form of authentication. I think there is a better way. I've open sourced something called Handshake.js that implements an email only authentication mechanism. 
@@ -165,12 +164,12 @@ Come see a talk on the strengths and weaknesses of this new approach as well as 
 CTO at Palpiteros
 
 ### Short Bio
-I’m a CTO and leader engineer, currently living in São Paulo, an enthusiast technologist that love open source, a blog author in RubySource, and also a speaker of some international and national conferences like Ruby Conf Brazil, TakeOff in France, Rails Israel, Italian Ruby Day, RuPy Brazil, DevCon in Israel and others.
+I'm a CTO and leader engineer, currently living in São Paulo, an enthusiast technologist that love open source, a blog author in RubySource, and also a speaker of some international and national conferences like Ruby Conf Brazil, TakeOff in France, Rails Israel, Italian Ruby Day, RuPy Brazil, DevCon in Israel and others.
 
 http://cl.ly/image/2P060G0K3Q3f
 
 ### Residence
-São Paulo, Brasil
+São Paulo, Brazil
 
 ### Github Handler
 @joaomdmoura
@@ -179,13 +178,14 @@ São Paulo, Brasil
 @joaomdmoura
 
 ### Talk Title
-Developing products, not Apps
+Developing Products, not Apps
 
 ### Talk Description
-O mundo Ruby tem sido protagonista de um novo momento do empreendedorismo no mercado de tecnologia. Muitas são as técnicas, novas especificações e convenções que são criadas para facilitar e melhorar o desenvolvimento de aplicativos, principalmente web. 
-Mas esse  novo contexto muda completamente a maneira como estávamos acostumados a desenvolver. Atualmente o papel do desenvolvedor Ruby extrapola a programação, e avança dentro do processo de criação de produto, inovação, e participação efetiva em decisões que podem determinar o sucesso ou a falha de uma aplicação. Nessa palestra irei demonstrar como é possível expandir o mindset de desenvolvimento de aplicativos para o desenvolvimento de produtos.
+The Ruby world has been protagonist of a new era of entrepreneurship in the technology market. There are many techniques, new specifications and conventions that are designed to facilitate and enhance the development of applications, especially on the web.
 
-## Pablo Astigarraga :ok:
+But this new context completely changes the way we were used to develop. Currently, the role of the Ruby developer goes beyond programming, and progresses within the product creation process, innovation, and effective participation in decisions that may determine the success or failure of an application. In this talk, I will demonstrate how you can expand the mindset from application development to product development.
+
+## Pablo Astigarraga
 
 ### Title
 Software Developer at tarmac.io
@@ -217,13 +217,13 @@ Slowly but steadily the philosophy of embracing simplicity in software design by
 
 In this talk I explore my journey on this shift in perspective from certain fragments of our community and how thinking about simplicity as one of our core values can push us to be better developers while producing better quality of software. We don't need our crutches anymore, let's drop them together!
 
-## Lucas Dohmen :ok:
+## Lucas Dohmen
 
 ### Title
 Developer at triAGENS GmbH
 
 ### Short Bio
-I’m a member of the core team of the NoSQL database project ArangoDB where I work on the graph functionality, tools for the Ruby community to use the database and Foxx. Furthermore I contribute to various open source projects like hacken.in (an event calender for nerds in my hometown written in Rails) and projects related to ArangoDB. You can find me listening or speaking at our local usergroups for Ruby, JavaScript, NoSQL and (as a coach for) Rails Girls and Coder Dojo.
+I'm a member of the core team of the NoSQL database project ArangoDB where I work on the graph functionality, tools for the Ruby community to use the database and Foxx. Furthermore I contribute to various open source projects like hacken.in (an event calender for nerds in my hometown written in Rails) and projects related to ArangoDB. You can find me listening or speaking at our local usergroups for Ruby, JavaScript, NoSQL and (as a coach for) Rails Girls and Coder Dojo.
 
 https://0.gravatar.com/avatar/84ac75cc9db741ff266392c83de9aa15?d=https%3A%2F%2Fidenticons.github.com%2F0c5d6c34154abb43427d3fa247a396b7.png&r=x&s=400
 
@@ -242,11 +242,11 @@ Domain Driven Design & NoSQL
 ### Talk Description
 Domain Driven Design is a software development process that focuses on finding a common language for the involved parties. This language and the resulting models are taken from the domain rather than the technical details of the implementation. The goal is to improve the communication between customers, developers and all other involved groups. Even if Eric Evan's book about this topic was written almost ten years ago, this topic remains important because a lot of projects fail for communication reasons.
 
-Relational databases have their own language and influence the design of software into a direction further away from the domain: Entities have to be created for the sole purpose of adhering to best practices of relational database. Two kinds of NoSQL databases are changing that: Document stores and graph databases. In a document store you can model a contains relation in a more natural way and thereby express if this entity can exist outside of its surrounding entity. A graph database allows you to model relationships between entities in a straight forward way that can be expressed in the language of the domain.
+Relational databases have their own language and influence the design of software into a direction further away from the domain: entities have to be created for the sole purpose of adhering to best practices of relational database. Two kinds of NoSQL databases are changing that: document stores and graph databases. In a document store you can model a contains relation in a more natural way and thereby express if this entity can exist outside of its surrounding entity. A graph database allows you to model relationships between entities in a straight forward way that can be expressed in the language of the domain.
 
 I want to look at the way a multi model database that combines a document store and a graph database can help you model your problems in a way that is understandable for all parties involved.
 
-## Brian Morton :ok:
+## Brian Morton
 
 ### Title
 Senior Software Engineer at Yammer/Microsoft
@@ -275,7 +275,7 @@ This talk explores the approach Yammer has taken, comparing Rails and the Java-b
  
 In this talk, attendees will gain insights into the options Rubyists have for replicating Dropwizard's ops-focus in Rails.  Attendees will also come away with an understanding of why Dropwizard's focus on operations and metrics makes it appealing to organizations tearing apart their monolithic Rails application. By assembling similar toolsets for Ruby and Java services, we'll be better positioned to choose between them on the merits of the stack and language.
 
-## Bryce Kerley :ok:
+## Bryce Kerley
 
 ### Title
 Software Engineer at Basho Technologies
@@ -306,7 +306,7 @@ How do you grow a simple monolithic Rails app into a distributed system? What do
 
 I'll be presenting a survey of concepts, architectures, and experiences, with a few tools that make distributed systems less obtuse.
 
-## Michel Martens :ok:
+## Michel Martens
 
 ### Title
 Co-founder of openredis
@@ -331,7 +331,7 @@ The Ruby Minimalist Counterculture
 ### Talk Description
 There has always been room in the Ruby community for developers to express themselves through minimalism. They use very simple tools to solve complex problems, and in this presentation I will showcase some of those tools and elaborate on the principles guiding their design.
 
-## Cloves Carneiro Jr and Tim Schmelmer :construction_worker: :ok:
+## Cloves Carneiro Jr and Tim Schmelmer :construction_worker:
 
 ### Title
 Software Engineers at LivingSocial
@@ -366,7 +366,7 @@ Adopting SOA from Day 1
 ### Talk Description
 In this workshop, we'll explain what a service-oriented architecture is, its advantages, and the reasons why developers should think about it when starting an application. I'll go into how complex and expensive it is to move to SOA when applications reach a specific code base size, traffic load, and will argue that using a SOA in an early stage of development is a feasible solution. We'll build a set of services and front-end applications to put into practice all the theory discussed in the workshop. We'll give parts of the workshop in Portuguese and English.
 
-## Leandro Gualter and Akshay Karle :construction_worker: :ok:
+## Leandro Gualter and Akshay Karle :construction_worker:
 
 ### Title
 Developers at Thoughtworks
@@ -386,7 +386,7 @@ Leandro Gualter is a web developer with over 10 years of experience. He is a mem
 http://cl.ly/image/3m0k38341P32
 
 ### Residence
-Recife, Brasil and Pune, India
+Recife, Brazil and Pune, India
 
 ### Github Handler
 akshaykarle and leandrogualter
@@ -395,7 +395,7 @@ akshaykarle and leandrogualter
 @akshay_karle
 
 ### Talk Title
-Coding in production
+Coding in Production
 
 ### Talk Description
 Ever had that bug that happens "only in production"? Ever heard someone say "but it works on my machine"? Ever said it yourself? Wouldn't it be nice if you could write all your code directly in production - so that when it works for you on your machine, it also works for everyone else?
@@ -404,7 +404,7 @@ In this workshop we will build a virtual environment which replicates a producti
 
 With this, we hope to highlight the benefits of being able to see locally how code would actually work in production - helping catch design issues quickly and eliminate entire classes of bugs. Plus, to be honest, it also gives us a chance to play around with some really fun tech.
 
-## Phil Cohen :construction_worker: :ok:
+## Phil Cohen :construction_worker:
 
 ### Title
 Operations Engineer at Shopify
@@ -424,7 +424,7 @@ Truckee, USA
 @phlipper
 
 ### Talk Title
-Cooking at Shopify: Taming a busy kitchen with many Chefs
+Cooking at Shopify: Taming a Busy Kitchen with Many Chefs
 
 ### Talk Description
 We use Chef to manage a large and rapidly growing infrastructure at Shopify. Our cookbooks are open to development not only by our Operations Team, but by all 200+ developers at the company, and we manage to maintain an environment of continuous delivery and continuous improvement for our infrastructure. In this workshop, I'll discuss our goals and motivations, some of our workflows, internal tooling, and security considerations when operating at our scale. We'll also spend some time setting up a similar environment and discussing sustainable infrastructure strategies.

@@ -114,6 +114,28 @@ body.index, body.en_index, body.pt_index {
         background-position: -4px -242px;
       }
     }
+    .rip-jim {
+      position: absolute;
+      top: 200px;
+      left: 50%;
+      display: inline-block;
+      margin-left: -125px;
+      width: 250px;
+      color: $red;
+      text-align: center;
+      font-weight: 300;
+      font-size: 13px;
+      text-shadow: none;
+      a {
+        color: $red;
+        font-weight: 300;
+        text-shadow: none;
+        &:hover {
+          font-weight: 400;
+          letter-spacing: 1;
+        }
+      }
+    }
   }
 
   section.ocean {
@@ -361,6 +383,8 @@ body.index, body.en_index, body.pt_index {
   .organizers-footer {
     margin-top: 26px;
     .for {
+      margin-top: 16px;
+      margin-bottom: 16px;
       padding-top: 10px;
       a {
         width: 132px;
@@ -373,6 +397,8 @@ body.index, body.en_index, body.pt_index {
       }
     }
     .guava {
+      margin-top: 16px;
+      margin-bottom: 16px;
       padding-top: 25px;
       a {
         width: 99px;
@@ -385,6 +411,8 @@ body.index, body.en_index, body.pt_index {
       }
     }
     .eventick {
+      margin-top: 16px;
+      margin-bottom: 16px;
       padding-top: 10px;
       a {
         width: 118px;
