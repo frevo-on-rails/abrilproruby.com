@@ -293,11 +293,11 @@ Miami, EUA
 Evoluindo Sistemas Distribuídos
 
 ### Talk Description
-Sistemas distribuídos são grandes, em todos os sentidos da palavra. Das maiores redes sociais e engenhos de busca até a mais simples aplicação iOS ou web, os sistemas distrubuídos causam probemas, que vem de sua melhor funcionalidade: o sistema deve continuar funcionando mesmo quando partes dele quebram.
+Sistemas distribuídos são grandes, em todos os sentidos da palavra. Das maiores redes sociais e engenhos de busca até a mais simples aplicação iOS ou web, sistemas distrubuídos causam probemas, que vêm de sua melhor funcionalidade: o sistema deve continuar funcionando mesmo quando partes dele quebram.
 
-Aplicações cliente sem conexão à rede ainda precisam capturar dados, backends com um ou outro serviço falhando não devem quebrar toda a aplicação, e a aplicação ainda deve funcionar adequadamente quando o grande datacenter (você sabe qual) sai do ar.
+Aplicações de cliente sem conexão à rede ainda precisam capturar dados, backends com um ou outro serviço falhando não devem quebrar toda a aplicação, e a aplicação ainda deve funcionar adequadamente quando o grande datacenter (você sabe qual) sai do ar.
 
-Como voce cresce uma aplicação Rails simples e monolítica para um sistema distribuído? O que é necessário para fazer a sua UI guardar os dados até a conexão de rede voltar? E como você testa tudo isso?
+Como você cresce uma aplicação Rails simples e monolítica para um sistema distribuído? O que é necessário para fazer a sua UI guardar os dados até a conexão de rede voltar? E como você testa tudo isso?
 
 Irei apresentar um apanhado de conceitos, arquiteturas e experiências, com algumas ferramentas para tornarem os sistemas distribuídos menos obtusos.
 
@@ -326,7 +326,7 @@ A Contracultura Minimalista de Ruby
 
 ### Talk Description
 
-Sempre houve espaço na comunidade Ruby para os desenvolvedore se expressarem através do minimalismo. Eles usam ferramentas muito simples para resolver problemas complexos. Nessa apresentação irei demostrar algumas dessas ferramentas e elaborar os princípios guiando o seu design.
+Sempre houve espaço na comunidade Ruby para os desenvolvedore se expressarem através do minimalismo. Eles usam ferramentas muito simples para resolver problemas complexos. Nesta apresentação irei demostrar algumas dessas ferramentas e elaborar os princípios guiando o seu design.
 
 ## Cloves Carneiro Jr e Tim Schmelmer :construction_worker:
 
@@ -337,7 +337,7 @@ Engenheiros de Software na LivingSocial
 
 #### Cloves Carneiro
 
-Cloves Carneiro tem desenvolvido software desde 1997. Sua carreira em TI pode ser dividida em duas partes: Java e Ruby. Nos seus primeiros dias como desenvolvedor de software, Cloves criou aplicações web para grandes empresas de telecomunicação, como a Manitoba Telecommunications(MTS), AMCTV, We.tv, News12, e a SportSkool usando frameworks Java, incluindo Struts, Webwork e Spring. Ele mudou para o lado do Ruby em 2006, e tem gostado de trabalhar por tempo integral com Ruby/Rails, ele tem trabalhado como consultor e como empregado no Unspace e Amazon.com. Cloves escreveu dois livros sobre Ruby on Rails, "Beginning Rails" e "Beginning Rails 3" para a Apress. Ele atualmente vive no sul da Flórida e trabalha como Engenheiro de Software na LivingSocial.
+Cloves Carneiro vem desenvolvendo software desde 1997. Sua carreira em TI pode ser dividida em duas partes: Java e Ruby. Nos seus primeiros dias como desenvolvedor de software, Cloves criou aplicações web para grandes empresas de telecomunicação, como a Manitoba Telecommunications (MTS), AMCTV, We.tv, News12, e a SportSkool usando frameworks Java, incluindo Struts, Webwork e Spring. Ele mudou para o lado do Ruby em 2006, e tem gostado de trabalhar em tempo integral com Ruby/Rails, ele tem trabalhado como consultor e como funcionário da Unspace e Amazon.com. Cloves escreveu dois livros sobre Ruby on Rails, "Beginning Rails" e "Beginning Rails 3" para a Apress. Ele atualmente vive no sul da Flórida e trabalha como Engenheiro de Software na LivingSocial.
 
 https://pbs.twimg.com/profile_images/132031874/n522493922.jpeg
 
@@ -347,7 +347,7 @@ Depois de abandonar o seu sonho de infância de se tornar bombeiro, Tim fez a se
 
 Tim descobriu o seu amor por Ruby enquanto construía sistemas orientados a serviço na Amazon.com, e ele atualmente trabalha em uma equipe que supreendentemente precisa apagar poucos incêndios ao desenvolver e manter a plataforma central de serviço do LivingSocial.com.
 
-Enquanto ele não está hackeando em seu teclado, ou tentando ser um bom marido e pai de duas garotas. Tim Adora corre, andar de bicicleta, e caminhar nas montanhas perdo da bela Boulder, Colorado.
+Enquanto ele não está hackeando em seu teclado, ou tentando ser um bom marido e pai de duas garotas. Tim adora correr, andar de bicicleta, e caminhar nas montanhas perto da bela Boulder, Colorado.
 
 http://cl.ly/image/0z100U1C2d0O
 
@@ -365,7 +365,7 @@ Adotando SOA a partir do Dia 1
 
 ### Talk Description
 
-Neste workshop, explicaremos o que é uma arquitetura orientada a serviço(SOA), suas vantagens, e as razões pelas quais os desenvolvedores devem pensar sobre isso quando estão começando sua aplicação. Vou analisar o quão complexo e caro é mover para SOA quando a base de código chega a certo tamanho, tráfego, e argumentarei que usar SOA em uma fase inicial de desenvolvimento é uma solução viável. Iremos construir um conjunto de serviços e aplicações front-end para por em prática a teoria discutida no worksop. Iremos dar partes do workshop em inglês e portugês.
+Neste workshop, explicaremos o que é uma arquitetura orientada a serviços (SOA), suas vantagens, e as razões pelas quais os desenvolvedores devem pensar sobre isto quando estão começando sua aplicação. Vou analisar o quão complexo e caro é mover para SOA quando a base de código chega a certo tamanho, tráfego, e argumentarei que usar SOA em uma fase inicial de desenvolvimento é uma solução viável. Iremos construir um conjunto de serviços e aplicações front-end para por em prática a teoria discutida no worksop. Iremos dar partes do workshop em inglês e portugês.
 
 ## Leandro Gualter e Akshay Karle :construction_worker:
 
@@ -376,7 +376,7 @@ Desenvolvedores na Thoughtworks
 
 #### Akshay Karle
 
-Akshay Karle é um desenvolvedor de aplicações na ThoughtWorks. Ele tem trabalhado no Snap CI por quase por quase um ano e tem bastante interesse em Linux, Integração Contínua e Ruby.
+Akshay Karle é um desenvolvedor de aplicações na ThoughtWorks. Ele tem trabalhado no Snap CI por quase um ano e tem bastante interesse em Linux, Integração Contínua e Ruby.
 
 http://cl.ly/image/3O103W1k0O0y
 
@@ -400,11 +400,11 @@ Codificando em Produção
 
 ### Talk Description
 
-Já se esbarrou em um bug que acontece "só em produção"? Já ouviu alguém falar "na minha máquida funcionou"? Já falou isso você mesmo? Não seria legal se você pudesse escrever todo o seu código diretamente em produção, para que quando ele funcione na sua máquina ele também funcione para todos os outros?
+Você já teve um bug que acontece "só em produção"? Já ouviu alguém falar "na minha máquida funcionou"? Já falou isso você mesmo? Não seria legal se você pudesse escrever todo o seu código diretamente em produção, para que quando ele funcione na sua máquina, ele também funcione em todas as outras?
 
-Neste workshop iremos construir um ambiente virtual que replica um abiente de produção a do zero usando automação de configuraçõe s virtualização através de contêiners leves. Com nossas ferramentas confiáveis, Vagrant, Docker e Chef, iremos proceder passo a passo para construir um ambiente local de desenvolvimento
+Neste workshop iremos construir um ambiente virtual que replica um ambiente de produção do zero usando automação de configuraçõe e virtualização por meio de contêiners leves. Com nossas ferramentas confiáveis, Vagrant, Docker e Chef, iremos proceder passo a passo para construir um ambiente local de desenvolvimento
 
-Com isso, esperamos destacar os benefícios de ser capaz de ver localmente como o código de fato irá funcionar em produção, ajudando a descobrir problemas de design rapidamente e eliminar toda uma classe de bugs. Além disso, para ser honesto, também teremos a chance de brincar com tecnologias muito divertidas.
+Com isso, esperamos destacar os benefícios de ser capaz de ver localmente como o código de fato irá funcionar em produção, ajudando a descobrir problemas de projeto rapidamente e eliminar toda uma classe de bugs. Além disso, para ser honesto, também teremos a chance de brincar com tecnologias muito divertidas.
 
 ## Phil Cohen :construction_worker:
 
@@ -413,7 +413,7 @@ Engenheiro de Operações na Shopify
 
 ### Short Bio
 
-Phil vive e aproveita sua vida nas montanhas perto do Lago Tahoe com sua mulher, 3 filhos, 2 gatos e um cachorro. Ele é um participante ávido em diversas comunidades open source, músico, professor, mento, e atualmente trabalhar como Engenheiro de Operações no Shopify. Ele está sempre disposto para pareamento remoto e jogos de palavras.
+Phil vive e aproveita sua vida nas montanhas perto do Lago Tahoe com sua mulher, 3 filhos, 2 gatos e um cachorro. Ele é um participante ávido em diversas comunidades open source, músico, professor, mentor, e atualmente trabalha como Engenheiro de Operações no Shopify. Ele está sempre disposto para pareamento remoto e jogos de palavras.
 
 https://www.dropbox.com/s/3qll0t378cy4m82/phil_profile_pic_new.jpg
 
@@ -431,7 +431,7 @@ Cozinhando na Shopify: Domando uma Cozinha Movimentada com Muitos Chefs
 
 ### Talk Description
 
-Nós usamos o Chef para administar uma grande e crescente infraestrutura no Shopify. Nossos cookbooks estão abertos a desenvolvimento não somente por nossa Equipe de Operações, mas também por todos os desenvolvedores na empresa, e conseguimos manter um ambiente de entrega contínua e melhoria contínua para a nossa infraestrutura. Neste workshop irei discursar sobre os nossos objetivos e motivações, alguns dos nossos fluxos de trabalho, nossas ferramentas internas, e considerações de segurança ao se operar em nossa escala. Iremos também levar algum tempo configurando um ambiente similar e discutindo estratégias sustentáveis de infraestrutura.
+Nós usamos Chef para administar uma grande e crescente infraestrutura no Shopify. Nossos cookbooks estão abertos a desenvolvimento não somente para nossa Equipe de Operações, mas também para todos os desenvolvedores na empresa, e conseguimos manter um ambiente de entrega contínua e melhoria contínua para a nossa infraestrutura. Neste workshop irei discursar sobre os nossos objetivos e motivações, alguns dos nossos fluxos de trabalho, nossas ferramentas internas, e considerações de segurança ao se operar em nossa escala. Iremos também levar algum tempo configurando um ambiente similar e discutindo estratégias sustentáveis de infraestrutura.
 
 ## André Medeiros :construction_worker:
 
