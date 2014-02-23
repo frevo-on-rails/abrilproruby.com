@@ -54,7 +54,7 @@ Every day, knowingly or not, we create and follow algorithms.  From deciding wha
 Software Developer at Shopify
 
 ### Short Bio
-Arthur Neves is a Brazilian Software Developer, which likes to spend his time solving large scale system problems. In the past few years he worked in a few different projects using different technologies, most of them for start-ups. He currently works on the Performance and Site reliability team at Shopify. At his free time he likes to write code, mostly for open source projects. Arthur is also a core maintainer of Mongoid, a popular MongoDB ODM for Ruby, and he is responsible for many open source contributions.
+Arthur Neves is a Brazilian software developer, who likes to spend his time solving large scale system problems. In the past few years he worked in a few different projects using different technologies, most of them for start-ups. He currently works on the Performance and Site Reliability Team at Shopify. During his free time, he likes to write code, mostly for open source projects. Arthur is also a core maintainer of Mongoid, a popular MongoDB ODM for Ruby, and he is responsible for many open source contributions.
 
 http://cl.ly/image/3x0c3f3h1Y0x
 
@@ -71,7 +71,7 @@ Ottawa, Canada
 Sharding Shopify
 
 ### Talk Description
-Database was always one of our first bottle necks when trying to scale Shopify in multiple servers. Nowadays, NoSQL databases are getting pretty popular, specially because they scale out of the box. At Shopify, we decide to not use a NoSQL database as our canonical source of data and, in order to scale that properly, we had to create custom solutions to shard its data. I will be talking about how we did it using Ruby and Rails, and when you should shard a big database.
+Database was always one of our first bottlenecks when trying to scale Shopify in multiple servers. Nowadays, NoSQL databases are getting pretty popular, specially because they scale out of the box. At Shopify, we decide to not use a NoSQL database as our canonical source of data and, in order to scale that properly, we had to create custom solutions to shard its data. I will be talking about how we did it using Ruby and Rails, and when you should shard a big database.
 
 ## T.J. Schuck
 
@@ -164,7 +164,7 @@ Come see a talk on the strengths and weaknesses of this new approach as well as 
 CTO at Palpiteros
 
 ### Short Bio
-I'm a CTO and leader engineer, currently living in São Paulo, an enthusiast technologist that love open source, a blog author in RubySource, and also a speaker of some international and national conferences like Ruby Conf Brazil, TakeOff in France, Rails Israel, Italian Ruby Day, RuPy Brazil, DevCon in Israel and others.
+I'm a CTO and lead engineer, currently living in São Paulo, a technology enthusiast that loves open source, a blog author in RubySource, and also a speaker of some international and national conferences like Ruby Conf Brazil, TakeOff in France, Rails Israel, Italian Ruby Day, RuPy Brazil, DevCon in Israel and others.
 
 http://cl.ly/image/2P060G0K3Q3f
 
@@ -213,7 +213,7 @@ The Dilemma of Simplicity
 
 Over the years we've learned to pay attention to the importance of a number of highly desirable qualities in software: readability, maintainability, adaptation to change. We've accepted these values as good and actively pursue them yet we consistently ignore what is probably the best method of achieving these qualities, it's staring us right in the face now.
 
-Slowly but steadily the philosophy of embracing simplicity in software design by carefully calculating and minimizing unnecessary complexity is gaining traction in our community, and for a good reason: it organically pushes us to the best software practices we all know and love, it both embraces all the core principles the ruby community has developed over the years while rejecting many of the common practices we carry based on inertia but which directly contradict these values.
+Slowly but steadily the philosophy of embracing simplicity in software design by carefully calculating and minimizing unnecessary complexity is gaining traction in our community, and for a good reason: it organically pushes us to the best software practices we all know and love, it both embraces all the core principles the Ruby community has developed over the years while rejecting many of the common practices we carry based on inertia but which directly contradict these values.
 
 In this talk I explore my journey on this shift in perspective from certain fragments of our community and how thinking about simplicity as one of our core values can push us to be better developers while producing better quality of software. We don't need our crutches anymore, let's drop them together!
 
