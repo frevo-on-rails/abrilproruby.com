@@ -505,6 +505,12 @@ body.conference, body.en_conference, body.pt_conference {
         color: $gray;
       }
     }
+    .rip-jim {
+      font-weight: 300;
+      color: $gray;
+      padding: 5px;
+      border: 2px solid $gray2;
+    }
   }
 
   section.workshops {
@@ -854,6 +860,11 @@ body.conference, body.en_conference, body.pt_conference {
             }
           }
         }
+      }
+    }
+    section.speakers {
+      .rip-jim {
+        margin-top: 20px;
       }
     }
   }
