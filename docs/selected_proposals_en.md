@@ -21,9 +21,9 @@ São Paulo, Brazil
 Rails: The Hidden Parts
 
 ### Talk Description
-The Rails framework contains a set of useful features for every web application, but not every feature is well implemented and bug-free.
+The Rails framework contains a set of useful features for every Web application, but not every feature is well implemented and bug-free.
 
-During this talk, we will we will walk through two very old Rails—featuresActive Record’s scopes and HTML sanitisation—and explain how they work under the hood. Also, it will be presented the current issues we've been facing and how they can be improved.
+During this talk, we will walk through two very old Rails features - Active Record’s scopes and HTML sanitization — and explain how they work under the hood. Also, it will present the current issues we've been facing and how they can be improved.
 
 ## Nell Shamrell
 
@@ -46,7 +46,7 @@ Seattle, USA
 Crafting and Optimizing Algorithms in Ruby
 
 ### Talk Description
-Every day, knowingly or not, we create and follow algorithms.  From deciding what route to take home from the office to following a recipe as we cook or bake, life is made of patterns. These patterns take on special meeting when they need to be interpreted by a computer. No matter who interprets algorithms—whether human or machine— hey must be efficient in both speed and resource consumption. Come and learn the principles and best practices of crafting, evaluating, and refining algorithms in Ruby. We will work our way through a real world example of creating the core algorithm of a fantasy combat game. Step by step, we will translate a complex system of rules into a robust and efficient Ruby algorithm. You will walk away with a better understanding of how to create optimal algorithms and refactor existing algorithms in your own Ruby code.
+Every day, knowingly or not, we create and follow algorithms.  From deciding what route to take home from the office to following a recipe as we cook or bake, life is made of patterns. These patterns take on special meeting when they need to be interpreted by a computer. No matter who interprets algorithms — whether human or machine — hey must be efficient in both speed and resource consumption. Come and learn the principles and best practices of crafting, evaluating, and refining algorithms in Ruby. We will work our way through a real world example of creating the core algorithm of a fantasy combat game. Step by step, we will translate a complex system of rules into a robust and efficient Ruby algorithm. You will walk away with a better understanding of how to create optimal algorithms and refactor existing algorithms in your own Ruby code.
 
 ## Arthur Neves
 
@@ -154,9 +154,9 @@ Los Angeles, USA
 Deprecating the Password: An Alternative Approach to Authentication using Email Only
 
 ### Talk Description
-We should be evaluating whether the traditional username and password is the best form of authentication. I think there is a better way. I've open sourced something called Handshake.js that implements an email only authentication mechanism. 
+We should be evaluating whether the traditional username and password is the best form of authentication. I think there is a better way. I've open sourced something called Handshake.js that implements an email only authentication mechanism.
 
-Come see a talk on the strengths and weaknesses of this new approach as well as a live coded demo on implementing this into your next Ruby application. 
+Come see a talk on the strengths and weaknesses of this new approach as well as a live coded demo on implementing this into your next Ruby application.
 
 ## João M. D. Moura
 
@@ -193,7 +193,7 @@ Software Developer at tarmac.io
 ### Short Bio
 Pablo Astigarraga (better known as PoTe) comes from a Python background writing Asterisk-based VoIP systems, has several years of experience doing Rails/Ruby and has been known to work with Go when the job permits it, he loves contributing to open source projects, blogging about tech and is one of the authors of the @surculusfructum podcast.
 
-Passionate about minimalistic software, Unix philosophy, doing things right, having fun with cool people and using spaces instead of tabs, pote copes with a somewhat unhealthy relationship with mustaches and is always willing to discuss the evils of premature optimization over a beer.
+Passionate about minimalistic software, Unix philosophy, doing things right, having fun with cool people and using spaces instead of tabs, PoTe copes with a somewhat unhealthy relationship with mustaches and is always willing to discuss the evils of premature optimization over a beer.
 
 http://cl.ly/image/1E0w3r470i2Y
 
@@ -252,7 +252,7 @@ I want to look at the way a multi model database that combines a document store 
 Senior Software Engineer at Yammer/Microsoft
 
 ### Short Bio
-Brian is a software engineer at Yammer in San Francisco where he builds software and systems to change the way the world gets work done. He’s obsessed with clean code, simple solutions to hard problems, and making things easier.  In his free time, he loves playing Zelda and pretending that he can make music with a guitar.
+Brian is a software engineer at Yammer in San Francisco where he builds software and systems to change the way the world gets work done. He’s obsessed with clean code, simple solutions to hard problems, and making things easier. In his free time, he loves playing Zelda and pretending that he can make music with a guitar.
 
 http://cl.ly/image/172724110B0T
 
@@ -270,9 +270,9 @@ Dropping Rails for Dropwizard?
 
 ### Talk Description
 Due to the success of Rails, many successful organizations find themselves with a Rails application that needs partitioning. Many organizations have chosen to largely abandon Ruby during this transition, yet the reasoning is often reactionary.
- 
-This talk explores the approach Yammer has taken, comparing Rails and the Java-based Dropwizard framework.  Both have the mantra of getting decision-making and repetition out of the way so you can get things done.  Dropwizard takes a slightly different approach by putting emphasis on "production-ready out-of-the-box." 
- 
+
+This talk explores the approach Yammer has taken, comparing Rails and the Java-based Dropwizard framework. Both have the mantra of getting decision-making and repetition out of the way so you can get things done. Dropwizard takes a slightly different approach by putting emphasis on "production-ready out-of-the-box."
+
 In this talk, attendees will gain insights into the options Rubyists have for replicating Dropwizard's ops-focus in Rails.  Attendees will also come away with an understanding of why Dropwizard's focus on operations and metrics makes it appealing to organizations tearing apart their monolithic Rails application. By assembling similar toolsets for Ruby and Java services, we'll be better positioned to choose between them on the merits of the stack and language.
 
 ## Bryce Kerley
@@ -344,7 +344,7 @@ Cloves Carneiro has been writing software since 1997. His career in tech has bee
 https://pbs.twimg.com/profile_images/132031874/n522493922.jpeg
 
 #### Tim Schmelmer
-After abandoning his childhood dream of becoming an actual firefighter, Tim did the next best thing and became a software developer. He has spent the past 18 years extinguishing fires while working for technology consulting companies, telecommunications equipment manufacturers, building control systems for research telescopes, and selling things to people via a web browser.
+After abandoning his childhood dream of becoming an actual firefighter, Tim did the next best thing and became a software developer. He has spent the past 18 years extinguishing fires while working for technology consulting companies, telecommunications equipment manufacturers, building control systems for research telescopes, and selling things to people via a Web browser.
 
 Tim found his love for Ruby while building service-oriented systems at Amazon.com, and he is currently working on a team that does surprisingly little firefighting while building and maintaining LivingSocial.com's core services platform.
 When he is not hacking away on his keyboard, or trying to be a good husband and father of two girls. Tim loves to run, bike, and hike in the mountains near beautiful Boulder, Colorado.
@@ -381,7 +381,7 @@ http://cl.ly/image/3O103W1k0O0y
 
 #### Leandro Gualter
 
-Leandro Gualter is a web developer with over 10 years of experience. He is a member of the team that builds Snap-CI, a hosted continuous integration service at Thoughtworks. He is passionate about languages that let him assign functions to variables, addicted to energy drinks and is now on a mission to explore the distant corners of the DevOps universe.
+Leandro Gualter is a Web developer with over 10 years of experience. He is a member of the team that builds Snap-CI, a hosted continuous integration service at Thoughtworks. He is passionate about languages that let him assign functions to variables, addicted to energy drinks and is now on a mission to explore the distant corners of the DevOps universe.
 
 http://cl.ly/image/3m0k38341P32
 
@@ -400,7 +400,7 @@ Coding in Production
 ### Talk Description
 Ever had that bug that happens "only in production"? Ever heard someone say "but it works on my machine"? Ever said it yourself? Wouldn't it be nice if you could write all your code directly in production - so that when it works for you on your machine, it also works for everyone else?
 
-In this workshop we will build a virtual environment which replicates a production environment from scratch using configuration automation and virtualization through lightweight containers. With our trusty tools, Vagrant, Docker and Chef- we will proceed step by step to build a local development environment.
+In this workshop we will build a virtual environment which replicates a production environment from scratch using configuration automation and virtualization through lightweight containers. With our trusty tools - Vagrant, Docker and Chef - we will proceed step by step to build a local development environment.
 
 With this, we hope to highlight the benefits of being able to see locally how code would actually work in production - helping catch design issues quickly and eliminate entire classes of bugs. Plus, to be honest, it also gives us a chance to play around with some really fun tech.
 
@@ -462,7 +462,7 @@ In this talk, I will walk you through the ins and outs of building Spyglass, an 
 Web Developer
 
 ### Short Bio
-Alex Coles ([@myabc]) is a freelance web developer, unabashedly wearing the hat of "generalist". He is active in the Ruby community, having founded the annual eurucamp camp/conference in Berlin. He has also contributed extensively to many open-source projects including RefineryCMS and DataMapper.
+Alex Coles ([@myabc]) is a freelance Web developer, unabashedly wearing the hat of "generalist". He is active in the Ruby community, having founded the annual eurucamp camp/conference in Berlin. He has also contributed extensively to many open-source projects including RefineryCMS and DataMapper.
 
 ### Residence
 Berlin, Germany

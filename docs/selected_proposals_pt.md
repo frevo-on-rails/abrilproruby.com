@@ -21,9 +21,9 @@ São Paulo, Brasil
 Rails: As Partes Escondidas
 
 ### Talk Description
-O framework Rails contém um conjunto de recursos úteis para toda aplicação web, mas nem todo recurso está bem implementado e livre de bugs.
+O framework Rails contém um conjunto de recursos úteis para toda aplicação Web, mas nem todo recurso está bem implementado e livre de bugs.
 
-Durante a palestra, nós vamos passar por dois recursos muito antigos de Rails—os scopes de Active Record e a sanitização de HTML—e explicar como eles funcionam por baixo dos panos. Também vão ser apresentados os problemas atuais que estamos enfrentando e como eles podem ser melhorados.
+Durante a palestra, nós vamos passar por dois recursos muito antigos de Rails — os scopes de Active Record e a sanitização de HTML — e explicar como eles funcionam por baixo dos panos. Também vão ser apresentados os problemas atuais que estamos enfrentando e como eles podem ser melhorados.
 
 ## Nell Shamrell
 
@@ -31,7 +31,7 @@ Durante a palestra, nós vamos passar por dois recursos muito antigos de Rails�
 Desenvolvedora Senior na PhishMe
 
 ### Short Bio
-Nell Shamrell trabalha como Engenheira de Software para PhishMe. Ela também participa do conselho consultivo para o certificado em programação Ruby da Universidade de Washington. Ela é especialista em Ruby, Rails, expressões regulares e TDD. Antes de entrar no mundo de desenvolvimento de software, ela estudou e trabalhou na área do Teatro. O mundo do Teatro preparou-a bem para o mundo dinâmico da criação de aplicações de software. Em ambos, ela se esforça para creiar uma experiência coesa e extraordinária. Em seu tempo livre ela gosta de praticar a arte marcial Naginata.
+Nell Shamrell trabalha como Engenheira de Software para PhishMe. Ela também participa do conselho consultivo para o certificado em programação Ruby da Universidade de Washington. Ela é especialista em Ruby, Rails, expressões regulares e TDD. Antes de entrar no mundo de desenvolvimento de software, ela estudou e trabalhou na área do Teatro. O mundo do Teatro preparou-a bem para o mundo dinâmico da criação de aplicações de software. Em ambos, ela se esforça para criar uma experiência coesa e extraordinária. Em seu tempo livre ela gosta de praticar a arte marcial Naginata.
 
 ### Residence
 Seattle, EUA
@@ -65,7 +65,7 @@ Ottawa, Canadá
 Particionando a Shopify
 
 ### Talk Description
-Bancos de dados sempre foram um dos nossos primeiros gargalos ao tentar distribuir o Shopify em múltiplos servidores. Atualmente, bancos NoSQL são cada vez mais populares, especialmente por que eles escalam sem precisar de muitos ajustes. Na Shopify, nós decidimos não usar um banco de dados NoSQL como nossa fonte de dados canônica e, para escalar de forma adequada, tivemos que criar soluções customizadas para particionar nossos dados. Eu estarei falando sobre como nós fizemos isto usando Ruby e Rails e quando você deve particionar uma grande base de dados.
+Bancos de dados sempre foram um dos nossos primeiros gargalos ao tentar distribuir o Shopify em múltiplos servidores. Atualmente, bancos NoSQL são cada vez mais populares, especialmente porque eles escalam sem precisar de muitos ajustes. Na Shopify, nós decidimos não usar um banco de dados NoSQL como nossa fonte de dados canônica e, para escalar de forma adequada, tivemos que criar soluções customizadas para particionar nossos dados. Eu falarei sobre como nós fizemos isto usando Ruby e Rails e quando você deve particionar uma grande base de dados.
 
 ## T.J. Schuck
 
@@ -73,7 +73,7 @@ Bancos de dados sempre foram um dos nossos primeiros gargalos ao tentar distribu
 Desenvolvedor no Harvest
 
 ### Short Bio
-Sou um desenvolvedor no Harvest, criadores do melhor software do mundo para controle de tempo, onde eu escrevo uma combinação de Ruby e reclamações. Sou também um mantenedor da gem bcrypt-ruby, o melhor jeito de manter as senhas dos seus usuários seguras, e de rake-compiler-dev-box, o melhor jeito de compilar cruzadamente suas gems nativas sem arrancar seus cabelos.
+Sou desenvolvedor no Harvest, criadores do melhor software do mundo para controle de tempo, onde eu escrevo uma combinação de Ruby e reclamações. Sou também um mantenedor da gem bcrypt-ruby, o melhor jeito de manter as senhas dos seus usuários seguras, e de rake-compiler-dev-box, o melhor jeito de compilar cruzadamente suas gems nativas sem arrancar seus cabelos.
 
 http://cl.ly/image/13242A1Q080U
 
@@ -92,7 +92,7 @@ Nova York, EUA
 ### Talk Description
 Pensando em ter um cachorro novo? Aqui vão algumas sugestões de nome: fluffmuffin, peppercorn, monkeybreath.
 
-Brincadeira, estas não são sugestões de nomes para cachorros - essas são algumas das senhas em texto de nossos usuários.
+Brincadeira, estas não são sugestões de nomes para cachorros - essas são algumas das senhas em texto puro de nossos usuários.
 
 Não gostou de nenhum desses? Não se preocupe - eu tenho mais 80 mil e só levei 87 segundos para pegá-los da nossa base de clientes num attack white-hat.
 
@@ -158,7 +158,7 @@ Venha ver uma palestra sobre os pontos fortes e fracos desta nova abordagem, bem
 CTO no Palpiteros
 
 ### Short Bio
-Sou um CTO e engenheiro líder, atualmente morando em São Paulo, um entusiasta da tecnologia que ama o código aberto, um bloggeiro no RubySource, e também um palestrante em algumas conferências nacionais e internacionais como Ruby Conf Brasil, TakeOff na França, Rails Israel, Italian Ruby Day, RuPy Brasil, DevCon em Israel e outras.
+Sou um CTO e engenheiro líder, atualmente morando em São Paulo, entusiasta de tecnologia que ama o código aberto, um blogueiro no RubySource, e também um palestrante em algumas conferências nacionais e internacionais como Ruby Conf Brasil, TakeOff na França, Rails Israel, Italian Ruby Day, RuPy Brasil, DevCon em Israel e outras.
 
 http://cl.ly/image/2P060G0K3Q3f
 
@@ -175,9 +175,9 @@ São Paulo, Brasil
 Desenvolvendo Produtos, não Aplicações
 
 ### Talk Description
-O mundo Ruby tem sido protagonista de um novo momento do empreendedorismo no mercado de tecnologia. Muitas são as técnicas, novas especificações e convenções que são criadas para facilitar e melhorar o desenvolvimento de aplicativos, principalmente web. 
+O mundo Ruby tem sido protagonista de um novo momento do empreendedorismo no mercado de tecnologia. Muitas são as técnicas, novas especificações e convenções que são criadas para facilitar e melhorar o desenvolvimento de aplicativos, principalmente Web.
 
-Mas esse  novo contexto muda completamente a maneira como estávamos acostumados a desenvolver. Atualmente, o papel do desenvolvedor Ruby extrapola a programação, e avança dentro do processo de criação de produto, inovação, e participação efetiva em decisões que podem determinar o sucesso ou a falha de uma aplicação. Nessa palestra, irei demonstrar como é possível expandir o mindset de desenvolvimento de aplicativos para o desenvolvimento de produtos.
+Mas esse  novo contexto muda completamente a maneira como estávamos acostumados a desenvolver. Atualmente, o papel do desenvolvedor Ruby extrapola a programação, e avança dentro do processo de criação de produto, inovação, e participação efetiva em decisões que podem determinar o sucesso ou a falha de uma aplicação. Nesta palestra, irei demonstrar como é possível expandir o mindset de desenvolvimento de aplicativos para o desenvolvimento de produtos.
 
 ## Pablo Astigarraga
 
@@ -185,9 +185,9 @@ Mas esse  novo contexto muda completamente a maneira como estávamos acostumados
 Desenvolvedor de Software na tarmac.io
 
 ### Short Bio
-Pablo Astigarraga (mais conhecido como PoTe) vem de Python, linguagem na qual escrivia sistemas VoIP baseados em Asterisk. Tem vários anos de experiência trabalhando com Rails/Ruby e tem sido conhecido por trabalhar com Go quando o trabalho permite, ele ama a contribuir para projetos de código aberto, blogar sobre tecnologia e é um dos autores do podcast @surculusfructum.
+Pablo Astigarraga (mais conhecido como PoTe) vem de Python, linguagem na qual escrevia sistemas VoIP baseados em Asterisk. Tem vários anos de experiência trabalhando com Rails/Ruby e tem sido conhecido por trabalhar com Go quando o trabalho permite, ele ama a contribuir para projetos de código aberto, blogar sobre tecnologia e é um dos autores do podcast @surculusfructum.
 
-Apaixonado por software minimalista, filosofia Unix, fazer as coisas certo, se divertir com pessoas legais e usar espaços ao invés de tabulações, pote tem uma relação meio doentia com bigodes e está sempre disposto a discutir os males da otimização prematura depois de uma cerveja.
+Apaixonado por software minimalista, filosofia Unix, fazer as coisas da forma certa, se divertir com pessoas legais e usar espaços ao invés de tabulações, PoTe tem uma relação meio doentia com bigodes e está sempre disposto a discutir os males da otimização prematura depois de uma cerveja.
 
 http://cl.ly/image/1E0w3r470i2Y
 
@@ -205,7 +205,7 @@ O Dilema da Simplicidade
 
 ### Talk Description
 
-Ao longo dos anos aprendemos a prestar atenção na importância de uma série de qualidades altamente desejáveis ​​em software: legibilidade, facilidade de manutenção, adaptação à mudança. Nós aceitamos estes valores como bons e ativamente os perseguimos. Ainda assim, consistemente ignoramos o que talvez seja o melhor método de atingir estas qualidades.
+Ao longo dos anos aprendemos a prestar atenção na importância de uma série de qualidades altamente desejáveis em software: legibilidade, facilidade de manutenção, adaptação à mudança. Nós aceitamos estes valores como bons e ativamente os perseguimos. Ainda assim, consistemente ignoramos o que talvez seja o melhor método de atingir estas qualidades.
 
 Lenta mas firmemente, a filosofia de adotar a simplicidade no projeto de software cuidadosamente calculando e minimizando a complexidade desnecessária está ganhando força na nossa comunidade, e por uma boa razão: ela organicamente nos direciona para as melhores práticas de software que todos nós conhecemos e amamos e, ao mesmo tempo, abrange todos os princípios fundamentais que a comunidade Ruby tem desenvolvido ao longo dos anos enquanto rejeita muitas das práticas comuns que carregamos baseados na inércia mas que contradizem diretamente estes valores.
 
@@ -217,7 +217,7 @@ Nesta palestra, eu exploro minha jornada nesta mudança de perspectiva a partir 
 Desenvolvedor na triAGENS GmbH
 
 ### Short Bio
-Sou membro da equipe principal do projeto de banco de dados NoSQL ArangoDB, onde trabalho na funcionalidade de grafos, ferramentas para a comunidade Ruby e Foxx. Além disso, contribuo para vários projetos de código aberto como hacken.in (um calendário de eventos para nerds na minha cidade natal, escrito em Rails) e projetos relacionados ao ArangoDB. Você pode me encontrar ouvindo ou falando nos nossos grupos locais de usuários para Ruby, JavaScript, NoSQL e (como coach) no Rails Girls e no Coder Dojo.
+Sou membro da equipe principal do projeto de banco de dados NoSQL ArangoDB, onde trabalho na funcionalidade de grafos, ferramentas para a comunidade Ruby usar o banco de dados e Foxx. Além disso, contribuo para vários projetos de código aberto como hacken.in (um calendário de eventos para nerds na minha cidade natal, escrito em Rails) e projetos relacionados ao ArangoDB. Você pode me encontrar ouvindo ou falando nos nossos grupos locais de usuários para Ruby, JavaScript, NoSQL e (como coach) no Rails Girls e no Coder Dojo.
 
 https://0.gravatar.com/avatar/84ac75cc9db741ff266392c83de9aa15?d=https%3A%2F%2Fidenticons.github.com%2F0c5d6c34154abb43427d3fa247a396b7.png&r=x&s=400
 
@@ -246,7 +246,7 @@ Eu quero discutir como um banco de dados multi-modelo que combina um armazenamen
 Engenheiro de Software Senior no Yammer/Microsoft
 
 ### Short Bio
-Brian é um engenheiro de software do Yammer, em São Francisco, onde ele constrói software e sistemas para mudar a forma como o mundo trabalha. Ele é obcecado com código limpo, soluções simples para problemas difíceis e em tornar as coisas mais fáceis. Em seu tempo livre, ele gosta de jogar Zelda e de fingir que ele consegue fazer música com um violão.
+Brian é engenheiro de software no Yammer, em São Francisco, onde ele constrói software e sistemas para mudar a forma como o mundo trabalha. Ele é obcecado com código limpo, soluções simples para problemas difíceis e em tornar as coisas mais fáceis. Em seu tempo livre, ele gosta de jogar Zelda e de fingir que ele consegue fazer música com um violão.
 
 http://cl.ly/image/172724110B0T
 
@@ -292,7 +292,7 @@ Miami, EUA
 Evoluindo Sistemas Distribuídos
 
 ### Talk Description
-Sistemas distribuídos são grandes, em todos os sentidos da palavra. Das maiores redes sociais e engenhos de busca até a mais simples aplicação iOS ou web, sistemas distrubuídos causam probemas, que vêm de sua melhor funcionalidade: o sistema deve continuar funcionando mesmo quando partes dele quebram.
+Sistemas distribuídos são grandes, em todos os sentidos da palavra. Das maiores redes sociais e engenhos de busca até a mais simples aplicação iOS ou Web, sistemas distribuídos causam problemas, que vêm de sua melhor funcionalidade: o sistema deve continuar funcionando mesmo quando partes dele quebram.
 
 Aplicações de cliente sem conexão à rede ainda precisam capturar dados, backends com um ou outro serviço falhando não devem quebrar toda a aplicação, e a aplicação ainda deve funcionar adequadamente quando o grande datacenter (você sabe qual) sai do ar.
 
@@ -325,7 +325,7 @@ A Contracultura Minimalista de Ruby
 
 ### Talk Description
 
-Sempre houve espaço na comunidade Ruby para os desenvolvedore se expressarem através do minimalismo. Eles usam ferramentas muito simples para resolver problemas complexos. Nesta apresentação irei demostrar algumas dessas ferramentas e elaborar os princípios guiando o seu design.
+Sempre houve espaço na comunidade Ruby para os desenvolvedore se expressarem através do minimalismo. Eles usam ferramentas muito simples para resolver problemas complexos. Nesta apresentação irei demonstrar algumas dessas ferramentas e elaborar os princípios guiando o seu design.
 
 ## Cloves Carneiro Jr e Tim Schmelmer :construction_worker:
 
@@ -342,7 +342,7 @@ https://pbs.twimg.com/profile_images/132031874/n522493922.jpeg
 
 #### Tim Schmelmer
 
-Depois de abandonar o seu sonho de infância de se tornar bombeiro, Tim fez a segunda melhor coisa e se tornou um desenvolvedor de software. Ele passou os últimos 18 anos apagando incêndios enquanto trabalhava para empresas de consultoria em tecnologia, fabricantes de equipamentos de telecomunicação, construindo sistemas de controle para telescópios de pesquisa e vendendo coisas para pessoas em seus navegadores web.
+Depois de abandonar o seu sonho de infância de se tornar bombeiro, Tim fez a segunda melhor coisa e se tornou um desenvolvedor de software. Ele passou os últimos 18 anos apagando incêndios enquanto trabalhava para empresas de consultoria em tecnologia, fabricantes de equipamentos de telecomunicação, construindo sistemas de controle para telescópios de pesquisa e vendendo coisas para pessoas em seus navegadores Web.
 
 Tim descobriu o seu amor por Ruby enquanto construía sistemas orientados a serviço na Amazon.com, e ele atualmente trabalha em uma equipe que supreendentemente precisa apagar poucos incêndios ao desenvolver e manter a plataforma central de serviço do LivingSocial.com.
 
@@ -364,7 +364,7 @@ Adotando SOA a partir do Dia 1
 
 ### Talk Description
 
-Neste workshop, explicaremos o que é uma arquitetura orientada a serviços (SOA), suas vantagens, e as razões pelas quais os desenvolvedores devem pensar sobre isto quando estão começando sua aplicação. Vou analisar o quão complexo e caro é mover para SOA quando a base de código chega a certo tamanho, tráfego, e argumentarei que usar SOA em uma fase inicial de desenvolvimento é uma solução viável. Iremos construir um conjunto de serviços e aplicações front-end para por em prática a teoria discutida no worksop. Iremos dar partes do workshop em inglês e portugês.
+Neste workshop, explicaremos o que é uma arquitetura orientada a serviços (SOA), suas vantagens, e as razões pelas quais os desenvolvedores devem pensar sobre isto quando estão começando sua aplicação. Vou analisar o quão complexo e caro é mover para SOA quando a base de código chega a certo tamanho, tráfego, e argumentarei que usar SOA em uma fase inicial de desenvolvimento é uma solução viável. Iremos construir um conjunto de serviços e aplicações front-end para por em prática a teoria discutida no workshop. Iremos dar partes do workshop em inglês e português.
 
 ## Leandro Gualter e Akshay Karle :construction_worker:
 
@@ -375,13 +375,13 @@ Desenvolvedores na Thoughtworks
 
 #### Akshay Karle
 
-Akshay Karle é um desenvolvedor de aplicações na ThoughtWorks. Ele tem trabalhado no Snap CI por quase um ano e tem bastante interesse em Linux, Integração Contínua e Ruby.
+Akshay Karle é desenvolvedor de aplicações na ThoughtWorks. Ele tem trabalhado no Snap CI por quase um ano e tem bastante interesse em Linux, Integração Contínua e Ruby.
 
 http://cl.ly/image/3O103W1k0O0y
 
 #### Leandro Gualter
 
-Leandro Gualter é um desenvolvedor web com mais de 10 anos de experiência. Ele é um membro da equipe que constrói o Snap CI, um serviço de integração contínua desenvolvido pela ThoughtWorks. Ele é apaixonado por linguagens que lhe permitam associar funções a variáveis, viciado em energéticos e está agora em uma missão para explorar os cantos longínquos do universo DevOps.
+Leandro Gualter é desenvolvedor Web com mais de 10 anos de experiência. Ele é membro da equipe que constrói o Snap CI, um serviço de integração contínua desenvolvido pela ThoughtWorks. Ele é apaixonado por linguagens que lhe permitam associar funções a variáveis, viciado em energéticos e está agora em uma missão para explorar os cantos longínquos do universo DevOps.
 
 http://cl.ly/image/3m0k38341P32
 
@@ -401,7 +401,7 @@ Codificando em Produção
 
 Você já teve um bug que acontece "só em produção"? Já ouviu alguém falar "na minha máquida funcionou"? Já falou isso você mesmo? Não seria legal se você pudesse escrever todo o seu código diretamente em produção, para que quando ele funcione na sua máquina, ele também funcione em todas as outras?
 
-Neste workshop iremos construir um ambiente virtual que replica um ambiente de produção do zero usando automação de configuraçõe e virtualização por meio de contêiners leves. Com nossas ferramentas confiáveis, Vagrant, Docker e Chef, iremos proceder passo a passo para construir um ambiente local de desenvolvimento
+Neste workshop iremos construir um ambiente virtual que replica um ambiente de produção do zero usando configuração, automação e virtualização por meio de contêiners leves. Com nossas ferramentas confiáveis - Vagrant, Docker e Chef - iremos proceder passo a passo para construir um ambiente local de desenvolvimento.
 
 Com isso, esperamos destacar os benefícios de ser capaz de ver localmente como o código de fato irá funcionar em produção, ajudando a descobrir problemas de projeto rapidamente e eliminar toda uma classe de bugs. Além disso, para ser honesto, também teremos a chance de brincar com tecnologias muito divertidas.
 
@@ -412,7 +412,7 @@ Engenheiro de Operações na Shopify
 
 ### Short Bio
 
-Phil vive e aproveita sua vida nas montanhas perto do Lago Tahoe com sua mulher, 3 filhos, 2 gatos e um cachorro. Ele é um participante ávido em diversas comunidades open source, músico, professor, mentor, e atualmente trabalha como Engenheiro de Operações no Shopify. Ele está sempre disposto para pareamento remoto e jogos de palavras.
+Phil vive e aproveita sua vida nas montanhas perto do Lago Tahoe com sua mulher, 3 filhos, 2 gatos e um cachorro. Ele é participante ávido em diversas comunidades open source, músico, professor, mentor, e atualmente trabalha como Engenheiro de Operações no Shopify. Ele está sempre disposto para pareamento remoto e jogos de palavras.
 
 https://www.dropbox.com/s/3qll0t378cy4m82/phil_profile_pic_new.jpg
 
@@ -430,7 +430,7 @@ Cozinhando na Shopify: Domando uma Cozinha Movimentada com Muitos Chefs
 
 ### Talk Description
 
-Nós usamos Chef para administar uma grande e crescente infraestrutura no Shopify. Nossos cookbooks estão abertos a desenvolvimento não somente para nossa Equipe de Operações, mas também para todos os desenvolvedores na empresa, e conseguimos manter um ambiente de entrega contínua e melhoria contínua para a nossa infraestrutura. Neste workshop irei discursar sobre os nossos objetivos e motivações, alguns dos nossos fluxos de trabalho, nossas ferramentas internas, e considerações de segurança ao se operar em nossa escala. Iremos também levar algum tempo configurando um ambiente similar e discutindo estratégias sustentáveis de infraestrutura.
+Nós usamos Chef para administar uma grande e crescente infraestrutura no Shopify. Nossos cookbooks estão abertos a desenvolvimento não somente para nossa Equipe de Operações, mas também para todos os desenvolvedores na empresa (mais de 200), e conseguimos manter um ambiente de entrega contínua e melhoria contínua para a nossa infraestrutura. Neste workshop irei discursar sobre os nossos objetivos e motivações, alguns dos nossos fluxos de trabalho, nossas ferramentas internas, e considerações de segurança ao se operar em nossa escala. Iremos também levar algum tempo configurando um ambiente similar e discutindo estratégias sustentáveis de infraestrutura.
 
 ## André Medeiros :construction_worker:
 
