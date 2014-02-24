@@ -310,7 +310,6 @@ body.conference, body.en_conference, body.pt_conference {
       text-align: center;
       text-transform: uppercase;
       text-shadow: none;
-      letter-spacing: 2px;
       font-weight: 600;
       font-size: 13px;
       &:before {
@@ -414,6 +413,9 @@ body.conference, body.en_conference, body.pt_conference {
         margin-bottom: 0;
         text-overflow: ellipsis;
         font-weight: 300;
+      }
+      a {
+        color: $gray;
       }
       .more {
         display: inline-block;
@@ -628,6 +630,11 @@ body.conference, body.en_conference, body.pt_conference {
         }
       }
     }
+    .popover {
+      p {
+        color: $gray;
+      }
+    }
   }
 
   section.activities {
@@ -765,6 +772,7 @@ body.conference, body.en_conference, body.pt_conference {
     }
     p, a {
       color: $gray;
+      font-weight: 300;
     }
     p {
       margin-top: 20px;
@@ -775,6 +783,37 @@ body.conference, body.en_conference, body.pt_conference {
       width: 0;
       height: 0;
       margin-top: 0;
+    }
+  }
+
+  .popover {
+    width: 280px;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    text-shadow: none;
+    a {
+      color: inherit;
+    }
+    p {
+      color: $gray;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    span {
+      display: block;
+      margin-top: 10px;
+      &:before {
+        content: '';
+        display: inline-block;
+        height: 15px;
+        width: 12px;
+        background-image: image-url('graphics.svg');
+        background-position: -212px -19px;
+        margin-right: 7px;
+        margin-bottom: -3px;
+      }
     }
   }
 
@@ -895,14 +934,18 @@ body.conference, body.en_conference, body.pt_conference {
         position: absolute;
         top: -10px;
         left: 100%;
-        margin-left: -60px;
-        width: 150px;
+        margin-left: -25px;
+        width: 80px;
         text-align: center;
         &:before {
           position: absolute;
           left: 50%;
           margin-left: -16px;
         }
+      }
+      .tba {
+        width: 40px;
+        margin-left: -5px;
       }
       .photo {
         margin-top: 84px;
@@ -939,12 +982,18 @@ body.conference, body.en_conference, body.pt_conference {
       }
       .time {
         left: 0;
-        margin-left: -87px;
+        margin-left: -53px;
+      }
+      .tba {
+        margin-left: -33px;
       }
       .desc {
         text-align: left;
         .bio {
           float: left;
+        }
+        .github {
+          float: left
         }
         .further {
           &:after {
