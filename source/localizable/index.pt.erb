@@ -14,19 +14,20 @@ title: Abril Pro Ruby 2014 &#9671; 26 de Abril @ Porto de Galinhas
   <div class="container">
 
     <div class="row">
-
-      <div class="tickets col-md-4 col-sm-3 col-xs-6">
-        <a href="http://www.eventick.com.br/abrilproruby"><span></span>Compre seu ingresso</a>
+      <div class="tickets col-xs-6 col-sm-3 col-md-4">
+        <a href="http://www.eventick.com.br/abrilproruby" target="_blank"><span class="icon icon-tickets"></span>Compre seu ingresso</a>
       </div>
-      <div class="cfs col-md-4 col-md-offset-4 col-sm-3 col-sm-offset-6 col-xs-6">
-        <a href="http://bit.ly/1iat8jL"><span></span>Seja um patrocinador</a>
+      <div class="cfs col-xs-6 col-sm-3 col-sm-offset-6 col-md-4 col-md-offset-4">
+        <a href="http://bit.ly/1iat8jL" target="_blank"><span class="icon icon-sponsor"></span>Seja um patrocinador</a>
       </div>
+    </div>
 
-      <div class="porto col-md-4 col-md-push-4 col-sm-12 col-xs-12 col-xs-12">
+    <div class="row">
+      <div class="porto col-xs-12 col-sm-12 col-md-4 col-md-push-4">
         <p>Porto de Galinhas, Pernambuco, Brasil — Hotel Armação</p>
       </div>
 
-      <div class="description col-md-4 col-md-pull-4 col-sm-6 col-xs-12">
+      <div class="description col-xs-12 col-sm-6 col-md-4 col-md-pull-4">
         <h3>A Conferência Tropical de Ruby</h3>
         <p>Curta ótimas conversas, paisagens deslumbrantes e uma natureza sensacional. Venha conversar com alguns dos melhores Rubistas nesta conferência tropical, na praia paradisíaca de Porto de Galinhas.</p>
         <h4>Edições Anteriores</h4>
@@ -42,23 +43,23 @@ title: Abril Pro Ruby 2014 &#9671; 26 de Abril @ Porto de Galinhas
         <a href="/pt/code-of-conduct">Conheça nossas normas</a>
       </div>
 
-      <div class="stay-tuned col-md-4 col-sm-6 col-xs-12">
+      <div class="stay-tuned col-xs-12 col-sm-6 col-md-4">
         <h3>Fique Ligado</h3>
         <p>Cadastre-se para receber atualizações por email. Não se preocupe, não enviamos spam.</p>
         <form action="http://abrilproruby.us3.list-manage.com/subscribe/post?u=91f07f556bcf88c39c98457f7&amp;id=8f465a2fc8" method="post" name="mc-embedded-subscribe-form" class="form-inline" role="form" target="_blank" novalidate>
           <div class="input-group">
             <label class="sr-only" for="email-subscription">Endereço de email</label>
-            <input class="form-control" type="email" id="email-subscription" name="EMAIL" placeholder="Your email address">
+            <input class="form-control" type="email" id="email-subscription" name="EMAIL" placeholder="Seu endereço de email">
             <span class="input-group-btn">
               <button type="submit" class="btn">
-                <span>Cadastre</span>
+                <span>Subscrever</span>
               </button>
             </span>
           </div>
         </form>
         <div class="row">
           <ul>
-            <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="col-xs-6 col-sm-6 col-md-6">
               <li>
                 <a href="http://twitter.com/abrilproruby" target="_blank"><span class="twitter"></span>@abrilproruby</a>
               </li>
@@ -66,7 +67,7 @@ title: Abril Pro Ruby 2014 &#9671; 26 de Abril @ Porto de Galinhas
                 <a href="http://facebook.com/abrilproruby" target="_blank"><span class="facebook"></span>/abrilproruby</a>
               </li>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="col-xs-6 col-sm-6 col-md-6">
               <li>
                 <a href="http://lanyrd.com/2014/abrilproruby/" target="_blank"><span class="lanyrd"></span>/abrilproruby</a>
               </li>
@@ -77,17 +78,73 @@ title: Abril Pro Ruby 2014 &#9671; 26 de Abril @ Porto de Galinhas
           </ul>
         </div>
       </div>
-
     </div>
+  </div>
+</section>
 
+<section class="overall">
+  <div class="container">
+    <div class="row">
+      <div class="speakers col-xs-12 col-sm-6 col-md-6">
+        <h3>Grandes Rubistas estão a caminho</h3>
+        <ul>
+          <li>
+            <div class="col-sm-6 col-md-4">
+              <a href="/pt/conference/#bryce" class="bryce photo">
+                <%= image_tag 'conference/speaker-bryce.png', class: 'photo' %>
+                <p>Bryce Kerley</p>
+                <small>Engenheiro de Software na Basho Technologies</small>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-6 col-md-4">
+              <a href="/pt/conference/#brian" class="brian photo">
+                <%= image_tag 'conference/speaker-brian.png', class: 'photo' %>
+                <p>Brian Morton</p>
+                <small>Engenheiro de Software Senior no Yammer/Microsoft</small>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-12 col-md-4">
+              <a href="/pt/conference/#michel" class="michel photo">
+                <%= image_tag 'conference/speaker-michel.png', class: 'photo' %>
+                <p>Michel Martens</p>
+                <small>Co-fundador do openredis</small>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="features col-xs-12 col-sm-6 col-md-6">
+        <h3>O melhor do Ruby na melhor praia do Brasil.</h3>
+        <ul>
+          <li>
+            <div class="col-sm-6 col-md-4">
+              <a href="/pt/conference/#workshops" class="workshops icon"><span>3</span>Workshops</a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-6 col-md-4">
+              <a href="/pt/conference/#talks" class="talks icon"><span>12</span>Palestras</a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-12 col-md-4">
+              <a href="/pt/conference/#activities" class="activities icon"><span>4</span>Atividades</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
     <footer>
-
       <div class="row">
-        <div class="sponsors-footer col-md-12 col-xs-12">
+        <div class="sponsors-footer col-xs-12 col-md-12">
           <h4>Patrocinador Ouro</h4>
           <ul>
             <li>
-              <div class="sponsor tempest col-md-12 col-xs-12">
+              <div class="sponsor tempest col-xs-12 col-md-12">
                 <a class="tempest-img" href="http://tempest.com.br" target="_blank">Tempest Security Intelligence</a>
               </div>
             </li>
@@ -95,56 +152,51 @@ title: Abril Pro Ruby 2014 &#9671; 26 de Abril @ Porto de Galinhas
           <h4>Patrocinadores Prata</h4>
           <ul>
             <li>
-              <div class="sponsor la col-md-3 col-md-offset-2 col-sm-4 col-xs-12">
+              <div class="sponsor la col-xs-12 col-sm-4 col-md-3 col-md-offset-2">
                 <a href="http://www.latecnologiaemsaude.com.br" target="_blank">L.A. Health Technology</a>
               </div>
             </li>
             <li>
-              <div class="sponsor livingsocial col-md-2 col-sm-4 col-xs-6">
+              <div class="sponsor livingsocial col-xs-12 col-sm-4 col-md-2">
                 <a href="http://www.livingsocial.com" target="_blank">LivingSocial</a>
               </div>
             </li>
             <li>
-              <div class="sponsor sendgrid col-md-3 col-sm-4 col-xs-6">
+              <div class="sponsor sendgrid col-xs-12 col-sm-4 col-md-3">
                 <a href="http://www.sendgrid.com" target="_blank">SendGrid</a>
               </div>
             </li>
           </ul>
         </div>
       </div>
-
       <div class="row">
-        <div class="organizers-footer col-md-12 col-xs-12">
+        <div class="organizers-footer col-xs-12 col-md-12">
           <h4>Organizadores</h4>
           <ul>
             <li>
-              <div class="sponsor for col-md-3 col-md-offset-2 col-sm-4 col-xs-12">
+              <div class="sponsor for col-xs-12 col-sm-4 col-md-3 col-md-offset-2">
                 <a class="for-img" href="http://frevoonrails.com.br" target="_blank">Frevo On Rails</a>
               </div>
             </li>
             <li>
-              <div class="sponsor guava col-md-2 col-sm-4 col-xs-6">
+              <div class="sponsor guava col-xs-12 col-sm-4 col-md-2">
                 <a class="guava-img" href="http://guava.com.br" target="_blank">Guava</a>
               </div>
             </li>
             <li>
-              <div class="sponsor eventick col-md-3 col-sm-4 col-xs-6">
+              <div class="sponsor eventick col-xs-12 col-sm-4 col-md-3">
                 <a class="eventick-img" href="http://eventick.com.br" target="_blank">Eventick</a>
               </div>
             </li>
           </ul>
         </div>
       </div>
-
       <div class="attribution">
-        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
-          <p>Design &amp; Front-end por <a href="http://guava.com.br" target="_blank">Guava Software</a>.
-          <br />Crédito das cores (na respectiva ordem): <a href="http://colourlovers.com/palette/2721555/Tropical_Beach" target="_blank">Tropical Beach</a> e <a href="http://colourlovers.com/palette/281095/50s_Postcard" target="_blank">50's Postcards</a> por jasurprenant e T-Time do <a href="http://colourslovers.com" target="_blank">Colours Lovers</a>.
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+          <p>Projetado &amp; codificado pela  <a href="http://guava.com.br" target="_blank">Guava Software</a>.<br />Crédito das cores (na respectiva ordem): <a href="http://colourlovers.com/palette/2721555/Tropical_Beach" target="_blank">Tropical Beach</a> e <a href="http://colourlovers.com/palette/281095/50s_Postcard" target="_blank">50's Postcards</a> por jasurprenant e T-Time do <a href="http://colourslovers.com" target="_blank">Colours Lovers</a>.
           <br />Ícone do Diamante por Darren Barone do <a href="http://www.thenounproject.com" target="_blank">The Noun Project</a>.</p>
         </div>
       </div>
-
     </footer>
-
   </div>
 </section>

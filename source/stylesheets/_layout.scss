@@ -7,6 +7,7 @@ $gray:   #808080;
 $gray2:  #ccc;
 $gray3:  #e6e6e6;
 $orange: #ff9263;
+$yellow: #fff7bd;
 
 // Layout
 
@@ -30,12 +31,12 @@ body {
   }
   h1 {
     margin: 0;
-    padding-top: 120px;
+    padding-top: 100px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: -2px;
     font-weight: 300;
-    font-size: 42px;
+    font-size: 36px;
     line-height: 36px;
   }
   h2 {
@@ -66,7 +67,6 @@ body {
     @extend .navbar;
     @extend .navbar-default;
     @extend .navbar-static-top;
-
     position: absolute;
     margin-bottom: 0;
     width: 100%;
@@ -145,7 +145,6 @@ body {
       }
       .navbar-collapse {
         overflow: hidden;
-
         ul {
           @extend .nav;
           @extend .navbar-nav;
@@ -166,39 +165,72 @@ body {
       h1 {
         color: white;
         text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+        margin-bottom: -5px;
         .icon {
           display: block;
           margin: auto;
+          margin-bottom: -5px;
           width: 128px;
           height: 128px;
         }
       }
     }
-    nav {
+    nav.secondary {
       ul {
-        padding: .75em;
+        padding: 10px 0;
+        margin: 0 auto;
         list-style: none;
         text-align: center;
         text-shadow: 1px 1px 1px rgba(0,0,0,1);
-        font-weight: 200;
         li {
+          position: relative;
           display: inline-block;
-          &:before {
+          min-width: 50px;
+          min-height: 50px;
+          margin: 0;
+          a {
             position: relative;
-            top: 1px;
-            padding: 0 .6em;
-            color: $gray2;
-            content: '♦';
-            font-size: 10px;
-          }
-          &:first-child:before {
-            content: none;
-          }
-        }
-        a {
-          color: white;
-          &:hover {
-            color: $gray3;
+            display: inline-block;;
+            color: white;
+            text-decoration: none;
+            font-size: 13px;
+            width: 58px;
+            height: 85px;
+            padding: 10px 0 0 0;
+            font-weight: 400;
+            &:hover {
+              .icon, .subtitle, .day {
+                -webkit-transition: -webkit-transform 0.1s ease;
+                -moz-transition: -moz-transform 0.1s ease;
+                -ms-transition: -ms-transform 0.1s ease;
+                -o-transition: -o-transform 0.1s ease;
+                transition: transform 0.1s ease;
+                -webkit-transform: scale(1.15);
+                -moz-transform: scale(1.15);
+                -ms-transform: scale(1.15);
+                -o-transform: scale(1.15);
+                transform: scale(1.15);
+              }
+              .icon {
+                -webkit-transform-origin: center center;
+                transform-origin: center center;
+              }
+              .subtitle {
+                -webkit-transform-origin: top center;
+                transform-origin: top center;
+              }
+            }
+            .icon {
+              display: block;
+              margin: 0 auto 10px auto;
+              width: 32px;
+              height: 33px;
+              background-image: image-url('graphics.svg');
+            }
+            .subtitle {
+              display: none;
+              visibility: hidden;
+            }
           }
         }
       }
@@ -342,23 +374,6 @@ body {
     }
   }
 
-  @media (max-width: 380px) {
-    nav.secondary {
-      ul {
-        font-size: 15px;
-        li {
-          margin-right: 0.75em;
-          &:before {
-            content: none;
-          }
-          &:last-child {
-            margin-right: 0;
-          }
-        }
-      }
-    }
-  }
-
   @media (min-width: 768px) {
     nav.main {
       .navbar-collapse {
@@ -398,6 +413,25 @@ body {
                 height: 64px;
                 background-image: image-url('graphics.svg');
                 vertical-align: middle;
+              }
+            }
+          }
+        }
+      }
+    }
+    header {
+      nav.secondary {
+        ul {
+          li {
+            margin-left: 0;
+            margin-right: 0;
+            a {
+              padding-left: 0;
+              padding-right: 0;
+              width: 120px;
+              .subtitle {
+                display: inline-block;
+                visibility: visible;
               }
             }
           }
