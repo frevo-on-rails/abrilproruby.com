@@ -182,10 +182,10 @@ body.index, body.en_index, body.pt_index {
         height: 65px;
         background-image: image-url('graphics.svg');
       }
-      .icon-sponsor {
-        background-position: 0px -688px;
+      .icon-tickets {
+        background-position: 0 -688px;
       }
-      .icon-purchase {
+      .icon-sponsor {
         background-position: -70px -688px;
       }
       &:hover, &:active {
@@ -332,7 +332,7 @@ body.index, body.en_index, body.pt_index {
     }
     .photo {
       display: block;
-      margin: 30px auto;
+      margin: 30px auto 0;
       height: auto;
       width: 128px;
       text-align: center;
@@ -361,12 +361,14 @@ body.index, body.en_index, body.pt_index {
         margin: 10px auto 10px auto;
       }
       p {
-        font-weight: 400;
+        color: $red;
+        text-shadow: none;
+        font-weight: 600;
         margin-bottom: 2px;
       }
       small {
         font-size: 13px;
-        font-weight: 200;
+        font-weight: 300;
       }
     }
     .icon {
@@ -420,39 +422,13 @@ body.index, body.en_index, body.pt_index {
     text-align: center;
   }
 
-  .sponsor {
-    display: inline-block;
-    padding: 10px 0 0 0;
-    text-align: center;
-    a {
-      display: inline-block;
-      overflow: hidden;
-      background-image: image-url('index/brands.svg');
-      background-repeat: no-repeat;
-      vertical-align: middle;
-      font-size: 0px;
-      -webkit-transition: -webkit-transform 0.1s ease;
-      -moz-transition: -moz-transform 0.1s ease;
-      -ms-transition: -ms-transform 0.1s ease;
-      -o-transition: -o-transform 0.1s ease;
-      transition: transform 0.1s ease;
-      &:hover, &:active {
-        -webkit-transform: scale(1.125);
-        -moz-transform: scale(1.125);
-        -ms-transform: scale(1.125);
-        -o-transform: scale(1.125);
-        transform: scale(1.125);
-      }
-    }
-  }
-
   .sponsors-footer {
     &:before {
       display: block;
       content: '';
       width: 100%;
       height: 2px;
-      margin: 10px auto 36px auto;
+      margin: 36px auto;
       background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.4) 20%, rgba(255,255,255,.4) 80%, rgba(255,255,255,0) 100%);
     }
     h4 {
@@ -542,6 +518,32 @@ body.index, body.en_index, body.pt_index {
     }
   }
 
+  .sponsor {
+    display: inline-block;
+    padding: 10px 0 0 0;
+    text-align: center;
+    a {
+      display: inline-block;
+      overflow: hidden;
+      background-image: image-url('index/brands.svg');
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      font-size: 0px;
+      -webkit-transition: -webkit-transform 0.1s ease;
+      -moz-transition: -moz-transform 0.1s ease;
+      -ms-transition: -ms-transform 0.1s ease;
+      -o-transition: -o-transform 0.1s ease;
+      transition: transform 0.1s ease;
+      &:hover, &:active {
+        -webkit-transform: scale(1.125);
+        -moz-transform: scale(1.125);
+        -ms-transform: scale(1.125);
+        -o-transform: scale(1.125);
+        transform: scale(1.125);
+      }
+    }
+  }
+
   .attribution {
     div {
       &:first-child {
@@ -558,6 +560,9 @@ body.index, body.en_index, body.pt_index {
     p, a {
       color: $red;
       text-shadow: none;
+    }
+    p {
+      font-weight: 300;
     }
   }
 
@@ -714,12 +719,6 @@ body.index, body.en_index, body.pt_index {
         h3 {
           margin-bottom: 0;
         }
-        // .photo {
-        //   margin-top: 0;
-        // }
-      }
-      .sponsors-footer {
-        margin-top: 18px;
       }
     }
   }
