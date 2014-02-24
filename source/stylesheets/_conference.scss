@@ -711,16 +711,16 @@ body.conference, body.en_conference, body.pt_conference {
         background-image: image-url('graphics.svg');
         vertical-align: middle;
         &.icon-buggy {
-          background-position: -44px -836px;
-        }
-        &.icon-catamaran {
-          background-position: -236px -836px;
+          background-position: 0 -760px;
         }
         &.icon-sailing {
-          background-position: -108px -836px;
+          background-position: -64px -760px;
         }
         &.icon-snorkeling {
-          background-position: -172px -836px;
+          background-position: -128px -760px;
+        }
+        &.icon-catamaran {
+          background-position: -196px -760px;
         }
       }
     }

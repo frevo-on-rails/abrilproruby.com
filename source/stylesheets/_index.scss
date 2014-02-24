@@ -27,6 +27,7 @@ body.index, body.en_index, body.pt_index {
     }
   }
   ul {
+    padding: 0;
     list-style: none;
   }
   footer {
@@ -57,6 +58,14 @@ body.index, body.en_index, body.pt_index {
         }
       }
       .navbar-collapse {
+        border-top-color: $red;
+        ul {
+          li {
+            &:last-child {
+              border-top-color: $red;
+            }
+          }
+        }
         .conference .icon {
           background-position: 0 -400px;
         }
@@ -126,16 +135,16 @@ body.index, body.en_index, body.pt_index {
       width: 250px;
       color: $red;
       text-align: center;
+      text-shadow: none;
       font-weight: 300;
       font-size: 13px;
-      text-shadow: none;
       a {
         color: $red;
-        font-weight: 300;
         text-shadow: none;
+        font-weight: 300;
         &:hover {
-          font-weight: 400;
           letter-spacing: 1;
+          font-weight: 400;
         }
       }
     }
@@ -143,6 +152,7 @@ body.index, body.en_index, body.pt_index {
 
   section.ocean {
     z-index: 400;
+    padding-bottom: 70px;
     background-image: image-url('index/ocean-highlight.svg'), linear-gradient(to bottom, rgba(1,121,145,1) 0%, rgba(52,155,138,0) 50%), linear-gradient(to bottom, rgba(1,121,145,0) 50%, rgba(1,121,145,1) 100%);
     background-position: center top, center top, center top;
     background-size: 400%, 100%, 100%;
@@ -150,12 +160,13 @@ body.index, body.en_index, body.pt_index {
   }
 
   .cfs, .tickets {
-    top: 150px;
     z-index: 2000;
     text-align: center;
     a {
       position: relative;
-      display: inline-block;
+      display: block;
+      margin-top: 163px;
+      width: 125px;
       text-decoration: none;
       text-transform: uppercase;
       line-height: 20px;
@@ -165,17 +176,17 @@ body.index, body.en_index, body.pt_index {
       -o-transition: -o-transform 0.1s ease;
       transition: transform 0.1s ease;
       .icon {
-        width: 64px;
-        height: 65px;
         display: block;
         margin: 0 auto 10px auto;
+        width: 64px;
+        height: 65px;
         background-image: image-url('graphics.svg');
       }
       .icon-sponsor {
-        background-position: -210px -688px;
+        background-position: 0px -688px;
       }
       .icon-purchase {
-        background-position: -280px -688px;
+        background-position: -70px -688px;
       }
       &:hover, &:active {
         -webkit-transform: scale(1.125);
@@ -188,20 +199,31 @@ body.index, body.en_index, body.pt_index {
       }
     }
   }
+  .cfs {
+     a {
+      margin-right: auto;
+      margin-left: 0;
+     }
+  }
+  .tickets {
+    a {
+      margin-right: 0;
+      margin-left: auto;
+    }
+  }
 
   .porto {
-    margin-top: 195px;
+    margin-top: 48px;
     padding: 0;
+    text-align: center;
     p {
       position: relative;
-      display: block;
+      display: inline-block;
       overflow: hidden;
-      margin-right: auto;
-      margin-left: auto;
       width: 292px;
-      height: 220px;
+      height: 221px;
       background-image: image-url('index/graphics.svg');
-      background-position: -2px -372px;
+      background-position: 0 -372px;
       background-repeat: no-repeat;
       font-size: 0;
       line-height: 0;
@@ -209,11 +231,10 @@ body.index, body.en_index, body.pt_index {
   }
 
   .description {
-    // margin-top: 86px;
     margin-top: 40px;
-    text-align: right;
+    text-align: center;
     ul {
-      text-align: right;
+      text-align: center;
     }
     li {
       display: inline-block;
@@ -232,7 +253,6 @@ body.index, body.en_index, body.pt_index {
   }
 
   .stay-tuned {
-    // margin-top: 86px;
     margin-top: 48px;
     form {
       button {
@@ -258,7 +278,7 @@ body.index, body.en_index, body.pt_index {
     ul {
       margin-top: 12px;
       padding: 0;
-      text-align: left;
+      text-align: center;
       li {
         margin-top: 6px;
         a {
@@ -296,6 +316,106 @@ body.index, body.en_index, body.pt_index {
     }
   }
 
+  section.overall {
+    z-index: 500;
+    padding-top: 60px;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to bottom right, $yellow 0%, $orange 100%);
+    h3 {
+      text-align: center;
+      color: $red;
+      text-shadow: none;
+    }
+    ul, li {
+      padding: 0;
+    }
+    .photo {
+      display: block;
+      margin: 30px auto;
+      height: auto;
+      width: 128px;
+      text-align: center;
+      text-decoration: none;
+      text-shadow: none;
+      line-height: 16px;
+      color: $red;
+      -webkit-transition: -webkit-transform 0.1s ease;
+      -moz-transition: -moz-transform 0.1s ease;
+      -ms-transition: -ms-transform 0.1s ease;
+      -o-transition: -o-transform 0.1s ease;
+      transition: transform 0.1s ease;
+      &:hover, &:active {
+        -webkit-transform: scale(1.125);
+        -moz-transform: scale(1.125);
+        -ms-transform: scale(1.125);
+        -o-transform: scale(1.125);
+        transform: scale(1.125);
+      }
+      img {
+        border: 2px solid white;
+        border-radius: 64px;
+        box-shadow: 0px 0px 8px rgba(0,0,0,.75);
+        width: 128px;
+        height: 128px;
+        margin: 10px auto 10px auto;
+      }
+      p {
+        font-weight: 400;
+        margin-bottom: 2px;
+      }
+      small {
+        font-size: 13px;
+        font-weight: 200;
+      }
+    }
+    .icon {
+      display: block;
+      margin: 30px auto;
+      padding: 20px 20px;
+      width: 128px;
+      height: 128px;
+      background-image: image-url('graphics.svg');
+      color: $red;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      text-shadow: none;
+      font-weight: 400;
+      -webkit-transition: -webkit-transform 0.1s ease;
+      -moz-transition: -moz-transform 0.1s ease;
+      -ms-transition: -ms-transform 0.1s ease;
+      -o-transition: -o-transform 0.1s ease;
+      transition: transform 0.1s ease;
+      &:hover, &:active {
+        -webkit-transform: scale(1.125);
+        -moz-transform: scale(1.125);
+        -ms-transform: scale(1.125);
+        -o-transform: scale(1.125);
+        transform: scale(1.125);
+      }
+      span {
+        display: block;
+        letter-spacing: -5px;
+        font-weight: 200;
+        font-size: 64px;
+        line-height: 64px;
+      }
+    }
+    .talks {
+      background-position: 0 -830px;
+    }
+    .workshops {
+      background-position: -216px -830px;
+    }
+    .activities {
+      background-position: 0 -958px;
+    }
+    .features {
+      margin-top: 30px;
+    }
+  }
+
   .sponsors-footer, .organizers-footer, .advisory-supporter {
     text-align: center;
   }
@@ -311,14 +431,35 @@ body.index, body.en_index, body.pt_index {
       background-repeat: no-repeat;
       vertical-align: middle;
       font-size: 0px;
+      -webkit-transition: -webkit-transform 0.1s ease;
+      -moz-transition: -moz-transform 0.1s ease;
+      -ms-transition: -ms-transform 0.1s ease;
+      -o-transition: -o-transform 0.1s ease;
+      transition: transform 0.1s ease;
+      &:hover, &:active {
+        -webkit-transform: scale(1.125);
+        -moz-transform: scale(1.125);
+        -ms-transform: scale(1.125);
+        -o-transform: scale(1.125);
+        transform: scale(1.125);
+      }
     }
   }
 
   .sponsors-footer {
-    margin-top: 36px;
+    &:before {
+      display: block;
+      content: '';
+      width: 100%;
+      height: 2px;
+      margin: 10px auto 36px auto;
+      background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.4) 20%, rgba(255,255,255,.4) 80%, rgba(255,255,255,0) 100%);
+    }
     h4 {
       display: inline-block;
       margin-top: 36px;
+      color: $red;
+      text-shadow: none;
       &:first-child {
         margin-top: 0;
       }
@@ -329,9 +470,6 @@ body.index, body.en_index, body.pt_index {
         width: 244px;
         height: 99px;
         background-position: 0px -400px;
-        &:hover, &:active {
-          background-position: 0px -500px;
-        }
       }
     }
     .la {
@@ -341,9 +479,6 @@ body.index, body.en_index, body.pt_index {
         width: 132px;
         height: 65px;
         background-position: 0px -130px;
-        &:hover, &:active {
-          background-position: -150px -130px;
-        }
       }
     }
     .livingsocial {
@@ -353,9 +488,6 @@ body.index, body.en_index, body.pt_index {
         width: 132px;
         height: 65px;
         background-position: 0px -200px;
-        &:hover, &:active {
-          background-position: -150px -200px;
-        }
       }
     }
     .sendgrid {
@@ -365,62 +497,67 @@ body.index, body.en_index, body.pt_index {
         width: 132px;
         height: 65px;
         background-position: 0px -250px;
-        &:hover, &:active {
-          background-position: -150px -250px;
-        }
       }
     }
   }
 
   .organizers-footer {
     margin-top: 26px;
+    h4 {
+      color: $red;
+      text-shadow: none;
+    }
     .for {
-      padding-top: 10px;
       margin-top: 16px;
       margin-bottom: 16px;
+      padding-top: 10px;
       a {
         width: 132px;
         height: 45px;
         background-image: image-url('index/brands.svg');
         background-position: 0px 0px;
-        &:hover, &:active {
-          background-position: -150px 0px;
-        }
       }
     }
     .guava {
-      padding-top: 25px;
       margin-top: 16px;
       margin-bottom: 16px;
+      padding-top: 25px;
       a {
         width: 99px;
         height: 28px;
         background-image: image-url('index/brands.svg');
         background-position: 0px -50px;
-        &:hover, &:active {
-          background-position: -150px -50px;
-        }
       }
     }
     .eventick {
-      padding-top: 10px;
       margin-top: 16px;
       margin-bottom: 16px;
+      padding-top: 10px;
       a {
         width: 118px;
         height: 42px;
         background-image: image-url('index/brands.svg');
         background-position: 0px -80px;
-        &:hover, &:active {
-          background-position: -150px -80px;
-        }
       }
     }
   }
 
   .attribution {
+    div {
+      &:first-child {
+        &:before {
+          display: block;
+          content: '';
+          width: 100%;
+          height: 2px;
+          margin: 36px auto;
+          background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.4) 20%, rgba(255,255,255,.4) 80%, rgba(255,255,255,0) 100%);
+        }
+      }
+    }
     p, a {
-      color: $gray3;
+      color: $red;
+      text-shadow: none;
     }
   }
 
@@ -443,7 +580,6 @@ body.index, body.en_index, body.pt_index {
     .porto {
        p {
         margin-bottom: -1em;
-        margin-left: -4px;
         -webkit-transform: scale(0.8904);
         -moz-transform: scale(0.8904);
         -ms-transform: scale(0.8904);
@@ -456,27 +592,6 @@ body.index, body.en_index, body.pt_index {
   }
 
   @media (max-width: 767px) {
-    nav.main {
-      .navbar-collapse {
-        border-top-color: $red;
-        ul {
-          li {
-            &:last-child {
-              border-top-color: $red;
-            }
-          }
-        }
-      }
-    }
-    ul {
-      padding: 0;
-    }
-    .description {
-      text-align: center;
-      ul {
-        text-align: center;
-      }
-    }
     .stay-tuned {
       text-align: center;
       ul {
@@ -514,6 +629,25 @@ body.index, body.en_index, body.pt_index {
     section.ocean {
       background-image: image-url('index/ocean-highlight.svg'), linear-gradient(to bottom, rgba(1,121,145,1) 0%, rgba(52,155,138,0) 50%), linear-gradient(to bottom, rgba(1,121,145,0) 50%, rgba(1,121,145,1) 100%);
       background-size: 200%, 100%, 100%;
+      .porto {
+        margin-top: -125px;
+      }
+      .description {
+        text-align: right;
+        ul {
+          text-align: right;
+        }
+      }
+      .stay-tuned {
+        ul {
+          text-align: left;
+        }
+      }
+    }
+    section.overall {
+      .features {
+        margin-top: 0;
+      }
     }
   }
 
@@ -546,6 +680,48 @@ body.index, body.en_index, body.pt_index {
         }
       }
     }
+    section.overall {
+      .speakers {
+        ul {
+          li {
+            a {
+              margin-bottom: 20px;
+            }
+            &:last-child {
+              a {
+                margin-top: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    section.ocean {
+      background-image: image-url('index/ocean-highlight.svg'), linear-gradient(to bottom, rgba(1,121,145,1) 0%, rgba(52,155,138,0) 50%), linear-gradient(to bottom, rgba(1,121,145,0) 50%, rgba(1,121,145,1) 100%);
+      background-size: 100%, 100%, 100%;
+      .cfs, .tickets {
+        margin-top: -135px;
+      }
+      .porto {
+        margin-top: 40px;
+      }
+    }
+    section.overall {
+      .speakers {
+        h3 {
+          margin-bottom: 0;
+        }
+        // .photo {
+        //   margin-top: 0;
+        // }
+      }
+      .sponsors-footer {
+        margin-top: 18px;
+      }
+    }
   }
 
   @media (min-width: 992px) and (max-width: 1199px) {
@@ -561,13 +737,6 @@ body.index, body.en_index, body.pt_index {
           }
         }
       }
-    }
-  }
-
-  @media (min-width: 992px) {
-    section.ocean {
-      background-image: image-url('index/ocean-highlight.svg'), linear-gradient(to bottom, rgba(1,121,145,1) 0%, rgba(52,155,138,0) 50%), linear-gradient(to bottom, rgba(1,121,145,0) 50%, rgba(1,121,145,1) 100%);
-      background-size: 100%, 100%, 100%;
     }
   }
 
