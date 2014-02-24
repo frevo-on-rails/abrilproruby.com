@@ -23,7 +23,7 @@ Rails: The Hidden Parts
 ### Talk Description
 The Rails framework contains a set of useful features for every Web application, but not every feature is well implemented and bug-free.
 
-During this talk, we will walk through two very old Rails features - Active Record’s scopes and HTML sanitization — and explain how they work under the hood. Also, it will present the current issues we've been facing and how they can be improved.
+During this talk, we will walk through two very old Rails features-Active Record’s scopes and HTML sanitization—and explain how they work under the hood. Also, it will present the current issues we've been facing and how they can be improved.
 
 ## Nell Shamrell
 
@@ -46,7 +46,7 @@ Seattle, USA
 Crafting and Optimizing Algorithms in Ruby
 
 ### Talk Description
-Every day, knowingly or not, we create and follow algorithms.  From deciding what route to take home from the office to following a recipe as we cook or bake, life is made of patterns. These patterns take on special meeting when they need to be interpreted by a computer. No matter who interprets algorithms — whether human or machine — hey must be efficient in both speed and resource consumption. Come and learn the principles and best practices of crafting, evaluating, and refining algorithms in Ruby. We will work our way through a real world example of creating the core algorithm of a fantasy combat game. Step by step, we will translate a complex system of rules into a robust and efficient Ruby algorithm. You will walk away with a better understanding of how to create optimal algorithms and refactor existing algorithms in your own Ruby code.
+Every day, knowingly or not, we create and follow algorithms.  From deciding what route to take home from the office to following a recipe as we cook or bake, life is made of patterns. These patterns take on special meeting when they need to be interpreted by a computer. No matter who interprets algorithms—whether human or machine—they must be efficient in both speed and resource consumption. Come and learn the principles and best practices of crafting, evaluating, and refining algorithms in Ruby. We will work our way through a real world example of creating the core algorithm of a fantasy combat game. Step by step, we will translate a complex system of rules into a robust and efficient Ruby algorithm. You will walk away with a better understanding of how to create optimal algorithms and refactor existing algorithms in your own Ruby code.
 
 ## Arthur Neves
 
@@ -398,11 +398,11 @@ akshaykarle and leandrogualter
 Coding in Production
 
 ### Talk Description
-Ever had that bug that happens "only in production"? Ever heard someone say "but it works on my machine"? Ever said it yourself? Wouldn't it be nice if you could write all your code directly in production - so that when it works for you on your machine, it also works for everyone else?
+Ever had that bug that happens "only in production"? Ever heard someone say "but it works on my machine"? Ever said it yourself? Wouldn't it be nice if you could write all your code directly in production-so that when it works for you on your machine, it also works for everyone else?
 
-In this workshop we will build a virtual environment which replicates a production environment from scratch using configuration automation and virtualization through lightweight containers. With our trusty tools - Vagrant, Docker and Chef - we will proceed step by step to build a local development environment.
+In this workshop we will build a virtual environment which replicates a production environment from scratch using configuration automation and virtualization through lightweight containers. With our trusty tools-Vagrant, Docker and Chef-we will proceed step by step to build a local development environment.
 
-With this, we hope to highlight the benefits of being able to see locally how code would actually work in production - helping catch design issues quickly and eliminate entire classes of bugs. Plus, to be honest, it also gives us a chance to play around with some really fun tech.
+With this, we hope to highlight the benefits of being able to see locally how code would actually work in production-helping catch design issues quickly and eliminate entire classes of bugs. Plus, to be honest, it also gives us a chance to play around with some really fun tech.
 
 ## Phil Cohen :construction_worker:
 
@@ -484,7 +484,7 @@ While including ideas from [Avdi Grimm]'s [Objects on Rails], the talk will prim
 Included in this talk will be an exploration of:
 
 - patterns, such as [Repository] and [Data Mapper], as coined by Martin Fowler,
-- how upcoming libraries - Curator, DataMappify, ROM.rb and Veritas - fit in with these patterns,
+- how upcoming libraries-Curator, DataMappify, ROM.rb and Veritas-fit in with these patterns,
 - the parts of these libraries that are usable today,
 - how to make this methodology workable in the context of TDD (keeping components as testable as possible).
 
@@ -515,7 +515,7 @@ Sydney, Australia
 @apotonick
 
 ### Talk Title
-Fear Of The Class - A Refactoring Tale
+Fear Of The Class-A Refactoring Tale
 
 ### Talk Description
 This is the story of a brave knight and his struggle for unchaining his village from the claws of The Giant Monolith. Stepwise we walk through his attempts of refactoring a gem to a better object design. While we do discuss patterns and strategies this is more than just ticking off refactoring recipes. This is a pictorial exploration of how we turned a complex frightening code pile into a managable architecture that's fun to work with.
