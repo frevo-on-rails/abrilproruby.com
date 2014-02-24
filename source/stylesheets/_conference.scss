@@ -746,8 +746,23 @@ body.conference, body.en_conference, body.pt_conference {
         }
       }
     }
+    .to-the-top {
+      margin-bottom: 0;
+    }
   }
   .attribution {
+    div {
+      &:first-child {
+        &:before {
+          display: block;
+          content: '';
+          width: 100%;
+          height: 2px;
+          margin: 36px auto 36px auto;
+          background: linear-gradient(to right, rgba(230,230,230,0) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 80%, rgba(230,230,230,0) 100%);
+        }
+      }
+    }
     p, a {
       color: $gray;
     }
