@@ -111,7 +111,7 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
     }
   }
 
-  .tempest, .la, .livingsocial, .sendgrid, .ubee, .engineyard, .elife, .nird, .thoughtworks, .openredis, .for, .guava, .eventick, .casaeventos, .rubycentral, .casablanca, .globo, .casadocodigo, .designa, .tagarela, .novatec, .appies, .codeclimate {
+  .tempest, .la, .livingsocial, .sendgrid, .ubee, .engineyard, .elife, .nird, .thoughtworks, .openredis, .gioco, .for, .guava, .eventick, .casaeventos, .rubycentral, .casablanca, .globo, .casadocodigo, .designa, .tagarela, .novatec, .appies, .codeclimate, .eloquent {
     display: inline-block;
     text-align: center;
     img {
@@ -209,7 +209,7 @@ body.sponsors, body.en_sponsors, body.pt_sponsors {
     }
     .institutional-support {
       margin-top: 10px;
-      margin-bottom: 24px;
+      margin-bottom: 0;
       img {
         width: 90px;
         height: 90px;
