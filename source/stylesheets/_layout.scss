@@ -9,11 +9,23 @@ $gray3:  #e6e6e6;
 $orange: #ff9263;
 $yellow: #fff7bd;
 
+
+// Mixins
+
+@mixin white-radial-gradient($start,$start-opacity,$finish,$finish-opacity) {
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,$start-opacity) $start, rgba(255,255,255,$finish-opacity) $finish, rgba(255,255,255,$finish-opacity) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,$start-opacity) $start, rgba(255,255,255,$finish-opacity) $finish, rgba(255,255,255,$finish-opacity) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,$start-opacity) $start, rgba(255,255,255,$finish-opacity) $finish, rgba(255,255,255,$finish-opacity) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,$start-opacity) $start, rgba(255,255,255,$finish-opacity) $finish, rgba(255,255,255,$finish-opacity) 100%);
+  background: radial-gradient(ellipse at center, rgba(255,255,255,$start-opacity) $start,rgba(255,255,255,$finish-opacity) $finish, rgba(255,255,255,$finish-opacity) 100%);
+}
+
+
 // Layout
 
 body {
   min-width: 320px !important;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 16px;
   line-height: 24px;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -80,6 +92,7 @@ body {
     transition: background-color 3s ease;
     .container {
       .navbar-header {
+        padding-left: 15px;
         button {
           @extend .navbar-toggle;
           margin-top: 24px;
@@ -88,40 +101,17 @@ body {
           height: 48px;
           border: 2px solid white;
           border-radius: 0px;
-          -webkit-transition: -webkit-transform 0.1s ease;
-          -moz-transition: -moz-transform 0.1s ease;
-          -ms-transition: -ms-transform 0.1s ease;
-          -o-transition: -o-transform 0.1s ease;
-          transition: transform 0.1s ease;
           &:hover, &:active {
-            background-color: rgba(255,255,255,0.1);
-            -webkit-transform: scale(1.125);
-            -moz-transform: scale(1.125);
-            -ms-transform: scale(1.125);
-            -o-transform: scale(1.125);
-            transform: scale(1.125);
-            -webkit-transform-origin: center center;
-            transform-origin: center center;
+            @include white-radial-gradient(0%,.8,75%,0);
           }
           .icon-bar {
             background-color: white;
           }
         }
         .navbar-brand {
-          padding: 0 0 0 15px;
-          -webkit-transition: -webkit-transform 0.1s ease;
-          -moz-transition: -moz-transform 0.1s ease;
-          -ms-transition: -ms-transform 0.1s ease;
-          -o-transition: -o-transform 0.1s ease;
-          transition: transform 0.1s ease;
+          padding: 0;
           &:hover, &:active {
-            -webkit-transform: scale(1.125);
-            -moz-transform: scale(1.125);
-            -ms-transform: scale(1.125);
-            -o-transform: scale(1.125);
-            transform: scale(1.125);
-            -webkit-transform-origin: center center;
-            transform-origin: center center;
+            @include white-radial-gradient(0%,.8,75%,0);
           }
           .icon, .text {
             display: block;
@@ -152,6 +142,9 @@ body {
           li {
             a {
               font-weight: 400;
+              &:hover, &:active {
+                @include white-radial-gradient(0%,.8,75%,0);
+              }
             }
           }
         }
@@ -193,32 +186,13 @@ body {
             display: inline-block;;
             color: white;
             text-decoration: none;
-            font-size: 13px;
+            font-size: 14px;
             width: 58px;
             height: 85px;
             padding: 10px 0 0 0;
             font-weight: 400;
-            &:hover {
-              .icon, .subtitle, .day {
-                -webkit-transition: -webkit-transform 0.1s ease;
-                -moz-transition: -moz-transform 0.1s ease;
-                -ms-transition: -ms-transform 0.1s ease;
-                -o-transition: -o-transform 0.1s ease;
-                transition: transform 0.1s ease;
-                -webkit-transform: scale(1.15);
-                -moz-transform: scale(1.15);
-                -ms-transform: scale(1.15);
-                -o-transform: scale(1.15);
-                transform: scale(1.15);
-              }
-              .icon {
-                -webkit-transform-origin: center center;
-                transform-origin: center center;
-              }
-              .subtitle {
-                -webkit-transform-origin: top center;
-                transform-origin: top center;
-              }
+            &:hover, &:active {
+              @include white-radial-gradient(0%,.3,75%,0);
             }
             .icon {
               display: block;
@@ -294,7 +268,7 @@ body {
       margin-top: 48px;
       margin-bottom: 48px;
       text-align: center;
-      font-weight: 200;
+      font-weight: 300;
       font-size: 13px;
       line-height: 16px;
     }
@@ -325,19 +299,8 @@ body {
             a {
               padding-top: 15px !important;
               padding-bottom: 15px !important;
-              -webkit-transition: -webkit-transform 0.1s ease;
-              -moz-transition: -moz-transform 0.1s ease;
-              -ms-transition: -ms-transform 0.1s ease;
-              -o-transition: -o-transform 0.1s ease;
-              transition: transform 0.1s ease;
               &:hover, &:active {
-                -webkit-transform: scale(1.125);
-                -moz-transform: scale(1.125);
-                -ms-transform: scale(1.125);
-                -o-transform: scale(1.125);
-                transform: scale(1.125);
-                -webkit-transform-origin: center center;
-                transform-origin: center center;
+                @include white-radial-gradient(0%,1,85%,0);
               }
               &.conference {
                 padding-top: 18px !important;
@@ -383,26 +346,12 @@ body {
             text-shadow: none;
             letter-spacing: -1px;
             line-height: 64px;
-            -webkit-transition: -webkit-transform 0.1s ease;
-            -moz-transition: -moz-transform 0.1s ease;
-            -ms-transition: -ms-transform 0.1s ease;
-            -o-transition: -o-transform 0.1s ease;
-            transition: transform 0.1s ease;
             &.language {
               margin-top: 35px;
               width: auto;
               letter-spacing: 0;
               font-weight: 400;
               font-size: 12px;
-            }
-            &:hover, &:active {
-              -webkit-transform: scale(1.125);
-              -moz-transform: scale(1.125);
-              -ms-transform: scale(1.125);
-              -o-transform: scale(1.125);
-              transform: scale(1.125);
-              -webkit-transform-origin: center center;
-              transform-origin: center center;
             }
             &.section {
               text-transform: uppercase;

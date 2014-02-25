@@ -46,6 +46,15 @@ body.conference, body.en_conference, body.pt_conference {
         .sponsors .icon {
           background-position: -70px -540px;
         }
+        ul {
+          li {
+            a {
+              &:hover, &:active {
+                @include white-radial-gradient(0%,.45,75%,0);
+              }
+            }
+          }
+        }
         a {
           color: $green;
           &:hover, &:active {
@@ -123,32 +132,32 @@ body.conference, body.en_conference, body.pt_conference {
               background-color: rgba(255,255,255,.5);
               content: '';
             }
-            &:hover {
-              .icon {
-                &:after {
-                  width: 0;
-                  height: 0;
-                }
-              }
-              .subtitle {
-                -webkit-transform: scale(1.15);
-                -moz-transform: scale(1.15);
-                -ms-transform: scale(1.15);
-                -o-transform: scale(1.15);
-                transform: scale(1.15);
-                -webkit-transform-origin: center left;
-                transform-origin: center left;
-              }
-              .day {
-                -webkit-transform: scale(1.15);
-                -moz-transform: scale(1.15);
-                -ms-transform: scale(1.15);
-                -o-transform: scale(1.15);
-                transform: scale(1.15);
-                -webkit-transform-origin: center right;
-                transform-origin: center right;
-              }
-            }
+            // &:hover {
+            //   .icon {
+            //     &:after {
+            //       width: 0;
+            //       height: 0;
+            //     }
+            //   }
+            //   .subtitle {
+            //     -webkit-transform: scale(1.15);
+            //     -moz-transform: scale(1.15);
+            //     -ms-transform: scale(1.15);
+            //     -o-transform: scale(1.15);
+            //     transform: scale(1.15);
+            //     -webkit-transform-origin: center left;
+            //     transform-origin: center left;
+            //   }
+            //   .day {
+            //     -webkit-transform: scale(1.15);
+            //     -moz-transform: scale(1.15);
+            //     -ms-transform: scale(1.15);
+            //     -o-transform: scale(1.15);
+            //     transform: scale(1.15);
+            //     -webkit-transform-origin: center right;
+            //     transform-origin: center right;
+            //   }
+            // }
           }
           &:first-child:before {
             position: absolute;
@@ -358,7 +367,7 @@ body.conference, body.en_conference, body.pt_conference {
         font-size: 0;
         line-height: 0;
         &:hover, &:active {
-          background-color: rgba(128,128,128,.1);
+          outline: 2px solid rgba(128,128,128,.1);
         }
       }
       .bio {
@@ -426,7 +435,7 @@ body.conference, body.en_conference, body.pt_conference {
         font-size: 11px;
         line-height: 12px;
         &:hover, &:active {
-          background-color: rgba(128,128,128,.1);
+          outline: 2px solid rgba(128,128,128,.1);
         }
       }
     }
@@ -486,7 +495,7 @@ body.conference, body.en_conference, body.pt_conference {
       a {
         color: $gray;
         &:hover, &:active {
-          background-color: rgba(128,128,128,.2);
+          outline: 2px solid rgba(128,128,128,.2);
         }
       }
       .icon-calendar {
@@ -533,7 +542,7 @@ body.conference, body.en_conference, body.pt_conference {
       a {
         color: white;
         &:hover, &:active {
-          background-color: rgba(255,255,255,.3);
+          outline: 2px solid rgba(255,255,255,.3);
         }
       }
       .icon-calendar {
@@ -571,7 +580,7 @@ body.conference, body.en_conference, body.pt_conference {
         }
         .bio, .twitter, .github {
           &:hover, &:active {
-            background-color: rgba(230,230,230,.3);
+            outline: 2px solid rgba(230,230,230,.3);
           }
         }
         .icon-info {
@@ -592,12 +601,12 @@ body.conference, body.en_conference, body.pt_conference {
       .talk {
         p {
           color: white;
-          font-weight: 200;
+          font-weight: 300;
         }
         .more {
           color: white;
           &:hover, &:active {
-            background-color: rgba(230,230,230,.3);
+            outline: 2px solid rgba(230,230,230,.3);
           }
         }
       }
@@ -666,7 +675,7 @@ body.conference, body.en_conference, body.pt_conference {
       a {
         color: $gray;
         &:hover, &:active {
-          background-color: rgba(128,128,128,.2);
+          outline: 2px solid rgba(128,128,128,.2);
         }
       }
       .icon-calendar {

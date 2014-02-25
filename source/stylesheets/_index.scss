@@ -18,7 +18,7 @@ body.index, body.en_index, body.pt_index {
     font-weight: 300;
   }
   p {
-    font-weight: 200;
+    font-weight: 300;
   }
   a {
     font-weight: 400;
@@ -141,10 +141,9 @@ body.index, body.en_index, body.pt_index {
       a {
         color: $red;
         text-shadow: none;
-        font-weight: 300;
         &:hover {
-          letter-spacing: 1;
-          font-weight: 400;
+          letter-spacing: 2;
+          font-weight: 600;
         }
       }
     }
@@ -170,11 +169,6 @@ body.index, body.en_index, body.pt_index {
       text-decoration: none;
       text-transform: uppercase;
       line-height: 20px;
-      -webkit-transition: -webkit-transform 0.1s ease;
-      -moz-transition: -moz-transform 0.1s ease;
-      -ms-transition: -ms-transform 0.1s ease;
-      -o-transition: -o-transform 0.1s ease;
-      transition: transform 0.1s ease;
       .icon {
         display: block;
         margin: 0 auto 10px auto;
@@ -189,13 +183,7 @@ body.index, body.en_index, body.pt_index {
         background-position: -70px -688px;
       }
       &:hover, &:active {
-        -webkit-transform: scale(1.125);
-        -moz-transform: scale(1.125);
-        -ms-transform: scale(1.125);
-        -o-transform: scale(1.125);
-        transform: scale(1.125);
-        -webkit-transform-origin: center center;
-        transform-origin: center center;
+        @include white-radial-gradient(0%,.25,75%,0);
       }
     }
   }
@@ -340,17 +328,8 @@ body.index, body.en_index, body.pt_index {
       text-shadow: none;
       line-height: 16px;
       color: $red;
-      -webkit-transition: -webkit-transform 0.1s ease;
-      -moz-transition: -moz-transform 0.1s ease;
-      -ms-transition: -ms-transform 0.1s ease;
-      -o-transition: -o-transform 0.1s ease;
-      transition: transform 0.1s ease;
       &:hover, &:active {
-        -webkit-transform: scale(1.1);
-        -moz-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        -o-transform: scale(1.1);
-        transform: scale(1.1);
+        @include white-radial-gradient(0%,1,75%,0);
       }
       img {
         border: 2px solid white;
@@ -384,17 +363,19 @@ body.index, body.en_index, body.pt_index {
       text-transform: uppercase;
       text-shadow: none;
       font-weight: 600;
-      -webkit-transition: -webkit-transform 0.1s ease;
-      -moz-transition: -moz-transform 0.1s ease;
-      -ms-transition: -ms-transform 0.1s ease;
-      -o-transition: -o-transform 0.1s ease;
-      transition: transform 0.1s ease;
+      z-index: 500;
       &:hover, &:active {
-        -webkit-transform: scale(1.1);
-        -moz-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        -o-transform: scale(1.1);
-        transform: scale(1.1);
+        &:before {
+          @include white-radial-gradient(0%,.3,75%,0);
+          display: block;
+          position: absolute;
+          content: '';
+          margin-top: -20px;
+          margin-left: -20px;
+          width: 128px;
+          height: 128px;
+          z-index: 1;
+        }
       }
       span {
         display: block;
@@ -422,6 +403,22 @@ body.index, body.en_index, body.pt_index {
     text-align: center;
   }
 
+  .sponsor {
+    display: inline-block;
+    padding: 10px 0 0 0;
+    text-align: center;
+    a {
+      display: inline-block;
+      overflow: hidden;
+      background-image: image-url('index/brands.svg');
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      font-size: 0px;
+      // &:hover, &:active {
+      // }
+    }
+  }
+
   .sponsors-footer {
     &:before {
       display: block;
@@ -446,6 +443,11 @@ body.index, body.en_index, body.pt_index {
         width: 244px;
         height: 99px;
         background-position: 0px -400px;
+        &:hover, &:active {
+          &:before {
+            margin-top: 10px;
+          }
+        }
       }
     }
     .la {
@@ -514,32 +516,6 @@ body.index, body.en_index, body.pt_index {
         height: 42px;
         background-image: image-url('index/brands.svg');
         background-position: 0px -80px;
-      }
-    }
-  }
-
-  .sponsor {
-    display: inline-block;
-    padding: 10px 0 0 0;
-    text-align: center;
-    a {
-      display: inline-block;
-      overflow: hidden;
-      background-image: image-url('index/brands.svg');
-      background-repeat: no-repeat;
-      vertical-align: middle;
-      font-size: 0px;
-      -webkit-transition: -webkit-transform 0.1s ease;
-      -moz-transition: -moz-transform 0.1s ease;
-      -ms-transition: -ms-transform 0.1s ease;
-      -o-transition: -o-transform 0.1s ease;
-      transition: transform 0.1s ease;
-      &:hover, &:active {
-        -webkit-transform: scale(1.125);
-        -moz-transform: scale(1.125);
-        -ms-transform: scale(1.125);
-        -o-transform: scale(1.125);
-        transform: scale(1.125);
       }
     }
   }

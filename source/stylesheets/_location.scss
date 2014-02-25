@@ -40,6 +40,15 @@ body.location, body.en_location, body.pt_location {
         .sponsors .icon {
           background-position: -140px -540px;
         }
+        ul {
+          li {
+            a {
+              &:hover, &:active {
+                @include white-radial-gradient(0%,.45,75%,0);
+              }
+            }
+          }
+        }
         a {
           color: $blue;
 
@@ -64,7 +73,6 @@ body.location, body.en_location, body.pt_location {
       ul {
         li {
           a {
-            font-weight: 600;
             .icon {
               margin-bottom: 0;
             }
@@ -185,7 +193,7 @@ body.location, body.en_location, body.pt_location {
       margin-top: 60px;
       color: white;
       text-shadow: 1px 1px 0 black;
-      font-weight: 200;
+      font-weight: 300;
     }
   }
 
