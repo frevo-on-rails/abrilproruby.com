@@ -1,5 +1,5 @@
 body.location, body.en_location, body.pt_location {
-  background: image-url('location/photo-by-victor-bonomi.jpg') no-repeat top center fixed;
+  background: image-url('location/photo-by-victor-bonomi-1280-blur.jpg') no-repeat top center fixed;
   background-color: $blue;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -7,12 +7,6 @@ body.location, body.en_location, body.pt_location {
   background-size: cover;
   font-weight: 300;
   -webkit-font-smoothing: subpixel-antialiased;
-
-  hr {
-    margin-left: -50px;
-    width: 120%;
-    border-top: 2px solid $gray3;
-  }
 
   nav.main {
     box-shadow: 0 1px 0 rgba(0,0,0,.4), 0 1px 2px rgba(0,0,0,.4), inset 0 -1px 0 rgba(255,255,255,.3);
@@ -36,7 +30,6 @@ body.location, body.en_location, body.pt_location {
           }
         }
       }
-
       .navbar-collapse {
         .conference .icon {
           background-position: -140px -400px;
@@ -71,6 +64,7 @@ body.location, body.en_location, body.pt_location {
       ul {
         li {
           a {
+            font-weight: 600;
             .icon {
               margin-bottom: 0;
             }
@@ -90,7 +84,7 @@ body.location, body.en_location, body.pt_location {
   }
 
   section.porto-de-galinhas {
-    overflow: visible;
+    overflow: hidden;
     h1, h2, h3, a {
       color: $blue;
     }
@@ -119,6 +113,11 @@ body.location, body.en_location, body.pt_location {
       &:hover {
         text-decoration: underline;
       }
+    }
+    hr {
+      border-top: 2px solid $gray3;
+      margin-left: -50px;
+      width: 140%;
     }
     ul, address {
       color: black;
@@ -226,20 +225,8 @@ body.location, body.en_location, body.pt_location {
         padding-left: 0;
       }
     }
-    hr {
-      margin-left: -50px;
-      width: 150%;
-    }
   }
 
-  @media (max-width: 1024px) {
-    body.location {
-      -webkit-background-size: 150% 100%;
-      -moz-background-size: 150% 100%;
-      -o-background-size: 150% 100%;
-      background-size: 150% 100%;
-    }
-  }
 
   @media (min-width: 768px) and (max-width: 991px) {
     nav.main {
@@ -255,9 +242,11 @@ body.location, body.en_location, body.pt_location {
         }
       }
     }
-    hr {
-      margin-left: -50px;
-      width: 119%;
+    section.porto-de-galinhas {
+      hr {
+        margin-left: -50px;
+        width: 119%;
+      }
     }
   }
 
@@ -275,14 +264,29 @@ body.location, body.en_location, body.pt_location {
         }
       }
     }
-    hr {
-      margin-left: -50px;
-      width: 118%;
+    section.porto-de-galinhas {
+      hr {
+        margin-left: -50px;
+        width: 117.5%;
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    body.location {
+      -webkit-background-size: 150% 100%;
+      -moz-background-size: 150% 100%;
+      -o-background-size: 150% 100%;
+      background-size: 150% 100%;
     }
   }
 
   @media (min-width: 1200px) {
     section.porto-de-galinhas {
+      hr {
+        margin-left: -50px;
+        width: 120%;
+      }
       span {
         &.icon {
           position: absolute;
