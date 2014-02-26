@@ -1,7 +1,6 @@
 body.index, body.en_index, body.pt_index {
   background-color: $green;
   background-image: image-url('waves.svg');
-  font-weight: 200;
   -webkit-font-smoothing: subpixel-antialiased;
 
   h3 {
@@ -356,7 +355,8 @@ body.index, body.en_index, body.pt_index {
       padding: 20px 20px;
       width: 128px;
       height: 128px;
-      background-image: image-url('graphics.svg');
+      background-image: image-url('graphics@2x.png');
+      background-size: 344px 1100px;
       color: $red;
       text-align: center;
       text-decoration: none;
@@ -410,7 +410,8 @@ body.index, body.en_index, body.pt_index {
     a {
       display: inline-block;
       overflow: hidden;
-      background-image: image-url('index/brands.svg');
+      background-image: image-url('index/brands@2x.png');
+      background-size: 320px 800px;
       background-repeat: no-repeat;
       vertical-align: middle;
       font-size: 0px;
@@ -492,7 +493,8 @@ body.index, body.en_index, body.pt_index {
       a {
         width: 132px;
         height: 45px;
-        background-image: image-url('index/brands.svg');
+        // background-image: image-url('index/brands@2x.png');
+        // background-size: 320px 800px;
         background-position: 0px 0px;
       }
     }
@@ -503,7 +505,8 @@ body.index, body.en_index, body.pt_index {
       a {
         width: 99px;
         height: 28px;
-        background-image: image-url('index/brands.svg');
+        // background-image: image-url('index/brands@2x.png');
+        // background-size: 320px 800px;
         background-position: 0px -50px;
       }
     }
@@ -514,7 +517,8 @@ body.index, body.en_index, body.pt_index {
       a {
         width: 118px;
         height: 42px;
-        background-image: image-url('index/brands.svg');
+        // background-image: image-url('index/brands@2x.png');
+        // background-size: 320px 800px;
         background-position: 0px -80px;
       }
     }

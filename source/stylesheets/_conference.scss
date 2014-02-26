@@ -264,7 +264,8 @@ body.conference, body.en_conference, body.pt_conference {
       margin-right: 8px;
       width: 16px;
       height: 24px;
-      background-image: image-url('graphics.svg');
+      background-image: image-url('graphics@2x.png');
+      background-size: 344px 1100px;
     }
     .icon-calendar {
       vertical-align: bottom;
@@ -377,7 +378,8 @@ body.conference, body.en_conference, body.pt_conference {
         display: inline-block;
         width: 16px;
         height: 17px;
-        background-image: image-url('graphics.svg');
+        background-image: image-url('graphics@2x.png');
+        background-size: 344px 1100px;
       }
       .icon-info {
         background-position: -120px -17px;
@@ -474,7 +476,8 @@ body.conference, body.en_conference, body.pt_conference {
     color: $green;
     h2 {
       &:before {
-        background-image: image-url('graphics.svg');
+        background-image: image-url('graphics@2x.png');
+        background-size: 344px 1100px;
         background-position: 0px -609px;
       }
     }
@@ -529,7 +532,8 @@ body.conference, body.en_conference, body.pt_conference {
     h2 {
       color: white;
       &:before {
-        background-image: image-url('graphics.svg');
+        background-image: image-url('graphics@2x.png');
+        background-size: 344px 1100px;
         background-position: -96px -609px;
       }
     }
@@ -659,7 +663,8 @@ body.conference, body.en_conference, body.pt_conference {
     color: $green;
     h2 {
       &:before {
-        background-image: image-url('graphics.svg');
+        background-image: image-url('graphics@2x.png');
+        background-size: 344px 1100px;
         background-position: -128px -609px;
       }
       &+p {
@@ -730,7 +735,8 @@ body.conference, body.en_conference, body.pt_conference {
         margin-left: auto;
         width: 64px;
         height: 64px;
-        background-image: image-url('graphics.svg');
+        background-image: image-url('graphics@2x.png');
+        background-size: 344px 1100px;
         vertical-align: middle;
         &.icon-buggy {
           background-position: 0 -760px;
@@ -824,7 +830,8 @@ body.conference, body.en_conference, body.pt_conference {
         display: inline-block;
         height: 15px;
         width: 12px;
-        background-image: image-url('graphics.svg');
+        background-image: image-url('graphics@2x.png');
+        background-size: 344px 1100px;
         background-position: -212px -19px;
         margin-right: 7px;
         margin-bottom: -3px;
