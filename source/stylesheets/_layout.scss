@@ -348,9 +348,12 @@ body {
             letter-spacing: -1px;
             line-height: 64px;
             &.language {
-              margin-top: 35px;
+              margin-top: 30px;
               width: auto;
+              height: 40px;
+              padding-top: 10px !important;
               letter-spacing: 0;
+              vertical-align: middle;
               font-weight: 400;
               font-size: 12px;
             }
@@ -485,7 +488,7 @@ body {
             padding-right: 20px !important;
             padding-left: 25px !important;
             &.language {
-              margin-top: 20px;
+              margin-top: 25px;
             }
           }
         }
