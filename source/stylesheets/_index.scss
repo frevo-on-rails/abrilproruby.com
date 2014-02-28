@@ -351,7 +351,7 @@ body.index, body.en_index, body.pt_index {
     }
     .icon {
       display: block;
-      margin: 30px auto;
+      margin: 30px auto 0;
       padding: 20px 20px;
       width: 128px;
       height: 128px;
@@ -386,10 +386,11 @@ body.index, body.en_index, body.pt_index {
       }
     }
     .talks {
-      background-position: 0 -830px;
+      background-position: -216px -830px;
+      height: 192px;
     }
     .workshops {
-      background-position: -216px -830px;
+      background-position: 0 -830px;
     }
     .activities {
       background-position: 0 -958px;
