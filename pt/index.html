@@ -13,7 +13,7 @@
     <meta property="og:image" content="https://dl.dropboxusercontent.com/u/13659411/AP.Rb/fb-og-aprb.png" />
     <meta property="og:image" content="https://dl.dropboxusercontent.com/u/13659411/AP.Rb/fb-og-aprb-2.png" />
     <link href="http://fonts.googleapis.com/css?family=Titillium+Web:600,400,300,200" rel="stylesheet" type="text/css" />
-    <link href="../stylesheets/all-4e9da642.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="../stylesheets/all-95d92261.css" media="screen" rel="stylesheet" type="text/css" />
   </head>
 
   <body class="pt pt_index">
@@ -63,7 +63,7 @@
   <div class="container">
     <h1>Abril Pro Ruby 2014</h1>
     <h2 class="pt">26 de Abril</h2>
-    <p class="rip-jim">&dagger; Em memória de <a href="https://twitter.com/qrush/statuses/436454349687230464" target="_blank">Jim Weirich</a>.</p>
+    <p class="rip-jim">Em memória de <a href="https://twitter.com/qrush/statuses/436454349687230464" target="_blank">Jim Weirich</a>.</p>
   </div>
 </header>
 
@@ -71,19 +71,20 @@
   <div class="container">
 
     <div class="row">
-
-      <div class="tickets col-md-4 col-sm-3 col-xs-6">
-        <a href="http://www.eventick.com.br/abrilproruby"><span></span>Compre seu ingresso</a>
+      <div class="tickets col-xs-6 col-sm-3 col-md-4">
+        <a href="http://www.eventick.com.br/abrilproruby" target="_blank"><span class="icon icon-tickets"></span>Compre seu ingresso</a>
       </div>
-      <div class="cfs col-md-4 col-md-offset-4 col-sm-3 col-sm-offset-6 col-xs-6">
-        <a href="http://bit.ly/1iat8jL"><span></span>Seja um patrocinador</a>
+      <div class="cfs col-xs-6 col-sm-3 col-sm-offset-6 col-md-4 col-md-offset-4">
+        <a href="http://bit.ly/1iat8jL" target="_blank"><span class="icon icon-sponsor"></span>Seja um patrocinador</a>
       </div>
+    </div>
 
-      <div class="porto col-md-4 col-md-push-4 col-sm-12 col-xs-12 col-xs-12">
+    <div class="row">
+      <div class="porto col-xs-12 col-sm-12 col-md-4 col-md-push-4">
         <p>Porto de Galinhas, Pernambuco, Brasil — Hotel Armação</p>
       </div>
 
-      <div class="description col-md-4 col-md-pull-4 col-sm-6 col-xs-12">
+      <div class="description col-xs-12 col-sm-6 col-md-4 col-md-pull-4">
         <h3>A Conferência Tropical de Ruby</h3>
         <p>Curta ótimas conversas, paisagens deslumbrantes e uma natureza sensacional. Venha conversar com alguns dos melhores Rubistas nesta conferência tropical, na praia paradisíaca de Porto de Galinhas.</p>
         <h4>Edições Anteriores</h4>
@@ -99,23 +100,23 @@
         <a href="/pt/code-of-conduct">Conheça nossas normas</a>
       </div>
 
-      <div class="stay-tuned col-md-4 col-sm-6 col-xs-12">
+      <div class="stay-tuned col-xs-12 col-sm-6 col-md-4">
         <h3>Fique Ligado</h3>
         <p>Cadastre-se para receber atualizações por email. Não se preocupe, não enviamos spam.</p>
         <form action="http://abrilproruby.us3.list-manage.com/subscribe/post?u=91f07f556bcf88c39c98457f7&amp;id=8f465a2fc8" method="post" name="mc-embedded-subscribe-form" class="form-inline" role="form" target="_blank" novalidate>
           <div class="input-group">
             <label class="sr-only" for="email-subscription">Endereço de email</label>
-            <input class="form-control" type="email" id="email-subscription" name="EMAIL" placeholder="Your email address">
+            <input class="form-control" type="email" id="email-subscription" name="EMAIL" placeholder="Seu endereço de email">
             <span class="input-group-btn">
               <button type="submit" class="btn">
-                <span>Cadastre</span>
+                <span>Subscrever</span>
               </button>
             </span>
           </div>
         </form>
         <div class="row">
           <ul>
-            <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="col-xs-6 col-sm-6 col-md-6">
               <li>
                 <a href="http://twitter.com/abrilproruby" target="_blank"><span class="twitter"></span>@abrilproruby</a>
               </li>
@@ -123,7 +124,7 @@
                 <a href="http://facebook.com/abrilproruby" target="_blank"><span class="facebook"></span>/abrilproruby</a>
               </li>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="col-xs-6 col-sm-6 col-md-6">
               <li>
                 <a href="http://lanyrd.com/2014/abrilproruby/" target="_blank"><span class="lanyrd"></span>/abrilproruby</a>
               </li>
@@ -134,17 +135,199 @@
           </ul>
         </div>
       </div>
-
     </div>
+  </div>
+</section>
 
+<section class="overall">
+  <div class="container">
+    <div class="row">
+      <div class="speakers col-xs-12 col-sm-6 col-md-6">
+        <h3>Grandes Rubistas estão a caminho:</h3>
+        <ul>
+          <!-- <li>
+            <div class="col-sm-6 col-md-4">
+              <a href="/pt/conference/#bryce" class="bryce photo">
+                <img class="photo" src="../images/conference/speaker-bryce-97ec5f44.png" />
+                <p>Bryce Kerley</p>
+                <small>Engenheiro de Software na Basho Technologies</small>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-6 col-md-4">
+              <a href="/pt/conference/#brian" class="brian photo">
+                <img class="photo" src="../images/conference/speaker-brian-24c549f4.png" />
+                <p>Brian Morton</p>
+                <small>Engenheiro de Software Senior no Yammer/Microsoft</small>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-12 col-md-4">
+              <a href="/pt/conference/#michel" class="michel photo">
+                <img class="photo" src="../images/conference/speaker-michel-d2a1944e.png" />
+                <p>Michel Martens</p>
+                <small>Co-fundador do openredis</small>
+              </a>
+            </div>
+          </li> -->
+          <li>
+            <div class="col-sm-12 col-md-4">
+              <a href="/pt/conference/#nell" class="nell photo">
+                <img class="photo" src="../images/conference/speaker-nell-4341f6c9.png" />
+                <p>Nell Shamrell</p>
+                <small>Desenvolvedora Senior na PhishMe</small>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-12 col-md-4">
+              <a href="/pt/conference/#rafael" class="rafael photo">
+                <img class="photo" src="../images/conference/speaker-rafael-0dc0957b.png" />
+                <p>Rafael França</p>
+                <small>Membro do Rails Core Team</small>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-12 col-md-4">
+              <a href="/pt/conference/#arthur" class="arthur photo">
+                <img class="photo" src="../images/conference/speaker-arthur-57cf95d9.png" />
+                <p>Arthur Neves</p>
+                <small>Desenvolvedor de Software na Shopify</small>
+              </a>
+            </div>
+          </li>
+          <!-- <li>
+            <div class="col-sm-12 col-md-4">
+              <a href="/pt/conference/#tj" class="tj photo">
+                <img class="photo" src="../images/conference/speaker-tj-4e0b8c66.png" />
+                <p>T.J. Schuck</p>
+                <small>Desenvolvedor no Harvest</small>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-12 col-md-4">
+              <a href="/pt/conference/#guilherme" class="guilherme photo">
+                <img class="photo" src="../images/conference/speaker-guilherme-71f9cada.png" />
+                <p>Guilherme Garnier</p>
+                <small>Desenvolvedor de Software na Globo.com</small>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-12 col-md-4">
+              <a href="/pt/conference/#scott" class="scott photo">
+                <img class="photo" src="../images/conference/speaker-scott-1e73112e.png" />
+                <p>Scott Motte</p>
+                <small>Desenvolvedor Evangelista na SendGrid</small>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-12 col-md-4">
+              <a href="/pt/conference/#joao" class="joao photo">
+                <img class="photo" src="../images/conference/speaker-joao-61770221.png" />
+                <p>João M. D. Moura</p>
+                <small>CTO na Palpiteros</small>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-12 col-md-4">
+              <a href="/pt/conference/#pablo" class="pablo photo">
+                <img class="photo" src="../images/conference/speaker-pablo-901f7746.png" />
+                <p>Pablo Astigarraga</p>
+                <small>Desenvolvedor de Software na tarmac.io</small>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-12 col-md-4">
+              <a href="/pt/conference/#lucas" class="lucas photo">
+                <img class="photo" src="../images/conference/speaker-lucas-d28a3cb0.png" />
+                <p>Lucas Dohmen</p>
+                <small>Desenvolvedor na triAGENS GmbH</small>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-12 col-md-4">
+              <a href="/pt/conference/#akshay" class="akshay photo">
+                <img class="photo" src="../images/conference/speaker-akshay-6644f889.png" />
+                <p>Akshay Karle</p>
+                <small>Desenvolvedor na Thoughtworks</small>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-12 col-md-4">
+              <a href="/pt/conference/#leandro" class="leandro photo">
+                <img class="photo" src="../images/conference/speaker-leandro-586ef2a8.png" />
+                <p>Leandro Gualter</p>
+                <small>Desenvolvedor na Thoughtworks</small>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-12 col-md-4">
+              <a href="/pt/conference/#phil" class="phil photo">
+                <img class="photo" src="../images/conference/speaker-phil-7190e93b.png" />
+                <p>Phil Cohen</p>
+                <small>Engenheiro de Operações na Shopify</small>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-12 col-md-4">
+              <a href="/pt/conference/#cloves" class="cloves photo">
+                <img class="photo" src="../images/conference/speaker-cloves-2826fc13.png" />
+                <p>Cloves Carneiro Jr</p>
+                <small>Engenheiro de Software na LivingSocial</small>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-12 col-md-4">
+              <a href="/pt/conference/#tim" class="tim photo">
+                <img class="photo" src="../images/conference/speaker-tim-29b9f41b.png" />
+                <p>Tim Schmelmer</p>
+                <small>Engenheiro de Software na LivingSocial</small>
+              </a>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+      <div class="features col-xs-12 col-sm-6 col-md-6">
+        <h3>O melhor do Ruby na melhor praia do Brasil.</h3>
+        <ul>
+          <li>
+            <div class="col-sm-6 col-md-4">
+              <a href="/pt/conference/#workshops" class="workshops icon"><span>3</span>Workshops</a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-6 col-md-4">
+              <a href="/pt/conference/#activities" class="activities icon"><span>4</span>Atividades</a>
+            </div>
+          </li>
+          <li>
+            <div class="col-sm-12 col-md-4">
+              <a href="/pt/conference/#talks" class="talks icon" data-toggle="tooltip" data-placement="bottom" title="Tradução simultânea e transporte grátis estão inclusos."><span>12</span>Palestras</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
     <footer>
-
       <div class="row">
-        <div class="sponsors-footer col-md-12 col-xs-12">
+        <div class="sponsors-footer col-xs-12 col-md-12">
           <h4>Patrocinador Ouro</h4>
           <ul>
             <li>
-              <div class="sponsor tempest col-md-12 col-xs-12">
+              <div class="sponsor tempest col-xs-12 col-md-12">
                 <a class="tempest-img" href="http://tempest.com.br" target="_blank">Tempest Security Intelligence</a>
               </div>
             </li>
@@ -152,63 +335,58 @@
           <h4>Patrocinadores Prata</h4>
           <ul>
             <li>
-              <div class="sponsor la col-md-3 col-md-offset-2 col-sm-4 col-xs-12">
+              <div class="sponsor la col-xs-12 col-sm-4 col-md-3 col-md-offset-2">
                 <a href="http://www.latecnologiaemsaude.com.br" target="_blank">L.A. Health Technology</a>
               </div>
             </li>
             <li>
-              <div class="sponsor livingsocial col-md-2 col-sm-4 col-xs-6">
+              <div class="sponsor livingsocial col-xs-12 col-sm-4 col-md-2">
                 <a href="http://www.livingsocial.com" target="_blank">LivingSocial</a>
               </div>
             </li>
             <li>
-              <div class="sponsor sendgrid col-md-3 col-sm-4 col-xs-6">
+              <div class="sponsor sendgrid col-xs-12 col-sm-4 col-md-3">
                 <a href="http://www.sendgrid.com" target="_blank">SendGrid</a>
               </div>
             </li>
           </ul>
         </div>
       </div>
-
       <div class="row">
-        <div class="organizers-footer col-md-12 col-xs-12">
+        <div class="organizers-footer col-xs-12 col-md-12">
           <h4>Organizadores</h4>
           <ul>
             <li>
-              <div class="sponsor for col-md-3 col-md-offset-2 col-sm-4 col-xs-12">
+              <div class="sponsor for col-xs-12 col-sm-4 col-md-3 col-md-offset-2">
                 <a class="for-img" href="http://frevoonrails.com.br" target="_blank">Frevo On Rails</a>
               </div>
             </li>
             <li>
-              <div class="sponsor guava col-md-2 col-sm-4 col-xs-6">
+              <div class="sponsor guava col-xs-12 col-sm-4 col-md-2">
                 <a class="guava-img" href="http://guava.com.br" target="_blank">Guava</a>
               </div>
             </li>
             <li>
-              <div class="sponsor eventick col-md-3 col-sm-4 col-xs-6">
+              <div class="sponsor eventick col-xs-12 col-sm-4 col-md-3">
                 <a class="eventick-img" href="http://eventick.com.br" target="_blank">Eventick</a>
               </div>
             </li>
           </ul>
         </div>
       </div>
-
       <div class="attribution">
-        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
-          <p>Design &amp; Front-end por <a href="http://guava.com.br" target="_blank">Guava Software</a>.
-          <br />Crédito das cores (na respectiva ordem): <a href="http://colourlovers.com/palette/2721555/Tropical_Beach" target="_blank">Tropical Beach</a> e <a href="http://colourlovers.com/palette/281095/50s_Postcard" target="_blank">50's Postcards</a> por jasurprenant e T-Time do <a href="http://colourslovers.com" target="_blank">Colours Lovers</a>.
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+          <p>Projetado &amp; codificado pela  <a href="http://guava.com.br" target="_blank">Guava Software</a>.<br />Crédito das cores (na respectiva ordem): <a href="http://colourlovers.com/palette/2721555/Tropical_Beach" target="_blank">Tropical Beach</a> e <a href="http://colourlovers.com/palette/281095/50s_Postcard" target="_blank">50's Postcards</a> por jasurprenant e T-Time do <a href="http://colourslovers.com" target="_blank">Colours Lovers</a>.
           <br />Ícone do Diamante por Darren Barone do <a href="http://www.thenounproject.com" target="_blank">The Noun Project</a>.</p>
         </div>
       </div>
-
     </footer>
-
   </div>
 </section>
 
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script src="../javascripts/all-1d029cab.js" type="text/javascript"></script>
+    <script src="../javascripts/all-74fcdbde.js" type="text/javascript"></script>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
