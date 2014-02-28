@@ -308,6 +308,7 @@ body.conference, body.en_conference, body.pt_conference {
       }
     }
     .time {
+      cursor: default;
       display: inline-block;
       margin-top: 60px;
       width: 100%;
@@ -528,12 +529,6 @@ body.conference, body.en_conference, body.pt_conference {
       ul {
         color: $gray;
       }
-    }
-    .rip-jim {
-      padding: 5px;
-      border: 2px solid $gray2;
-      color: $gray;
-      font-weight: 300;
     }
   }
 
