@@ -266,17 +266,13 @@ body.conference, body.en_conference, body.pt_conference {
       height: 24px;
       background-image: image-url('graphics@2x.png');
       background-size: 344px 1100px;
-    }
-    .icon-calendar {
       vertical-align: bottom;
     }
     .icon-location {
       margin-right: 6px;
-      vertical-align: bottom;
     }
     .icon-ticket {
       margin-right: 4px;
-      vertical-align: bottom;
     }
   }
 
@@ -477,8 +473,8 @@ body.conference, body.en_conference, body.pt_conference {
     h2 {
       &:before {
         background-image: image-url('graphics@2x.png');
-        background-size: 344px 1100px;
         background-position: 0px -609px;
+        background-size: 344px 1100px;
       }
     }
     h3 {
@@ -501,6 +497,22 @@ body.conference, body.en_conference, body.pt_conference {
           outline: 2px solid rgba(128,128,128,.2);
         }
       }
+      .translation {
+        display: inline;
+        margin-top: 0;
+        margin-left: 10px;
+        color: $gray;
+        text-align: center;
+        text-transform: none;
+        white-space: nowrap;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 30px;
+      }
+      .icon-translation {
+        width: 18px;
+        background-position: -326px -39px;
+      }
       .icon-calendar {
         background-position: -150px -17px;
       }
@@ -518,10 +530,10 @@ body.conference, body.en_conference, body.pt_conference {
       }
     }
     .rip-jim {
-      font-weight: 300;
-      color: $gray;
       padding: 5px;
       border: 2px solid $gray2;
+      color: $gray;
+      font-weight: 300;
     }
   }
 
@@ -533,8 +545,8 @@ body.conference, body.en_conference, body.pt_conference {
       color: white;
       &:before {
         background-image: image-url('graphics@2x.png');
-        background-size: 344px 1100px;
         background-position: -96px -609px;
+        background-size: 344px 1100px;
       }
     }
     .date-venue-tickets {
@@ -664,8 +676,8 @@ body.conference, body.en_conference, body.pt_conference {
     h2 {
       &:before {
         background-image: image-url('graphics@2x.png');
-        background-size: 344px 1100px;
         background-position: -128px -609px;
+        background-size: 344px 1100px;
       }
       &+p {
         margin-bottom: 20px;
@@ -783,11 +795,11 @@ body.conference, body.en_conference, body.pt_conference {
       &:first-child {
         &:before {
           display: block;
-          content: '';
+          margin: 36px auto 36px auto;
           width: 100%;
           height: 2px;
-          margin: 36px auto 36px auto;
           background: linear-gradient(to right, rgba(230,230,230,0) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 80%, rgba(230,230,230,0) 100%);
+          content: '';
         }
       }
     }
@@ -801,18 +813,18 @@ body.conference, body.en_conference, body.pt_conference {
   }
   .last {
     &:after {
+      margin-top: 0;
       width: 0;
       height: 0;
-      margin-top: 0;
     }
   }
 
   .popover {
     width: 280px;
+    text-shadow: none;
+    font-weight: 400;
     font-size: 13px;
     line-height: 18px;
-    font-weight: 400;
-    text-shadow: none;
     a {
       color: inherit;
     }
@@ -826,15 +838,15 @@ body.conference, body.en_conference, body.pt_conference {
       display: block;
       margin-top: 10px;
       &:before {
-        content: '';
         display: inline-block;
-        height: 15px;
-        width: 12px;
-        background-image: image-url('graphics@2x.png');
-        background-size: 344px 1100px;
-        background-position: -212px -19px;
         margin-right: 7px;
         margin-bottom: -3px;
+        width: 12px;
+        height: 15px;
+        background-image: image-url('graphics@2x.png');
+        background-position: -212px -19px;
+        background-size: 344px 1100px;
+        content: '';
       }
     }
   }
@@ -971,8 +983,8 @@ body.conference, body.en_conference, body.pt_conference {
         }
       }
       .tba {
-        width: 40px;
         margin-left: -5px;
+        width: 40px;
       }
       .photo {
         margin-top: 84px;
@@ -1020,7 +1032,7 @@ body.conference, body.en_conference, body.pt_conference {
           float: left;
         }
         .github {
-          float: left
+          float: left;
         }
         .further {
           &:after {
@@ -1037,9 +1049,9 @@ body.conference, body.en_conference, body.pt_conference {
     }
     .last {
       .to-the-top {
-        margin-top: 30px;
         display: block;
         visibility: visible;
+        margin-top: 30px;
       }
     }
     section.workshops {
