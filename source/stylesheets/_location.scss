@@ -79,6 +79,9 @@ body.location, body.en_location, body.pt_location {
             .icon-about {
               background-position: -287px -650px;
             }
+            .icon-transportation {
+              background-position: -223px -650px;
+            }
             .icon-venue {
               background-position: -32px -650px;
             }
@@ -310,18 +313,23 @@ body.location, body.en_location, body.pt_location {
           background-size: 260px;
         }
         &.icon-porto {
+          margin-top: 36px;
           background-image: image-url('location/chicken@2x.png');
         }
-        &.icon-map {
+        &.icon-bus {
           margin-top: -360px;
+          background-image: image-url('location/bus@2x.png');
+        }
+        &.icon-map {
+          margin-top: -48px;
           background-image: image-url('location/map@2x.png');
         }
         &.icon-city {
-          margin-top: -420px;
+          margin-top: -480px;
           background-image: image-url('location/city@2x.png');
         }
         &.icon-crab {
-          margin-top: -100px;
+          margin-top: -180px;
           background-image: image-url('location/crab@2x.png');
         }
       }
