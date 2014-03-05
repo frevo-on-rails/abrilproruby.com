@@ -150,7 +150,7 @@ body.index, body.en_index, body.pt_index {
 
   section.ocean {
     z-index: 400;
-    padding-bottom: 70px;
+    padding-bottom: 60px;
     background-image: image-url('index/ocean-highlight.svg'), linear-gradient(to bottom, rgba(1,121,145,1) 0%, rgba(52,155,138,0) 50%), linear-gradient(to bottom, rgba(1,121,145,0) 50%, rgba(1,121,145,1) 100%);
     background-position: center top, center top, center top;
     background-size: 400%, 100%, 100%;
@@ -305,7 +305,7 @@ body.index, body.en_index, body.pt_index {
 
   section.overall {
     z-index: 500;
-    padding-top: 60px;
+    padding-top: 55px;
     width: 100%;
     height: auto;
     background: linear-gradient(to bottom right, $yellow 0%, $orange 100%);
@@ -687,9 +687,9 @@ body.index, body.en_index, body.pt_index {
       background-image: image-url('index/ocean-highlight.svg'), linear-gradient(to bottom, rgba(1,121,145,1) 0%, rgba(52,155,138,0) 50%), linear-gradient(to bottom, rgba(1,121,145,0) 50%, rgba(1,121,145,1) 100%);
       background-size: 100%, 100%, 100%;
       .cfs, .tickets {
-        margin-top: -135px;
+        margin-top: -120px;
       }
-      .porto {
+      .porto, .description, .stay-tuned {
         margin-top: 25px;
       }
     }
