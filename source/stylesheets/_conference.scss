@@ -132,32 +132,6 @@ body.conference, body.en_conference, body.pt_conference {
               background-color: rgba(255,255,255,.5);
               content: '';
             }
-            // &:hover {
-            //   .icon {
-            //     &:after {
-            //       width: 0;
-            //       height: 0;
-            //     }
-            //   }
-            //   .subtitle {
-            //     -webkit-transform: scale(1.15);
-            //     -moz-transform: scale(1.15);
-            //     -ms-transform: scale(1.15);
-            //     -o-transform: scale(1.15);
-            //     transform: scale(1.15);
-            //     -webkit-transform-origin: center left;
-            //     transform-origin: center left;
-            //   }
-            //   .day {
-            //     -webkit-transform: scale(1.15);
-            //     -moz-transform: scale(1.15);
-            //     -ms-transform: scale(1.15);
-            //     -o-transform: scale(1.15);
-            //     transform: scale(1.15);
-            //     -webkit-transform-origin: center right;
-            //     transform-origin: center right;
-            //   }
-            // }
           }
           &:first-child:before {
             position: absolute;
@@ -308,7 +282,6 @@ body.conference, body.en_conference, body.pt_conference {
       }
     }
     .time {
-      cursor: default;
       display: inline-block;
       margin-top: 60px;
       width: 100%;
@@ -319,6 +292,7 @@ body.conference, body.en_conference, body.pt_conference {
       text-shadow: none;
       font-weight: 600;
       font-size: 13px;
+      cursor: default;
       &:before {
         display: block;
         margin-right: auto;
@@ -674,36 +648,15 @@ body.conference, body.en_conference, body.pt_conference {
         background-position: -128px -609px;
         background-size: 344px 1100px;
       }
-      &+p {
-        margin-bottom: 20px;
-      }
     }
-    .date-venue-tickets {
-      h3 {
-        &.date, &.venue {
-          color: $gray;
-        }
-      }
-      a {
-        color: $gray;
-        &:hover, &:active {
-          outline: 2px solid rgba(128,128,128,.2);
-        }
-      }
-      .icon-calendar {
-        background-position: -150px -17px;
-      }
-      .icon-location {
-        background-position: -210px -17px;
-      }
-      .icon-ticket {
-        background-position: -269px -17px;
-      }
-    }
-    .remarks {
-      font-weight: 300;
-      ul {
-        color: $gray;
+    .sunday {
+      &:before {
+        display: block;
+        margin: -4px auto 32px;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(to right, rgba(230,230,230,0) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 80%, rgba(230,230,230,0) 100%);
+        content: '';
       }
     }
     .friday, .sunday {
@@ -713,53 +666,137 @@ body.conference, body.en_conference, body.pt_conference {
       text-transform: none;
       font-weight: 400;
       line-height: 24px;
-      ul {
-        padding-left: 0;
-        list-style: none;
-        .activity {
-          display: inline-block;
-          margin-top: 10px;
-          margin-bottom: 10px;
-          margin-left: 15px;
-          padding: 15px 5px 0 5px;
+      .date-venue-tickets {
+        margin-top: 16px;
+        margin-bottom: 8px;
+        h3 {
+          &.date, &.venue {
+            color: $gray;
+          }
+        }
+        .icon-calendar {
+          background-position: -150px -17px;
+        }
+        .icon-location {
+          background-position: -210px -17px;
+        }
+      }
+      .activity {
+        .frame {
+          cursor: pointer;
+          display: block;
+          position: relative;
+          margin: 10px auto;
+          padding: 8px 5px 0 5px;
           width: 130px;
           height: 130px;
+          color: $green;
+          text-decoration: none;
+          font-weight: 300;
           border: 2px solid $green;
+          &:after {
+            position: absolute;
+            content: '';
+            width: 16px;
+            height: 16px;
+            background-image: image-url('graphics@2x.png');
+            background-size: 344px 1100px;
+            background-position: -120px -17px;
+            top: 100%;
+            left: 2px;
+            margin-top: -18px;
+          }
+          .icon {
+            display: block;
+            margin-right: auto;
+            margin-bottom: 0;
+            margin-left: auto;
+            width: 64px;
+            height: 64px;
+            background-image: image-url('graphics@2x.png');
+            background-size: 344px 1100px;
+            vertical-align: middle;
+            &.icon-buggy {
+              background-position: 0 -760px;
+            }
+            &.icon-sailing {
+              background-position: -64px -760px;
+            }
+            &.icon-scuba {
+              background-position: -128px -760px;
+            }
+            &.icon-catamaran {
+              background-position: -196px -760px;
+            }
+          }
+        }
+        h3 {
+          margin-top: 0;
+          font-size: 16px;
           line-height: 16px;
         }
-      }
-      .date-venue-tickets {
-        margin-bottom: 4px;
-      }
-    }
-    ul {
-      @extend .list-unstyled;
-      padding-bottom: .5em;
-      .icon {
-        display: block;
-        margin-right: auto;
-        margin-bottom: 0;
-        margin-left: auto;
-        width: 64px;
-        height: 64px;
-        background-image: image-url('graphics@2x.png');
-        background-size: 344px 1100px;
-        vertical-align: middle;
-        &.icon-buggy {
-          background-position: 0 -760px;
+        p {
+          display: inline-block;
+          margin-bottom: 8px;
+          color: black;
+          text-align: center;
+          font-weight: 300;
+          // .duration {
+          //   cursor: default;
+          //   margin-left: 16px;
+          //   color: $gray;
+          //   span {
+          //     display: inline-block;
+          //     vertical-align: middle;
+          //     margin-right: 4px;
+          //     width: 16px;
+          //     height: 18px;
+          //     background-image: image-url('graphics@2x.png');
+          //     background-position: -90px -17px;
+          //     background-size: 344px 1100px;
+          //   }
+          // }
         }
-        &.icon-sailing {
-          background-position: -64px -760px;
+        .ticket {
+          display: block;
+          margin: 0 auto 16px auto;
+          width: 230px;
+          height: 24px;
+          color: $gray;
+          vertical-align: middle;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-size: 11px;
+          line-height: 24px;
+          &:hover, &:active {
+            outline: 2px solid rgba(128,128,128,.2);
+          }
+          .icon {
+            display: inline-block;
+            margin-right: 8px;
+            width: 16px;
+            height: 24px;
+            background-image: image-url('graphics@2x.png');
+            background-size: 344px 1100px;
+            vertical-align: bottom;
+          }
+          .icon-ticket {
+            background-position: -269px -17px;
+          }
         }
-        &.icon-snorkeling {
-          background-position: -128px -760px;
-        }
-        &.icon-catamaran {
-          background-position: -196px -760px;
+        .soon {
+          cursor: not-allowed;
+          span {
+            &:last-child {
+              margin-left: 5px;
+            }
+          }
         }
       }
     }
     .remarks {
+      font-weight: 300;
+      margin-top: 16px;
       text-transform: none;
       ul {
         @extend .list-unstyled;
@@ -785,6 +822,7 @@ body.conference, body.en_conference, body.pt_conference {
       margin-bottom: 0;
     }
   }
+
   .attribution {
     div {
       &:first-child {
@@ -806,6 +844,7 @@ body.conference, body.en_conference, body.pt_conference {
       margin-top: 20px;
     }
   }
+
   .last {
     &:after {
       margin-top: 0;
@@ -820,6 +859,7 @@ body.conference, body.en_conference, body.pt_conference {
     font-weight: 400;
     font-size: 13px;
     line-height: 18px;
+    color: $gray;
     a {
       color: inherit;
     }
@@ -844,17 +884,32 @@ body.conference, body.en_conference, body.pt_conference {
         content: '';
       }
     }
+    ul {
+      margin-top: 8px;
+      margin-bottom: 8px;
+      padding-left: 18px;
+    }
   }
 
   @media (min-width: 480px) and (max-width: 649px) {
     .speaker {
-      .talk, .biography {
+      .talk, .biography, .activity {
         margin-right: 30px;
         margin-left: 40px;
       }
       .talk {
         h3 {
           margin-top: 10px;
+        }
+      }
+    }
+    section.activities {
+      .friday, .sunday {
+        .activity {
+          p {
+           margin-right: 20px;
+           margin-left: 20px;
+          }
         }
       }
     }
@@ -868,6 +923,16 @@ body.conference, body.en_conference, body.pt_conference {
       }
       h3 {
         margin-top: 15px;
+      }
+    }
+    section.activities {
+      .friday, .sunday {
+        .activity {
+          p {
+           margin-right: 60px;
+           margin-left: 60px;
+          }
+        }
       }
     }
   }
@@ -888,6 +953,13 @@ body.conference, body.en_conference, body.pt_conference {
     section.speakers {
       .rip-jim {
         margin-top: 20px;
+      }
+    }
+    section.activities {
+      .sunday, .friday {
+        .activity {
+          float: none;
+        }
       }
     }
   }
@@ -952,6 +1024,16 @@ body.conference, body.en_conference, body.pt_conference {
       .talk, .biography {
         margin-right: 60px;
         margin-left: 80px;
+      }
+    }
+    section.activities {
+      .friday, .sunday {
+        .activity {
+          p {
+           margin-right: 60px;
+           margin-left: 60px;
+          }
+        }
       }
     }
   }
@@ -1077,6 +1159,36 @@ body.conference, body.en_conference, body.pt_conference {
       }
     }
     section.activities {
+      .friday {
+        .activity {
+          p {
+            margin-top: 16px;
+          }
+        }
+      }
+      .sunday {
+        &:before {
+          margin: 12px auto 32px;
+        }
+        .activity {
+          p {
+            margin-top: 16px;
+          }
+        }
+      }
+      .friday, .sunday {
+        .activity {
+          .frame {
+            margin: 10px 0 10px auto;
+          }
+          p {
+            text-align: left;
+          }
+          .ticket {
+            margin: 0 auto 0 0;
+          }
+        }
+      }
       .remarks {
         .to-the-top {
           display: block;
