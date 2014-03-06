@@ -153,11 +153,14 @@ body.location, body.en_location, body.pt_location {
     .container {
       .about-porto {
         margin-bottom: 20px;
-        padding: 10px 45px 50px 50px;
+        padding: 0 45px 50px 50px;
         min-height: 400px;
         background-color: white;
         box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
       }
+    }
+    .photo {
+      margin-bottom: 36px;
     }
     .video-wrapper {
       position: relative;
