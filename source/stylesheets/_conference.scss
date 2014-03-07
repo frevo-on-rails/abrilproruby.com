@@ -741,21 +741,6 @@ body.conference, body.en_conference, body.pt_conference {
           color: black;
           text-align: center;
           font-weight: 300;
-          // .duration {
-          //   cursor: default;
-          //   margin-left: 16px;
-          //   color: $gray;
-          //   span {
-          //     display: inline-block;
-          //     vertical-align: middle;
-          //     margin-right: 4px;
-          //     width: 16px;
-          //     height: 18px;
-          //     background-image: image-url('graphics@2x.png');
-          //     background-position: -90px -17px;
-          //     background-size: 344px 1100px;
-          //   }
-          // }
         }
         .ticket {
           display: block;
@@ -1219,4 +1204,5 @@ body.conference, body.en_conference, body.pt_conference {
       background-size: cover;
     }
   }
+
 }
