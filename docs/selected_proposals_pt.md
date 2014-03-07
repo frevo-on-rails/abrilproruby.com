@@ -432,6 +432,31 @@ Cozinhando na Shopify: Domando uma Cozinha Movimentada com Muitos Chefs
 
 Nós usamos Chef para administar uma grande e crescente infraestrutura no Shopify. Nossos cookbooks estão abertos a desenvolvimento não somente para nossa Equipe de Operações, mas também para todos os desenvolvedores na empresa (mais de 200), e conseguimos manter um ambiente de entrega contínua e melhoria contínua para a nossa infraestrutura. Neste workshop irei discursar sobre os nossos objetivos e motivações, alguns dos nossos fluxos de trabalho, nossas ferramentas internas, e considerações de segurança ao se operar em nossa escala. Iremos também levar algum tempo configurando um ambiente similar e discutindo estratégias sustentáveis de infraestrutura.
 
+## Marcio Trindade
+
+### Title
+Desenvolvedor de Software na Locaweb
+
+### Short Bio
+Desenvolvedor Ruby desde 2008, atualmente é líder técnico de uma das equipes de desenvolvimento da Locaweb. Trabalhou com projetos desde site simples e publicações digitais até produtos de envios de email em alta escala.
+
+### Residence
+São Paulo, Brasil
+
+### Github Handler
+@marciotrindade
+
+### Twitter Handler
+@marciotrindade
+
+### Talk Title
+As Novidades do Ruby 2.1
+
+### Talk Description
+Vamos passar pelas principais novidades do ruby 2.1 e mostrar como as alterações no Garbage Collector tornaram esta versão aproximadamente 20% mais rápida do que a versão anterior.
+
+***
+
 ## André Medeiros :construction_worker:
 
 ### Title
