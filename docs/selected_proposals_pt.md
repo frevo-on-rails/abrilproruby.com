@@ -348,7 +348,7 @@ São Paulo, Brasil
 As Novidades do Ruby 2.1
 
 ##### Talk Description
-Vamos passar pelas principais novidades do ruby 2.1 e mostrar como as alterações no Garbage Collector tornaram esta versão aproximadamente 20% mais rápida do que a versão anterior.
+Vamos passar pelas principais novidades do Ruby 2.1 e mostrar como as alterações no Garbage Collector tornaram esta versão aproximadamente 20% mais rápida do que a versão anterior.
 
 ## Cloves Carneiro Jr e Tim Schmelmer :construction_worker:
 
