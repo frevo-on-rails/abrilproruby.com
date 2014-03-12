@@ -293,6 +293,7 @@ body.conference, body.en_conference, body.pt_conference {
       font-weight: 600;
       font-size: 13px;
       cursor: default;
+      z-index: 100;
       &:before {
         display: block;
         margin-right: auto;
@@ -304,11 +305,13 @@ body.conference, body.en_conference, body.pt_conference {
       }
     }
     .photo {
+      overflow: visible;
       display: block;
       margin-right: auto;
       margin-left: auto;
       width: 200px;
       height: 200px;
+      z-index: 100;
       border: 2px solid white;
       border-radius: 100px;
       box-shadow: 0px 0px 8px rgba(0,0,0,.75);
@@ -873,6 +876,23 @@ body.conference, body.en_conference, body.pt_conference {
       margin-top: 8px;
       margin-bottom: 8px;
       padding-left: 18px;
+    }
+  }
+
+  .keynoter {
+    .desc {
+      .name {
+        &:before {
+          display: inline-block;
+          content: '';
+          width: 24px;
+          height: 24px;
+          vertical-align: bottom;
+          background-image: image-url('conference/icon-keynoter@2x.png');
+          background-size: 24px;
+          margin-right: 10px;
+        }
+      }
     }
   }
 
