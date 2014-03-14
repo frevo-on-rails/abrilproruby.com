@@ -454,3 +454,30 @@ Cozinhando na Shopify: Domando uma Cozinha Movimentada com Muitos Chefs
 ##### Talk Description
 
 Nós usamos Chef para administar uma grande e crescente infraestrutura no Shopify. Nossos cookbooks estão abertos a desenvolvimento não somente para nossa Equipe de Operações, mas também para todos os desenvolvedores na empresa (mais de 200), e conseguimos manter um ambiente de entrega contínua e melhoria contínua para a nossa infraestrutura. Neste workshop irei discursar sobre os nossos objetivos e motivações, alguns dos nossos fluxos de trabalho, nossas ferramentas internas, e considerações de segurança ao se operar em nossa escala. Iremos também levar algum tempo configurando um ambiente similar e discutindo estratégias sustentáveis de infraestrutura.
+
+## Alex Southgate and Kasima Tharnpipitchai
+
+##### Title
+Engenheiros de Software no GitHub
+
+##### Short Bio
+
+Alex Southgate and Kasima Tharnpipitchai are software engineers at GitHub. They tackle billing and payment issues up and down the stack. Before GitHub, they founded 2nd Rate Geniuses, LLC, a software consultancy focusing on web application development and agile methodology coaching. They have been consulting for startups for over a decade. More details available in http://training.github.com/in-person/advanced-git/.
+
+http://photos1.meetupstatic.com/photos/event/7/6/4/600_311041892.jpeg
+http://photos3.meetupstatic.com/photos/event/6/b/0/600_311041712.jpeg
+
+##### Residence
+São Francisco, USA
+
+##### Github Handler
+southgate e kasima
+
+##### Twitter Handler
+@fromagie e @kasima
+
+##### Talk Title
+GitHub & Git Avançado
+
+##### Talk Description
+Many Git workshops successfully focus on the basics for those new to DVCS. However, with Git having a full 5 years on the street now, there is a growing desire to address the maturing users of this innovative DVCS. This workshop will take existing Git users and bring them to a heightened level of productivity by leveraging Git’s powerful, yet underused “advanced” features.
