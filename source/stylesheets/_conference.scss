@@ -591,6 +591,10 @@ body.conference, body.en_conference, body.pt_conference {
           color: white;
           font-weight: 300;
         }
+        a {
+          color: white;
+          white-space: nowrap;
+        }
         .more {
           color: white;
           &:hover, &:active {
@@ -1162,9 +1166,14 @@ body.conference, body.en_conference, body.pt_conference {
           margin-top: 150px;
         }
       }
-      .first {
+      .akshay-and-leandro {
         .talk {
           margin-top: 94px;
+        }
+      }
+      .alex-and-kasima {
+        .talk {
+          margin-top: 150px;
         }
       }
     }
