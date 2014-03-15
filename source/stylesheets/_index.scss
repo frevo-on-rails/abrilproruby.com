@@ -101,7 +101,8 @@ body.index, body.en_index, body.pt_index {
       padding: 0;
       width: 292px;
       height: 118px;
-      background-image: image-url('index/graphics.svg');
+      background-image: image-url('index/graphics@2x.png');
+      background-size: 300px 597px;
       background-position: -3px 0px;
       background-repeat: no-repeat;
       font-size: 0;
@@ -114,7 +115,8 @@ body.index, body.en_index, body.pt_index {
       margin: -5px 0 0 -146px;
       width: 292px;
       height: 121px;
-      background-image: image-url('index/graphics.svg');
+      background-image: image-url('index/graphics@2x.png');
+      background-size: 300px 597px;
       background-repeat: no-repeat;
       font-size: 0;
       line-height: 0;
@@ -173,7 +175,8 @@ body.index, body.en_index, body.pt_index {
         margin: 0 auto 10px auto;
         width: 64px;
         height: 65px;
-        background-image: image-url('graphics.svg');
+        background-image: image-url('graphics@2x.png');
+        background-size: 344px 1100px;
       }
       .icon-tickets {
         background-position: 0 -688px;
@@ -209,7 +212,8 @@ body.index, body.en_index, body.pt_index {
       overflow: hidden;
       width: 292px;
       height: 221px;
-      background-image: image-url('index/graphics.svg');
+      background-image: image-url('index/graphics@2x.png');
+      background-size: 300px 597px;
       background-position: 0 -372px;
       background-repeat: no-repeat;
       font-size: 0;
@@ -254,7 +258,8 @@ body.index, body.en_index, body.pt_index {
           overflow: hidden;
           width: 16px;
           height: 12px;
-          background-image: image-url('graphics.svg');
+          background-image: image-url('graphics@2x.png');
+          background-size: 344px 1100px;
           background-position: 0px 0px;
           vertical-align: middle;
           font-size: 0;
@@ -277,7 +282,8 @@ body.index, body.en_index, body.pt_index {
             float: left;
             margin: 10px 3px 0px 0px;
             width: 16px;
-            background-image: image-url('graphics.svg');
+            background-image: image-url('graphics@2x.png');
+            background-size: 344px 1100px;
             background-repeat: no-repeat;
             &.twitter {
               height: 14px;
@@ -707,8 +713,11 @@ body.index, body.en_index, body.pt_index {
       .cfs, .tickets {
         margin-top: -120px;
       }
-      .porto, .description, .stay-tuned {
+      .description, .stay-tuned {
         margin-top: 25px;
+      }
+      .porto {
+        margin-top: 8px;
       }
     }
     section.overall {
