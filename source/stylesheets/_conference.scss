@@ -732,7 +732,7 @@ body.conference, body.en_conference, body.pt_conference {
             &.icon-scuba {
               background-position: -128px -760px;
             }
-            &.icon-catamaran {
+            &.icon-hiking {
               background-position: -196px -760px;
             }
           }
@@ -752,7 +752,7 @@ body.conference, body.en_conference, body.pt_conference {
         .ticket {
           display: block;
           margin: 0 auto 16px auto;
-          width: 230px;
+          width: 160px;
           height: 24px;
           color: $gray;
           vertical-align: middle;
@@ -1178,21 +1178,9 @@ body.conference, body.en_conference, body.pt_conference {
       }
     }
     section.activities {
-      .friday {
-        .activity {
-          p {
-            margin-top: 16px;
-          }
-        }
-      }
       .sunday {
         &:before {
           margin: 12px auto 32px;
-        }
-        .activity {
-          p {
-            margin-top: 16px;
-          }
         }
       }
       .friday, .sunday {
@@ -1201,7 +1189,8 @@ body.conference, body.en_conference, body.pt_conference {
             margin: 10px 0 10px auto;
           }
           p {
-            text-align: left;
+            text-align: left !important;
+            margin-top: 16px;
           }
           .ticket {
             margin: 0 auto 0 0;
