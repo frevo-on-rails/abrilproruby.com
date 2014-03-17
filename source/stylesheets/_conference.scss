@@ -622,6 +622,52 @@ body.conference, body.en_conference, body.pt_conference {
         }
       }
     }
+    .three-men-army {
+      .photo {
+        &:last-child {
+          margin-top: -50px;
+        }
+      }
+      .middle {
+        margin-top: -50px;
+      }
+      .desc {
+        &:first-child {
+          margin-top: 30px;
+          .further {
+            &:after {
+              margin-bottom: -10px;
+              width: 0;
+              height: 0;
+            }
+          }
+        }
+        &:nth-child(2) {
+          .further {
+            &:after {
+              margin-bottom: -10px;
+              width: 0;
+              height: 0;
+            }
+          }
+        }
+      }
+      .talk {
+        h4, ul {
+          color: white;
+        }
+        h4 {
+          font-weight: 400;
+          margin-top: 24px;
+        }
+        ul {
+          padding-right: 0;
+          padding-left: 0;
+          direction: rtl;
+          list-style: circle;
+        }
+      }
+    }
     .to-the-top {
       border: 2px solid rgba(230,230,230,.3);
       color: $gray2;
@@ -1166,14 +1212,34 @@ body.conference, body.en_conference, body.pt_conference {
           margin-top: 150px;
         }
       }
+      .three-men-army {
+        .desc {
+          &:first-child {
+            margin-top: 124px;
+            .further {
+              &:after {
+                margin-bottom: 18px;
+                width: 120px;
+                height: 2px;
+              }
+            }
+          }
+          &:nth-child(2) {
+            margin-top: 50px;
+          }
+          &:nth-child(3) {
+            margin-top: 50px;
+          }
+        }
+      }
       .akshay-and-leandro {
         .talk {
           margin-top: 94px;
         }
       }
-      .alex-and-kasima {
+      .alex-and-kasima-and-matt {
         .talk {
-          margin-top: 150px;
+          margin-top: 110px;
         }
       }
     }
