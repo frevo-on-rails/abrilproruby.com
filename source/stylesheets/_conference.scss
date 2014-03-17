@@ -637,7 +637,6 @@ body.conference, body.en_conference, body.pt_conference {
           .further {
             &:after {
               margin-bottom: -10px;
-              width: 0;
               height: 0;
             }
           }
@@ -1226,6 +1225,12 @@ body.conference, body.en_conference, body.pt_conference {
           }
           &:nth-child(2) {
             margin-top: 50px;
+            .further {
+              &:after {
+                width: 120px;
+                height: 2px;
+              }
+            }
           }
           &:nth-child(3) {
             margin-top: 50px;
