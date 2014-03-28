@@ -506,6 +506,15 @@ body.index, body.en_index, body.pt_index {
         background-position: 0px -315px;
       }
     }
+    .rackspace {
+      margin-top: 26px;
+      margin-bottom: 16px;
+      a {
+        width: 132px;
+        height: 55px;
+        background-position: -150px -315px;
+      }
+    }
   }
 
   .organizers-footer {
@@ -675,6 +684,12 @@ body.index, body.en_index, body.pt_index {
     }
     .sponsors-footer {
       margin-top: 0;
+      .shopify {
+        padding-left: 80px;
+      }
+      .rackspace {
+        padding-right: 80px;
+      }
     }
     .organizers-footer {
       .for {
