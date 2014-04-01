@@ -219,14 +219,15 @@ body.conference, body.en_conference, body.pt_conference {
     }
     a {
       display: block;
-      margin: 3px auto 0 auto;
-      width: 150px;
+      margin: 8px auto 0 auto;
+      width: 180px;
       height: 24px;
       vertical-align: middle;
       text-align: center;
       text-decoration: none;
       text-transform: uppercase;
-      font-size: 11px;
+      font-size: 12px;
+      font-weight: 600;
       line-height: 24px;
     }
     .soon {
@@ -476,9 +477,10 @@ body.conference, body.en_conference, body.pt_conference {
         }
       }
       a {
-        color: $gray;
+        color: $green;
+        outline: 2px solid rgba(128,128,128,.2);
         &:hover, &:active {
-          outline: 2px solid rgba(128,128,128,.2);
+          outline: 2px solid $green;
         }
       }
       .translation {
@@ -535,8 +537,9 @@ body.conference, body.en_conference, body.pt_conference {
       }
       a {
         color: white;
+        outline: 2px solid rgba(255,255,255,.3);
         &:hover, &:active {
-          outline: 2px solid rgba(255,255,255,.3);
+          outline: 2px solid white;
         }
       }
       .icon-calendar {
@@ -807,16 +810,18 @@ body.conference, body.en_conference, body.pt_conference {
         .ticket {
           display: block;
           margin: 0 auto 16px auto;
-          width: 160px;
+          width: 170px;
           height: 24px;
-          color: $gray;
+          color: $green;
           vertical-align: middle;
           text-decoration: none;
           text-transform: uppercase;
-          font-size: 11px;
+          font-size: 12px;
+          font-weight: 600;
           line-height: 24px;
+          outline: 2px solid rgba(128,128,128,.2);
           &:hover, &:active {
-            outline: 2px solid rgba(128,128,128,.2);
+            outline: 2px solid $green;
           }
           .icon {
             display: inline-block;
