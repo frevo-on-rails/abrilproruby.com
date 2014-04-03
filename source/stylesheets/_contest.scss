@@ -1,0 +1,160 @@
+body.jim, body.en_contest, body.pt_contest {
+  background-color: white;
+  -webkit-font-smoothing: subpixel-antialiased;
+
+  nav.main {
+    box-shadow: 0 1px 0 rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.15), inset 0 -1px 0 rgba(255,255,255,.3);
+    .container {
+      .navbar-header {
+        button {
+          width: 48px;
+          height: 48px;
+          border: 2px solid $green;
+          border-radius: 0px;
+          .icon-bar {
+            background-color: $green;
+          }
+        }
+        .navbar-brand {
+          .icon {
+            background-position: -64px -80px;
+          }
+          .text {
+            background-position: 0 -160px;
+          }
+        }
+      }
+      .navbar-collapse {
+        .conference .icon {
+          background-position: -280px -400px;
+        }
+        .location .icon {
+          background-position: -70px -470px;
+        }
+        .sponsors .icon {
+          background-position: -70px -540px;
+        }
+        ul {
+          li {
+            a {
+              &:hover, &:active {
+                @include white-radial-gradient(0%,.45,75%,0);
+              }
+            }
+          }
+        }
+        a {
+          color: $green;
+          &:hover, &:active {
+            color: $green;
+          }
+        }
+      }
+    }
+  }
+
+  .content {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 60%), linear-gradient(to bottom, rgba(255,255,255,0) 80%, rgba(255,255,255,1) 100%), image-url('waves-10.svg');
+    .container {
+      h1 {
+        color: $green;
+        margin-top: 50px;
+        margin-bottom: 40px;
+      }
+      p {
+        text-align: left;
+        font-weight: 300;
+      }
+      a {
+        color: black;
+        font-weight: 600;
+      }
+      ol {
+        font-weight: 300;
+        padding-left: 0;
+        margin-bottom: 80px;
+        li {
+          margin-top: 4px;
+        }
+      }
+      .icon {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+        width: 196px;
+        height: 196px;
+      }
+    }
+  }
+
+  // @media (min-width: 480px) and (max-width: 649px) {
+  // }
+
+  // @media (min-width: 650px) and (max-width: 767px) {
+  // }
+
+  @media (max-width: 767px) {
+    nav.main {
+      .navbar-collapse {
+        border-top: 2px solid $green;
+        ul {
+          li {
+            &:last-child {
+              border-top: 2px solid $green;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .content {
+      .container {
+        p, ol, h3 {
+          margin-left: 40px;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    nav.main {
+      .navbar-collapse {
+        li {
+          a {
+            &.section {
+              .icon {
+                outline: 1px solid $green;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // @media (min-width: 992px) {
+  // }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    nav.main {
+      .navbar-collapse {
+        li {
+          a {
+            &.section {
+              .icon {
+                outline: 1px solid $green;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // @media (min-width: 1200px) {
+  // }
+
+}
