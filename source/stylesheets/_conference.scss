@@ -804,10 +804,20 @@ body.conference, body.en_conference, body.pt_conference {
         }
         p {
           display: inline-block;
+          margin-top: 0;
           margin-bottom: 8px;
           color: black;
           text-align: center;
           font-weight: 300;
+        }
+        p.time {
+          display: block;
+          margin-top: 8px;
+          margin-bottom: 0;
+          text-transform: uppercase;
+          color: black;
+          font-size: 13px;
+          font-weight: 600;
         }
         .ticket {
           display: block;
@@ -1273,7 +1283,6 @@ body.conference, body.en_conference, body.pt_conference {
           }
           p {
             text-align: left !important;
-            margin-top: 16px;
           }
           .ticket {
             margin: 0 auto 0 0;
