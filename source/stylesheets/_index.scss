@@ -490,10 +490,10 @@ body.index, body.en_index, body.pt_index {
     }
     .sendgrid {
       margin-top: 16px;
-      margin-bottom: 16px;
+      margin-bottom: 17px;
       a {
         width: 132px;
-        height: 65px;
+        height: 64px;
         background-position: 0px -250px;
       }
     }
@@ -513,6 +513,15 @@ body.index, body.en_index, body.pt_index {
         width: 132px;
         height: 55px;
         background-position: -150px -315px;
+      }
+    }
+    .harvest {
+      margin-top: 26px;
+      margin-bottom: 16px;
+      a {
+        width: 138px;
+        height: 54px;
+        background-position: -150px -265px;
       }
     }
   }
@@ -684,12 +693,6 @@ body.index, body.en_index, body.pt_index {
     }
     .sponsors-footer {
       margin-top: 0;
-      // .shopify {
-      //   padding-left: 80px;
-      // }
-      // .rackspace {
-      //   padding-right: 80px;
-      // }
     }
     .organizers-footer {
       .for {
@@ -745,6 +748,14 @@ body.index, body.en_index, body.pt_index {
     .sponsors-footer {
       h4 {
         margin-top: 50px;
+      }
+      .tempest {
+        text-align: right;
+        padding-right: 60px;
+      }
+      .locaweb {
+        text-align: left;
+        padding-left: 60px;
       }
     }
     .organizers-footer {
