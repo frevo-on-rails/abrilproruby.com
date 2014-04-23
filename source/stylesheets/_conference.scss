@@ -1025,6 +1025,14 @@ body.conference, body.en_conference, body.pt_conference {
     }
   }
 
+  @media (min-width: 320px) and (max-width: 479px) {
+    .speaker {
+      .talk {
+        text-align: center !important;
+      }
+    }
+  }
+
   @media (min-width: 480px) and (max-width: 649px) {
     .speaker {
       .talk, .biography, .activity {
