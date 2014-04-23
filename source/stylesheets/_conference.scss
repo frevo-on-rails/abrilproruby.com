@@ -226,8 +226,8 @@ body.conference, body.en_conference, body.pt_conference {
       text-align: center;
       text-decoration: none;
       text-transform: uppercase;
-      font-size: 12px;
       font-weight: 600;
+      font-size: 12px;
       line-height: 24px;
     }
     .soon {
@@ -240,7 +240,7 @@ body.conference, body.en_conference, body.pt_conference {
       width: 16px;
       height: 24px;
       background-image: image-url('graphics@2x.png');
-      background-size: 344px 1100px;
+      background-size: 344px 1164px;
       vertical-align: bottom;
     }
     .icon-location {
@@ -283,18 +283,18 @@ body.conference, body.en_conference, body.pt_conference {
       }
     }
     .time {
+      z-index: 100;
       display: inline-block;
       margin-top: 60px;
       width: 100%;
       height: 24px;
-      color: $gray2;
+      color: rgba(128,128,128,.9);
       text-align: center;
       text-transform: uppercase;
       text-shadow: none;
       font-weight: 600;
       font-size: 13px;
       cursor: default;
-      z-index: 100;
       &:before {
         display: block;
         margin-right: auto;
@@ -305,20 +305,20 @@ body.conference, body.en_conference, body.pt_conference {
         content: '';
       }
       span {
+        margin-right: 6px;
+        margin-left: 6px;
         font-weight: 300;
         font-size: 12px;
-        margin-left: 6px;
-        margin-right: 6px;
       }
     }
     .photo {
-      overflow: visible;
+      z-index: 100;
       display: block;
+      overflow: visible;
       margin-right: auto;
       margin-left: auto;
       width: 200px;
       height: 200px;
-      z-index: 100;
       border: 2px solid white;
       border-radius: 100px;
       box-shadow: 0px 0px 8px rgba(0,0,0,.75);
@@ -360,7 +360,7 @@ body.conference, body.en_conference, body.pt_conference {
         width: 16px;
         height: 17px;
         background-image: image-url('graphics@2x.png');
-        background-size: 344px 1100px;
+        background-size: 344px 1164px;
       }
       .icon-info {
         background-position: -120px -17px;
@@ -432,6 +432,54 @@ body.conference, body.en_conference, body.pt_conference {
     }
   }
 
+  .event {
+    height: auto;
+    .bkg {
+      &:before {
+        position: absolute;
+        top: 0;
+        left: 50% !important;
+        display: block;
+        width: 2px;
+        height: 60px;
+        background-color: $gray3;
+        content: '';
+      }
+    }
+    .event-title {
+      display: inline-block;
+      margin-top: 10px;
+      margin-bottom: 40px;
+      width: 100%;
+      color: $gray;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 400;
+      .icon {
+        display: block;
+        margin-right: auto;
+        margin-bottom: 16px;
+        margin-left: auto;
+        width: 64px;
+        height: 64px;
+        background-image: image-url('graphics@2x.png');
+        background-size: 344px 1164px;
+      }
+      .icon-registration {
+        background-position: 0px -1100px;
+      }
+      .icon-lunch {
+        background-position: -64px -1100px;
+      }
+      .icon-coffee {
+        background-position: -127px -1100px;
+      }
+      .icon-guitar {
+        background-position: -192px -1100px;
+      }
+    }
+  }
+
   .to-the-top {
     display: block;
     margin: 20px auto 30px auto;
@@ -459,7 +507,7 @@ body.conference, body.en_conference, body.pt_conference {
       &:before {
         background-image: image-url('graphics@2x.png');
         background-position: 0px -609px;
-        background-size: 344px 1100px;
+        background-size: 344px 1164px;
       }
     }
     h3 {
@@ -477,8 +525,8 @@ body.conference, body.en_conference, body.pt_conference {
         }
       }
       a {
-        color: $green;
         outline: 2px solid rgba(128,128,128,.2);
+        color: $green;
         &:hover, &:active {
           outline: 2px solid $green;
         }
@@ -526,7 +574,7 @@ body.conference, body.en_conference, body.pt_conference {
       &:before {
         background-image: image-url('graphics@2x.png');
         background-position: -96px -609px;
-        background-size: 344px 1100px;
+        background-size: 344px 1164px;
       }
     }
     .date-venue-tickets {
@@ -536,8 +584,8 @@ body.conference, body.en_conference, body.pt_conference {
         }
       }
       a {
-        color: white;
         outline: 2px solid rgba(255,255,255,.3);
+        color: white;
         &:hover, &:active {
           outline: 2px solid white;
         }
@@ -570,10 +618,10 @@ body.conference, body.en_conference, body.pt_conference {
           background-color: rgba(230,230,230,.6);
         }
         a {
+          margin-right: 8px;
           color: rgba(230,230,230,.6);
           font-weight: 600;
           font-size: 12px;
-          margin-right: 8px;
         }
       }
       .desc {
@@ -671,14 +719,14 @@ body.conference, body.en_conference, body.pt_conference {
           color: white;
         }
         h4 {
-          font-weight: 400;
           margin-top: 24px;
+          font-weight: 400;
         }
         ul {
           padding-right: 0;
           padding-left: 0;
-          direction: rtl;
           list-style: circle;
+          direction: rtl;
         }
       }
     }
@@ -713,7 +761,7 @@ body.conference, body.en_conference, body.pt_conference {
       &:before {
         background-image: image-url('graphics@2x.png');
         background-position: -128px -609px;
-        background-size: 344px 1100px;
+        background-size: 344px 1164px;
       }
     }
     .sunday {
@@ -750,28 +798,28 @@ body.conference, body.en_conference, body.pt_conference {
       }
       .activity {
         .frame {
-          cursor: pointer;
-          display: block;
           position: relative;
+          display: block;
           margin: 10px auto;
           padding: 8px 5px 0 5px;
           width: 130px;
           height: 130px;
+          border: 2px solid $green;
           color: $green;
           text-decoration: none;
           font-weight: 300;
-          border: 2px solid $green;
+          cursor: pointer;
           &:after {
             position: absolute;
-            content: '';
-            width: 16px;
-            height: 16px;
-            background-image: image-url('graphics@2x.png');
-            background-size: 344px 1100px;
-            background-position: -120px -17px;
             top: 100%;
             left: 2px;
             margin-top: -18px;
+            width: 16px;
+            height: 16px;
+            background-image: image-url('graphics@2x.png');
+            background-position: -120px -17px;
+            background-size: 344px 1164px;
+            content: '';
           }
           .icon {
             display: block;
@@ -781,7 +829,7 @@ body.conference, body.en_conference, body.pt_conference {
             width: 64px;
             height: 64px;
             background-image: image-url('graphics@2x.png');
-            background-size: 344px 1100px;
+            background-size: 344px 1164px;
             vertical-align: middle;
             &.icon-buggy {
               background-position: 0 -760px;
@@ -814,24 +862,24 @@ body.conference, body.en_conference, body.pt_conference {
           display: block;
           margin-top: 8px;
           margin-bottom: 0;
-          text-transform: uppercase;
           color: black;
-          font-size: 13px;
+          text-transform: uppercase;
           font-weight: 600;
+          font-size: 13px;
         }
         .ticket {
           display: block;
           margin: 0 auto 16px auto;
           width: 170px;
           height: 24px;
+          outline: 2px solid rgba(128,128,128,.2);
           color: $green;
           vertical-align: middle;
           text-decoration: none;
           text-transform: uppercase;
-          font-size: 12px;
           font-weight: 600;
+          font-size: 12px;
           line-height: 24px;
-          outline: 2px solid rgba(128,128,128,.2);
           &:hover, &:active {
             outline: 2px solid $green;
           }
@@ -841,7 +889,7 @@ body.conference, body.en_conference, body.pt_conference {
             width: 16px;
             height: 24px;
             background-image: image-url('graphics@2x.png');
-            background-size: 344px 1100px;
+            background-size: 344px 1164px;
             vertical-align: bottom;
           }
           .icon-ticket {
@@ -859,9 +907,9 @@ body.conference, body.en_conference, body.pt_conference {
       }
     }
     .remarks {
-      font-weight: 300;
       margin-top: 16px;
       text-transform: none;
+      font-weight: 300;
       ul {
         @extend .list-unstyled;
         color: $gray;
@@ -919,11 +967,11 @@ body.conference, body.en_conference, body.pt_conference {
 
   .popover {
     width: 280px;
+    color: $gray;
     text-shadow: none;
     font-weight: 400;
     font-size: 13px;
     line-height: 18px;
-    color: $gray;
     a {
       color: inherit;
     }
@@ -944,7 +992,7 @@ body.conference, body.en_conference, body.pt_conference {
         height: 15px;
         background-image: image-url('graphics@2x.png');
         background-position: -212px -19px;
-        background-size: 344px 1100px;
+        background-size: 344px 1164px;
         content: '';
       }
     }
@@ -960,13 +1008,13 @@ body.conference, body.en_conference, body.pt_conference {
       .name {
         &:before {
           display: inline-block;
-          content: '';
+          margin-right: 10px;
           width: 24px;
           height: 24px;
-          vertical-align: bottom;
           background-image: image-url('conference/icon-keynoter@2x.png');
           background-size: 24px;
-          margin-right: 10px;
+          content: '';
+          vertical-align: bottom;
         }
       }
     }
@@ -1141,8 +1189,8 @@ body.conference, body.en_conference, body.pt_conference {
         }
       }
       .tba {
-        margin-left: -5px;
-        width: 40px;
+        margin-left: -45px;
+        width: 120px;
       }
       .photo {
         margin-top: 84px;
@@ -1203,6 +1251,17 @@ body.conference, body.en_conference, body.pt_conference {
         margin-right: 0;
         margin-left: 30px;
         text-align: right;
+      }
+    }
+    .event {
+      .bkg {
+        .time {
+          left: 50%;
+          margin-left: -120px;
+        }
+      }
+      .event-title {
+        margin-top: 90px;
       }
     }
     .little {
