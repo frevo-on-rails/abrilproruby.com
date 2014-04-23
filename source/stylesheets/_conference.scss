@@ -619,6 +619,7 @@ body.conference, body.en_conference, body.pt_conference {
         line-height: 14px;
         margin-bottom: 20px;
         &:before {
+          margin-bottom: 6px;
           left: 50%;
           background-color: rgba(230,230,230,.6);
         }
@@ -1293,7 +1294,8 @@ body.conference, body.en_conference, body.pt_conference {
       .speaker {
         .time {
           &:before {
-            margin-left: -10px;
+            margin-bottom: 6px;
+            margin-left: -32px;
           }
         }
       }
