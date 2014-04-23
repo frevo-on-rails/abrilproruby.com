@@ -613,8 +613,10 @@ body.conference, body.en_conference, body.pt_conference {
         }
       }
       .time {
+        width: 260px;
         color: rgba(230,230,230,.6);
         &:before {
+          margin-left: -26px;
           background-color: rgba(230,230,230,.6);
         }
         a {
