@@ -613,10 +613,13 @@ body.conference, body.en_conference, body.pt_conference {
         }
       }
       .time {
-        width: 260px;
+        width: 100%;
         color: rgba(230,230,230,.6);
+        height: auto;
+        line-height: 14px;
+        margin-bottom: 20px;
         &:before {
-          margin-left: -26px;
+          left: 50%;
           background-color: rgba(230,230,230,.6);
         }
         a {
@@ -658,7 +661,6 @@ body.conference, body.en_conference, body.pt_conference {
         }
         a {
           color: white;
-          white-space: nowrap;
         }
         .more {
           color: white;
@@ -1280,6 +1282,13 @@ body.conference, body.en_conference, body.pt_conference {
       }
     }
     section.workshops {
+      .speaker {
+        .time {
+          &:before {
+            margin-left: -10px;
+          }
+        }
+      }
       .two-men-army {
         .desc {
           &:first-child {
@@ -1298,6 +1307,9 @@ body.conference, body.en_conference, body.pt_conference {
         }
         .talk {
           margin-top: 150px;
+          a {
+            white-space: nowrap;
+          }
         }
       }
       .three-men-army {

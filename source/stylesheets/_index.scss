@@ -612,6 +612,19 @@ body.index, body.en_index, body.pt_index {
         transform-origin: top center;
        }
     }
+    .tempest, .locaweb {
+      text-align: center;
+      a {
+        margin-left: -10px;
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        transform: scale(0.8);
+        -webkit-transform-origin: top center;
+        transform-origin: top center;
+      }
+    }
   }
 
   @media (max-width: 767px) {
