@@ -155,6 +155,9 @@ body.index, body.en_index, body.pt_index {
         background-size: 344px 1164px;
         background-repeat: no-repeat;
       }
+      &:hover, &:active {
+        @include white-radial-gradient(0%,.4,100%,0);
+      }
     }
   }
 
