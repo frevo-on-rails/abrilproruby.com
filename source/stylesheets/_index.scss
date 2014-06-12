@@ -102,8 +102,8 @@ body.index, body.en_index, body.pt_index {
       width: 292px;
       height: 118px;
       background-image: image-url('index/graphics@2x.png');
-      background-size: 300px 597px;
       background-position: 0px 0px;
+      background-size: 300px 597px;
       background-repeat: no-repeat;
       font-size: 0;
       line-height: 0;
@@ -127,25 +127,36 @@ body.index, body.en_index, body.pt_index {
         background-position: -4px -242px;
       }
     }
-    .rip-jim {
+    .talks-videos {
       position: absolute;
-      top: 200px;
       left: 50%;
-      display: inline-block;
-      margin-left: -125px;
-      width: 250px;
+      display: block;
+      margin-top: 143px;
+      margin-left: -113px;
+      padding: 6px 10px 10px 44px;
+      width: 226px;
+      height: 54px;
+      border: 2px solid $red;
       color: $red;
-      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
       text-shadow: none;
-      font-weight: 300;
-      font-size: 13px;
-      a {
-        color: $red;
-        text-shadow: none;
-        &:hover {
-          letter-spacing: 2;
-          font-weight: 600;
-        }
+      font-weight: 600;
+      line-height: 20px;
+      .icon-play {
+        position: absolute;
+        top: 17px;
+        left: 17px;
+        display: block;
+        width: 14px;
+        height: 16px;
+        background-image: image-url('graphics@2x.png');
+        background-position: -256px -1100px;
+        background-size: 344px 1164px;
+        background-repeat: no-repeat;
+      }
+      &:hover, &:active {
+        @include white-radial-gradient(0%,.4,100%,0);
       }
     }
   }
@@ -206,23 +217,44 @@ body.index, body.en_index, body.pt_index {
     margin-top: 30px;
     padding: 0;
     text-align: center;
-    p {
+    .logo {
       position: relative;
       display: inline-block;
       overflow: hidden;
       width: 292px;
       height: 221px;
       background-image: image-url('index/graphics@2x.png');
-      background-size: 300px 597px;
       background-position: 0 -372px;
+      background-size: 300px 597px;
       background-repeat: no-repeat;
       font-size: 0;
       line-height: 0;
     }
+    .rip-jim {
+      position: absolute;
+      top: 240px;
+      left: 50%;
+      display: inline-block;
+      margin-left: -125px;
+      width: 250px;
+      color: white;
+      text-align: center;
+      text-shadow: none;
+      font-weight: 300;
+      font-size: 13px;
+      a {
+        color: white;
+        text-shadow: none;
+        &:hover {
+          letter-spacing: 2;
+          font-weight: 600;
+        }
+      }
+    }
   }
 
   .description {
-    margin-top: 40px;
+    margin-top: 70px;
     text-align: center;
     ul {
       text-align: center;
@@ -259,8 +291,8 @@ body.index, body.en_index, body.pt_index {
           width: 16px;
           height: 12px;
           background-image: image-url('graphics@2x.png');
-          background-size: 344px 1164px;
           background-position: 0px 0px;
+          background-size: 344px 1164px;
           vertical-align: middle;
           font-size: 0;
           line-height: 0;
@@ -316,8 +348,8 @@ body.index, body.en_index, body.pt_index {
     height: auto;
     background: linear-gradient(to bottom right, $yellow 0%, $orange 100%);
     h3 {
-      text-align: center;
       color: $red;
+      text-align: center;
       text-shadow: none;
     }
     ul, li {
@@ -326,36 +358,37 @@ body.index, body.en_index, body.pt_index {
     .photo {
       display: block;
       margin: 30px auto 0;
-      height: auto;
       width: 128px;
+      height: auto;
+      color: $red;
       text-align: center;
       text-decoration: none;
       text-shadow: none;
       line-height: 16px;
-      color: $red;
       &:hover, &:active {
         @include white-radial-gradient(0%,1,75%,0);
       }
       img {
+        margin: 10px auto 10px auto;
+        width: 128px;
+        height: 128px;
         border: 2px solid white;
         border-radius: 64px;
         box-shadow: 0px 0px 8px rgba(0,0,0,.75);
-        width: 128px;
-        height: 128px;
-        margin: 10px auto 10px auto;
       }
       p {
+        margin-bottom: 2px;
         color: $red;
         text-shadow: none;
         font-weight: 600;
-        margin-bottom: 2px;
       }
       small {
-        font-size: 13px;
         font-weight: 300;
+        font-size: 13px;
       }
     }
     .icon {
+      z-index: 500;
       display: block;
       margin: 30px auto 0;
       padding: 20px 20px;
@@ -369,18 +402,17 @@ body.index, body.en_index, body.pt_index {
       text-transform: uppercase;
       text-shadow: none;
       font-weight: 600;
-      z-index: 500;
       &:hover, &:active {
         &:before {
           @include white-radial-gradient(0%,.3,75%,0);
-          display: block;
           position: absolute;
-          content: '';
+          z-index: 1;
+          display: block;
           margin-top: -20px;
           margin-left: -20px;
           width: 128px;
           height: 128px;
-          z-index: 1;
+          content: '';
         }
       }
       span {
@@ -392,8 +424,8 @@ body.index, body.en_index, body.pt_index {
       }
     }
     .talks {
-      background-position: -216px -830px;
       height: 192px;
+      background-position: -216px -830px;
     }
     .workshops {
       background-position: 0 -830px;
@@ -428,11 +460,11 @@ body.index, body.en_index, body.pt_index {
   .sponsors-footer {
     &:before {
       display: block;
-      content: '';
+      margin: 48px auto;
       width: 100%;
       height: 2px;
-      margin: 48px auto;
       background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.4) 20%, rgba(255,255,255,.4) 80%, rgba(255,255,255,0) 100%);
+      content: '';
     }
     h4 {
       display: inline-block;
@@ -569,11 +601,11 @@ body.index, body.en_index, body.pt_index {
       &:first-child {
         &:before {
           display: block;
-          content: '';
+          margin: 36px auto;
           width: 100%;
           height: 2px;
-          margin: 36px auto;
           background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.4) 20%, rgba(255,255,255,.4) 80%, rgba(255,255,255,0) 100%);
+          content: '';
         }
       }
     }
@@ -701,8 +733,13 @@ body.index, body.en_index, body.pt_index {
         }
       }
     }
-    .stay-tuned, .description {
-      margin-top: 36px;
+    section.ocean {
+      .porto {
+        margin-top: -120px;
+      }
+      .stay-tuned, .description {
+        margin-top: 66px;
+      }
     }
     .sponsors-footer {
       margin-top: 0;
@@ -748,7 +785,7 @@ body.index, body.en_index, body.pt_index {
         margin-top: 25px;
       }
       .porto {
-        margin-top: 8px;
+        margin-top: 26px;
       }
     }
     section.overall {
@@ -763,12 +800,12 @@ body.index, body.en_index, body.pt_index {
         margin-top: 50px;
       }
       .tempest {
-        text-align: right;
         padding-right: 60px;
+        text-align: right;
       }
       .locaweb {
-        text-align: left;
         padding-left: 60px;
+        text-align: left;
       }
     }
     .organizers-footer {
