@@ -127,27 +127,6 @@ body.index, body.en_index, body.pt_index {
         background-position: -4px -242px;
       }
     }
-    .rip-jim {
-      position: absolute;
-      top: 200px;
-      left: 50%;
-      display: inline-block;
-      margin-left: -125px;
-      width: 250px;
-      color: $red;
-      text-align: center;
-      text-shadow: none;
-      font-weight: 300;
-      font-size: 13px;
-      a {
-        color: $red;
-        text-shadow: none;
-        &:hover {
-          letter-spacing: 2;
-          font-weight: 600;
-        }
-      }
-    }
   }
 
   section.ocean {
@@ -206,7 +185,7 @@ body.index, body.en_index, body.pt_index {
     margin-top: 30px;
     padding: 0;
     text-align: center;
-    p {
+    .logo {
       position: relative;
       display: inline-block;
       overflow: hidden;
@@ -219,10 +198,31 @@ body.index, body.en_index, body.pt_index {
       font-size: 0;
       line-height: 0;
     }
+    .rip-jim {
+      position: absolute;
+      top: 240px;
+      left: 50%;
+      display: inline-block;
+      margin-left: -125px;
+      width: 250px;
+      color: white;
+      text-align: center;
+      text-shadow: none;
+      font-weight: 300;
+      font-size: 13px;
+      a {
+        color: white;
+        text-shadow: none;
+        &:hover {
+          letter-spacing: 2;
+          font-weight: 600;
+        }
+      }
+    }
   }
 
   .description {
-    margin-top: 40px;
+    margin-top: 70px;
     text-align: center;
     ul {
       text-align: center;
@@ -701,8 +701,13 @@ body.index, body.en_index, body.pt_index {
         }
       }
     }
-    .stay-tuned, .description {
-      margin-top: 36px;
+    section.ocean {
+      .porto {
+        margin-top: -120px;
+      }
+      .stay-tuned, .description {
+        margin-top: 66px;
+      }
     }
     .sponsors-footer {
       margin-top: 0;
@@ -748,7 +753,7 @@ body.index, body.en_index, body.pt_index {
         margin-top: 25px;
       }
       .porto {
-        margin-top: 8px;
+        margin-top: 26px;
       }
     }
     section.overall {
