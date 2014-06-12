@@ -229,10 +229,11 @@ body.index, body.en_index, body.pt_index {
       background-repeat: no-repeat;
       font-size: 0;
       line-height: 0;
+      vertical-align: top;
     }
     .rip-jim {
       position: absolute;
-      top: 240px;
+      top: 250px;
       left: 50%;
       display: inline-block;
       margin-left: -125px;
