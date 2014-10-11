@@ -20,14 +20,18 @@ title: Abril Pro Ruby 2014 &#9671; 24 a 27 de Abril @ Porto de Galinhas
         <a href="http://www.eventick.com.br/abrilproruby" target="_blank"><span class="icon icon-tickets"></span>Compre seu ingresso</a>
       </div>
       <div class="cfs col-xs-6 col-sm-3 col-sm-offset-6 col-md-4 col-md-offset-4">
-        <a href="http://abrilproruby.com/files/prospectus.pdf" target="_blank"><span class="icon icon-sponsor"></span>Seja um patrocinador</a>
+        <% link_to 'files/prospectus.pdf', target: '_blank' do %>
+          <span class="icon icon-sponsor"></span>Seja um patrocinador
+        <% end %>
       </div>
     </div>
 
     <div class="row">
       <div class="porto col-xs-12 col-sm-12 col-md-4 col-md-push-4">
         <p class="logo">Porto de Galinhas, Pernambuco, Brasil — Hotel Armação</p>
-        <p class="rip-jim">Em memória de <a href="/pt/jim">Jim Weirich</a>.</p>
+        <p class="rip-jim">
+          Em memória de <%= link_to 'Jim Weirich', 'jim.html' %>.
+        </p>
       </div>
 
       <div class="description col-xs-12 col-sm-6 col-md-4 col-md-pull-4">
@@ -36,14 +40,14 @@ title: Abril Pro Ruby 2014 &#9671; 24 a 27 de Abril @ Porto de Galinhas
         <h4>Edições Anteriores</h4>
         <ul>
           <li>
-            <a href="http://abrilproruby.com/2013">2013</a>
+            <a href="/2013">2013</a>
           </li>
           <li>
-            <a href="http://abrilproruby.com/2012">2012</a>
+            <a href="/2012">2012</a>
           </li>
         </ul>
         <h4>Código de Conduta</h4>
-        <a href="/pt/code-of-conduct">Conheça nossas normas</a>
+        <%= link_to 'Conheça nossas normas', 'code-of-conduct.html' %>
       </div>
 
       <div class="stay-tuned col-xs-12 col-sm-6 col-md-4">
@@ -91,177 +95,33 @@ title: Abril Pro Ruby 2014 &#9671; 24 a 27 de Abril @ Porto de Galinhas
       <div class="speakers col-xs-12 col-sm-6 col-md-6">
         <h3>Grandes Rubistas estão a caminho:</h3>
         <ul>
-          <!-- <li>
-            <div class="col-sm-6 col-md-4">
-              <a href="/pt/conference/#bryce" class="bryce photo">
-                <%= image_tag 'conference/speaker-bryce.png', class: 'photo' %>
-                <p>Bryce Kerley</p>
-                <small>Engenheiro de Software na Basho Technologies</small>
-              </a>
-            </div>
-          </li>
           <li>
             <div class="col-sm-6 col-md-4">
-              <a href="/pt/conference/#brian" class="brian photo">
-                <%= image_tag 'conference/speaker-brian.png', class: 'photo' %>
-                <p>Brian Morton</p>
-                <small>Engenheiro de Software Senior no Yammer/Microsoft</small>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="col-sm-12 col-md-4">
-              <a href="/pt/conference/#michel" class="michel photo">
-                <%= image_tag 'conference/speaker-michel.png', class: 'photo' %>
-                <p>Michel Martens</p>
-                <small>Co-fundador do openredis</small>
-              </a>
-            </div>
-          </li> -->
-          <li>
-            <div class="col-sm-6 col-md-4">
-              <a href="/pt/conference/#steve" class="steve photo">
+              <% link_to "conference.html#steve", class: 'steve photo' do %>
                 <%= image_tag 'conference/speaker-steve.png', class: 'photo' %>
                 <p>Steve Klabnik</p>
                 <small>Rails Committer</small>
-              </a>
+              <% end %>
             </div>
           </li>
           <li>
             <div class="col-sm-6 col-md-4">
-              <a href="/pt/conference/#rafael" class="rafael photo">
+              <% link_to "conference.html#rafael", class: 'rafael photo' do %>
                 <%= image_tag 'conference/speaker-rafael.png', class: 'photo' %>
                 <p>Rafael França</p>
                 <small>Rails Core Team</small>
-              </a>
+              <% end %>
             </div>
           </li>
           <li>
             <div class="col-sm-12 col-md-4">
-              <a href="/pt/conference/#arthur" class="arthur photo">
+              <% link_to "conference.html#arthur", class: 'arthur photo' do %>
                 <%= image_tag 'conference/speaker-arthur.png', class: 'photo' %>
                 <p>Arthur Neves</p>
                 <small>Mantenedor do Mongoid</small>
-              </a>
+              <% end %>
             </div>
           </li>
-          <!-- <li>
-            <div class="col-sm-6 col-md-4">
-              <a href="/pt/conference/#tj" class="tj photo">
-                <%= image_tag 'conference/speaker-tj.png', class: 'photo' %>
-                <p>T.J. Schuck</p>
-                <small>Desenvolvedor no Harvest</small>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="col-sm-6 col-md-4">
-              <a href="/pt/conference/#guilherme" class="guilherme photo">
-                <%= image_tag 'conference/speaker-guilherme.png', class: 'photo' %>
-                <p>Guilherme Garnier</p>
-                <small>Desenvolvedor de Software na Globo.com</small>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="col-sm-12 col-md-4">
-              <a href="/pt/conference/#scott" class="scott photo">
-                <%= image_tag 'conference/speaker-scott.png', class: 'photo' %>
-                <p>Scott Motte</p>
-                <small>Desenvolvedor Evangelista na SendGrid</small>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="col-sm-6 col-md-4">
-              <a href="/pt/conference/#joao" class="joao photo">
-                <%= image_tag 'conference/speaker-joao.png', class: 'photo' %>
-                <p>João M. D. Moura</p>
-                <small>CTO na Palpiteros</small>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="col-sm-6 col-md-4">
-              <a href="/pt/conference/#pablo" class="pablo photo">
-                <%= image_tag 'conference/speaker-pablo.png', class: 'photo' %>
-                <p>Pablo Astigarraga</p>
-                <small>Desenvolvedor de Software na CloudApp</small>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="col-sm-12 col-md-4">
-              <a href="/pt/conference/#lucas" class="lucas photo">
-                <%= image_tag 'conference/speaker-lucas.png', class: 'photo' %>
-                <p>Lucas Dohmen</p>
-                <small>Desenvolvedor na triAGENS GmbH</small>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="col-sm-6 col-md-4">
-              <a href="/pt/conference/#akshay" class="akshay photo">
-                <%= image_tag 'conference/speaker-akshay.png', class: 'photo' %>
-                <p>Akshay Karle</p>
-                <small>Desenvolvedor na Thoughtworks</small>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="col-sm-6 col-md-4">
-              <a href="/pt/conference/#leandro" class="leandro photo">
-                <%= image_tag 'conference/speaker-leandro.png', class: 'photo' %>
-                <p>Leandro Gualter</p>
-                <small>Desenvolvedor na Thoughtworks</small>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="col-sm-12 col-md-4">
-              <a href="/pt/conference/#phil" class="phil photo">
-                <%= image_tag 'conference/speaker-phil.png', class: 'photo' %>
-                <p>Phil Cohen</p>
-                <small>Engenheiro de Operações na Shopify</small>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="col-sm-6 col-md-4">
-              <a href="/pt/conference/#cloves" class="cloves photo">
-                <%= image_tag 'conference/speaker-cloves.png', class: 'photo' %>
-                <p>Cloves Carneiro Jr</p>
-                <small>Engenheiro de Software na LivingSocial</small>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="col-sm-6 col-md-4">
-              <a href="/pt/conference/#tim" class="tim photo">
-                <%= image_tag 'conference/speaker-tim.png', class: 'photo' %>
-                <p>Tim Schmelmer</p>
-                <small>Engenheiro de Software na LivingSocial</small>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="col-sm-6 col-md-4">
-              <a href="/pt/conference/#alex-and-kasima" class="alex-and-kasima photo">
-                <%= image_tag 'conference/speaker-alex.png', class: 'photo' %>
-                <p>Alex Southgate</p>
-                <small>Engenheiro de Software no GitHub</small>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="col-sm-6 col-md-4">
-              <a href="/pt/conference/#alex-and-kasima" class="alex-and-kasima photo">
-                <%= image_tag 'conference/speaker-kasima.png', class: 'photo' %>
-                <p>Kasima Tharnpipitchai</p>
-                <small>Engenheiro de Software no GitHub</small>
-              </a>
-            </div>
-          </li> -->
         </ul>
       </div>
       <div class="features col-xs-12 col-sm-6 col-md-6">
@@ -269,17 +129,23 @@ title: Abril Pro Ruby 2014 &#9671; 24 a 27 de Abril @ Porto de Galinhas
         <ul>
           <li>
             <div class="col-sm-6 col-md-4">
-              <a href="/pt/conference/#workshops" class="workshops icon"><span>4</span>Workshops</a>
+              <% link_to "conference.html#workshops", class: 'workshops icon' do %>
+                <span>4</span>Workshops
+              <% end %>
             </div>
           </li>
           <li>
             <div class="col-sm-6 col-md-4">
-              <a href="/pt/conference/#activities" class="activities icon"><span>4</span>Atividades</a>
+              <% link_to "conference.html#activities", class: 'activities icon' do %>
+                <span>4</span>Atividades
+              <% end %>
             </div>
           </li>
           <li>
             <div class="col-sm-12 col-md-4">
-              <a href="/pt/conference/#talks" class="talks icon" data-toggle="tooltip" data-placement="bottom" title="Tradução simultânea e transporte grátis estão inclusos."><span>14</span>Palestras</a>
+              <% link_to "conference.html#talks", class: 'talks icon', 'data-toggle' => 'tooltip', 'data-placement' => 'bottom', title: 'Tradução simultânea e transporte grátis estão inclusos.' do %>
+                <span>14</span>Palestras
+              <% end %>
             </div>
           </li>
         </ul>
